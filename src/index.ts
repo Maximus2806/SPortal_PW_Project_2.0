@@ -1,2 +1,3 @@
-const a = "sd2";
-console.log(a)
+const a = "sd2"
+const b = a + "d";
+console.log(b)
