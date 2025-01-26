@@ -1,0 +1,13 @@
+{
+  "Product": {
+    "name": "Shirt97",
+    "amount": 855,
+    "price": 39173,
+    "manufacturer": "Samsung",
+    "createdOn": "2025-01-26T19:08:00.000Z",
+    "notes": "q4kyV0T23KRpjRi4wkrLFKgLTFskjeCxVm52QcNrPLdEQmXSYqD2jwpxKgpwHFZU0kq4ynUhYt4SBg39VqdJdjPvEMz3W7KGtfcAcw2SPFhPufxatl1isLseeuDDbH17X9oQxsJOA1YMsU4WDsfWn9XFvVhqha7yjKiXgbRzjw4KaTPS7pmhWXsPk6s6QTmcsQ4i8hwin2Q1uKqMozlAR1mc5ikxGUG0anNnKFNJLN09Gjm5xR1qw7O4QD",
+    "_id": "6796881a9f31117d8c4a0d1c"
+  },
+  "IsSuccess": true,
+  "ErrorMessage": null
+}

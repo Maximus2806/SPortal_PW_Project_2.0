@@ -1,0 +1,78 @@
+{
+  "Products": [
+    {
+      "_id": "67859b2c9f31117d8c492719",
+      "name": "Tuna29892",
+      "amount": 811,
+      "price": 75090,
+      "manufacturer": "Tesla",
+      "createdOn": "2025-01-13T23:01:00.000Z",
+      "notes": "lgvwoEFhmwDEvqDTNS59umSmqrVRPmby8dzpsLVnCsu9AfGInhurfYFneEPbAQiVf7R1Ka7w2odna4452JTPrsw1eN4DLTKuFJlUFsJhkyqAmifHhYwWFDtrVpJ5SDA086piJ0quhpgxm6LkGqM3JoLgpfmFylPIzgmGW0uHfqKq205rHJkIVuDIwyn3KSJZekznJiHQlQQWeeiU4ij1WfMC0dy8sxLxKA70L5nChtATUkTcPoY5hgFKFN"
+    },
+    {
+      "_id": "677bd6a79f31117d8c483490",
+      "name": "Tuna60604",
+      "amount": 489,
+      "price": 80508,
+      "manufacturer": "Tesla",
+      "createdOn": "2025-01-06T13:12:00.000Z",
+      "notes": "V7XQ5wbfOnx5XN5h9iorMDeCmlXk2lhQEBRjA2Tr0JA0d2lVQ1hDiZT7AHgSg78kCqpm2bcqSG6BIW2mPCQoQpTIQJIwhriLal0wxddRudIbXSjmbSrrzLR4c78TenyHoQnGRSuMOi6yQwemZVhqS8PdJaHUGTHtqQZxIUOHIxwbYCk40j2Q2LRkvOXPO7rgpOpuPFSHON6599iHpi8JnrcfwH8jQTtgiJBJlTrwp3xyhEsBrmVAcGdTmv"
+    },
+    {
+      "_id": "676d90d29f31117d8c47176c",
+      "name": "Tuna26731",
+      "amount": 955,
+      "price": 30114,
+      "manufacturer": "Samsung",
+      "createdOn": "2024-12-26T17:22:00.000Z",
+      "notes": "1c4AtxXAut9qg1go3bnnDnvX0ts1aRrNFk1fcs5HraT1cAVthU8ahi4kkD0e1A5cYStTE6dDQkcdsexjzJAPqybfrKRKxTSOziOXVuwCXVvAHLpZqZSZt0eBpVJxHd0bDPsYaNcqbYjY6v1jvCfQnmM8LfRhSXqe0oqZnP1n6SqksKmtXNLoXw78WnlErStGmePCR0sfvB8a0G3TmMgqYr25FzTegYVa9c6cauf6Mt3cFgEeBNxO8Rm1lp"
+    },
+    {
+      "_id": "676c2fbd9f31117d8c46f8fa",
+      "name": "Tuna4718",
+      "amount": 505,
+      "price": 75873,
+      "manufacturer": "Apple",
+      "createdOn": "2024-12-25T16:15:00.000Z",
+      "notes": "CYVmiBGmx8J4jNvBtBjIq2Eqhfrr5Vq0Ou9AYvJ3ptQNUfPEGJBMnAXfDkYWzC3dmplKCLraxZ7cm4nPwf1zAGdsQJSCz5glGVKI2CQwugVvWWoxu6h7HBi33ptmDqrNRVzj06x2CARs8XKXeYX8IHD4DjYNloqWCHXcQai5CkJEfQh1lefiZUgjRrgNtVWn0TfkO4PjPbf9GmjAyvEt6GvSbEnXkRS3LnwQnMzefFQxqNoyD6TDPjQtCD"
+    },
+    {
+      "_id": "67671b6f193bdd4386338346",
+      "name": "Tuna81375",
+      "amount": 281,
+      "price": 48934,
+      "manufacturer": "Xiaomi",
+      "createdOn": "2024-12-21T19:47:00.000Z",
+      "notes": "BQNFIeSTj92rytilNNVEJbVGL3pFpfvwEh5BSkWxDnQLPcBN1AfkoZq3y8ZY5rumOQW6gJVykaaq3rd3ciY7Pri9SZtrfs2CehMbBygqPyQ6m1rZlyOzEpZs282sgDKb9Lv9U41EpzMi510Q4IGpPLnkbn7Si3mK9WDQ4PU7aprrIqZNDE9MEYkjyimrEXU4mkXls8orBAc1XCHu5BjIz6KIavYuIR9nVgF0DSyy1ELgurbhy44lN0csEm"
+    },
+    {
+      "_id": "67218a9261293dd4fb875f91",
+      "name": "Tuna66575",
+      "amount": 2,
+      "price": 100,
+      "manufacturer": "Tesla",
+      "createdOn": "2024-10-30T01:23:00.000Z",
+      "notes": "Test notes"
+    },
+    {
+      "_id": "66e6381afd0a2ec681e6b690",
+      "name": "Tuna45278",
+      "amount": 2,
+      "price": 100,
+      "manufacturer": "Apple",
+      "createdOn": "2024-09-15T01:27:00.000Z",
+      "notes": "Test notes"
+    },
+    {
+      "_id": "66d007a7fd0a2ec681e67ee2",
+      "name": "Tuna2921417249094790601724909479060",
+      "amount": 999,
+      "price": 9999,
+      "manufacturer": "Microsoft",
+      "createdOn": "2024-08-29T05:31:00.000Z",
+      "notes": "Обязательное НЕобязательное Разрешенные символы:1. Любые символы, krome:2. Длина: 0-250 Выбор одного значения из:●"
+    }
+  ],
+  "IsSuccess": true,
+  "ErrorMessage": null
+}

@@ -1,0 +1,13 @@
+{
+  "Product": {
+    "name": "Cheese17113",
+    "amount": 195,
+    "price": 39364,
+    "manufacturer": "Amazon",
+    "createdOn": "2025-01-26T19:13:00.000Z",
+    "notes": "K8wkgRQcoDPvG0Tk7FbvrGjPTzcw19naPBQ4N81vPHq2ggtTR975Dlbkw9x6ieMEhWp8k3Ex3RGCr86rxHSvjcqP7qs32UeBFTDANxrkqpLrvrYIvot6oaKKvksHPAdyyMSQD1wxYl9BNTdFDEovRROp0QUPBLAYDIi7njd1mcTTT4MgBO7Lyjc82LAizACOtijF3U1aGARjmDFMqOK5p4QnTQ0a0NDSAgZccZlCv5cl0hGbju4p2BNnDR",
+    "_id": "679689679f31117d8c4a1598"
+  },
+  "IsSuccess": true,
+  "ErrorMessage": null
+}
