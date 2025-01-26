@@ -3,13 +3,18 @@
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
     "lint": "eslint .",
     "lint-fix": "eslint . --fix",
     "format": "prettier --config .prettierrc src/**/*.ts --check .",
     "format-fix": "prettier --config .prettierrc src/**/*.ts --write .",
     "test-lint": "npm run lint && npm run format",
-    "prepare": "husky"
+    "prepare": "husky",
+    "test:ui": "npx playwright test src/ui/tests",
+    "test:ui-smoke": "npx playwright test src/ui/tests --grep @smoke",
+    "test:api": "npx playwright test src/api/tests",
+    "ui-mode": "npx playwright test --ui",
+    "report": "allure generate allure-results -o allure-report --clean",
+    "report-open": "npm run report && allure open allure-report"
   },
   "repository": {
     "type": "git",
@@ -26,6 +31,8 @@
   "description": "",
   "devDependencies": {
     "@eslint/js": "^9.19.0",
+    "@playwright/test": "^1.50.0",
+    "@types/node": "^22.10.10",
     "@typescript-eslint/eslint-plugin": "^8.21.0",
     "@typescript-eslint/parser": "^8.21.0",
     "eslint": "^9.19.0",
@@ -34,7 +41,9 @@
     "globals": "^15.14.0",
     "husky": "^9.1.7",
     "lint-staged": "^15.4.2",
+    "playwright": "^1.50.0",
     "prettier": "^3.4.2",
+    "typescript": "^5.7.3",
     "typescript-eslint": "^8.21.0"
   }
 }
