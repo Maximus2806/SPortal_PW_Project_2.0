@@ -5,7 +5,7 @@ import { IGetAllParams } from '../../data/types/api.types';
 import { AxiosApiClient } from '../apiClients/axios.apiClient';
 import { logStep } from '../../utils/reporter/logStep';
 
-class ProductsController {
+export class ProductsController {
   constructor(private apiClient = new AxiosApiClient()) {}
 
   @logStep('Create product via API')
@@ -56,7 +56,6 @@ class ProductsController {
         'content-type': 'application/json',
         Authorization: `Bearer ${token}`
       },
-      // url: apiConfig.endpoints.Products,
       url: url,
       baseURL: apiConfig.baseUrl
     };
@@ -92,5 +91,3 @@ class ProductsController {
     return await this.apiClient.send(options);
   }
 }
-
-export default new ProductsController();

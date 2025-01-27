@@ -1,14 +1,15 @@
 import { expect } from 'playwright/test';
 import { STATUS_CODES } from '../../data/api/statusCodes';
 import { productResponseSchema } from '../../data/jsonSchemas/product.schema';
-import { generateProductData } from '../../data/Products/generateProduct';
+import { generateProductData } from '../../data/products/generateProduct';
 import { IProduct, IProductFromResponse } from '../../data/types/product.types';
 import { validateJsonSchema, validateResponse } from '../../utils/validation/apiValidation';
-import productsController from '../controllers/products.controller';
+import { ProductsController } from '../controllers/products.controller';
+import { IGetAllParams } from '../../data/types/api.types';
 
-class ProductApiService {
+export class ProductApiService {
   private createdProduct: IProductFromResponse | null = null;
-  constructor(private controller = productsController) {}
+  constructor(private controller = new ProductsController()) {}
 
   async create(token: string, customData?: Partial<IProduct>) {
     const response = await this.controller.create(generateProductData(customData), token);
@@ -39,6 +40,12 @@ class ProductApiService {
     expect(response.status).toBe(STATUS_CODES.DELETED);
     this.createdProduct = null;
   }
-}
 
-export default new ProductApiService();
+  async getAll(token: string, params: IGetAllParams = {}) {
+    const response = await this.controller.getAll(token, params);
+    expect(response.status).toBe(STATUS_CODES.OK);
+    expect(response.body.IsSuccess).toBe(true);
+    expect(response.body.ErrorMessage).toBe(null);
+    return response.body.Products;
+  }
+}

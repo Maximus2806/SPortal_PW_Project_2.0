@@ -1,12 +1,12 @@
 import { ADMIN_PASSWORD, ADMIN_USERNAME } from '../../config/environment';
 import { STATUS_CODES } from '../../data/api/statusCodes';
 import { validateResponse } from '../../utils/validation/apiValidation';
-import signInController from '../controllers/signIn.controller';
+import { SignInController } from '../controllers/signIn.controller';
 
 export class SignInApiService {
   private token: string | null = null;
 
-  constructor(private controller = signInController) {}
+  constructor(private controller = new SignInController()) {}
 
   async signInAsAdmin() {
     const response = await this.controller.login({
