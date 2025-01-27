@@ -1,2 +1,0 @@
-Error Request failed with status code 401
-Request URL: put api/products/679688ff9f31117d8c4a1368/

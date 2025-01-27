@@ -1,2 +1,0 @@
-Error Request failed with status code 404
-Request URL: get api/products/6fb3d48264f5f3ddda654018/

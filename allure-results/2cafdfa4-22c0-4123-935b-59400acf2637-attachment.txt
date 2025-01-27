@@ -1,2 +1,0 @@
-Error Request failed with status code 404
-Request URL: put api/products/a4bd43e64900179dcb03570f/
