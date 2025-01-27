@@ -1,5 +1,8 @@
 node_modules
 dist
+.env
+allure-report
+allure-results
 
 # Playwright
 /test-results/

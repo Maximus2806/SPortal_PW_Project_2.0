@@ -12,5 +12,8 @@ export default [
     rules: {
       // "no-console": "warn",
     }
+  },
+  {
+    ignores: ['**/node_modules/', '**/allure-report/', '**/allure-results/', '**/logStep.ts']
   }
 ];
