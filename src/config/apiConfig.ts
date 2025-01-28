@@ -2,7 +2,7 @@ export const apiConfig = {
   baseUrl: 'https://aqa-course-project.app/',
   endpoints: {
     ['Login']: `api/login/`,
-    ['Customers']: `api/customers/`,
+    ['Customers']: `api/customers`,
     ['Get Customer By Id']: (id: string) => `api/customers/${id}/`,
     ['Products']: `api/products/`,
     ['Get Product By Id']: (id: string) => `api/products/${id}/`,

@@ -49,12 +49,14 @@
   "dependencies": {
     "@faker-js/faker": "^9.4.0",
     "@types/chai": "^5.0.1",
+    "@types/lodash": "^4.17.14",
     "ajv": "^8.17.1",
     "ajv-formats": "^3.0.1",
     "allure-js-commons": "^3.0.9",
     "allure-playwright": "^3.0.9",
     "axios": "^1.7.9",
     "chai": "^5.1.2",
-    "dotenv": "^16.4.7"
+    "dotenv": "^16.4.7",
+    "lodash": "^4.17.21"
   }
 }

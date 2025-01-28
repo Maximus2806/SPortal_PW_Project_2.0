@@ -1,41 +1,41 @@
 import { STATUS_CODES } from '../../../data/api/statusCodes';
-import { generateProductData } from '../../../data/Products/generateProduct';
-import ProductsController from '../../controllers/products.controller';
+import { generateProductData } from '../../../data/products/generateProduct';
 import { generateRandomId } from '../../../utils/id/radnomId';
-import { SignInApiService } from '../../service/signInApiService.service';
-import productApiService from '../../service/productApiService.service';
-import { expect, test } from 'playwright/test';
+import { test, expect } from '../../../fixtures/apiServices.fixture';
 
 test.describe('[API] [Products] Update', async function () {
-  const signInApiService = new SignInApiService();
   let id = '';
-
-  test.beforeEach(async function () {
+  test.beforeAll(async function ({ signInApiService }) {
     await signInApiService.signInAsAdmin();
-    // const productData = generateProductData();//
-    // const createProductResponse = await ProductsController.create(productData, signInApiService.getToken());//
-    // expect(createProductResponse.status).toBe(STATUS_CODES.CREATED);//
+  });
+
+  test.beforeEach(async function ({ signInApiService, productApiService }) {
     const createdProduct = await productApiService.create(signInApiService.getToken());
-    // const body = createProductResponse.body;
-    // const body = createdProduct.
     id = createdProduct._id;
   });
 
-  test.afterEach(async function () {
+  test.afterEach(async function ({ signInApiService, productApiService }) {
     await productApiService.delete(signInApiService.getToken());
   });
 
-  test('Should update product with smoke data', async function () {
+  test('Should update product with smoke data', async function ({
+    signInApiService,
+    productApiService,
+    productsController
+  }) {
     const updatedProduct = await productApiService.update(id, signInApiService.getToken());
-    const getUpdatedProductResponse = await ProductsController.get(id, signInApiService.getToken());
+    const getUpdatedProductResponse = await productsController.get(id, signInApiService.getToken());
     const product = getUpdatedProductResponse.body.Product;
     expect(updatedProduct).toEqual({ ...product });
   });
 
-  test('Should return 404 error for valid but non existing Id', async function () {
+  test('Should return 404 error for valid but non existing Id', async function ({
+    signInApiService,
+    productsController
+  }) {
     const producNewtData = generateProductData();
     const nonExistentId = generateRandomId();
-    const updatedProductResponse = await ProductsController.update(
+    const updatedProductResponse = await productsController.update(
       nonExistentId,
       producNewtData,
       signInApiService.getToken()
@@ -43,10 +43,10 @@ test.describe('[API] [Products] Update', async function () {
     expect(updatedProductResponse.status).toBe(STATUS_CODES.NOT_FOUND);
   });
 
-  test.skip('Should return 400 error for invalid Id', async function () {
+  test.skip('Should return 400 error for invalid Id', async function ({ signInApiService, productsController }) {
     const producNewtData = generateProductData();
     const invalidId = 'invalidId';
-    const updatedProductResponse = await ProductsController.update(
+    const updatedProductResponse = await productsController.update(
       invalidId,
       producNewtData,
       signInApiService.getToken()
@@ -54,10 +54,10 @@ test.describe('[API] [Products] Update', async function () {
     expect(updatedProductResponse.status).toBe(STATUS_CODES.BAD_REQUEST);
   });
 
-  test('Should return 401 error for invalid token', async function () {
+  test('Should return 401 error for invalid token', async function ({ productsController }) {
     const producNewtData = generateProductData();
     const invalidToken = '';
-    const updatedProductResponse = await ProductsController.update(id, producNewtData, invalidToken);
+    const updatedProductResponse = await productsController.update(id, producNewtData, invalidToken);
     expect(updatedProductResponse.status).toBe(STATUS_CODES.NOT_AUTHORIZED);
   });
 });

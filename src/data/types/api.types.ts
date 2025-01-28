@@ -1,4 +1,5 @@
 import { AxiosResponseHeaders, RawAxiosResponseHeaders } from 'axios';
+import { COUNTRIES } from '../customers/countries';
 
 export interface IRequestOptions {
   baseURL: string;
@@ -22,6 +23,13 @@ export interface IResponseFields {
 export interface IGetAllParams {
   manufacturer?: string;
   search?: string;
+  sortField?: string;
+  sortOrder?: string;
+}
+
+export interface IGetAllCustomersParams {
+  search?: string;
+  country?: COUNTRIES[];
   sortField?: string;
   sortOrder?: string;
 }

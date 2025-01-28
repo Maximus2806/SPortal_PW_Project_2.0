@@ -4,7 +4,7 @@ import { IRequestOptions, IResponseFields } from '../../data/types/api.types';
 import { AxiosApiClient } from '../apiClients/axios.apiClient';
 import { logStep } from '../../utils/reporter/logStep';
 
-class SignInController {
+export class SignInController {
   constructor(private apiClient = new AxiosApiClient()) {}
 
   @logStep('Sign in via API')
@@ -21,5 +21,3 @@ class SignInController {
     return await this.apiClient.send<IResponseFields>(options);
   }
 }
-
-export default new SignInController();

@@ -14,6 +14,6 @@ export default [
     }
   },
   {
-    ignores: ['**/node_modules/', '**/allure-report/', '**/allure-results/', '**/logStep.ts']
+    ignores: ['**/node_modules/', '**/allure-report/', '**/allure-results/', '**/logStep.ts', '**/playwright-report/']
   }
 ];
