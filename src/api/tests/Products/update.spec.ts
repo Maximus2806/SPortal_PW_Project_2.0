@@ -9,8 +9,8 @@ test.describe('[API] [Products] Update', async function () {
     await signInApiService.signInAsAdmin();
   });
 
-  test.beforeEach(async function ({ signInApiService, productApiService }) {
-    const createdProduct = await productApiService.create(signInApiService.getToken());
+  test.beforeEach(async function ({ productApiService }) {
+    const createdProduct = await productApiService.create();
     id = createdProduct._id;
   });
 
@@ -18,14 +18,10 @@ test.describe('[API] [Products] Update', async function () {
     await productApiService.delete(signInApiService.getToken());
   });
 
-  test('Should update product with smoke data', async function ({
-    signInApiService,
-    productApiService,
-    productsController
-  }) {
-    const updatedProduct = await productApiService.update(id, signInApiService.getToken());
-    const getUpdatedProductResponse = await productsController.get(id, signInApiService.getToken());
-    const product = getUpdatedProductResponse.body.Product;
+  test('Should update product with smoke data', async function ({ productApiService }) {
+    const updatedProduct = await productApiService.update(id);
+    const getUpdatedProductResponse = await productApiService.getById(id);
+    const product = getUpdatedProductResponse;
     expect(updatedProduct).toEqual({ ...product });
   });
 

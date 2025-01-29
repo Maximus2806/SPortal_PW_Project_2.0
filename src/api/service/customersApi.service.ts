@@ -5,45 +5,59 @@ import { ICustomer } from '../../data/types/customers.types';
 import { CustomersController } from '../controllers/customers.controller';
 import { logStep } from '../../utils/reporter/logStep';
 import { IGetAllCustomersParams } from '../../data/types/api.types';
+import { SignInApiService } from './signInApiService.service';
+import { validateResponse } from '../../utils/validation/apiValidation';
 
 export class CustomersApiService {
   constructor(
-    private customersController = new CustomersController()
-    // private signInApiService = new SignInApiService()
+    private customersController = new CustomersController(),
+    private signInApiService = new SignInApiService()
   ) {}
 
   @logStep()
-  async create(token: string, customerData?: Partial<ICustomer>) {
-    // const token = await this.signInApiService.getTransformedToken();
-
-    const response = await this.customersController.create(token, generateNewCustomer(customerData));
-    expect(response.status).toBe(STATUS_CODES.CREATED);
-    expect(response.body.IsSuccess).toBe(true);
-    expect(response.body.ErrorMessage).toBe(null);
+  async create(customerData?: Partial<ICustomer>, token?: string) {
+    const authToken = token || (await this.signInApiService.signInAsAdmin());
+    const response = await this.customersController.create(authToken, generateNewCustomer(customerData));
+    validateResponse(response, STATUS_CODES.CREATED, true, null);
     return response.body.Customer;
   }
 
   @logStep()
-  async delete(token: string, id: string) {
-    // const token = await this.signInApiService.getTransformedToken();
-    const response = await this.customersController.delete(token, id);
+  async delete(id: string, token?: string) {
+    const authToken = token || (await this.signInApiService.signInAsAdmin());
+    const response = await this.customersController.delete(authToken, id);
     expect(response.status).toBe(STATUS_CODES.DELETED);
   }
 
   @logStep()
-  async get(token: string, id: string) {
-    // const token = await this.signInApiService.getTransformedToken();
-    const response = await this.customersController.get(token, id);
-    expect(response.status).toBe(STATUS_CODES.OK);
+  async get(id: string, token?: string) {
+    const authToken = token || (await this.signInApiService.signInAsAdmin());
+    const response = await this.customersController.get(authToken, id);
+    validateResponse(response, STATUS_CODES.OK, true, null);
     return response.body.Customer;
   }
 
-  @logStep('Get all customers via API and validate response')
-  async getAll(token: string, params: IGetAllCustomersParams = {}) {
-    const response = await this.customersController.getAll(token, params);
-    expect(response.status).toBe(STATUS_CODES.OK);
-    expect(response.body.IsSuccess).toBe(true);
-    expect(response.body.ErrorMessage).toBe(null);
+  @logStep()
+  async getAll(params: IGetAllCustomersParams = {}, token?: string) {
+    const authToken = token || (await this.signInApiService.signInAsAdmin());
+    const response = await this.customersController.getAll(authToken, params);
+    validateResponse(response, STATUS_CODES.OK, true, null);
     return response.body.Customers;
+  }
+
+  @logStep()
+  async update(id: string, customerData: ICustomer, token?: string) {
+    const authToken = token || (await this.signInApiService.signInAsAdmin());
+    const response = await this.customersController.update(authToken, id, customerData);
+    validateResponse(response, STATUS_CODES.OK, true, null);
+    return response.body.Customer;
+  }
+
+  @logStep()
+  async getOrders(id: string, token?: string) {
+    const authToken = token || (await this.signInApiService.signInAsAdmin());
+    const response = await this.customersController.getOrders(authToken, id);
+    validateResponse(response, STATUS_CODES.OK, true, null);
+    return response.body.Orders;
   }
 }
