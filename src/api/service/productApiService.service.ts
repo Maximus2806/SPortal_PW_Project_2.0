@@ -6,23 +6,28 @@ import { IProduct, IProductFromResponse } from '../../data/types/product.types';
 import { validateJsonSchema, validateResponse } from '../../utils/validation/apiValidation';
 import { ProductsController } from '../controllers/products.controller';
 import { IGetAllParams } from '../../data/types/api.types';
+import { SignInApiService } from './signInApiService.service';
 
 export class ProductApiService {
   private createdProduct: IProductFromResponse | null = null;
-  constructor(private controller = new ProductsController()) {}
+  constructor(
+    private controller = new ProductsController(),
+    private signInApiService = new SignInApiService()
+  ) {}
 
-  async create(token: string, customData?: Partial<IProduct>) {
-    const response = await this.controller.create(generateProductData(customData), token);
+  async create(customData?: Partial<IProduct>, token?: string) {
+    const authToken = token || (await this.signInApiService.signInAsAdmin());
+    const response = await this.controller.create(generateProductData(customData), authToken);
     validateResponse(response, STATUS_CODES.CREATED, true, null);
     validateJsonSchema(productResponseSchema, response);
     this.createdProduct = response.body.Product;
     return response.body.Product;
   }
 
-  async update(id: string, token: string, customData?: Partial<IProduct>) {
+  async update(id: string, customData?: Partial<IProduct>, token?: string) {
+    const authToken = token || (await this.signInApiService.signInAsAdmin());
     const producNewtData = generateProductData(customData);
-    const updatedProductResponse = await this.controller.update(id, producNewtData, token);
-    expect(updatedProductResponse.status).toBe(STATUS_CODES.OK);
+    const updatedProductResponse = await this.controller.update(id, producNewtData, authToken);
     const udpdatedProductBody = updatedProductResponse.body.Product;
     validateResponse(updatedProductResponse, STATUS_CODES.OK, true, null);
     validateJsonSchema(productResponseSchema, updatedProductResponse);
@@ -35,17 +40,24 @@ export class ProductApiService {
     return this.createdProduct;
   }
 
-  async delete(token: string) {
-    const response = await this.controller.delete(this.getCreatedProduct()._id, token);
+  async delete(token?: string) {
+    const authToken = token || (await this.signInApiService.signInAsAdmin());
+    const response = await this.controller.delete(this.getCreatedProduct()._id, authToken);
     expect(response.status).toBe(STATUS_CODES.DELETED);
     this.createdProduct = null;
   }
 
-  async getAll(token: string, params: IGetAllParams = {}) {
-    const response = await this.controller.getAll(token, params);
-    expect(response.status).toBe(STATUS_CODES.OK);
-    expect(response.body.IsSuccess).toBe(true);
-    expect(response.body.ErrorMessage).toBe(null);
+  async getAll(params: IGetAllParams = {}, token?: string) {
+    const authToken = token || (await this.signInApiService.signInAsAdmin());
+    const response = await this.controller.getAll(authToken, params);
+    validateResponse(response, STATUS_CODES.OK, true, null);
     return response.body.Products;
+  }
+
+  async getById(id: string, token?: string) {
+    const authToken = token || (await this.signInApiService.signInAsAdmin());
+    const response = await this.controller.get(id, authToken);
+    validateResponse(response, STATUS_CODES.OK, true, null);
+    return response.body.Product;
   }
 }

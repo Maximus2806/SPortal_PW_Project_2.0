@@ -6,12 +6,12 @@ import { test, expect } from '../../../fixtures/apiServices.fixture';
 
 test.describe('[API] [Products] Get product by Id', async function () {
   test.beforeEach(async function ({ signInApiService, productApiService }) {
-    const token = await signInApiService.signInAsAdmin();
-    await productApiService.create(token);
+    await signInApiService.signInAsAdmin();
+    await productApiService.create();
   });
 
-  test.afterEach(async function ({ signInApiService, productApiService }) {
-    await productApiService.delete(signInApiService.getToken());
+  test.afterEach(async function ({ productApiService }) {
+    await productApiService.delete();
   });
 
   test('Should get product by existing Id', async function ({
