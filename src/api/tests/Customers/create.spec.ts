@@ -37,8 +37,9 @@ test.describe('[API] [Customers] [Create New Customer]', async function () {
   test('Should create new customer with random valid data and one excessive field', async function ({
     customersApiService
   }) {
-    const customerData = { ...generateNewCustomer(), excessiveField: 'some text' };
-    const createCustomerResponse = await customersApiService.create(customerData as ICustomer);
+    const customerData = generateNewCustomer();
+    const customerDataExcessive = { ...customerData, excessiveField: 'some text' };
+    const createCustomerResponse = await customersApiService.create(customerDataExcessive as ICustomer);
     expect(createCustomerResponse).toMatchObject({
       ...customerData
     });
