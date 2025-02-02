@@ -1,7 +1,7 @@
 import Ajv from 'ajv';
 import addFormats from 'ajv-formats';
-import { expect } from 'chai';
 import { IResponse, IResponseFields } from '../../data/types/api.types';
+import { expect } from '../../fixtures/apiContollers.fixture';
 
 export function validateJsonSchema<T extends IResponseFields>(schema: object, response: IResponse<T>) {
   const ajv = new Ajv();
@@ -11,8 +11,8 @@ export function validateJsonSchema<T extends IResponseFields>(schema: object, re
   if (validate.errors) {
     console.log(validate.errors);
   }
-  // eslint-disable-next-line @typescript-eslint/no-unused-expressions
-  expect(isValidSchema).to.be.true;
+   
+  expect(isValidSchema).toBe(true);
 }
 
 export function validateResponse<T extends IResponseFields>(
@@ -21,7 +21,7 @@ export function validateResponse<T extends IResponseFields>(
   IsSuccess: boolean,
   ErrorMessage: null | string
 ) {
-  expect(response.status).to.equal(status);
-  expect(response.body.IsSuccess).to.equal(IsSuccess);
-  expect(response.body.ErrorMessage).to.equal(ErrorMessage);
+  expect(response.status).toBe(status);
+  expect(response.body.IsSuccess).toBe(IsSuccess);
+  expect(response.body.ErrorMessage).toBe(ErrorMessage);
 }
