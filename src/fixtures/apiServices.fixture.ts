@@ -1,4 +1,3 @@
-/* eslint-disable no-empty-pattern */
 import { test as base } from './apiContollers.fixture';
 import { SignInApiService } from '../api/service/signInApiService.service';
 import { CustomersController } from '../api/controllers/customers.controller';

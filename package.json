@@ -32,6 +32,8 @@
   "description": "",
   "devDependencies": {
     "@eslint/js": "^9.19.0",
+    "@stylistic/eslint-plugin-js": "^2.10.1",
+    "@types/eslint__js": "^8.42.3",
     "@playwright/test": "^1.50.0",
     "@types/node": "^22.10.10",
     "@typescript-eslint/eslint-plugin": "^8.21.0",
@@ -46,7 +48,8 @@
     "prettier": "^3.4.2",
     "rimraf": "^6.0.1",
     "typescript": "^5.7.3",
-    "typescript-eslint": "^8.21.0"
+    "typescript-eslint": "^8.21.0",
+    "eslint-plugin-custom-rules": "file:src/utils/eslint"
   },
   "dependencies": {
     "@faker-js/faker": "^9.4.0",

@@ -11,7 +11,7 @@ export function validateJsonSchema<T extends IResponseFields>(schema: object, re
   if (validate.errors) {
     console.log(validate.errors);
   }
-   
+
   expect(isValidSchema).toBe(true);
 }
 
