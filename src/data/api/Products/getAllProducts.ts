@@ -1,6 +1,6 @@
 import { STATUS_CODES } from '../statusCodes';
 import { MANUFACTURERS } from '../../types/product.types';
-import { SORT_FIELDS, SORT_ORDER } from '../../types/productSortFields';
+import { SORT_FIELDS, SORT_ORDER } from '../../types/sortFields.type';
 
 export const testCases = [
   {
