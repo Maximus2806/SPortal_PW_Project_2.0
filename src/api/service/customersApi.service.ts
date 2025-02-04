@@ -68,13 +68,11 @@ export class CustomersApiService {
     if (response.length === 0) {
       console.log(`Search by "${params.search}" has no results`);
     }
-    response.forEach((c) => {
-      const condition =
-        c.email.toLocaleLowerCase().includes(params.search.toLocaleLowerCase()) ||
-        c.name.toLocaleLowerCase().includes(params.search.toLocaleLowerCase()) ||
-        c.country.toLocaleLowerCase().includes(params.search.toLocaleLowerCase());
-
-      expect(condition).toBe(true);
+    response.forEach(() => {
+      const lowerSearch = params.search.toLocaleLowerCase();
+      response.forEach(({ email, name, country }) => {
+        expect([email, name, country].some((field) => field.toLocaleLowerCase().includes(lowerSearch))).toBe(true);
+      });
     });
     return response.length;
   }
