@@ -1,6 +1,6 @@
 import { IResponseFields } from './api.types';
 import { ICustomerFromResponse } from './customers.types';
-import { IProductFromResponse } from './product.types';
+import { IProductFromResponse } from './products/product.types';
 
 type Status = 'Draft' | 'Confirmed' | 'Shipped' | 'Delivered' | 'Cancelled';
 

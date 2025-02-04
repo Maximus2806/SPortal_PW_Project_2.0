@@ -20,11 +20,9 @@ export interface IResponseFields {
   ErrorMessage: string | null;
 }
 
-export interface IGetAllParams {
-  manufacturer?: string;
-  search?: string;
-  sortField?: string;
-  sortOrder?: string;
+export enum ESortOrder {
+  ASC = 'asc',
+  DESC = 'desc',
 }
 
 export interface IGetAllCustomersParams {

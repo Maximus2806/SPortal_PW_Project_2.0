@@ -3,7 +3,7 @@ import { TESTS } from './environment';
 const suites = {
   UI: 'ui/**/*.spec.ts',
   API: 'api/**/*.spec.ts',
-  SINGLE: 'api/**/Customers/create.spec.ts',
+  SINGLE: 'api/**/Products/sort-filter.products.spec.ts',
 };
 
 let suiteName: keyof typeof suites;
