@@ -39,11 +39,10 @@ test.describe('[API] [Customers] [Get all customers]', async function () {
     expect(response.status).toBe(STATUS_CODES.NOT_AUTHORIZED);
   });
 
-  //TODO: remove skip after the bug is fixed
-  test.skip('Should not get customers with invalid token', async function ({ customersController }) {
-    const invalidToken =
-      'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjYzZTA0OTkzYWFlNDQwMTg0YWY2NDc3YiIsInJvbGVzIjpbIkFETUlOIl0sImlhdCI6MTczODM2NDY3NiwiZXhwIjoxNzM4NDUxMDc2fQ.oubKCGAmzgjH5aEve_LctVARrrKxapiJ-tYddqqWpJm';
-    const response = await customersController.getAll(invalidToken);
+  test('Should not get customers with expired token', async function ({ customersController }) {
+    const expiredToken =
+      'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjYzZTA0OTkzYWFlNDQwMTg0YWY2NDc3YiIsInJvbGVzIjpbIkFETUlOIl0sImlhdCI6MTczODQyOTM1MiwiZXhwIjoxNzM4NTE1NzUyfQ.SZYTOwqpb51CtlznhFe66_YX9H6KARX9VBkQWW3eIv4';
+    const response = await customersController.getAll(expiredToken);
     expect(response.status).toBe(STATUS_CODES.NOT_AUTHORIZED);
   });
 
