@@ -1,10 +1,10 @@
 import { apiConfig } from '../../config/apiConfig';
 import { IProduct, IProductResponse, IProductsResponse } from '../../data/types/products/product.types';
 import { IRequestOptions } from '../../data/types/api.types';
-import { IGetAllProducsParams } from '../../data/types/api.types';
 import { AxiosApiClient } from '../apiClients/axios.apiClient';
 import { logStep } from '../../utils/reporter/logStep';
 import { convertRequestParams } from '../../utils/convert-request-params';
+import { IGetAllProducsParams } from '../../data/types/products/productSortFields';
 
 export class ProductsController {
   constructor(private apiClient = new AxiosApiClient()) {}
