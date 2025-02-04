@@ -251,4 +251,25 @@ test.describe('[API] [Customers] [Get all customers]', async function () {
       await Promise.all([customer1, customer2, customer3].map((c) => customersApiService.delete(c._id)));
     }
   });
+
+  test('Sould not return errors in case query parameters are invalid', async function ({ customersApiService }) {
+    const params = { sortField: 'invalidSortField', sortOrder: 'invalidSortOrder' };
+    const response = await customersApiService.getAll(params);
+    expect(response.length).toBeGreaterThanOrEqual(0);
+  });
+
+  test('Should not return errors with empty search query', async function ({ customersApiService }) {
+    const params = { search: '' };
+    const response = await customersApiService.getAll(params);
+    expect(response.length).toBeGreaterThanOrEqual(0);
+  });
+
+  test('Should not return errors with long (251 char) search query', async function ({ customersApiService }) {
+    const params = {
+      search:
+        'aaoaglmsfkmqkuhiczgwasifumpxuvyjvqmevmagipbvdewhodnuahzsvdxgrxvpsgtfxbrybwduljapkjyrgoytxyuqdfdkbdhetonvzxxikuhyzeelzgccfmnnqszlxypwkxbsmlxrnsaukipqsjjqxireehfohkfswbzhcydiekvarttmuqtoehhkjcpoamqkbeequnxegatzuwsdexnxxbxbcnrvhyxstezpvsrutmfzvxiwtmurtve'
+    };
+    const response = await customersApiService.getAll(params);
+    expect(response.length).toBeGreaterThanOrEqual(0);
+  });
 });
