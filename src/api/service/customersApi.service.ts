@@ -10,24 +10,35 @@ import { validateResponse } from '../../utils/validation/apiValidation';
 import { CUSTOMER_SORT_FIELDS, SORT_ORDER } from '../../data/types/sortFields.type';
 
 export class CustomersApiService {
+  private createdCusomer: ICustomerFromResponse | null = null;
   constructor(
     private customersController = new CustomersController(),
     private signInApiService = new SignInApiService()
   ) {}
+
+  getCreatedCustomer() {
+    if (!this.createdCusomer) {
+      throw new Error('Customer was not created');
+    }
+    return this.createdCusomer;
+  }
 
   @logStep()
   async create(customerData?: Partial<ICustomer>, token?: string) {
     const authToken = token || (await this.signInApiService.signInAsAdmin());
     const response = await this.customersController.create(authToken, generateNewCustomer(customerData));
     validateResponse(response, STATUS_CODES.CREATED, true, null);
+    this.createdCusomer = response.body.Customer;
     return response.body.Customer;
   }
 
   @logStep()
-  async delete(id: string, token?: string) {
+  async delete(id?: string, token?: string) {
     const authToken = token || (await this.signInApiService.signInAsAdmin());
-    const response = await this.customersController.delete(authToken, id);
+    const customerId = id || this.getCreatedCustomer()._id;
+    const response = await this.customersController.delete(authToken, customerId);
     expect(response.status).toBe(STATUS_CODES.DELETED);
+    this.createdCusomer = null;
   }
 
   @logStep()
