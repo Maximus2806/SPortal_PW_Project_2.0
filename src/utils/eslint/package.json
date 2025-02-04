@@ -1,0 +1,13 @@
+{
+  "name": "eslint-plugin-expect-messages",
+  "version": "1.0.0",
+  "description": "ESLint plugin to enforce assertion messages in expect statements",
+  "main": "index.js",
+  "keywords": [
+    "eslint",
+    "eslintplugin",
+    "eslint-plugin"
+  ],
+  "author": "",
+  "license": "MIT"
+}
