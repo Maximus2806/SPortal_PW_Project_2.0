@@ -1,4 +1,4 @@
-import { IProduct, MANUFACTURERS } from '../types/product.types';
+import { IProduct, MANUFACTURERS } from '../types/products/product.types';
 import { faker } from '@faker-js/faker';
 import { getRandomEnumValue } from '../../utils/enums/getRandomEnumValue';
 

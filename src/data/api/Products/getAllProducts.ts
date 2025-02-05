@@ -1,6 +1,7 @@
 import { STATUS_CODES } from '../statusCodes';
-import { MANUFACTURERS } from '../../types/product.types';
-import { SORT_FIELDS, SORT_ORDER } from '../../types/sortFields.type';
+import { MANUFACTURERS } from '../../types/products/product.types';
+import { ESortProductsFields } from '../../types/products/productSortFields';
+import { ESortOrder } from '../../types/api.types';
 
 export const testCases = [
   {
@@ -19,14 +20,14 @@ export const testCases = [
   },
   {
     description: 'Sort by name in ascending order',
-    params: { sortField: SORT_FIELDS.NAME, sortOrder: SORT_ORDER.ASC },
+    params: { sortField: ESortProductsFields.NAME, sortOrder: ESortOrder.ASC },
     expectedStatus: STATUS_CODES.OK,
     isSuccess: true,
     errorMessage: null
   },
   {
     description: 'Sort by price in descending order',
-    params: { sortField: SORT_FIELDS.PRICE, sortOrder: SORT_ORDER.DESC },
+    params: { sortField: ESortProductsFields.PRICE, sortOrder: ESortOrder.DESC },
     expectedStatus: STATUS_CODES.OK,
     isSuccess: true,
     errorMessage: null
@@ -35,8 +36,8 @@ export const testCases = [
     description: 'Filter by manufacturer and sort by createdOn descending',
     params: {
       manufacturer: MANUFACTURERS.XIAOMI,
-      sortField: SORT_FIELDS.CREATED_ON,
-      sortOrder: SORT_ORDER.DESC
+      sortField: ESortProductsFields.CREATED_ON,
+      sortOrder: ESortOrder.DESC
     },
     expectedStatus: STATUS_CODES.OK,
     isSuccess: true,

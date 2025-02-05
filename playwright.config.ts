@@ -1,5 +1,6 @@
 import { defineConfig, devices } from '@playwright/test';
 import * as dotenv from 'dotenv';
+import suite from './src/config/suites'
 
 dotenv.config();
 
@@ -16,9 +17,9 @@ dotenv.config();
  */
 export default defineConfig({
   testDir: './src',
-  testMatch: ['**/api/tests/**/*.spec.ts', '**/ui/tests/**/*.spec.ts'],
+  testMatch: suite,
   /* Run tests in files in parallel */
-  fullyParallel: true,
+  fullyParallel: false,
   /* Fail the build on CI if you accidentally left test.only in the source code. */
   forbidOnly: !!process.env.CI,
   /* Retry on CI only */
@@ -27,7 +28,14 @@ export default defineConfig({
   workers: process.env.CI ? 1 : undefined,
   /* Reporter to use. See https://playwright.dev/docs/test-reporters */
   reporter: [
-    ['html'],
+    ['html',
+      {
+        outputFolder: 'src/report/html',
+        printSteps: true,
+        open: 'never',
+      }
+
+    ],
     ['list'], // Консольный отчет
     ['allure-playwright']
   ],

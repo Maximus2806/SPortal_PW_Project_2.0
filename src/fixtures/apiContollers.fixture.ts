@@ -1,4 +1,3 @@
-/* eslint-disable no-empty-pattern */
 import { CustomersController } from '../api/controllers/customers.controller';
 import { ProductsController } from '../api/controllers/products.controller';
 import { SignInController } from '../api/controllers/signIn.controller';

@@ -1,4 +1,4 @@
-import { MANUFACTURERS } from '../types/product.types';
+import { MANUFACTURERS } from '../types/products/product.types';
 import { baseSchemaPart } from './base.schema';
 
 export const productResponseSchema = {

@@ -22,6 +22,6 @@ test.describe('[API] [Products] Get all products', async function () {
   test('Should return 401 error for invalid token', async function ({ productsController }) {
     const invalidToken = '';
     const getProductsResponse = await productsController.getAll(invalidToken, {});
-    expect(getProductsResponse.status).toBe(STATUS_CODES.NOT_AUTHORIZED);
+    expect(getProductsResponse.status, '').toBe(STATUS_CODES.NOT_AUTHORIZED);
   });
 });
