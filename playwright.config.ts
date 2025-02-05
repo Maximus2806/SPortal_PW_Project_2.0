@@ -1,6 +1,6 @@
 import { defineConfig, devices } from '@playwright/test';
 import * as dotenv from 'dotenv';
-import suite from './src/config/suites'
+import suite from './src/config/suites';
 
 dotenv.config();
 
@@ -28,13 +28,13 @@ export default defineConfig({
   workers: process.env.CI ? 1 : undefined,
   /* Reporter to use. See https://playwright.dev/docs/test-reporters */
   reporter: [
-    ['html',
+    [
+      'html',
       {
         outputFolder: 'src/report/html',
         printSteps: true,
-        open: 'never',
+        open: 'never'
       }
-
     ],
     ['list'], // Консольный отчет
     ['allure-playwright']

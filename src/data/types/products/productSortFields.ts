@@ -5,7 +5,7 @@ export enum ESortProductsFields {
   NAME = 'name',
   PRICE = 'price',
   MANUFACTURER = 'manufacturer',
-  CREATED_ON = 'createdOn',
+  CREATED_ON = 'createdOn'
 }
 
 export type TSortProductsFields = `${ESortProductsFields}`;
