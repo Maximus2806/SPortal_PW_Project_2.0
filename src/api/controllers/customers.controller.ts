@@ -59,7 +59,6 @@ export class CustomersController {
   @logStep('Get all customers via API')
   async getAll(token: string, params: IGetAllCustomersParams = {}) {
     const { search, country, sortField, sortOrder } = params;
-
     const queryParams = new URLSearchParams();
 
     if (search) queryParams.append('search', search);
