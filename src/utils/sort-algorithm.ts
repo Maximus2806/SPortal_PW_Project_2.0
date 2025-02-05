@@ -7,13 +7,13 @@ export type SortFunctions<T> = {
 };
 
 export type TSortableFields = {
-  name: string,
-  country: string,
-  email: string,
-  createdOn: string,
-  manufacturer: string,
-  price: string,
-}
+  name: string;
+  country: string;
+  email: string;
+  createdOn: string;
+  manufacturer: string;
+  price: string;
+};
 
 /**
  * A generic comparison function that compares two values based on the specified sort direction.
@@ -44,7 +44,7 @@ const sortedFields: SortFunctions<TSortableFields> = {
   email: (a, b, dir) => compareValues(a.email, b.email, dir),
   createdOn: (a, b, dir) => compareValues(Date.parse(a.createdOn), Date.parse(b.createdOn), dir),
   manufacturer: (a, b, dir) => compareValues(a.manufacturer, b.manufacturer, dir),
-  price: (a, b, dir) => compareValues(+a.price, +b.price, dir),
+  price: (a, b, dir) => compareValues(+a.price, +b.price, dir)
 };
 
 /**
@@ -58,13 +58,16 @@ const sortedFields: SortFunctions<TSortableFields> = {
  * @returns {T[]} - The sorted array.
  * @throws {Error} - If the specified field does not have a corresponding sort function.
  */
-export const genericSort =
-  <T extends { _id: string }>(arr: T[], field: Extract<keyof T, keyof TSortableFields>, dir: TSortOrder): T[] => {
-    const compareFn = sortedFields[field];
-    if (!compareFn) throw new Error(`Sorting for field '${String(field)}' is not implemented!`);
-    // @ts-expect-error Argument of type 'T' is not assignable to parameter of type 'TSortableFields'.
-    return [...arr].sort((a, b) => compareFn(a, b, dir));
-  };
+export const genericSort = <T extends { _id: string }>(
+  arr: T[],
+  field: Extract<keyof T, keyof TSortableFields>,
+  dir: TSortOrder
+): T[] => {
+  const compareFn = sortedFields[field];
+  if (!compareFn) throw new Error(`Sorting for field '${String(field)}' is not implemented!`);
+  // @ts-expect-error Argument of type 'T' is not assignable to parameter of type 'TSortableFields'.
+  return [...arr].sort((a, b) => compareFn(a, b, dir));
+};
 
 // const a = [
 //   {
