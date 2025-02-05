@@ -39,7 +39,7 @@ export class ProductsController {
   }
 
   @logStep('Get all products via API')
-  async getAll(token: string, params: IGetAllProducsParams = {}) {
+  async getAll(params: IGetAllProducsParams = {}, token: string) {
     let urlParams = '';
     if (params) {
       urlParams = convertRequestParams(params as Record<string, string>);

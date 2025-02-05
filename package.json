@@ -8,7 +8,7 @@
     "format": "prettier --config .prettierrc src/**/*.ts --check .",
     "format-fix": "prettier --config .prettierrc src/**/*.ts --write .",
     "test-lint": "npm run lint && npm run format",
-    "test:ui": "cross-env TESTS=UI npx playwright test",
+    "test:ui": "cross-env TESTS=UI HEADLESS=false playwright test",
     "test:api": "cross-env TESTS=API HEADLESS=true npx playwright test",
     "test:single": "cross-env TESTS=SINGLE npx playwright test",
     "prepare": "husky",
