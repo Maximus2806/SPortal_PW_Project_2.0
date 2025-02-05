@@ -22,7 +22,7 @@ export interface IResponseFields {
 
 export enum ESortOrder {
   ASC = 'asc',
-  DESC = 'desc',
+  DESC = 'desc'
 }
 
 export interface IGetAllCustomersParams {

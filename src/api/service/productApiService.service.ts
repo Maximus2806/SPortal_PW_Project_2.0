@@ -9,7 +9,7 @@ import { generateProductData } from '../../data/products/generateProduct';
 import { IGetAllProducsParams } from '../../data/types/products/productSortFields';
 
 export class ProductApiService {
-  private createdProducts: IProductFromResponse[]= [];
+  private createdProducts: IProductFromResponse[] = [];
   constructor(
     private controller = new ProductsController(),
     private signInApiService = new SignInApiService()
@@ -49,7 +49,7 @@ export class ProductApiService {
     return this.createdProducts.at(-1);
   }
 
-  async delete(id?: string, token?: string, ) {
+  async delete(id?: string, token?: string) {
     const authToken = token || (await this.signInApiService.signInAsAdmin());
     if (id) {
       const response = await this.controller.delete(id, authToken);
@@ -72,17 +72,20 @@ export class ProductApiService {
   }
 
   async getProductsWithManufacturer(manufacturers: string | MANUFACTURERS | (string | MANUFACTURERS)[]) {
-    const products = await this.getAll({ manufacturer: manufacturers })
+    const products = await this.getAll({ manufacturer: manufacturers });
     return products;
   }
 
   async getProductsWithSearch(searchValue: string) {
-    const products = await this.getAll({ search: searchValue })
+    const products = await this.getAll({ search: searchValue });
     return products;
   }
 
-  async getProductsWithSortFieldAndOrder({ sortField, sortOrder }: Partial<Pick<IGetAllProducsParams, 'sortField' | 'sortOrder'>>){
-    const products = await this.getAll({ sortField, sortOrder })
+  async getProductsWithSortFieldAndOrder({
+    sortField,
+    sortOrder
+  }: Partial<Pick<IGetAllProducsParams, 'sortField' | 'sortOrder'>>) {
+    const products = await this.getAll({ sortField, sortOrder });
     return products;
   }
 
