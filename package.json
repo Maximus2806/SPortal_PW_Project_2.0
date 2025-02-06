@@ -6,16 +6,15 @@
     "lint": "eslint .",
     "lint-fix": "eslint . --fix",
     "format": "prettier --config .prettierrc src/**/*.ts --check .",
-    "format-fix": "prettier --config .prettierrc src/**/*.ts --write .",
-    "test-lint": "npm run lint && npm run format",
-    "test:ui": "cross-env TESTS=UI HEADLESS=false playwright test",
+    "format:fix": "prettier --config .prettierrc src/**/*.ts --write .",
+    "test:lint": "npm run lint && npm run format",
     "test:api": "cross-env TESTS=API HEADLESS=true npx playwright test",
     "test:single": "cross-env TESTS=SINGLE npx playwright test",
     "prepare": "husky",
     "test:ui-smoke": "npx playwright test src/ui/tests --grep @smoke",
     "ui-mode": "npx playwright test --ui",
     "report": "allure generate allure-results -o allure-report --clean",
-    "report-open": "npm run report && allure open allure-report"
+    "report:open": "npm run report && allure open allure-report"
   },
   "repository": {
     "type": "git",
@@ -48,8 +47,7 @@
     "prettier": "^3.4.2",
     "rimraf": "^6.0.1",
     "typescript": "^5.7.3",
-    "typescript-eslint": "^8.21.0",
-    "eslint-plugin-custom-rules": "file:src/utils/eslint"
+    "typescript-eslint": "^8.21.0"
   },
   "dependencies": {
     "@faker-js/faker": "^9.4.0",

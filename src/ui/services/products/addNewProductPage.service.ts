@@ -18,4 +18,3 @@ export class AddNewProductPageService extends SalesPortalPageService {
     return productData;
   }
 }
-

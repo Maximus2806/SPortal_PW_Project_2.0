@@ -48,7 +48,10 @@ export class ProductsListPageService extends SalesPortalPageService {
   @logStep('Verify product data in modal window')
   async verifyProductDataInModal(product: IProduct) {
     const actualData = _.omit(await this.getProductDataFromModal(product.name), ['createdOn']);
-    expect(actualData, `Shoul verify product data in modal window to be expected ${JSON.stringify(product, null, 2)}`).toEqual(product);
+    expect(
+      actualData,
+      `Shoul verify product data in modal window to be expected ${JSON.stringify(product, null, 2)}`
+    ).toEqual(product);
   }
 
   @logStep('Delete product via UI')

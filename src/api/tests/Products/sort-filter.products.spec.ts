@@ -88,8 +88,10 @@ test.describe('[API] [Products] Products sort and filtering', { tag: [TAGS.REGRE
     const filteredProducts = await productApiService.getAll({ search: p4.name, manufacturer: p4.manufacturer });
 
     expect(filteredProducts.length, 'Should return not empty list of products').toBe(1);
-    expect(filteredProducts[0], 'Product should contain specified manufacturer and name')
-      .toMatchObject({ manufacturer: p4.manufacturer, name: p4.name });
+    expect(filteredProducts[0], 'Product should contain specified manufacturer and name').toMatchObject({
+      manufacturer: p4.manufacturer,
+      name: p4.name
+    });
   });
 
   test(`Should get empty list with fake search value`, async ({ productApiService }) => {

@@ -51,7 +51,7 @@ export const test = base.extend<ISalesPortalPages>({
   editProductPage: async ({ page }, use) => {
     const editProductPage = new EditProductPage(page);
     await use(editProductPage);
-  },
+  }
 });
 
 export { expect } from '@playwright/test';

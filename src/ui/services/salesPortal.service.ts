@@ -13,5 +13,4 @@ export abstract class SalesPortalPageService {
     const notificationText = await this.homePage.getLastNotificationText();
     expect(notificationText, `Should display notification with text: ${text}`).toBe(text);
   }
-
 }
