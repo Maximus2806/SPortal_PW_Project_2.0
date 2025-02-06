@@ -46,15 +46,15 @@ export interface IOrderResponse extends IResponseFields {
 }
 
 export interface IOrderNumberDetails {
-  orderNumber: string,
-  assignedManager: string,
+  orderNumber: string;
+  assignedManager: string;
 }
 
 export interface IOrderStatusDetails {
-  orderStatus: string,
-  totalPrice: string,
-  delivery: string,
-  createdOn: string,
+  orderStatus: string;
+  totalPrice: string;
+  delivery: string;
+  createdOn: string;
 }
 
 export interface IOrderDetails extends IOrderNumberDetails, IOrderStatusDetails {}
@@ -75,6 +75,6 @@ export interface ICustomerDetails {
 export interface IRequestedProductDetails {
   name: string;
   price: string;
-  manufacturer: string,
+  manufacturer: string;
   notes?: string;
 }
