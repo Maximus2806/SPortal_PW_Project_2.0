@@ -6,5 +6,4 @@ test('', async ({ signInPageService, productsPageService, homePageService }) => 
 
   await homePageService.openProductsPage();
   await productsPageService.vefiryPageActiveInSidebar();
-
 });

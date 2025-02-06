@@ -100,7 +100,6 @@ export class ProductsListPage extends SalesPortalPage {
   }
 
   async getSideBarModuleAttribute() {
-    await this.getElementAttribute()
+    await this.getElementAttribute();
   }
 }
-

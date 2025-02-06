@@ -17,8 +17,7 @@ export class SideBarPage extends SalesPortalPage {
     await this.click(this['Dark mode switch']);
   }
 
-  async getSidebarModuleButtonAttribute(module: 'Home' | 'Orders' | 'Customers' | 'Products', attribute: string){
-    return await this.getElementAttribute(this['Sidebar module button'](module), attribute)
+  async getSidebarModuleButtonAttribute(module: 'Home' | 'Orders' | 'Customers' | 'Products', attribute: string) {
+    return await this.getElementAttribute(this['Sidebar module button'](module), attribute);
   }
-
 }
