@@ -9,7 +9,7 @@ export class CreateOrderPage extends SalesPortalPage {
   private readonly 'Total order price' = `#total-price-order-modal`;
   private readonly 'Create order button' = `#create-order-btn`;
   private readonly 'Cancel order button' = `#cancel-order-modal-btn`;
-  private readonly 'Close modal order button' = `button.btn-close`;
+  private readonly 'Close modal button' = `button.btn-close`;
 
   async chooseCustomerFromDropdownByName(name: string) {
     await this.selectDropdownValue(this['Customer order input'], `Name ${name}`);
