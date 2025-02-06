@@ -66,7 +66,7 @@ export class ProductApiService {
 
   async getAll(params: IGetAllProducsParams = {}, token?: string) {
     const authToken = token || (await this.signInApiService.signInAsAdmin());
-    const response = await this.controller.getAll(authToken, params);
+    const response = await this.controller.getAll(params, authToken);
     validateResponse(response, STATUS_CODES.OK, true, null);
     return response.body.Products;
   }
