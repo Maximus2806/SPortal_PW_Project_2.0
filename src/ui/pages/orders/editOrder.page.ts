@@ -3,11 +3,11 @@ import { SalesPortalPage } from '../salesPortal.page.js';
 
 export class EditOrderPage extends SalesPortalPage {
   readonly uniqueElement = '//h2[.="Order Details"]';
-  private readonly 'Key details' = (key) =>
+  private readonly 'Key details' = (key: string) =>
     `//*[contains(@class,'fw-bold') and text()='${key}']/following-sibling::*[text()]`;
   private readonly 'Refresh order button' = `#refresh-order`;
   private readonly 'Accordion section' = `#products-accordion-section`;
-  private readonly 'Accordion button' = (name) =>
+  private readonly 'Accordion button' = (name: string) =>
     `//button[@class="accordion-button" and normalize-space(.//text())='${name}']`;
 
   async getOrderDetails(): Promise<IOrderDetails> {
@@ -75,6 +75,6 @@ export class EditOrderPage extends SalesPortalPage {
 
   async collapseRequstedProduct(name: string, collapse: boolean) {
     collapse.toString() !== (await this.getElementAttribute(this['Accordion button'](name), 'aria-expanded')) &&
-      (await this.click(this['Accortion button'](name)));
+      (await this.click(this['Accordion button'](name)));
   }
 }

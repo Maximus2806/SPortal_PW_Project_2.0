@@ -1,10 +1,10 @@
 import { SalesPortalPage } from '../salesPortal.page';
 import productDetailsModal from './details.modal';
-import { PRODUCT_TABLE_HEADERS } from '../../../data/Products/productTableHeaders';
+import { PRODUCT_TABLE_HEADERS } from '../../../data/products/productTableHeaders';
 
 class ProductsPage extends SalesPortalPage {
   readonly ['Add New Product'] = 'button.page-title-button';
-  readonly Title = "//h2[.='Products List ']";
+  readonly uniqueElement = "//h2[.='Products List ']";
   readonly ['Table row'] = (productName: string) => `//tr[./td[.="${productName}"]]`;
   readonly ['Product name in table'] = (productName: string) => `${this['Table row'](productName)}/td[1]`;
   readonly ['Product price in table'] = (productName: string) => `${this['Table row'](productName)}/td[2]`;
@@ -29,7 +29,7 @@ class ProductsPage extends SalesPortalPage {
   }
 
   async waitForPageOpened() {
-    await this.waitForDisplayed(this.Title);
+    await this.waitForDisplayed(this.uniqueElement);
     await this.waitForSpinnersToBeHidden('Products list');
   }
 
