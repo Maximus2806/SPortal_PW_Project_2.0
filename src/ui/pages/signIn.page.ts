@@ -1,4 +1,4 @@
-import { SALES_PORTAL_URL } from '../../config/env';
+import { SALES_PORTAL_URL } from '../../config/environment';
 import { IUserCredentials } from '../../data/types/user.types';
 import { SalesPortalPage } from './salesPortal.page';
 
