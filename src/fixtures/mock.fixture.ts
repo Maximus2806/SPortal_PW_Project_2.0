@@ -1,5 +1,5 @@
 import { Page, test as base } from '@playwright/test';
-import { STATUS_CODES } from '../data/statusCodes';
+import { STATUS_CODES } from '../data/api/statusCodes';
 
 export class Mock {
   constructor(private page: Page) {}

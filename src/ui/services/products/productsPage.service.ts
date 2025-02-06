@@ -1,47 +1,54 @@
-import productsPage from '../../pages/Products/products.page';
-import addNewProductPage from '../../pages/Products/addNewProduct.page';
-import productDetailsModal from '../../pages/Products/details.modal';
-import { NOFITICATIONS } from '../../../data/notifications';
-import { IProduct, IProductFromTable } from '../../../data/types/product.types';
 import _ from 'lodash';
-import deleteProductModal from '../../pages/Products/deleteProductModal';
-import { SalesPortalPageService } from '../salesPortalPage.service';
 import { PRODUCT_TABLE_HEADERS } from '../../../data/Products/productTableHeaders';
-import { logStep } from '../../../utils/reporter/decorators';
+import { expect } from 'allure-playwright';
+import { SalesPortalPageService } from '../salesPortal.service';
+import { logStep } from '../../../utils/reporter/logStep';
+import { IProduct, IProductFromTable } from '../../../data/types/products/product.types';
+import { ProductsListPage } from '../../pages/products/products.page';
+import { AddNewProductPage } from '../../pages/Products/addNewProduct.page';
+import { ProductDetailsModal } from '../../pages/products/details.modal';
+import { SideBarPage } from '../../pages/sidebar.page';
 
-class ProductsPageService extends SalesPortalPageService {
-  private productsPage = productsPage;
-  private addNewProductPage = addNewProductPage;
-  private productDetailsModal = productDetailsModal;
-  private deleteProductModal = deleteProductModal;
+export class ProductsListPageService extends SalesPortalPageService {
+  private productsPage = new ProductsListPage(this.page);
+  private addNewProductPage = new AddNewProductPage(this.page);
+  private productDetailsModal = new ProductDetailsModal(this.page);
+  private sidebarPage = new SideBarPage(this.page);
+  // private deleteProductModal = ;
 
   @logStep('Open Add New Product Page')
   async openAddNewProductPage() {
     await this.productsPage.clickOnAddNewProduct();
-    await this.addNewProductPage.waitForPageOpened();
+    await this.addNewProductPage.waitForOpened();
+  }
+
+  async vefiryPageActiveInSidebar() {
+    const attr = await this.sidebarPage.getSidebarModuleButtonAttribute('Products', 'class');
+    console.log(`attr ${attr}`);
+    expect(attr, `"Products" sidebar button should be "active", actual attribute: "${attr}" `).toContain('active');
   }
 
   async openProductDetails(productName: string) {
     await this.productsPage.clickOnProductDetailsButton(productName);
-    await this.productDetailsModal.waitForPageOpened();
+    await this.productDetailsModal.waitForOpened();
   }
 
-  async closeProductDetails() {
+  async closeProductDetailsModal() {
     await this.productDetailsModal.clickOnCloseModalButton();
-    await this.productDetailsModal.waitForDisappeared();
+    await this.productDetailsModal.waitForOpened();
   }
 
   async getProductDataFromModal(productName: string) {
     await this.openProductDetails(productName);
     const actualData = await this.productDetailsModal.getProductData();
-    await this.closeProductDetails();
+    await this.closeProductDetailsModal();
     return actualData;
   }
 
   @logStep('Verify product data in modal window')
-  async validateProductDataFromNodal(product: IProduct) {
+  async verifyProductDataInModal(product: IProduct) {
     const actualData = _.omit(await this.getProductDataFromModal(product.name), ['createdOn']);
-    expect(actualData).toEqual(product);
+    expect(actualData, `Shoul verify product data in modal window to be expected ${JSON.stringify(product, null, 2)}`).toEqual(product);
   }
 
   @logStep('Delete product via UI')
@@ -50,23 +57,23 @@ class ProductsPageService extends SalesPortalPageService {
     await this.deleteProductModal.waitForPageOpened();
     await this.deleteProductModal.clickOnActionButton();
     await this.deleteProductModal.waitForDisappeared();
-    await this.productsPage.waitForPageOpened();
+    await this.productsPage.waitForOpened();
   }
 
-  @logStep('Check product uniqueness via search')
-  async validateSearchSingleProduct(searchInput: string, product: IProduct) {
-    const searchResult = await this.productsPage.getSearchResults(searchInput);
-    expect(_.omit(searchResult[0] as Partial<IProduct>, ['createdOn'])).toEqual(_.omit(product, ['amount', 'notes']));
-    expect(searchResult.length).toBe(1);
-  }
+  // @logStep('Check product uniqueness via search')
+  // async validateSearchSingleProduct(searchInput: string, product: IProduct) {
+  //   const searchResult = await this.productsPage.getSearchResults(searchInput);
+  //   expect(_.omit(searchResult[0] as Partial<IProduct>, ['createdOn'])).toEqual(_.omit(product, ['amount', 'notes']));
+  //   expect(searchResult.length).toBe(1);
+  // }
 
-  @logStep('Check search output matches input')
-  async validateSearchMatch(searchInput: string) {
-    const searchResult = await this.productsPage.getSearchResults(searchInput);
-    if (Array.isArray(searchResult)) {
-      searchResult.forEach((item) => expect(item.name).toContain(searchInput));
-    } else expect(searchResult).toBe(NOFITICATIONS.NO_SEARCH_RESULTS);
-  }
+  // @logStep('Check search output matches input')
+  // async validateSearchMatch(searchInput: string) {
+  //   const searchResult = await this.productsPage.getSearchResults(searchInput);
+  //   if (Array.isArray(searchResult)) {
+  //     searchResult.forEach((item) => expect(item.name).toContain(searchInput));
+  //   } else expect(searchResult).toBe(NOFITICATIONS.NO_SEARCH_RESULTS);
+  // }
 
   @logStep('Sort table by provided column and order')
   async sortByColumnTitle(title: PRODUCT_TABLE_HEADERS, order: 'asc' | 'desc') {
@@ -120,5 +127,3 @@ class ProductsPageService extends SalesPortalPageService {
     expect(sortedProductsFromSortedTableKeys).toEqual(productsFromSortedTableKeys);
   }
 }
-
-export default new ProductsPageService();

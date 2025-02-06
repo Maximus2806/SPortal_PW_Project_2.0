@@ -1,10 +1,12 @@
 import { SalesPortalPage } from '../salesPortal.page';
-import productDetailsModal from './details.modal';
-import { PRODUCT_TABLE_HEADERS } from '../../../data/products/productTableHeaders';
+import { PRODUCT_TABLE_HEADERS } from '../../../data/Products/productTableHeaders';
+import { ProductDetailsModal } from './details.modal';
 
-class ProductsPage extends SalesPortalPage {
+export class ProductsListPage extends SalesPortalPage {
   readonly ['Add New Product'] = 'button.page-title-button';
-  readonly uniqueElement = "//h2[.='Products List ']";
+
+  readonly Title = "//h2[.='Products List ']";
+  readonly uniqueElement: string = this.Title;
   readonly ['Table row'] = (productName: string) => `//tr[./td[.="${productName}"]]`;
   readonly ['Product name in table'] = (productName: string) => `${this['Table row'](productName)}/td[1]`;
   readonly ['Product price in table'] = (productName: string) => `${this['Table row'](productName)}/td[2]`;
@@ -21,17 +23,12 @@ class ProductsPage extends SalesPortalPage {
   readonly ['Sorting arrow up'] = '.bi-arrow-up';
   readonly ['Product header title'] = (title: PRODUCT_TABLE_HEADERS) => `//table/thead/tr//div[.='${title}']`;
 
-  readonly ['Modal Details'] = productDetailsModal;
-  //Connected product details modal page
+  readonly ['Modal Details'] = new ProductDetailsModal(this.page);
 
   async clickOnAddNewProduct() {
     await this.click(this['Add New Product']);
   }
 
-  async waitForPageOpened() {
-    await this.waitForDisplayed(this.uniqueElement);
-    await this.waitForSpinnersToBeHidden('Products list');
-  }
 
   async getProductFromTable(productName: string) {
     const [name, price, manufacturer, createdOn] = await Promise.all([
@@ -49,7 +46,7 @@ class ProductsPage extends SalesPortalPage {
   }
 
   async getProductsFromTable() {
-    const tableRows = await this.findArrayOfElements(this['Table body']);
+    const tableRows = await this.findElementArray(this['Table body']);
     const results = await Promise.all(
       await tableRows.map(async (_, i) => {
         const name = await this.getText(`${this['Table body']}[${i + 1}]/td[1]`);
@@ -70,8 +67,8 @@ class ProductsPage extends SalesPortalPage {
   async getSearchResults(searchInput: string) {
     await this.fillSearchInput(searchInput);
     await this.clickOnSearchButton();
-    await this.waitForSpinnersToBeHidden('Products list');
-    const firstRowColumns = await this.findArrayOfElements(`${this['Table body']}[1]/td`);
+    await this.waitForSpinnersToHide();
+    const firstRowColumns = await this.findElementArray(`${this['Table body']}[1]/td`);
     if (firstRowColumns.length === 1) {
       return await this.getText(`${this['Table body']}[1]/td`);
     }
@@ -99,8 +96,11 @@ class ProductsPage extends SalesPortalPage {
   }
 
   async getHeaderAtribute(header: PRODUCT_TABLE_HEADERS, name: string) {
-    return await this.getAttribute(this['Product header title'](header), name);
+    return await this.getElementAttribute(this['Product header title'](header), name);
+  }
+
+  async getSideBarModuleAttribute() {
+    await this.getElementAttribute()
   }
 }
 
-export default new ProductsPage();

@@ -1,6 +1,5 @@
 import { expect, Page } from '@playwright/test';
 import { HomePage } from '../pages/home.page';
-import { NOTIFICATIONS } from '../../data/notifications';
 
 export abstract class SalesPortalPageService {
   protected page: Page;
@@ -12,6 +11,7 @@ export abstract class SalesPortalPageService {
 
   async validateNotification(text: NOTIFICATIONS) {
     const notificationText = await this.homePage.getLastNotificationText();
-    expect(notificationText).toBe(text);
+    expect(notificationText, `Should display notification with text: ${text}`).toBe(text);
   }
+
 }

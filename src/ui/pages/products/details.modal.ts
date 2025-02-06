@@ -1,10 +1,10 @@
 import { BaseModal } from '../baseModal.page';
 
 export class ProductDetailsModal extends BaseModal {
+
   readonly uniqueElement = '.bi.bi-box-seam.me-2';
   readonly ['Modal container'] = `//div[@id="details-modal-container"]`;
-  readonly ['Row value by row name'] = (row: string) =>
-    `//div[@class='modal-body']//strong[text()='${row}:']/parent::h6/following-sibling::p`;
+  readonly ['Row value by row name'] = (row: string) => `//h6[./*[.='${row}:']]/following-sibling::p`;
 
   async clickOnActionButton() {
     await this.click(this['Action button']);
