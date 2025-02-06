@@ -38,3 +38,10 @@ export interface IProductResponse extends IResponseFields {
 export interface IProductsResponse extends IResponseFields {
   Products: IProductFromResponse[];
 }
+
+export type AddProductFields =
+  | 'Name input'
+  | 'Manufacturer dropdown'
+  | 'Price input'
+  | 'Amount input'
+  | 'Notes textarea';

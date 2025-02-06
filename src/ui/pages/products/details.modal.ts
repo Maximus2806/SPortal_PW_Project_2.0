@@ -1,9 +1,9 @@
-import { BaseModal } from '../base.modal';
+import { BaseModal } from '../baseModal.page';
 
-class ProductDetailsModal extends BaseModal {
+export class ProductDetailsModal extends BaseModal {
+  readonly uniqueElement: string = this['Modal container'];
   readonly ['Modal container'] = `//div[@id="details-modal-container"]`;
-  readonly ['Row value by row name'] = (row: string) =>
-    `//div[@class='modal-body']//strong[text()='${row}:']/parent::h6/following-sibling::p`;
+  readonly ['Row value by row name'] = (row: string) => `//h6[./*[.='${row}:']]/following-sibling::p`;
 
   async clickOnActionButton() {
     await this.click(this['Action button']);
@@ -15,15 +15,6 @@ class ProductDetailsModal extends BaseModal {
 
   async clickOnCloseModalButton() {
     await this.click(this['Close modal button']);
-  }
-
-  async waitForPageOpened() {
-    await this.waitForDisplayed(this['Modal container']);
-    await this.waitForSpinnersToBeHidden('Product details modal');
-  }
-
-  async waitForDisappeared() {
-    await this.waitForDisplayed(this['Modal container'], true);
   }
 
   async getProductData() {
@@ -38,5 +29,3 @@ class ProductDetailsModal extends BaseModal {
     return { name, amount: +amount, price: +price, manufacturer, createdOn, notes };
   }
 }
-
-export default new ProductDetailsModal();

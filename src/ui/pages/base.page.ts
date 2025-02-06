@@ -59,6 +59,10 @@ export abstract class BasePage {
     return await element.innerText({ timeout });
   }
 
+  protected async getElementAttribute(locator: string | Locator, attribute: string) {
+    return await this.findElement(locator).getAttribute(attribute);
+  }
+
   protected async checkCheckbox(locator: string | Locator, shouldCheck: boolean, timeout = DEFAULT_TIMEOUT) {
     const element = await this.waitForElementAndScroll(locator, timeout);
     const isChecked = await element.isChecked();

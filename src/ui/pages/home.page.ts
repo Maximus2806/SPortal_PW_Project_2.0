@@ -2,7 +2,7 @@ import { Metric } from '../../data/types/home.types.js';
 import { SalesPortalPage } from './salesPortal.page.js';
 
 export class HomePage extends SalesPortalPage {
-  uniqueElement = '//strong[.="AQA User"]';
+  readonly uniqueElement = '//strong[.="AQA User"]';
 
   readonly 'Orders button' = this.findElement('#orders-from-home');
   readonly 'Products button' = this.findElement('#products-from-home');
@@ -29,25 +29,25 @@ export class HomePage extends SalesPortalPage {
 
   async getMetricValue(metricName: Metric) {
     switch (metricName) {
-      case 'Total Orders': {
-        return +(await this.getText(this[`Total Orders Metric value`]));
-      }
+    case 'Total Orders': {
+      return +(await this.getText(this[`Total Orders Metric value`]));
+    }
 
-      case 'Total Revenue': {
-        return await this.getText(this[`Total Revenue Metric value`]);
-      }
+    case 'Total Revenue': {
+      return await this.getText(this[`Total Revenue Metric value`]);
+    }
 
-      case 'Avg Order Value': {
-        return await this.getText(this[`Avg Order Value Metric value`]);
-      }
+    case 'Avg Order Value': {
+      return await this.getText(this[`Avg Order Value Metric value`]);
+    }
 
-      case 'Canceled Orders': {
-        return +(await this.getText(this[`Canceled Orders Metric value`]));
-      }
+    case 'Canceled Orders': {
+      return +(await this.getText(this[`Canceled Orders Metric value`]));
+    }
 
-      case 'New Customers': {
-        return +(await this.getText(this[`New Customers Metric value`]));
-      }
+    case 'New Customers': {
+      return +(await this.getText(this[`New Customers Metric value`]));
+    }
     }
   }
 }

@@ -4,6 +4,9 @@ import { CustomersListPage } from '../ui/pages/customers/customers.page';
 import { HomePage } from '../ui/pages/home.page';
 import { SignInPage } from '../ui/pages/signIn.page';
 import { FilterModal } from '../ui/pages/customers/filterModal.page';
+import { ProductsListPage } from '../ui/pages/products/products.page';
+import { AddNewProductPage } from '../ui/pages/Products/addNewProduct.page';
+import { EditProductPage } from '../ui/pages/products/editProduct.page';
 
 interface ISalesPortalPages {
   signInPage: SignInPage;
@@ -11,6 +14,9 @@ interface ISalesPortalPages {
   customersPage: CustomersListPage;
   addNewCustomerPage: AddNewCustomerPage;
   filterModalPage: FilterModal;
+  productsPage: ProductsListPage;
+  addNewProductPage: AddNewProductPage;
+  editProductPage: EditProductPage;
 }
 
 export const test = base.extend<ISalesPortalPages>({
@@ -33,7 +39,19 @@ export const test = base.extend<ISalesPortalPages>({
   filterModalPage: async ({ page }, use) => {
     const filterModalPage = new FilterModal(page);
     await use(filterModalPage);
-  }
+  },
+  productsPage: async ({ page }, use) => {
+    const productsPage = new ProductsListPage(page);
+    await use(productsPage);
+  },
+  addNewProductPage: async ({ page }, use) => {
+    const addNewProductPage = new AddNewProductPage(page);
+    await use(addNewProductPage);
+  },
+  editProductPage: async ({ page }, use) => {
+    const editProductPage = new EditProductPage(page);
+    await use(editProductPage);
+  },
 });
 
 export { expect } from '@playwright/test';
