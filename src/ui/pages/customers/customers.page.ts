@@ -12,7 +12,7 @@ export class CustomersListPage extends SalesPortalPage {
   readonly 'Filter check-box' = (country: COUNTRIES) => `#${country.replace(/ /g, '\\ ')}-filter`;
   readonly 'Apply filter button' = '#apply-filters';
   readonly ['Table Rows'] = '//tbody/tr';
-  readonly "Customer Table Row by email" = (email: string) => this.findElement(`tbody tr`).filter({ hasText: email });
+  readonly 'Customer Table Row by email' = (email: string) => this.findElement(`tbody tr`).filter({ hasText: email });
 
   async clickOnAddNewCustomer() {
     await this.click(this['Add New Customer button']);
@@ -32,7 +32,7 @@ export class CustomersListPage extends SalesPortalPage {
 
   async getCustomerFromTable(customerEmail: string) {
     const [email, name, country, createdOn] = await Promise.all(
-      (await this["Customer Table Row by email"](customerEmail).locator("td").all()).map((td) => this.getText(td))
+      (await this['Customer Table Row by email'](customerEmail).locator('td').all()).map((td) => this.getText(td))
     );
     return { email, name, country, createdOn };
   }
