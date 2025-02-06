@@ -8,10 +8,11 @@
     "format": "prettier --config .prettierrc src/**/*.ts --check .",
     "format-fix": "prettier --config .prettierrc src/**/*.ts --write .",
     "test-lint": "npm run lint && npm run format",
+    "test:ui": "cross-env TESTS=UI HEADLESS=false playwright test",
+    "test:api": "cross-env TESTS=API HEADLESS=true npx playwright test",
+    "test:single": "cross-env TESTS=SINGLE npx playwright test",
     "prepare": "husky",
-    "test:ui": "npx playwright test src/ui/tests",
     "test:ui-smoke": "npx playwright test src/ui/tests --grep @smoke",
-    "test:api": "npx playwright test src/api/tests",
     "ui-mode": "npx playwright test --ui",
     "report": "allure generate allure-results -o allure-report --clean",
     "report-open": "npm run report && allure open allure-report"
@@ -31,6 +32,8 @@
   "description": "",
   "devDependencies": {
     "@eslint/js": "^9.19.0",
+    "@stylistic/eslint-plugin-js": "^2.10.1",
+    "@types/eslint__js": "^8.42.3",
     "@playwright/test": "^1.50.0",
     "@types/node": "^22.10.10",
     "@typescript-eslint/eslint-plugin": "^8.21.0",
@@ -45,7 +48,8 @@
     "prettier": "^3.4.2",
     "rimraf": "^6.0.1",
     "typescript": "^5.7.3",
-    "typescript-eslint": "^8.21.0"
+    "typescript-eslint": "^8.21.0",
+    "eslint-plugin-custom-rules": "file:src/utils/eslint"
   },
   "dependencies": {
     "@faker-js/faker": "^9.4.0",
@@ -56,8 +60,8 @@
     "allure-js-commons": "^3.0.9",
     "allure-playwright": "^3.0.9",
     "axios": "^1.7.9",
-    "chai": "^5.1.2",
     "dotenv": "^16.4.7",
-    "lodash": "^4.17.21"
+    "lodash": "^4.17.21",
+    "cross-env": "^7.0.3"
   }
 }

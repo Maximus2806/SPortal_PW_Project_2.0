@@ -80,7 +80,6 @@ test.describe('[API] [Customers] [Create New Customer]', async function () {
   requiredFields.forEach((field) =>
     test(`Should not create customer without ${field} field`, async function ({ customersController }) {
       const customerData = _.omit(generateNewCustomer(), field);
-      console.log(customerData);
       const response = await customersController.create(token, customerData as ICustomer);
       validateResponse(response, STATUS_CODES.BAD_REQUEST, false, 'Incorrect request body');
     })

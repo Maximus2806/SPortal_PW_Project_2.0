@@ -1,9 +1,10 @@
 import { apiConfig } from '../../config/apiConfig';
-import { IProduct, IProductResponse, IProductsResponse } from '../../data/types/product.types';
+import { IProduct, IProductResponse, IProductsResponse } from '../../data/types/products/product.types';
 import { IRequestOptions } from '../../data/types/api.types';
-import { IGetAllParams } from '../../data/types/api.types';
 import { AxiosApiClient } from '../apiClients/axios.apiClient';
 import { logStep } from '../../utils/reporter/logStep';
+import { convertRequestParams } from '../../utils/convert-request-params';
+import { IGetAllProducsParams } from '../../data/types/products/productSortFields';
 
 export class ProductsController {
   constructor(private apiClient = new AxiosApiClient()) {}
@@ -38,25 +39,19 @@ export class ProductsController {
   }
 
   @logStep('Get all products via API')
-  async getAll(token: string, params: IGetAllParams = {}) {
-    const { manufacturer, search, sortField, sortOrder } = params;
-    let url = apiConfig.endpoints.Products + '/';
-    const queryParams = [];
-    if (manufacturer) queryParams.push(`manufacturer=${manufacturer}`);
-    if (search) queryParams.push(`search=${search}`);
-    if (sortField) queryParams.push(`sortField=${sortField}`);
-    if (sortOrder) queryParams.push(`sortOrder=${sortOrder}`);
-
-    if (queryParams.length > 0) {
-      url += '?' + queryParams.join('&');
+  async getAll(params: IGetAllProducsParams = {}, token: string) {
+    let urlParams = '';
+    if (params) {
+      urlParams = convertRequestParams(params as Record<string, string>);
     }
+
     const options: IRequestOptions = {
       method: 'get',
       headers: {
         'content-type': 'application/json',
         Authorization: `Bearer ${token}`
       },
-      url: url,
+      url: apiConfig.endpoints.Products + urlParams,
       baseURL: apiConfig.baseUrl
     };
     return await this.apiClient.send<IProductsResponse>(options);
