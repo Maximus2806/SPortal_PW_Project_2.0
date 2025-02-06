@@ -40,12 +40,19 @@ export class ProductApiService {
     return this.createdProduct;
   }
 
-  async delete(token?: string) {
+  async delete(id: string, token?: string) {
     const authToken = token || (await this.signInApiService.signInAsAdmin());
     const response = await this.controller.delete(this.getCreatedProduct()._id, authToken);
     expect(response.status).toBe(STATUS_CODES.DELETED);
     this.createdProduct = null;
   }
+
+    // @logStep()
+    // async delete(id: string, token?: string) {
+    //   const authToken = token || (await this.signInApiService.signInAsAdmin());
+    //   const response = await this.customersController.delete(authToken, id);
+    //   expect(response.status).toBe(STATUS_CODES.DELETED);
+    // }
 
   async getAll(params: IGetAllParams = {}, token?: string) {
     const authToken = token || (await this.signInApiService.signInAsAdmin());
