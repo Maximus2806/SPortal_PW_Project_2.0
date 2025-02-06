@@ -170,8 +170,7 @@ export const createBodyData = [
   {
     description: 'Should not create product with Notes with more than 250 characters',
     params: {
-      notes:
-        'a'.repeat(251)
+      notes: 'a'.repeat(251)
     },
     expectedStatus: STATUS_CODES.BAD_REQUEST,
     isSuccess: false,

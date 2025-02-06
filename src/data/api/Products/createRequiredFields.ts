@@ -1,7 +1,6 @@
 import { MANUFACTURERS } from '../../types/product.types';
 import { STATUS_CODES } from '../statusCodes';
 
-
 export const createProductRequiredFields = [
   {
     description: 'Sould not create product without name field',
