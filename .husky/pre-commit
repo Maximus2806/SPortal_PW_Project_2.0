@@ -2,4 +2,4 @@
 . "$(dirname "$0")/_/husky.sh"
 
 # npm run test-lint
-npm run format
+npm run format:fix
