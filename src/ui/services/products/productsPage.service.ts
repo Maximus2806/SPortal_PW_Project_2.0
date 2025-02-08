@@ -82,7 +82,6 @@ export class ProductsListPageService extends SalesPortalPageService {
     await this.productsPage.clickOnDeleteProductButton(productName);
     await this.deleteProductModal.waitForOpened();
     await this.deleteProductModal.clickOnActionButton();
-    // await this.deleteProductModal.waitForDisappeared();
     await this.productsPage.waitForOpened();
   }
 

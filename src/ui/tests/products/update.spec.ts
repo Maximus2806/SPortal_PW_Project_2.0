@@ -4,10 +4,11 @@ import { mergeTests } from 'playwright/test';
 import { TAGS } from '../../../data/tags';
 import { IProduct, IProductFromResponse } from '../../../data/types/products/product.types';
 import { productToastMessages } from '../../../data/Products/products.data';
+import { generateProductData } from '../../../data/products/generateProduct';
 
 const test = mergeTests(ui, api);
 
-let product: IProduct | IProductFromResponse, token: string;
+let product: IProduct | IProductFromResponse, existedProduct: IProductFromResponse, token: string;
 
 test.beforeAll(async ({ signInApiService }) => {
   token = await signInApiService.signInAsAdmin();
@@ -45,6 +46,23 @@ test(
   }
 );
 
+test(
+  'Should get error when updating product with an existing name',
+  { tag: [TAGS.REGRESSION] },
+  async ({ homePageService, productApiService, productsPageService, editProductPage, signInPageService }) => {
+    existedProduct = await productApiService.create();
+
+    await signInPageService.openSalesPortal();
+    await homePageService.openProductsPageViaSidebar();
+    await productsPageService.openEditPageForProductWithName(product.name);
+    await editProductPage.fillInputs(generateProductData({ name: existedProduct.name }));
+    await editProductPage.clickOnSaveButton();
+
+    await productsPageService.verifyNotification(productToastMessages['already exist'](existedProduct.name));
+  }
+);
+
 test.afterEach(async ({ productApiService }) => {
+  if (existedProduct.name) await productApiService.deleteProductWithName(existedProduct.name, token);
   await productApiService.deleteProductWithName(product.name, token);
 });
