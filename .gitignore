@@ -3,6 +3,7 @@ dist
 .env
 allure-report
 allure-results
+src/report
 
 # Playwright
 /test-results/
