@@ -1,22 +1,11 @@
-import { BaseModal } from '../baseModal.page';
+import { BaseModal } from '../modals/baseModal.page';
 
 export class ProductDetailsModal extends BaseModal {
-
   readonly uniqueElement = '.bi.bi-box-seam.me-2';
   readonly ['Modal container'] = `//div[@id="details-modal-container"]`;
   readonly ['Row value by row name'] = (row: string) => `//h6[./*[.='${row}:']]/following-sibling::p`;
-
-  async clickOnActionButton() {
-    await this.click(this['Action button']);
-  }
-
-  async clickOnCancelButton() {
-    await this.click(this['Cancel button']);
-  }
-
-  async clickOnCloseModalButton() {
-    await this.click(this['Close modal button']);
-  }
+  protected readonly ['Action button'] = `//button[.='Edit Product']`;
+  protected readonly ['Cancel button'] = `//div[@id="Product-details-modal-id"]//button[.='Cancel']`;
 
   async getProductData() {
     const [name, amount, price, manufacturer, createdOn, notes] = await Promise.all([

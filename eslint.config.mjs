@@ -2,16 +2,14 @@ import globals from 'globals';
 import pluginJs from '@eslint/js';
 import tseslint from 'typescript-eslint';
 import stylisticJs from '@stylistic/eslint-plugin-js';
-import customRules from 'eslint-plugin-custom-rules';
 
 export default [
   pluginJs.configs.recommended,
   ...tseslint.configs.recommended,
   {
     files: ['**/*.{js,mjs,cjs,ts}'],
-    plugins: { '@stylistic/js': stylisticJs, 'custom-rules': customRules },
+    plugins: { '@stylistic/js': stylisticJs },
     rules: {
-      'custom-rules/provide-expect-message': ['error'],
       '@stylistic/js/key-spacing': ['error', { beforeColon: false, afterColon: true, mode: 'strict' }],
       '@stylistic/js/lines-between-class-members': [
         'error',

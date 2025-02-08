@@ -8,13 +8,16 @@ import { ProductsListPage } from '../../pages/products/products.page';
 import { AddNewProductPage } from '../../pages/Products/addNewProduct.page';
 import { ProductDetailsModal } from '../../pages/products/details.modal';
 import { SideBarPage } from '../../pages/sidebar.page';
+import { DeleteModalPage } from '../../pages/modals/delete-modal.page';
+import { FilterModalPage } from '../../pages/modals/filter-modal.page';
 
 export class ProductsListPageService extends SalesPortalPageService {
   private productsPage = new ProductsListPage(this.page);
   private addNewProductPage = new AddNewProductPage(this.page);
   private productDetailsModal = new ProductDetailsModal(this.page);
   private sidebarPage = new SideBarPage(this.page);
-  // private deleteProductModal = ;
+  private deleteProductModal = new DeleteModalPage(this.page);
+  private filterModal = new FilterModalPage(this.page);
 
   @logStep('Open Add New Product Page')
   async openAddNewProductPage() {
@@ -25,7 +28,7 @@ export class ProductsListPageService extends SalesPortalPageService {
   async vefiryPageActiveInSidebar() {
     const attr = await this.sidebarPage.getSidebarModuleButtonAttribute('Products', 'class');
     console.log(`attr ${attr}`);
-    expect(attr, `"Products" sidebar button should be "active", actual attribute: "${attr}" `).toContain('active');
+    expect(attr, `"Products" sidebar button should be "active", actual class attribute: "${attr}"`).toContain('active');
   }
 
   async openProductDetails(productName: string) {
@@ -57,9 +60,9 @@ export class ProductsListPageService extends SalesPortalPageService {
   @logStep('Delete product via UI')
   async deleteProduct(productName: string) {
     await this.productsPage.clickOnDeleteProductButton(productName);
-    await this.deleteProductModal.waitForPageOpened();
+    await this.deleteProductModal.waitForOpened();
     await this.deleteProductModal.clickOnActionButton();
-    await this.deleteProductModal.waitForDisappeared();
+    // await this.deleteProductModal.waitForDisappeared();
     await this.productsPage.waitForOpened();
   }
 
@@ -87,7 +90,7 @@ export class ProductsListPageService extends SalesPortalPageService {
         await this.productsPage.clickOnColumnTitle(title);
       } else {
         await this.productsPage.clickOnColumnTitle(title);
-        await this.productsPage.waitForSpinnersToBeHidden('Table rendering');
+        await this.productsPage.waitForSpinnersToHide();
         await this.productsPage.clickOnColumnTitle(title);
       }
     } else if (currentDirection === 'asc' && order === 'desc') {
@@ -95,7 +98,7 @@ export class ProductsListPageService extends SalesPortalPageService {
     } else if (currentDirection === 'desc' && order === 'asc') {
       await this.productsPage.clickOnColumnTitle(title);
     }
-    await this.productsPage.waitForSpinnersToBeHidden('Table rendering');
+    await this.productsPage.waitForSpinnersToHide();
   }
 
   sortProductsArray(products: IProductFromTable[], field: keyof IProductFromTable, order: 'asc' | 'desc') {

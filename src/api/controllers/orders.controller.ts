@@ -1,7 +1,9 @@
+import { ContentType } from 'allure-js-commons';
 import { apiConfig } from '../../config/apiConfig';
 import { IRequestOptions } from '../../data/types/api.types';
-import { IOrderRequest, IOrderResponse } from '../../data/types/orders.types';
 import { AxiosApiClient } from '../apiClients/axios.apiClient';
+import { convertRequestParams } from '../../utils/convert-request-params';
+import { IOrderRequest, IOrderResponse, IOrdersResponse } from '../../data/types/orders.types';
 
 export class OrdersController {
   constructor(private apiClient = new AxiosApiClient()) {}
@@ -19,6 +21,30 @@ export class OrdersController {
     };
 
     return await this.apiClient.send<IOrderResponse>(options);
+  }
+
+  async getAll(params = {}, token: string) {
+    let urlParams = '';
+    if (params) {
+      urlParams = convertRequestParams(params as Record<string, string>);
+    }
+    const options: IRequestOptions = {
+      method: 'get',
+      baseURL: apiConfig.baseUrl,
+      url: apiConfig.endpoints['Orders'] + urlParams,
+      headers: { 'Content-Type': ContentType.JSON, Authorization: `Bearer ${token}` }
+    };
+    return this.apiClient.send<IOrdersResponse>(options);
+  }
+
+  async delete(id: string, token: string) {
+    const options: IRequestOptions = {
+      method: 'delete',
+      baseURL: apiConfig.baseUrl,
+      url: apiConfig.endpoints['Get Order By Id'](id),
+      headers: { Authorization: `Bearer ${token}`, 'Content-Type': ContentType.JSON }
+    };
+    return this.apiClient.send(options);
   }
 }
 
