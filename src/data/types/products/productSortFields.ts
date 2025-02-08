@@ -10,6 +10,8 @@ export enum ESortProductsFields {
 
 export type TSortProductsFields = `${ESortProductsFields}`;
 
+export type TTableFields = 'Name' | 'Price' | 'Manufacturer' | 'Created On';
+
 export interface IGetAllProducsParams {
   manufacturer?: string | MANUFACTURERS | (MANUFACTURERS | string)[];
   search?: string | string[];

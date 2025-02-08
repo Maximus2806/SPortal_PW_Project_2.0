@@ -11,6 +11,7 @@ export type TSortableFields = {
   country: string;
   email: string;
   createdOn: string;
+  'created on': string;
   manufacturer: string;
   price: string;
 };
@@ -43,6 +44,7 @@ const sortedFields: SortFunctions<TSortableFields> = {
   country: (a, b, dir) => compareValues(a.country, b.country, dir),
   email: (a, b, dir) => compareValues(a.email, b.email, dir),
   createdOn: (a, b, dir) => compareValues(Date.parse(a.createdOn), Date.parse(b.createdOn), dir),
+  'created on': (a, b, dir) => compareValues(Date.parse(a.createdOn), Date.parse(b.createdOn), dir),
   manufacturer: (a, b, dir) => compareValues(a.manufacturer, b.manufacturer, dir),
   price: (a, b, dir) => compareValues(+a.price, +b.price, dir)
 };
