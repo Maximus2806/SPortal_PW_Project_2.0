@@ -3,7 +3,7 @@ import { PRODUCT_TABLE_HEADERS } from '../../../data/Products/productTableHeader
 import { expect } from 'allure-playwright';
 import { SalesPortalPageService } from '../salesPortal.service';
 import { logStep } from '../../../utils/reporter/logStep';
-import { IProduct, IProductFromTable } from '../../../data/types/products/product.types';
+import { IProduct, IProductFromResponse, IProductFromTable } from '../../../data/types/products/product.types';
 import { ProductsListPage } from '../../pages/products/products.page';
 import { AddNewProductPage } from '../../pages/Products/addNewProduct.page';
 import { ProductDetailsModal } from '../../pages/products/details.modal';
@@ -25,20 +25,30 @@ export class ProductsListPageService extends SalesPortalPageService {
     await this.addNewProductPage.waitForOpened();
   }
 
+  @logStep('Open edit product page')
+  async openEditPageForProductWithName(productName: string) {
+    await this.productsPage.clickOnEditProductButton(productName);
+  }
+
   async vefiryPageActiveInSidebar() {
     const attr = await this.sidebarPage.getSidebarModuleButtonAttribute('Products', 'class');
-    console.log(`attr ${attr}`);
     expect(attr, `"Products" sidebar button should be "active", actual class attribute: "${attr}"`).toContain('active');
   }
 
+  async openHomePage() {
+    await this.sidebarPage.clickOnSidebarModuleButton('Home');
+  }
+
+  @logStep('Open product details modal window')
   async openProductDetails(productName: string) {
     await this.productsPage.clickOnProductDetailsButton(productName);
     await this.productDetailsModal.waitForOpened();
   }
 
+  @logStep('Close product details modal window')
   async closeProductDetailsModal() {
     await this.productDetailsModal.clickOnCloseModalButton();
-    await this.productDetailsModal.waitForOpened();
+    await this.productsPage.waitForOpened();
   }
 
   async getProductDataFromModal(productName: string) {
@@ -48,7 +58,17 @@ export class ProductsListPageService extends SalesPortalPageService {
     return actualData;
   }
 
-  @logStep('Verify product data in modal window')
+  @logStep('Verify product data in table')
+  async verifyProductDataInTable(product: IProduct | IProductFromResponse) {
+    const actualProduct = _.omit(await this.productsPage.getProductFromTable(product.name), ['createdOn']);
+    const testProduct = _.omit(product, ['createdOn', 'amount', 'notes']);
+    expect(
+      actualProduct,
+      `Shoul verify product data in table to be expected ${JSON.stringify(testProduct, null, 2)}`
+    ).toEqual(testProduct);
+  }
+
+  @logStep('Verify product data in details modal window')
   async verifyProductDataInModal(product: IProduct) {
     const actualData = _.omit(await this.getProductDataFromModal(product.name), ['createdOn']);
     expect(

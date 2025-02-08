@@ -15,6 +15,8 @@ export class ProductsListPage extends SalesPortalPage {
     `${this['Table row'](productName)}//button[@title="Delete"]`;
   readonly ['Product Details button in table'] = (productName: string) =>
     `${this['Table row'](productName)}//button[@title="Details"]`;
+  readonly ['Edit product button in table'] = (productName: string) =>
+    `${this['Table row'](productName)}//button[@title="Edit"]`;
   readonly ['Search Button'] = 'button#search-products';
   readonly ['Search input'] = "input[type='search']";
   readonly ['Table body'] = '//tbody/tr';
@@ -26,6 +28,10 @@ export class ProductsListPage extends SalesPortalPage {
 
   async clickOnAddNewProduct() {
     await this.click(this['Add New Product']);
+  }
+
+  async clickOnEditProductButton(productName: string) {
+    await this.click(this['Edit product button in table'](productName));
   }
 
   async getProductFromTable(productName: string) {

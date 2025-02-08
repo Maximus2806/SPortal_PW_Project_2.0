@@ -37,7 +37,7 @@ export abstract class BasePage {
   protected async waitForElementAndScroll(selector: string | Locator, timeout = DEFAULT_TIMEOUT) {
     const element = await this.waitForElement(selector, 'visible');
     try {
-      await element.scrollIntoViewIfNeeded({ timeout: 10000 });
+      await element.scrollIntoViewIfNeeded({ timeout });
       return element;
     } catch (error) {
       throw error;
@@ -57,9 +57,6 @@ export abstract class BasePage {
   protected async getText(locator: string | Locator, timeout = TIMEOUT_5_SECS) {
     const element = await this.waitForElementAndScroll(locator, timeout);
     return await element.innerText({ timeout });
-  }
-  protected async getElementAttribute(locator: string | Locator, attribute: string) {
-    return await this.findElement(locator).getAttribute(attribute);
   }
 
   protected async getElementAttribute(locator: string | Locator, attribute: string) {

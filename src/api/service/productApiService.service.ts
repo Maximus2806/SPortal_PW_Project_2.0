@@ -64,6 +64,12 @@ export class ProductApiService {
     this.createdProducts = [];
   }
 
+  async deleteProductWithName(productName: string, token?: string) {
+    const authToken = token || (await this.signInApiService.signInAsAdmin());
+    const productID = (await this.getProductsWithSearch(productName)).at(-1)?._id;
+    await this.delete(productID, authToken);
+  }
+
   async getAll(params: IGetAllProducsParams = {}, token?: string) {
     const authToken = token || (await this.signInApiService.signInAsAdmin());
     const response = await this.controller.getAll(params, authToken);

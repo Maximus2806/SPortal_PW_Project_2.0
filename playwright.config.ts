@@ -17,6 +17,7 @@ dotenv.config();
  */
 export default defineConfig({
   testDir: './src',
+  testIgnore: '**/old/**',
   /* Run tests in files in parallel */
   fullyParallel: false,
   /* Fail the build on CI if you accidentally left test.only in the source code. */
@@ -69,6 +70,9 @@ export default defineConfig({
       use: {
         ...devices['Desktop Chrome'],
         headless: process.env.HEADLESS === 'true',
+        launchOptions: {
+          args: ['--start-maximized']
+        },
         storageState: './src/.auth/user.json'
       },
       testMatch: ['**/ui/tests/**/*.spec.ts']

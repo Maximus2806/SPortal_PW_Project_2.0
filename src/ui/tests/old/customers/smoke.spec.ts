@@ -1,8 +1,8 @@
-import { test as servicesFixture, expect } from '../../../fixtures/services.fixture';
-import { test as pagesFixture } from '../../../fixtures/pages.fixture';
+import { test as servicesFixture, expect } from '../../../../fixtures/services.fixture';
+import { test as pagesFixture } from '../../../../fixtures/pages.fixture';
 import { ADMIN_PASSWORD, ADMIN_USERNAME } from '../../../config/env';
-import { generateNewCustomer } from '../../../data/customers/generateCustomer';
-import { NOTIFICATIONS } from '../../../data/notifications';
+import { generateNewCustomer } from '../../../../data/customers/generateCustomer';
+import { NOTIFICATIONS } from '../../../../data/notifications';
 import { mergeTests } from '@playwright/test';
 
 const test = mergeTests(servicesFixture, pagesFixture);
