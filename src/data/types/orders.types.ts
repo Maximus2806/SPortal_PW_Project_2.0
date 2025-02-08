@@ -2,7 +2,7 @@ import { IResponseFields } from './api.types';
 import { ICustomerFromResponse } from './customers.types';
 import { IProductFromResponse } from './products/product.types';
 
-type Status = 'Draft' | 'Confirmed' | 'Shipped' | 'Delivered' | 'Cancelled';
+export type TOrderStatus = 'Draft' | 'Confirmed' | 'Shipped' | 'Delivered' | 'Cancelled';
 
 export interface IOrderRequest {
   customer: string;
@@ -11,7 +11,7 @@ export interface IOrderRequest {
 
 export interface IOrder {
   _id: string;
-  status: Status;
+  status: TOrderStatus;
   customer: ICustomerFromResponse;
   products: IProductOrder[];
   total_price: number;
@@ -43,6 +43,10 @@ export interface IProductOrder extends IProductFromResponse {
 
 export interface IOrderResponse extends IResponseFields {
   Order: IOrder;
+}
+
+export interface IOrdersResponse extends IResponseFields {
+  Orders: IOrder[];
 }
 
 export interface IOrderNumberDetails {

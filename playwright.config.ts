@@ -1,6 +1,6 @@
 import { defineConfig, devices } from '@playwright/test';
 import * as dotenv from 'dotenv';
-import suite from './src/config/suites';
+// import suite from './src/config/suites';
 
 dotenv.config();
 
@@ -17,7 +17,6 @@ dotenv.config();
  */
 export default defineConfig({
   testDir: './src',
-  testMatch: suite,
   /* Run tests in files in parallel */
   fullyParallel: false,
   /* Fail the build on CI if you accidentally left test.only in the source code. */
@@ -52,13 +51,28 @@ export default defineConfig({
   /* Configure projects for major browsers */
   projects: [
     {
-      name: 'chromium',
+      name: 'setup',
+      testMatch: /.*\.setup\.ts/,
+      testDir: './src/config'
+    },
+    {
+      name: 'API',
       use: {
         ...devices['Desktop Chrome'],
         headless: process.env.HEADLESS === 'true'
-      }
+      },
+      testMatch: ['**/api/tests/**/*.spec.ts']
+    },
+    {
+      dependencies: ['setup'],
+      name: 'UI',
+      use: {
+        ...devices['Desktop Chrome'],
+        headless: process.env.HEADLESS === 'true',
+        storageState: './src/.auth/user.json'
+      },
+      testMatch: ['**/ui/tests/**/*.spec.ts']
     }
-
     // {
     //   name: 'firefox',
     //   use: { ...devices['Desktop Firefox'] },

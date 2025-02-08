@@ -1,5 +1,5 @@
 import { COUNTRIES } from '../../../data/customers/countries';
-import { BaseModal } from '../baseModal.page';
+import { BaseModal } from '../modals/baseModal.page';
 
 export class FilterModal extends BaseModal {
   uniqueElement = '.modal-title';

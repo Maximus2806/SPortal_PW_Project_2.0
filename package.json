@@ -4,17 +4,21 @@
   "main": "index.js",
   "scripts": {
     "lint": "eslint .",
-    "lint-fix": "eslint . --fix",
+    "lint:fix": "eslint . --fix",
     "format": "prettier --config .prettierrc src/**/*.ts --check .",
     "format:fix": "prettier --config .prettierrc src/**/*.ts --write .",
     "test:lint": "npm run lint && npm run format",
-    "test:api": "cross-env TESTS=API HEADLESS=true npx playwright test",
-    "test:single": "cross-env TESTS=SINGLE npx playwright test",
     "prepare": "husky",
-    "test:ui-smoke": "npx playwright test src/ui/tests --grep @smoke",
+    "test:api": "cross-env HEADLESS=true npx playwright test --project=API",
+    "test:ui": "cross-env HEADLESS=true npx playwright test --project=UI",
+    "test:single": "npx playwright test src/ui/tests/**/navigation.spec.ts",
+    "api:smoke": "npm run test:api -- --grep @SMOKE",
+    "api:regression": "npm run test:api -- --grep @REGRESSION",
+    "ui:smoke": "npm run test:ui -- --grep @SMOKE",
+    "ui:regression": "npm run test:ui -- --grep @REGRESSION",
     "ui-mode": "npx playwright test --ui",
-    "report": "allure generate allure-results -o allure-report --clean",
-    "report:open": "npm run report && allure open allure-report"
+    "report:generate": "allure generate allure-results -o allure-report --clean",
+    "report:open": "npm run report:generate && allure open allure-report"
   },
   "repository": {
     "type": "git",

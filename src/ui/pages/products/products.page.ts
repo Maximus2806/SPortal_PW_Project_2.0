@@ -3,8 +3,7 @@ import { PRODUCT_TABLE_HEADERS } from '../../../data/Products/productTableHeader
 import { ProductDetailsModal } from './details.modal';
 
 export class ProductsListPage extends SalesPortalPage {
-  readonly ['Add New Product'] = 'button.page-title-button';
-
+  readonly ['Add New Product'] = this.findElement('button.page-title-button');
   readonly Title = "//h2[.='Products List ']";
   readonly uniqueElement: string = this.Title;
   readonly ['Table row'] = (productName: string) => `//tr[./td[.="${productName}"]]`;
@@ -28,7 +27,6 @@ export class ProductsListPage extends SalesPortalPage {
   async clickOnAddNewProduct() {
     await this.click(this['Add New Product']);
   }
-
 
   async getProductFromTable(productName: string) {
     const [name, price, manufacturer, createdOn] = await Promise.all([
@@ -97,9 +95,5 @@ export class ProductsListPage extends SalesPortalPage {
 
   async getHeaderAtribute(header: PRODUCT_TABLE_HEADERS, name: string) {
     return await this.getElementAttribute(this['Product header title'](header), name);
-  }
-
-  async getSideBarModuleAttribute() {
-    await this.getElementAttribute();
   }
 }
