@@ -3,7 +3,7 @@ import { test as api } from '../../../fixtures/apiServices.fixture';
 import { mergeTests } from 'playwright/test';
 import { TAGS } from '../../../data/tags';
 import { IProduct, IProductFromResponse } from '../../../data/types/products/product.types';
-import { productToastMessages } from '../../../data/Products/products.data';
+import { productToastMessages } from '../../../data/products/products.data';
 import { generateProductData } from '../../../data/products/generateProduct';
 
 const test = mergeTests(ui, api);

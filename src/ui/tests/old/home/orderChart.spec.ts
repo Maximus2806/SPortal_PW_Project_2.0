@@ -1,7 +1,7 @@
-import { apiConfig } from '../../../config/apiConfig';
-import { homeChartMock } from '../../../data/mock/homeTask2.mock';
-import { STATUS_CODES } from '../../../data/api/statusCodes';
-import { test } from '../../../fixtures/services.fixture';
+import { apiConfig } from '../../../../config/apiConfig';
+import { homeChartMock } from '../../../../data/mock/homeTask2.mock';
+import { STATUS_CODES } from '../../../../data/api/statusCodes';
+import { test } from '../../../../fixtures/services.fixture';
 
 test.describe(`[UI] [Home] Order chart layout`, async function () {
   test('Should check layout of Order chart', async function ({ signInPageService, mock, homePageService, homePage }) {
