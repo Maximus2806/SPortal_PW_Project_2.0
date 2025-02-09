@@ -21,7 +21,7 @@ export abstract class BasePage {
   async findElementArray(selectorOrElement: string | Locator) {
     const elements = !isSelector(selectorOrElement)
       ? await selectorOrElement.all()
-      : await this.findElement(selectorOrElement).all();      
+      : await this.findElement(selectorOrElement).all();
     return elements;
   }
 
@@ -47,7 +47,7 @@ export abstract class BasePage {
 
   async isElementVisible(selector: string | Locator, timeout = DEFAULT_TIMEOUT) {
     try {
-      await this.waitForElement(selector, 'visible', 2000 );
+      await this.waitForElement(selector, 'visible', 2000);
       return true;
     } catch (error) {
       return false;
@@ -69,11 +69,9 @@ export abstract class BasePage {
     return await element.innerText({ timeout });
   }
 
-
   protected async getElementAttribute(locator: string | Locator, attribute: string) {
     return await this.findElement(locator).getAttribute(attribute);
   }
-
 
   protected async checkCheckbox(locator: string | Locator, shouldCheck: boolean, timeout = DEFAULT_TIMEOUT) {
     const element = await this.waitForElementAndScroll(locator, timeout);
@@ -121,7 +119,7 @@ export abstract class BasePage {
     return {
       status: response.status(),
       body: (await response.json()) as T,
-      headers: response.headers(),
+      headers: response.headers()
     };
   }
 }

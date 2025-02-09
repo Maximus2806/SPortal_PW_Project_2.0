@@ -16,7 +16,7 @@ export class FilterModalPage extends BaseModal {
     await this.click(this['Action button']);
   }
 
-  async checkFilterBox(labels: UnionFilterModalLabels[]) {  
-    await Promise.all(labels.map(label => this.click(this['Filter checkbox'](label))));
+  async checkFilterBox(labels: UnionFilterModalLabels[]) {
+    await Promise.all(labels.map((label) => this.click(this['Filter checkbox'](label))));
   }
 }

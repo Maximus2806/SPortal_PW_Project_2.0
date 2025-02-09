@@ -42,11 +42,11 @@ export class CustomersListPage extends SalesPortalPage {
   async getAllCustomersFromTable() {
     const tableRows = await this.findElementArray(this['Table Rows']);
     if (tableRows.length === 1) {
-      const firstRowText = await this.getText(`${this['Table Rows']}/td[1]`);      
+      const firstRowText = await this.getText(`${this['Table Rows']}/td[1]`);
       if (firstRowText === NOTIFICATIONS.NO_SEARCH_RESULTS) {
         return [];
       }
-    };
+    }
     const table = await Promise.all(
       await tableRows.map(async (el, i) => {
         const email = await this.getText(`${this['Table Rows']}[${i + 1}]/td[1]`);

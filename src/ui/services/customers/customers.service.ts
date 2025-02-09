@@ -36,10 +36,10 @@ export class CustomersListPageService extends SalesPortalPageService {
   }
 
   async applyCountryFilter(countries: COUNTRIES[]) {
-    await this.customersPage.clickOnFilterButton();    
-    await this.filterModalPage.checkFilterBox(countries);    
-    await this.filterModalPage.clickOnActionButton();    
-    await this.customersPage.waitForOpened();    
+    await this.customersPage.clickOnFilterButton();
+    await this.filterModalPage.checkFilterBox(countries);
+    await this.filterModalPage.clickOnActionButton();
+    await this.customersPage.waitForOpened();
   }
 
   async validateFilterResults(value: string) {
@@ -50,6 +50,5 @@ export class CustomersListPageService extends SalesPortalPageService {
     } else {
       customers.every((customer) => expect(customer.country).toContain(value));
     }
-    
   }
 }

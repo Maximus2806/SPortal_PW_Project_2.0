@@ -4,7 +4,7 @@ import { BaseModal } from '../modals/baseModal.page';
 export class FilterModal extends BaseModal {
   uniqueElement = '.modal-title';
   readonly 'Filter check-box' = (country: COUNTRIES) => `#${country.replace(/ /g, '\\ ')}-filter`;
-  readonly  'Action button' = '#apply-filters';
+  readonly 'Action button' = '#apply-filters';
   readonly 'Cancel button' = '#clear-filters';
 
   async clickOnActionButton() {
