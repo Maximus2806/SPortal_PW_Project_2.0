@@ -1,5 +1,5 @@
 import { IResponseFields } from './api.types';
-import { ICustomerFromResponse } from './customers.types';
+import { ICustomerFromResponse } from './customers/customers.types';
 import { IProductFromResponse } from './products/product.types';
 
 export type TOrderStatus = 'Draft' | 'Confirmed' | 'Shipped' | 'Delivered' | 'Cancelled';

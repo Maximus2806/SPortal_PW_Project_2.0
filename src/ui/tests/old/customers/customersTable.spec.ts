@@ -12,7 +12,6 @@ test.describe(`[UI] [Home] Customers`, async function () {
   }) {
     const mockData = structuredClone(customersPageMock);
     mockData.Customers = [];
-    console.log('mockData', mockData);
     await signInPageService.openSalesPortal();
     const queryParams = '?sortField=createdOn&sortOrder=desc';
     await mock.modifyReponse(

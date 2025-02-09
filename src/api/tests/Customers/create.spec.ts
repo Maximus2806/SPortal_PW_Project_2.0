@@ -3,7 +3,7 @@ import { createBodyData } from '../../../data/api/Customers/createBodyData';
 import { STATUS_CODES } from '../../../data/api/statusCodes';
 import { generateNewCustomer } from '../../../data/customers/generateCustomer';
 import { createCustomerSchema } from '../../../data/jsonSchemas/createCustomer.schema';
-import { ICustomer } from '../../../data/types/customers.types';
+import { ICustomer } from '../../../data/types/customers/customers.types';
 import { test, expect } from '../../../fixtures/apiServices.fixture';
 import { validateJsonSchema, validateResponse } from '../../../utils/validation/apiValidation';
 

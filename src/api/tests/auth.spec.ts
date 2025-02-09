@@ -2,7 +2,7 @@ import { ADMIN_PASSWORD, ADMIN_USERNAME } from '../../config/environment';
 import { STATUS_CODES } from '../../data/api/statusCodes';
 import { generateNewCustomer } from '../../data/customers/generateCustomer';
 import { generateProductData } from '../../data/products/generateProduct';
-import { ICustomerFromResponse } from '../../data/types/customers.types';
+import { ICustomerFromResponse } from '../../data/types/customers/customers.types';
 import { IProductFromResponse } from '../../data/types/products/product.types';
 import { test } from '../../fixtures/apiContollers.fixture';
 import { validateResponse } from '../../utils/validation/apiValidation';

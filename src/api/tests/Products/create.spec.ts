@@ -2,7 +2,7 @@ import _ from 'lodash';
 import { createBodyData } from '../../../data/api/Products/createBodyData';
 import { STATUS_CODES } from '../../../data/api/statusCodes';
 import { generateProductData } from '../../../data/products/generateProduct';
-import { IProduct } from '../../../data/types/product.types';
+import { IProduct } from '../../../data/types/products/product.types';
 import { test, expect } from '../../../fixtures/apiServices.fixture';
 import { validateJsonSchema, validateResponse } from '../../../utils/validation/apiValidation';
 import { createProductSchema } from '../../../data/jsonSchemas/createProduct.schema';
@@ -80,7 +80,6 @@ test.describe('[API] [Products] [Create New Product]', async function () {
   requiredFields.forEach((field) =>
     test(`Should not create product without ${field} field`, async function ({ productsController }) {
       const productData = _.omit(generateProductData(), field);
-      console.log(productData);
       const response = await productsController.create(productData as IProduct, token);
       validateResponse(response, STATUS_CODES.BAD_REQUEST, false, 'Incorrect request body');
     })
