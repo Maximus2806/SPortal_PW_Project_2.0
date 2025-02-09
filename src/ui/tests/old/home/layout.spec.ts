@@ -1,6 +1,6 @@
 import { apiConfig } from '../../../config/apiConfig';
 import { homePageMock } from '../../../data/mock/home.mock';
-import { STATUS_CODES } from '../../../data/statusCodes';
+import { STATUS_CODES } from '../../../data/api/statusCodes';
 import { test } from '../../../fixtures/services.fixture';
 
 test.describe(`[UI] [Home] Metrics layout`, async function () {

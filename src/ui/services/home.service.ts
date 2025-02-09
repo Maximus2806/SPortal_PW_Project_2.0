@@ -2,7 +2,7 @@ import { expect, Page } from '@playwright/test';
 import { CustomersListPage } from '../pages/customers/customers.page';
 import { HomePage } from '../pages/home.page';
 import { Metric } from '../../data/types/home.types';
-// import numeral from 'numeral';
+import numeral from 'numeral';
 import { ProductsListPage } from '../pages/products/products.page';
 import { logStep } from '../../utils/reporter/logStep';
 import { SideBarPage } from '../pages/sidebar.page';

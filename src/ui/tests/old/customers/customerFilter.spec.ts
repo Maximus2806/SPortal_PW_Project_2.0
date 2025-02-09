@@ -13,7 +13,7 @@ test.describe('[UI] [Customers] [Filter]', async () => {
   const countries = Object.values(COUNTRIES);
   countries.forEach((country) => {
     test(`Should filter customers by ${country}`, async function ({ customersPageService }) {
-      await customersPageService.applyCountryFilter(country);
+      await customersPageService.applyCountryFilter([country]);
       await customersPageService.validateFilterResults(country);
     });
   });

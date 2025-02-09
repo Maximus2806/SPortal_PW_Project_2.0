@@ -1,6 +1,6 @@
 import { apiConfig } from '../../../config/apiConfig';
 import { homeChartMock } from '../../../data/mock/homeTask2.mock';
-import { STATUS_CODES } from '../../../data/statusCodes';
+import { STATUS_CODES } from '../../../data/api/statusCodes';
 import { test } from '../../../fixtures/services.fixture';
 
 test.describe(`[UI] [Home] Order chart layout`, async function () {

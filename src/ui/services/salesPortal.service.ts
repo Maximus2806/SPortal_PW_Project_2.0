@@ -1,5 +1,6 @@
 import { expect, Page } from '@playwright/test';
 import { HomePage } from '../pages/home.page';
+import { NOTIFICATIONS } from '../../data/notifications';
 
 export abstract class SalesPortalPageService {
   protected page: Page;
