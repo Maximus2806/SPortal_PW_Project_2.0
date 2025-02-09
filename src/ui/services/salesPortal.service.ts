@@ -9,8 +9,9 @@ export abstract class SalesPortalPageService {
     this.homePage = new HomePage(page);
   }
 
-  async validateNotification(text: NOTIFICATIONS) {
+  async verifyNotification(text: string) {
     const notificationText = await this.homePage.getLastNotificationText();
     expect(notificationText, `Should display notification with text: ${text}`).toBe(text);
+    await this.homePage.clickOnCloseNotificationButton();
   }
 }

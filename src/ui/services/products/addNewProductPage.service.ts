@@ -10,7 +10,7 @@ export class AddNewProductPageService extends SalesPortalPageService {
   private productsPage = new ProductsListPage(this.page);
 
   @logStep('Create product via UI')
-  async createNewProduct(productDataInput?: IProduct) {
+  async createNewProduct(productDataInput?: Partial<IProduct>) {
     const productData = generateProductData(productDataInput);
     await this.addNewProductPage.fillInputs(productData);
     await this.addNewProductPage.clickOnSaveButton();

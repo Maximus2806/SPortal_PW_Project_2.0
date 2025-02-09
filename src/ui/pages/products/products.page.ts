@@ -1,6 +1,7 @@
 import { SalesPortalPage } from '../salesPortal.page';
-import { PRODUCT_TABLE_HEADERS } from '../../../data/Products/productTableHeaders';
+// import { PRODUCT_TABLE_HEADERS } from '../../../data/Products/productTableHeaders';
 import { ProductDetailsModal } from './details.modal';
+import { TTableFields } from '../../../data/types/products/productSortFields';
 
 export class ProductsListPage extends SalesPortalPage {
   readonly ['Add New Product'] = this.findElement('button.page-title-button');
@@ -15,17 +16,21 @@ export class ProductsListPage extends SalesPortalPage {
     `${this['Table row'](productName)}//button[@title="Delete"]`;
   readonly ['Product Details button in table'] = (productName: string) =>
     `${this['Table row'](productName)}//button[@title="Details"]`;
+  readonly ['Edit product button in table'] = (productName: string) =>
+    `${this['Table row'](productName)}//button[@title="Edit"]`;
   readonly ['Search Button'] = 'button#search-products';
   readonly ['Search input'] = "input[type='search']";
   readonly ['Table body'] = '//tbody/tr';
   readonly ['Sorting arrow down'] = '.bi-arrow-down';
   readonly ['Sorting arrow up'] = '.bi-arrow-up';
-  readonly ['Product header title'] = (title: PRODUCT_TABLE_HEADERS) => `//table/thead/tr//div[.='${title}']`;
-
-  readonly ['Modal Details'] = new ProductDetailsModal(this.page);
+  readonly ['Product header title'] = (title: TTableFields) => `//table/thead/tr//div[.='${title}']`;
 
   async clickOnAddNewProduct() {
     await this.click(this['Add New Product']);
+  }
+
+  async clickOnEditProductButton(productName: string) {
+    await this.click(this['Edit product button in table'](productName));
   }
 
   async getProductFromTable(productName: string) {
@@ -89,11 +94,11 @@ export class ProductsListPage extends SalesPortalPage {
     await this.setValue(this['Search input'], productName);
   }
 
-  async clickOnColumnTitle(title: PRODUCT_TABLE_HEADERS) {
+  async clickOnColumnTitle(title: TTableFields) {
     await this.click(this['Product header title'](title));
   }
 
-  async getHeaderAtribute(header: PRODUCT_TABLE_HEADERS, name: string) {
+  async getHeaderAtribute(header: TTableFields, name: string) {
     return await this.getElementAttribute(this['Product header title'](header), name);
   }
 }

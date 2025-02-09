@@ -20,7 +20,7 @@ export class HomePage extends SalesPortalPage {
   readonly 'Orders chart container' = this.findElement('#ordersChart');
 
   async clickOnViewDetailsButton(moduleName: 'Products' | 'Customers' | 'Orders') {
-    await this.click(this[`${moduleName} button`]);
+    await this.click(this[`${moduleName} button`], 15000);
   }
 
   getMetricContainer(metricName: Metric) {

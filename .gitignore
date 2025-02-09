@@ -11,3 +11,4 @@ allure-results
 /playwright/.cache/
 
 /src/.auth
+/src/report

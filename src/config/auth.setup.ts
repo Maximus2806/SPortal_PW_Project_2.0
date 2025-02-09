@@ -13,5 +13,5 @@ setup('API AUTHENTICATION FOR UI', async ({ page, signInApiService }) => {
     }
   ]);
   await page.context().storageState({ path: authFile });
-  console.log('AUTH SET UP - LAUNCHED');
+  console.log('AUTH SET UP - FINISHED');
 });

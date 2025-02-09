@@ -1,6 +1,6 @@
-import { test as servicesFixture, expect } from '../../../fixtures/services.fixture';
-import { test as pagesFixture } from '../../../fixtures/pages.fixture';
-import { COUNTRIES } from '../../../data/customers/countries';
+import { test as servicesFixture, expect } from '../../../../fixtures/services.fixture';
+import { test as pagesFixture } from '../../../../fixtures/pages.fixture';
+import { COUNTRIES } from '../../../../data/customers/countries';
 import { mergeTests } from '@playwright/test';
 
 const test = mergeTests(servicesFixture, pagesFixture);

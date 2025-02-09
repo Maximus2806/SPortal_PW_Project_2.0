@@ -5,22 +5,23 @@ import { SalesPortalPage } from '../salesPortal.page';
 export abstract class AddEditProductPage extends SalesPortalPage {
   abstract readonly ['Save Product button']: string | Locator;
 
-  readonly ['Name input'] = '#inputName';
-  readonly ['Manufacturer dropdown'] = '#inputManufacturer';
-  readonly ['Price input'] = '#inputPrice';
-  readonly ['Amount input'] = '#inputAmount';
-  readonly ['Notes textarea'] = '#textareaNotes';
-  readonly ['Products link'] = '.back-link';
+  readonly ['Name input'] = this.findElement('#inputName');
+  readonly ['Manufacturer dropdown'] = this.findElement('#inputManufacturer');
+  readonly ['Price input'] = this.findElement('#inputPrice');
+  readonly ['Amount input'] = this.findElement('#inputAmount');
+  readonly ['Notes textarea'] = this.findElement('#textareaNotes');
+  readonly ['Products link'] = this.findElement('.back-link');
 
-  getErrorInputSelector(inputField: AddProductFields) {
-    return `#error-${this[inputField].replace('#', '')}`;
-  }
+  // getErrorInputSelector(inputField: AddProductFields) {
+  //   return `#error-${this[inputField].replace('#', '')}`;
+  // }
 
-  async getErrorText(inputField: AddProductFields) {
-    return this.getText(this.getErrorInputSelector(inputField));
-  }
+  // async getErrorText(inputField: AddProductFields) {
+  //   return this.getText(this.getErrorInputSelector(inputField));
+  // }
 
   async fillInputs(product: Partial<IProduct>) {
+    await this.page.waitForTimeout(300);
     if (product.name) await this.setValue(this['Name input'], product.name);
     if (product.manufacturer) await this.selectDropdownValue(this['Manufacturer dropdown'], product.manufacturer);
     if (product.price) await this.setValue(this['Price input'], product.price);

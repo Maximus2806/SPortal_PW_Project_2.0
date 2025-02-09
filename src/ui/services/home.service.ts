@@ -5,28 +5,35 @@ import { Metric } from '../../data/types/home.types';
 // import numeral from 'numeral';
 import { ProductsListPage } from '../pages/products/products.page';
 import { logStep } from '../../utils/reporter/logStep';
+import { SideBarPage } from '../pages/sidebar.page';
 
 export class HomePageService {
   private homePage: HomePage;
   private customersPage: CustomersListPage;
   private productsPage: ProductsListPage;
+  private sideBarPage: SideBarPage;
   constructor(protected page: Page) {
     this.homePage = new HomePage(page);
     this.customersPage = new CustomersListPage(page);
     this.productsPage = new ProductsListPage(page);
+    this.sideBarPage = new SideBarPage(page);
   }
 
-  @logStep()
+  @logStep('Open customers list page')
   async openCustomersPage() {
     await this.homePage.clickOnViewDetailsButton('Customers');
-    await this.homePage.waitForSpinnerToHide();
     await this.customersPage.waitForOpened();
   }
 
-  @logStep()
+  @logStep('Open products list page')
   async openProductsPage() {
     await this.homePage.clickOnViewDetailsButton('Products');
-    await this.homePage.waitForSpinnerToHide();
+    await this.productsPage.waitForOpened();
+  }
+
+  @logStep('Open products list via sidebar button')
+  async openProductsPageViaSidebar() {
+    await this.sideBarPage.clickOnSidebarModuleButton('Products');
     await this.productsPage.waitForOpened();
   }
 

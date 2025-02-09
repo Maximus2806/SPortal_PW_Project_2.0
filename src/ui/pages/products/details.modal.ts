@@ -1,7 +1,7 @@
 import { BaseModal } from '../modals/baseModal.page';
 
 export class ProductDetailsModal extends BaseModal {
-  readonly uniqueElement = '.bi.bi-box-seam.me-2';
+  readonly uniqueElement = '//div[@id="Product-details-modal-id"]//h5';
   readonly ['Modal container'] = `//div[@id="details-modal-container"]`;
   readonly ['Row value by row name'] = (row: string) => `//h6[./*[.='${row}:']]/following-sibling::p`;
   protected readonly ['Action button'] = `//button[.='Edit Product']`;

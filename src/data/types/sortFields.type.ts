@@ -10,6 +10,8 @@ export enum SORT_ORDER {
   DESC = 'desc'
 }
 
+export type TSortOrder = `${SORT_ORDER}`;
+
 export enum CUSTOMER_SORT_FIELDS {
   EMAIL = 'email',
   NAME = 'name',
