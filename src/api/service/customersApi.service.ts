@@ -1,7 +1,7 @@
 import { expect } from '@playwright/test';
 import { generateNewCustomer } from '../../data/customers/generateCustomer';
 import { STATUS_CODES } from '../../data/api/statusCodes';
-import { ICustomer, ICustomerFromResponse } from '../../data/types/customers.types';
+import { ICustomer, ICustomerFromResponse } from '../../data/types/customers/customers.types';
 import { CustomersController } from '../controllers/customers.controller';
 import { logStep } from '../../utils/reporter/logStep';
 import { IGetAllCustomersParams } from '../../data/types/api.types';
@@ -39,6 +39,22 @@ export class CustomersApiService {
     const response = await this.customersController.delete(authToken, customerId);
     expect(response.status).toBe(STATUS_CODES.DELETED);
     this.createdCusomer = null;
+  }
+
+  @logStep()
+  async deleteCustomerWithEmail(email: string, token?: string) {
+    const authToken = token || (await this.signInApiService.signInAsAdmin());
+    const customerId = (await this.getCustomersWithSearch(email))[0]._id;
+    if (!customerId) {
+      throw new Error(`Customer with email "${email}" not found`);
+    }
+    await this.delete(customerId, authToken);
+  }
+
+  @logStep()
+  async getCustomersWithSearch(searchValue: string) {
+    const customers = await this.getAll({ search: searchValue });
+    return customers;
   }
 
   @logStep()

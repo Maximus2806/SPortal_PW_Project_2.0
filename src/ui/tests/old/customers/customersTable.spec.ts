@@ -1,6 +1,6 @@
 import { apiConfig } from '../../../../config/apiConfig';
 import { customersPageMock } from '../../../../data/mock/customers.mock';
-import { STATUS_CODES } from '../../../data/statusCodes';
+import { STATUS_CODES } from '../../../../data/api/statusCodes';
 import { test } from '../../../../fixtures/services.fixture';
 
 test.describe(`[UI] [Home] Customers`, async function () {

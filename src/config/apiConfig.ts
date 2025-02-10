@@ -2,7 +2,7 @@ export const apiConfig = {
   baseUrl: 'https://aqa-course-project.app/',
   endpoints: {
     ['Login']: `api/login/`,
-    ['Customers']: `api/customers`,
+    ['Customers']: `/api/customers`,
     ['Customer By Id']: (id: string) => `api/customers/${id}/`,
     ['Products']: `api/products/`,
     ['Get Product By Id']: (id: string) => `api/products/${id}/`,
@@ -11,6 +11,7 @@ export const apiConfig = {
     ['Order Delivery']: `api/orders/delivery/`,
     ['Order Receive']: `api/orders/receive/`,
     ['Order Status']: `api/orders/status`,
-    ['Order Comments']: `api/orders/comments`
+    ['Order Comments']: `api/orders/comments`,
+    ['Metrics']: `/api/metrics`
   }
 };

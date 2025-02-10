@@ -1,5 +1,5 @@
 import { faker } from '@faker-js/faker';
-import { ICustomer } from '../types/customers.types';
+import { ICustomer } from '../types/customers/customers.types';
 import { COUNTRIES } from './countries';
 import { getRandomEnumValue } from '../../utils/enums/getRandomEnumValue';
 

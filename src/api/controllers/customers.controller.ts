@@ -5,7 +5,7 @@ import {
   ICustomerResponse,
   ICustomersOrdersResponse,
   ICustomersResponse
-} from '../../data/types/customers.types';
+} from '../../data/types/customers/customers.types';
 import { logStep } from '../../utils/reporter/logStep';
 import { AxiosApiClient } from '../apiClients/axios.apiClient';
 

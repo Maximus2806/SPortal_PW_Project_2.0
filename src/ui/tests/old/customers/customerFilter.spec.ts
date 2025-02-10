@@ -1,4 +1,4 @@
-import { test as servicesFixture, expect } from '../../../../fixtures/services.fixture';
+import { test as servicesFixture } from '../../../../fixtures/services.fixture';
 import { test as pagesFixture } from '../../../../fixtures/pages.fixture';
 import { COUNTRIES } from '../../../../data/customers/countries';
 import { mergeTests } from '@playwright/test';
@@ -13,7 +13,7 @@ test.describe('[UI] [Customers] [Filter]', async () => {
   const countries = Object.values(COUNTRIES);
   countries.forEach((country) => {
     test(`Should filter customers by ${country}`, async function ({ customersPageService }) {
-      await customersPageService.applyCountryFilter(country);
+      await customersPageService.applyCountryFilter([country]);
       await customersPageService.validateFilterResults(country);
     });
   });

@@ -1,4 +1,4 @@
-import { ICustomer } from '../../../data/types/customers.types';
+import { ICustomer } from '../../../data/types/customers/customers.types';
 import { SalesPortalPage } from '../salesPortal.page';
 
 export class AddNewCustomerPage extends SalesPortalPage {

@@ -5,14 +5,16 @@ import { HomePage } from '../ui/pages/home.page';
 import { SignInPage } from '../ui/pages/signIn.page';
 import { FilterModal } from '../ui/pages/customers/filterModal.page';
 import { ProductsListPage } from '../ui/pages/products/products.page';
-import { AddNewProductPage } from '../ui/pages/Products/addNewProduct.page';
+import { AddNewProductPage } from '../ui/pages/products/addNewProduct.page';
 import { EditProductPage } from '../ui/pages/products/editProduct.page';
+import { CustomerDetailsPage } from '../ui/pages/customers/customerDetails.page';
 
 interface ISalesPortalPages {
   signInPage: SignInPage;
   homePage: HomePage;
   customersPage: CustomersListPage;
   addNewCustomerPage: AddNewCustomerPage;
+  customerDetailsPage: CustomerDetailsPage;
   filterModalPage: FilterModal;
   productsPage: ProductsListPage;
   addNewProductPage: AddNewProductPage;
@@ -35,6 +37,10 @@ export const test = base.extend<ISalesPortalPages>({
   addNewCustomerPage: async ({ page }, use) => {
     const addNewCustomerPage = new AddNewCustomerPage(page);
     await use(addNewCustomerPage);
+  },
+  customerDetailsPage: async ({ page }, use) => {
+    const customerDetailsPage = new CustomerDetailsPage(page);
+    await use(customerDetailsPage);
   },
   filterModalPage: async ({ page }, use) => {
     const filterModalPage = new FilterModal(page);

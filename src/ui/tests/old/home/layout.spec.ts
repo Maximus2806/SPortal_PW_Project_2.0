@@ -1,7 +1,7 @@
-import { apiConfig } from '../../../config/apiConfig';
-import { homePageMock } from '../../../data/mock/home.mock';
-import { STATUS_CODES } from '../../../data/statusCodes';
-import { test } from '../../../fixtures/services.fixture';
+import { apiConfig } from '../../../../config/apiConfig';
+import { homePageMock } from '../../../../data/mock/home.mock';
+import { STATUS_CODES } from '../../../../data/api/statusCodes';
+import { test } from '../../../../fixtures/services.fixture';
 
 test.describe(`[UI] [Home] Metrics layout`, async function () {
   test('Should check layout of Orders This Year metric', async function ({ signInPageService, mock, homePageService }) {

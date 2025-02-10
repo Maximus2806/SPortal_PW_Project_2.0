@@ -4,7 +4,7 @@ import { SalesPortalPageService } from '../salesPortal.service';
 import { logStep } from '../../../utils/reporter/logStep';
 import { IProduct, IProductFromResponse, IProductFromTable } from '../../../data/types/products/product.types';
 import { ProductsListPage } from '../../pages/products/products.page';
-import { AddNewProductPage } from '../../pages/Products/addNewProduct.page';
+import { AddNewProductPage } from '../../pages/products/addNewProduct.page';
 import { ProductDetailsModal } from '../../pages/products/details.modal';
 import { SideBarPage } from '../../pages/sidebar.page';
 import { DeleteModalPage } from '../../pages/modals/delete-modal.page';

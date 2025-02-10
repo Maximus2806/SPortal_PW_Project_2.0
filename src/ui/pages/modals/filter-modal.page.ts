@@ -12,9 +12,11 @@ export class FilterModalPage extends BaseModal {
     await this.click(this['Clear filters button']);
   }
 
+  async clickOnActionButton() {
+    await this.click(this['Action button']);
+  }
+
   async checkFilterBox(labels: UnionFilterModalLabels[]) {
-    for (const label of labels) {
-      await this.click(this['Filter checkbox'](label));
-    }
+    await Promise.all(labels.map((label) => this.click(this['Filter checkbox'](label))));
   }
 }
