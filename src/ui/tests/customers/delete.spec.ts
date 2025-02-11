@@ -30,7 +30,7 @@ test(
   'Should delete customer from "Edit customer" page',
   { tag: [TAGS.SMOKE] },
   async ({ customersPageService, customersApiService }) => {
-    await customersPageService.openEditPageForCustomerWithEmail(customer.email + 1);
+    await customersPageService.openEditPageForCustomerWithEmail(customer.email);
     await customersPageService.deleteFromEditPage();
     await customersPageService.verifyNotification(NOTIFICATIONS.CUSTOMER_DELETED);
     const foundCustomers = await customersApiService.getCustomersWithSearch(customer.email);
@@ -40,7 +40,6 @@ test(
 
 test.afterEach(async ({ customersApiService, customersController, signInApiService }) => {
   const token = await signInApiService.signInAsAdmin();
-  const getCustomerResponse = await customersController.get(token, customer._id);
-  console.log(getCustomerResponse.status);
+  const getCustomerResponse = await customersController.get(token, customer._id);  
   if (getCustomerResponse.status !== STATUS_CODES.NOT_FOUND) await customersApiService.delete(customer._id);
 });
