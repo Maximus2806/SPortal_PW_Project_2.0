@@ -9,18 +9,24 @@ import { FilterModalPage } from '../../pages/modals/filter-modal.page.js';
 import { CustomerDetailsPage } from '../../pages/customers/customerDetails.page';
 import { ICustomer, ICustomerFromResponse } from '../../../data/types/customers/customers.types.js';
 import { logStep } from '../../../utils/reporter/logStep.js';
+import { DeleteModalPage } from '../../pages/modals/delete-modal.page.js';
+import { EditCustomerPage } from '../../pages/customers/editCustomer.page.js';
 
 export class CustomersListPageService extends SalesPortalPageService {
   private customersPage: CustomersListPage;
   private addNewCustomerPage: AddNewCustomerPage;
   private filterModalPage: FilterModalPage;
   private customerDetailsPage: CustomerDetailsPage;
+  private deleteModal: DeleteModalPage;
+  private editCustomerPage: EditCustomerPage;
   constructor(protected page: Page) {
     super(page);
     this.customersPage = new CustomersListPage(page);
     this.addNewCustomerPage = new AddNewCustomerPage(page);
     this.filterModalPage = new FilterModalPage(page);
     this.customerDetailsPage = new CustomerDetailsPage(page);
+    this.deleteModal = new DeleteModalPage(page);
+    this.editCustomerPage = new EditCustomerPage(page);
   }
 
   @logStep('Open customers page')
@@ -34,6 +40,12 @@ export class CustomersListPageService extends SalesPortalPageService {
   async openCustomerDetails(customerEmail: string) {
     await this.customersPage.clickOnCustomerDetails(customerEmail);
     await this.customerDetailsPage.waitForOpened();
+  }
+
+  @logStep('Open edit page for customer with email')
+  async openEditPageForCustomerWithEmail(customerEmail: string) {
+    await this.customersPage.clickOnEditCustomer(customerEmail);
+    await this.editCustomerPage.waitForOpened();
   }
 
   @logStep('Validate notification')
@@ -54,6 +66,20 @@ export class CustomersListPageService extends SalesPortalPageService {
     await this.filterModalPage.checkFilterBox(countries);
     await this.filterModalPage.clickOnActionButton();
     await this.customersPage.waitForOpened();
+  }
+
+  @logStep('Delete customer from table')
+  async deleteCustomer(customerEmail: string) {
+    await this.customersPage.clickOnDeleteCustomer(customerEmail);
+    await this.deleteModal.waitForOpened();
+    await this.deleteModal.clickOnActionButton();
+  }
+
+  @logStep('Submit delete button on "Edit page"')
+  async deleteFromEditPage() {
+    await this.editCustomerPage.clickOnDeleteCustomerButton();
+    await this.deleteModal.waitForOpened();
+    await this.deleteModal.clickOnActionButton();
   }
 
   @logStep('Verify filter output results')
