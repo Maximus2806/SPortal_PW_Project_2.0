@@ -7,27 +7,34 @@ export class CustomersListPage extends SalesPortalPage {
 
   readonly ['Add New Customer button'] = 'button.page-title-header';
   readonly ['Table row selector'] = (customer: string) => `//tr[./td[.="${customer}"]]`;
-  readonly ['Edit button by table row'] = (customer: string) =>
-    `${this['Table row selector'](customer)}//button[@title="Edit"]`;
   readonly ['Empty table message'] = 'td.fs-italic';
   readonly ['Filter button'] = 'button#filter';
   readonly ['Filter check-box'] = (country: COUNTRIES) => `#${country.replace(/ /g, '\\ ')}-filter`;
   readonly ['Apply filter button'] = '#apply-filters';
   readonly ['Table Rows'] = '//tbody/tr';
   readonly ['Customer Table Row by email'] = (email: string) => this.findElement(`tbody tr`).filter({ hasText: email });
+  readonly ['Edit button by email'] = (email: string) =>
+    this.findElement('tbody tr').filter({ hasText: email }).locator('button[title="Edit"]');
   readonly ['Details button by email'] = (email: string) =>
-    this.findElement('tbody tr').filter({ hasText: email }).locator('td:last-child button[title="Details"]');
+    this.findElement('tbody tr').filter({ hasText: email }).locator('button[title="Details"]');
+  readonly ['Delete button by email'] = (email: string) =>
+    this.findElement('tbody tr').filter({ hasText: email }).locator('button[title="Delete"]');
 
   async clickOnAddNewCustomer() {
     await this.click(this['Add New Customer button']);
   }
 
   async clickOnEditCustomer(customerName: string) {
-    await this.click(this['Edit button by table row'](customerName));
+    await this.click(this['Edit button by email'](customerName));
   }
 
   async clickOnCustomerDetails(customerEmail: string) {
     await this.click(this['Details button by email'](customerEmail));
+  }
+
+  async clickOnDeleteCustomer(customerEmail: string) {
+    console.log(this['Delete button by email'](customerEmail));
+    await this.click(this['Delete button by email'](customerEmail));
   }
 
   async getEmptyTableMessage() {
