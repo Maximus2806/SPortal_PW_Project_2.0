@@ -8,6 +8,7 @@ import { ProductsListPage } from '../ui/pages/products/products.page';
 import { AddNewProductPage } from '../ui/pages/products/addNewProduct.page';
 import { EditProductPage } from '../ui/pages/products/editProduct.page';
 import { CustomerDetailsPage } from '../ui/pages/customers/customerDetails.page';
+import { EditCustomerPage } from '../ui/pages/customers/editCustomer.page';
 
 interface ISalesPortalPages {
   signInPage: SignInPage;
@@ -19,6 +20,7 @@ interface ISalesPortalPages {
   productsPage: ProductsListPage;
   addNewProductPage: AddNewProductPage;
   editProductPage: EditProductPage;
+  editCustomerPage: EditCustomerPage;
 }
 
 export const test = base.extend<ISalesPortalPages>({
@@ -57,6 +59,10 @@ export const test = base.extend<ISalesPortalPages>({
   editProductPage: async ({ page }, use) => {
     const editProductPage = new EditProductPage(page);
     await use(editProductPage);
+  },
+  editCustomerPage: async ({ page }, use) => {
+    const editCustomerPage = new EditCustomerPage(page);
+    await use(editCustomerPage);
   }
 });
 

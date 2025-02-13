@@ -40,6 +40,6 @@ test(
 
 test.afterEach(async ({ customersApiService, customersController, signInApiService }) => {
   const token = await signInApiService.signInAsAdmin();
-  const getCustomerResponse = await customersController.get(token, customer._id);  
+  const getCustomerResponse = await customersController.get(token, customer._id);
   if (getCustomerResponse.status !== STATUS_CODES.NOT_FOUND) await customersApiService.delete(customer._id);
 });
