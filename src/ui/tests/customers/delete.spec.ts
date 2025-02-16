@@ -2,12 +2,12 @@ import { test as ui } from '../../../fixtures/services.fixture';
 import { test as api } from '../../../fixtures/apiServices.fixture';
 import { expect, mergeTests } from 'playwright/test';
 import { TAGS } from '../../../data/tags';
-import { ICustomer, ICustomerFromResponse } from '../../../data/types/customers/customers.types';
+import { ICustomerFromResponse } from '../../../data/types/customers/customers.types';
 import { NOTIFICATIONS } from '../../../data/notifications';
 import { STATUS_CODES } from '../../../data/api/statusCodes';
 
 const test = mergeTests(ui, api);
-let customer: ICustomerFromResponse, token: string;
+let customer: ICustomerFromResponse;
 
 test.beforeEach('Open customers page', async function ({ homePageService, signInPageService, customersApiService }) {
   customer = await customersApiService.create();

@@ -111,6 +111,7 @@ export abstract class BasePage {
 
     throw new Error(timeoutMessage);
   }
+
   async interceprtResponse<T extends IResponseFields>(
     url: string,
     triggerAction: () => Promise<void>

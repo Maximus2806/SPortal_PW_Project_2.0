@@ -1,6 +1,4 @@
 import { SalesPortalPage } from '../salesPortal.page';
-// import { PRODUCT_TABLE_HEADERS } from '../../../data/Products/productTableHeaders';
-import { ProductDetailsModal } from './details.modal';
 import { TTableFields } from '../../../data/types/products/productSortFields';
 
 export class ProductsListPage extends SalesPortalPage {

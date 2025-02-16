@@ -6,7 +6,7 @@ import { ICustomerFromResponse } from '../../../data/types/customers/customers.t
 import { NOTIFICATIONS } from '../../../data/notifications';
 
 const test = mergeTests(ui, api);
-let customer: ICustomerFromResponse, token: string;
+let customer: ICustomerFromResponse;
 
 test.beforeEach('Open customers page', async function ({ homePageService, signInPageService, customersApiService }) {
   customer = await customersApiService.create();
@@ -17,7 +17,7 @@ test.beforeEach('Open customers page', async function ({ homePageService, signIn
 test(
   'Should update customer with valid data',
   { tag: [TAGS.SMOKE] },
-  async ({ customersPageService, updateCustomerPageService, customersApiService }) => {
+  async ({ customersPageService, updateCustomerPageService }) => {
     await customersPageService.openEditPageForCustomerWithEmail(customer.email);
     const updatedCustomer = await updateCustomerPageService.update();
     await customersPageService.verifyNotification(NOTIFICATIONS.CUSTOMER_UPDATED);
@@ -29,7 +29,7 @@ test(
 test(
   'Should get error  when updating with existinng email',
   { tag: [TAGS.SMOKE] },
-  async ({ customersPageService, updateCustomerPageService, customersApiService, editCustomerPage }) => {
+  async ({ customersPageService, customersApiService, editCustomerPage }) => {
     await customersPageService.openEditPageForCustomerWithEmail(customer.email);
     const newCustomer = await customersApiService.create();
     const existingEmail = newCustomer.email;

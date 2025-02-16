@@ -1,10 +1,12 @@
 import { COUNTRIES } from '../../../data/customers/countries';
 import { NOTIFICATIONS } from '../../../data/notifications';
+import { TCustomerTableFields } from '../../../data/types/customers/customerSort.types';
 import { SalesPortalPage } from '../salesPortal.page';
 
 export class CustomersListPage extends SalesPortalPage {
   uniqueElement = '//h2[text()="Customers List "]';
 
+  readonly ['Customer header title'] = (title: TCustomerTableFields) => `//table/thead/tr//div[.='${title}']`;
   readonly ['Add New Customer button'] = 'button.page-title-header';
   readonly ['Table row selector'] = (customer: string) => `//tr[./td[.="${customer}"]]`;
   readonly ['Empty table message'] = 'td.fs-italic';
@@ -75,5 +77,13 @@ export class CustomersListPage extends SalesPortalPage {
       })
     );
     return table;
+  }
+
+  async getHeaderAttribute(header: TCustomerTableFields, name: string) {
+    return await this.getElementAttribute(this['Customer header title'](header), name);
+  }
+
+  async clickOnColumnTitle(title: TCustomerTableFields) {
+    await this.click(this['Customer header title'](title));
   }
 }

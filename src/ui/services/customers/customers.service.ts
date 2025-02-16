@@ -7,10 +7,13 @@ import { SalesPortalPageService } from '../salesPortal.service.js';
 import { COUNTRIES } from '../../../data/customers/countries.js';
 import { FilterModalPage } from '../../pages/modals/filter-modal.page.js';
 import { CustomerDetailsPage } from '../../pages/customers/customerDetails.page';
-import { ICustomer, ICustomerFromResponse } from '../../../data/types/customers/customers.types.js';
+import { ICustomer, ICustomerFromResponse, ICustomerFromTable } from '../../../data/types/customers/customers.types.js';
 import { logStep } from '../../../utils/reporter/logStep.js';
 import { DeleteModalPage } from '../../pages/modals/delete-modal.page.js';
 import { EditCustomerPage } from '../../pages/customers/editCustomer.page.js';
+import { TCustomerTableFields } from '../../../data/types/customers/customerSort.types.js';
+import { TSortOrder } from '../../../data/types/sortFields.type.js';
+import { genericSort } from '../../../utils/sort-algorithm.js';
 
 export class CustomersListPageService extends SalesPortalPageService {
   private customersPage: CustomersListPage;
@@ -118,5 +121,39 @@ export class CustomersListPageService extends SalesPortalPageService {
       convertedActualData,
       `Shoul verify product data in modal window to be expected ${JSON.stringify(customer, null, 2)}`
     ).toEqual(customer);
+  }
+
+  @logStep('Sort customers table by provided column and order')
+  async sortByColumnTitle(title: TCustomerTableFields, order: 'asc' | 'desc') {
+    const isCurrent = (await this.customersPage.getHeaderAttribute(title, 'current')) === 'true';
+    const currentDirection = await this.customersPage.getHeaderAttribute(title, 'direction');
+    if (!isCurrent || !currentDirection) {
+      if (order === 'asc') {
+        await this.customersPage.clickOnColumnTitle(title);
+      } else {
+        await this.customersPage.clickOnColumnTitle(title);
+        await this.customersPage.waitForSpinnersToHide();
+        await this.customersPage.clickOnColumnTitle(title);
+      }
+    } else if (currentDirection === 'asc' && order === 'desc') {
+      await this.customersPage.clickOnColumnTitle(title);
+    } else if (currentDirection === 'desc' && order === 'asc') {
+      await this.customersPage.clickOnColumnTitle(title);
+    }
+    await this.customersPage.waitForSpinnersToHide();
+  }
+
+  async verifySortingResults(header: TCustomerTableFields, order: TSortOrder) {
+    await this.sortByColumnTitle(header, order);
+    const customersFromSortedTable = await this.customersPage.getAllCustomersFromTable();
+    const field = header.toLowerCase() as keyof ICustomerFromTable;
+    const sortedCustomersFromSortedTable = genericSort(
+      customersFromSortedTable as (ICustomerFromTable & { _id: string })[],
+      field,
+      order
+    );
+    const isSorted = sortedCustomersFromSortedTable.every((c, i) => c[field] === customersFromSortedTable[i][field]);
+
+    expect(isSorted, `Sorted customers should match the expected order for field "${header}"`).toBe(true);
   }
 }
