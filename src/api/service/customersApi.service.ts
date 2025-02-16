@@ -23,7 +23,7 @@ export class CustomersApiService {
     return this.createdCusomer;
   }
 
-  @logStep()
+  @logStep('Create a new customer via API')
   async create(customerData?: Partial<ICustomer>, token?: string) {
     const authToken = token || (await this.signInApiService.signInAsAdmin());
     const response = await this.customersController.create(authToken, generateNewCustomer(customerData));
@@ -32,7 +32,15 @@ export class CustomersApiService {
     return response.body.Customer;
   }
 
-  @logStep()
+  async populateCustomers(quantity: number, token?: string) {
+    const createdCustomers: ICustomerFromResponse[] = [];
+    for (let i = 0; i < quantity; i++) {
+      createdCustomers.push(await this.create({}, token));
+    }
+    return createdCustomers;
+  }
+
+  @logStep('Delete a customer via API')
   async delete(id?: string, token?: string) {
     const authToken = token || (await this.signInApiService.signInAsAdmin());
     const customerId = id || this.getCreatedCustomer()._id;
@@ -41,7 +49,7 @@ export class CustomersApiService {
     this.createdCusomer = null;
   }
 
-  @logStep()
+  @logStep('Delete a customer with email via API')
   async deleteCustomerWithEmail(email: string, token?: string) {
     const authToken = token || (await this.signInApiService.signInAsAdmin());
     const customerId = (await this.getCustomersWithSearch(email))[0]._id;
@@ -51,13 +59,13 @@ export class CustomersApiService {
     await this.delete(customerId, authToken);
   }
 
-  @logStep()
+  @logStep('Get customers with search via API')
   async getCustomersWithSearch(searchValue: string) {
     const customers = await this.getAll({ search: searchValue });
     return customers;
   }
 
-  @logStep()
+  @logStep('Get a customer by Id via API')
   async get(id: string, token?: string) {
     const authToken = token || (await this.signInApiService.signInAsAdmin());
     const response = await this.customersController.get(authToken, id);
@@ -65,7 +73,7 @@ export class CustomersApiService {
     return response.body.Customer;
   }
 
-  @logStep()
+  @logStep('Get all customers via API')
   async getAll(params: IGetAllCustomersParams = {}, token?: string) {
     const authToken = token || (await this.signInApiService.signInAsAdmin());
     const response = await this.customersController.getAll(authToken, params);
@@ -73,7 +81,7 @@ export class CustomersApiService {
     return response.body.Customers;
   }
 
-  @logStep()
+  @logStep('Update a customer by Id via API')
   async update(id: string, customerData: ICustomer, token?: string) {
     const authToken = token || (await this.signInApiService.signInAsAdmin());
     const response = await this.customersController.update(authToken, id, customerData);
@@ -81,7 +89,7 @@ export class CustomersApiService {
     return response.body.Customer;
   }
 
-  @logStep()
+  @logStep('Get orders for a customer by Id via API')
   async getOrders(id: string, token?: string) {
     const authToken = token || (await this.signInApiService.signInAsAdmin());
     const response = await this.customersController.getOrders(authToken, id);
@@ -89,7 +97,7 @@ export class CustomersApiService {
     return response.body.Orders;
   }
 
-  @logStep()
+  @logStep('Validate search results')
   async validateSearchResults(params: { search: string }) {
     const response = await this.getAll({ search: params.search });
     if (response.length === 0) {

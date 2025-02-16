@@ -1,6 +1,6 @@
 import { COUNTRIES } from '../../customers/countries';
 import { IResponseFields } from '../api.types';
-import { IOrder } from '../orders.types';
+import { IOrder } from '../orders/orders.types';
 
 export interface ICustomer {
   email: string;
@@ -12,6 +12,13 @@ export interface ICustomer {
   flat: number;
   phone: string;
   notes?: string;
+}
+
+export interface ICustomerFromTable {
+  email: string;
+  name: string;
+  country: string;
+  createdOn: string;
 }
 
 export interface ICustomerFromResponse extends ICustomer {

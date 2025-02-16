@@ -1,5 +1,5 @@
 import { Locator } from '@playwright/test';
-import { AddProductFields, IProduct } from '../../../data/types/products/product.types';
+import { IProduct } from '../../../data/types/products/product.types';
 import { SalesPortalPage } from '../salesPortal.page';
 
 export abstract class AddEditProductPage extends SalesPortalPage {

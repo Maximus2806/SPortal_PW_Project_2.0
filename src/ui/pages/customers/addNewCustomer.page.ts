@@ -2,7 +2,7 @@ import { ICustomer } from '../../../data/types/customers/customers.types';
 import { SalesPortalPage } from '../salesPortal.page';
 
 export class AddNewCustomerPage extends SalesPortalPage {
-  readonly uniqueElement = '//h2[.="Add New Customer "]';
+  uniqueElement = '//h2[.="Add New Customer "]';
 
   readonly 'Name input' = '#inputName';
   readonly 'Email input' = '#inputEmail';

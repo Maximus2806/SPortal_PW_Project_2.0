@@ -11,7 +11,8 @@ const test = mergeTests(ui, api);
 let token: string, products: IProductFromResponse[];
 test.beforeAll(async ({ signInApiService, productApiService }) => {
   token = await signInApiService.signInAsAdmin();
-  products = await productApiService.populateProducts(5, {}, token);
+  await productApiService.populateProducts(5);
+  products = productApiService.getCreatedProducts();
 });
 
 for (const key of ['Name', 'Price', 'Manufacturer', 'Created On']) {

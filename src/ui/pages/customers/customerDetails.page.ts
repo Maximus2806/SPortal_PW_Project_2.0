@@ -1,4 +1,3 @@
-import { BaseModal } from '../modals/baseModal.page';
 import { SalesPortalPage } from '../salesPortal.page';
 
 export class CustomerDetailsPage extends SalesPortalPage {

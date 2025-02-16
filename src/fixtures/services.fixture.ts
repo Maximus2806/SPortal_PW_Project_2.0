@@ -1,5 +1,6 @@
 import { AddNewCustomerPageService } from '../ui/services/customers/addNewCustomer.service';
 import { CustomersListPageService } from '../ui/services/customers/customers.service';
+import { UpdateCustomerPageService } from '../ui/services/customers/updateCustomer.service';
 import { HomePageService } from '../ui/services/home.service';
 import { AddNewProductPageService } from '../ui/services/products/addNewProductPage.service';
 import { EditProductPageService } from '../ui/services/products/editProductPage.service';
@@ -15,6 +16,7 @@ interface ISalesPortalPageServices {
   productsPageService: ProductsListPageService;
   addNewProductPageService: AddNewProductPageService;
   editProductPageService: EditProductPageService;
+  updateCustomerPageService: UpdateCustomerPageService;
 }
 
 export const test = base.extend<ISalesPortalPageServices>({
@@ -24,7 +26,8 @@ export const test = base.extend<ISalesPortalPageServices>({
   addNewCustomerPageService: async ({ page }, use) => await use(new AddNewCustomerPageService(page)),
   productsPageService: async ({ page }, use) => await use(new ProductsListPageService(page)),
   addNewProductPageService: async ({ page }, use) => await use(new AddNewProductPageService(page)),
-  editProductPageService: async ({ page }, use) => await use(new EditProductPageService(page))
+  editProductPageService: async ({ page }, use) => await use(new EditProductPageService(page)),
+  updateCustomerPageService: async ({ page }, use) => await use(new UpdateCustomerPageService(page))
 });
 
 export { expect } from './pages.fixture';
