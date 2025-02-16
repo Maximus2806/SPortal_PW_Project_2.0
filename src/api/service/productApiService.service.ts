@@ -25,12 +25,9 @@ export class ProductApiService {
   }
 
   async populateProducts(amount: number, customData?: Partial<IProduct>, token?: string) {
-    const currentProducts: IProductFromResponse[] = [];
     for (let i = 0; i < amount; i++) {
-      currentProducts.push(await this.create(customData, token));
+      await this.create(customData, token);
     }
-    this.createdProducts.push(...currentProducts);
-    return currentProducts;
   }
 
   async update(id: string, customData?: Partial<IProduct>, token?: string) {
@@ -47,6 +44,16 @@ export class ProductApiService {
   getCreatedProduct() {
     if (!this.createdProducts.length) throw new Error('No product was created');
     return this.createdProducts.at(-1);
+  }
+
+  getCreatedProducts() {
+    if (!this.createdProducts.length) throw new Error('No product was created');
+    return this.createdProducts;
+  }
+
+  getCreatedProductsIds() {
+    if (!this.createdProducts.length) throw new Error('No product was created');
+    return this.createdProducts.map((p) => p._id);
   }
 
   async delete(id?: string, token?: string) {

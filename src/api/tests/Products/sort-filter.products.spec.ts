@@ -15,7 +15,8 @@ test.describe('[API] [Products] Products sort and filtering', { tag: [TAGS.REGRE
 
   test.beforeAll('Prepare data', async ({ signInApiService, productApiService }) => {
     await signInApiService.signInAsAdmin();
-    [p1, p2, p3, p4, p5] = await productApiService.populateProducts(5);
+    await productApiService.populateProducts(5);
+    [p1, p2, p3, p4, p5] = productApiService.getCreatedProducts();
   });
 
   test.afterAll('Clear data after test', async ({ productApiService }) => {
