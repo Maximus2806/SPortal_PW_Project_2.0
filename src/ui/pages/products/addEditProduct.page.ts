@@ -12,14 +12,6 @@ export abstract class AddEditProductPage extends SalesPortalPage {
   readonly ['Notes textarea'] = this.findElement('#textareaNotes');
   readonly ['Products link'] = this.findElement('.back-link');
 
-  // getErrorInputSelector(inputField: AddProductFields) {
-  //   return `#error-${this[inputField].replace('#', '')}`;
-  // }
-
-  // async getErrorText(inputField: AddProductFields) {
-  //   return this.getText(this.getErrorInputSelector(inputField));
-  // }
-
   async fillInputs(product: Partial<IProduct>) {
     await this.page.waitForTimeout(300);
     if (product.name) await this.setValue(this['Name input'], product.name);
