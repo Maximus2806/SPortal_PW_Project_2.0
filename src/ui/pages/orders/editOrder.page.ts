@@ -1,4 +1,4 @@
-import { ICustomerDetails, IOrderDetails, IRequestedProductDetails } from '../../../data/types/orders.types';
+import { ICustomerDetails, IOrderDetails, IRequestedProductDetails } from '../../../data/types/orders/orders.types';
 import { SalesPortalPage } from '../salesPortal.page.js';
 
 export class EditOrderPage extends SalesPortalPage {

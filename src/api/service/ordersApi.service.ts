@@ -1,3 +1,4 @@
+import { IOrderRequest } from '../../data/types/orders/orders.types';
 import { OrdersController } from '../controllers/orders.controller';
 import { SignInApiService } from './signInApiService.service';
 
@@ -8,6 +9,11 @@ export class OrdersApiService {
     private ordersController = new OrdersController(),
     private signInApiService = new SignInApiService()
   ) {}
+
+  async create(body: IOrderRequest, token?: string) {
+    const authToken = token || (await this.signInApiService.signInAsAdmin());
+    return (await this.ordersController.create(body, authToken)).body.Order;
+  }
 
   async getAll(params = {}, token?: string) {
     const authToken = token || (await this.signInApiService.signInAsAdmin());
