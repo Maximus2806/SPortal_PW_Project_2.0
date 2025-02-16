@@ -11,7 +11,6 @@ export abstract class SalesPortalPageService {
 
   async verifyNotification(text: string) {
     const notificationText = await this.homePage.getLastNotificationText();
-    console.log(notificationText);
     expect(notificationText, `Should display notification with text: ${text}`).toBe(text);
     await this.homePage.clickOnCloseNotificationButton();
   }

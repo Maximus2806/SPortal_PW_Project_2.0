@@ -4,9 +4,10 @@ import { generateRandomId } from '../../../utils/id/radnomId';
 import { test, expect } from '../../../fixtures/apiServices.fixture';
 
 test.describe('[API] [Products] Update', async function () {
-  let id = '';
+  let id = '',
+    token: string;
   test.beforeAll(async function ({ signInApiService }) {
-    await signInApiService.signInAsAdmin();
+    token = await signInApiService.signInAsAdmin();
   });
 
   test.beforeEach(async function ({ productApiService }) {
@@ -14,8 +15,8 @@ test.describe('[API] [Products] Update', async function () {
     id = createdProduct._id;
   });
 
-  test.afterEach(async function ({ signInApiService, productApiService }) {
-    await productApiService.delete(signInApiService.getToken());
+  test.afterEach(async function ({ productApiService }) {
+    await productApiService.delete(id, token);
   });
 
   test('Should update product with smoke data', async function ({ productApiService }) {
@@ -39,6 +40,7 @@ test.describe('[API] [Products] Update', async function () {
     expect(updatedProductResponse.status).toBe(STATUS_CODES.NOT_FOUND);
   });
 
+  // got 500 status code, skip for now
   test.skip('Should return 400 error for invalid Id', async function ({ signInApiService, productsController }) {
     const producNewtData = generateProductData();
     const invalidId = 'invalidId';
