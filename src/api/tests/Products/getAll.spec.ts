@@ -1,8 +1,7 @@
-import { STATUS_CODES } from '../../../data/api/statusCodes';
 import { validateJsonSchema, validateResponse } from '../../../utils/validation/apiValidation';
 import { allProductsSchema } from '../../../data/jsonSchemas/allProducts.schema';
 import { testCases } from '../../../data/api/Products/getAllProducts';
-import { test, expect } from '../../../fixtures/apiServices.fixture';
+import { test } from '../../../fixtures/apiServices.fixture';
 
 test.describe('[API] [Products] Get all products', async function () {
   test.beforeEach(async function ({ signInApiService }) {

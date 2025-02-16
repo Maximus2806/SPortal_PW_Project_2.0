@@ -14,6 +14,13 @@ export interface ICustomer {
   notes?: string;
 }
 
+export interface ICustomerFromTable {
+  email: string;
+  name: string;
+  country: string;
+  createdOn: string;
+}
+
 export interface ICustomerFromResponse extends ICustomer {
   _id: string;
   createdOn: string;

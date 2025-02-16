@@ -2,7 +2,7 @@ import { OrdersController } from '../controllers/orders.controller';
 import { SignInApiService } from './signInApiService.service';
 
 export class OrdersApiService {
-  private createdOrders: any[] = [];
+  private createdOrders: unknown[] = [];
 
   constructor(
     private ordersController = new OrdersController(),
