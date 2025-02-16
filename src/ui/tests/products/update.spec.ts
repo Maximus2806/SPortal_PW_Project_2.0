@@ -63,6 +63,6 @@ test(
 );
 
 test.afterEach(async ({ productApiService }) => {
-  if (existedProduct.name) await productApiService.deleteProductWithName(existedProduct.name, token);
+  if (existedProduct?.name) await productApiService.deleteProductWithName(existedProduct.name, token);
   await productApiService.deleteProductWithName(product.name, token);
 });
