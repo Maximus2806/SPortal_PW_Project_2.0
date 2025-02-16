@@ -1,6 +1,6 @@
 import { COUNTRIES } from '../../customers/countries';
 import { IResponseFields } from '../api.types';
-import { IOrder } from '../orders.types';
+import { IOrder } from '../orders/orders.types';
 
 export interface ICustomer {
   email: string;

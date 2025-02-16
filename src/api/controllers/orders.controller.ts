@@ -3,12 +3,12 @@ import { apiConfig } from '../../config/apiConfig';
 import { IRequestOptions } from '../../data/types/api.types';
 import { AxiosApiClient } from '../apiClients/axios.apiClient';
 import { convertRequestParams } from '../../utils/convert-request-params';
-import { IOrderRequest, IOrderResponse, IOrdersResponse } from '../../data/types/orders.types';
+import { IOrderRequest, IOrderResponse, IOrdersResponse } from '../../data/types/orders/orders.types';
 
 export class OrdersController {
   constructor(private apiClient = new AxiosApiClient()) {}
 
-  async create(token: string, body: IOrderRequest) {
+  async create(body: IOrderRequest, token: string) {
     const options: IRequestOptions = {
       baseURL: apiConfig.baseUrl,
       url: apiConfig.endpoints['Orders'],

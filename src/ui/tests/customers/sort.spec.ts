@@ -17,7 +17,7 @@ test.beforeAll(async ({ signInApiService, customersApiService }) => {
 for (const key of ['Email', 'Name', 'Country', 'Created On']) {
   for (const order of Object.values(ESortOrder)) {
     test(
-      `Sould display customers sorted by ${key} in ${order}`,
+      `Should display customers sorted by ${key} in ${order}`,
       { tag: [TAGS.REGRESSION] },
       async function ({ customersPageService, signInPageService, homePageService }) {
         await signInPageService.openSalesPortal();
