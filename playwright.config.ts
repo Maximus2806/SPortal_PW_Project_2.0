@@ -1,6 +1,5 @@
 import { defineConfig, devices } from '@playwright/test';
 import * as dotenv from 'dotenv';
-// import suite from './src/config/suites';
 
 dotenv.config();
 
@@ -17,6 +16,7 @@ dotenv.config();
  */
 export default defineConfig({
   testDir: './src',
+  globalTeardown: require.resolve('./src/config/global-teardown.ts'),
   // testIgnore: '**/old/**',
   /* Run tests in files in parallel */
   fullyParallel: false,
@@ -57,12 +57,6 @@ export default defineConfig({
       testDir: './src/config'
     },
     {
-      name: 'slack notification',
-      testMatch: /global-teardown\.ts/,
-      testDir: './src/config'
-    },
-    {
-      dependencies: ['slack notification'],
       name: 'API',
       use: {
         ...devices['Desktop Chrome'],

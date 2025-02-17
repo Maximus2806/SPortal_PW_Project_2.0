@@ -15,7 +15,7 @@ class SlackService {
       },
       data: { text }
     };
-    return this.apiClient.send(options);
+    return await this.apiClient.send(options);
   }
 }
 
