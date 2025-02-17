@@ -13,8 +13,8 @@ jobs:
   test:
     runs-on: ubuntu-latest
     timeout-minutes: 60
-    container:
-      image: mcr.microsoft.com/playwright:v1.50.1-noble
+    # container:
+    #   image: mcr.microsoft.com/playwright:v1.50.1-noble
 
     steps:
       - uses: actions/checkout@v4
@@ -24,11 +24,12 @@ jobs:
 
       # Install dependencies
       - name: Install dependencies
-        run: npm i
+        run: npm ci
 
-      #   # Install browsers
-      #   - name: Install browsers
-      #     run: npm playwright install --with-deps
+      # Install browsers
+      - name: Install browsers
+        run: npm playwright install --with-deps
+
       # Run [API] [SMOKE] tests
       - name: Run Playwright API tests
         env:
@@ -45,8 +46,8 @@ jobs:
       - name: Upload Artifact
         uses: actions/upload-artifact@v4
         with:
-          name: api-report
-          path: ./html-report
+          name: html-report
+          path: ./src/report/html
           retention-days: 5
 
         # Deploy to GitHub Pages
@@ -55,5 +56,5 @@ jobs:
         uses: peaceiris/actions-gh-pages@v3
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
-          publish_dir: ./html-report
+          publish_dir: ./src/report/html
           destination_dir: report
