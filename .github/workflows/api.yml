@@ -26,6 +26,10 @@ jobs:
       - name: Install dependencies
         run: npm ci
 
+      # Init PW
+      - name: Init pw project
+        run: npm init playwright@latest
+
       # Install browsers
       - name: Install browsers
         run: npm playwright install --with-deps
