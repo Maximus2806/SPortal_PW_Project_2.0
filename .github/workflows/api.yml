@@ -26,10 +26,9 @@ jobs:
       - name: Install dependencies
         run: npm i
 
-      # Install browsers
-      - name: Install browsers
-        run: npm playwright install --with-deps
-
+      #   # Install browsers
+      #   - name: Install browsers
+      #     run: npm playwright install --with-deps
       # Run [API] [SMOKE] tests
       - name: Run Playwright API tests
         env:
