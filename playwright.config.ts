@@ -25,7 +25,7 @@ export default defineConfig({
   /* Retry on CI only */
   retries: process.env.CI ? 2 : 0,
   /* Opt out of parallel tests on CI. */
-  workers: process.env.CI ? 1 : undefined,
+  workers: process.env.CI ? 5 : undefined,
   /* Reporter to use. See https://playwright.dev/docs/test-reporters */
   reporter: [
     [
@@ -57,6 +57,12 @@ export default defineConfig({
       testDir: './src/config'
     },
     {
+      name: 'slack notification',
+      testMatch: /global-teardown\.ts/,
+      testDir: './src/config'
+    },
+    {
+      dependencies: ['slack notification'],
       name: 'API',
       use: {
         ...devices['Desktop Chrome'],
@@ -69,7 +75,7 @@ export default defineConfig({
       name: 'UI',
       use: {
         ...devices['Desktop Chrome'],
-        headless: process.env.HEADLESS === 'false',
+        headless: process.env.HEADLESS === 'true',
         // launchOptions: {
         //   args: ['--start-maximized']
         // },

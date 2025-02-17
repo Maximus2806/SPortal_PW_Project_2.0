@@ -2,15 +2,17 @@ import { validateJsonSchema, validateResponse } from '../../../utils/validation/
 import { allProductsSchema } from '../../../data/jsonSchemas/allProducts.schema';
 import { testCases } from '../../../data/api/Products/getAllProducts';
 import { test } from '../../../fixtures/apiServices.fixture';
+import { TAGS } from '../../../data/tags';
 
-test.describe('[API] [Products] Get all products', async function () {
-  test.beforeEach(async function ({ signInApiService }) {
-    await signInApiService.signInAsAdmin();
+test.describe('[API] [Products] Get all products', { tag: TAGS.SMOKE }, async function () {
+  let token: string;
+  test.beforeAll(async function ({ signInApiService }) {
+    token = await signInApiService.signInAsAdmin();
   });
 
   testCases.forEach(({ description, params, expectedStatus, isSuccess, errorMessage }) => {
-    test(`Should handle query parameters: ${description}`, async function ({ signInApiService, productsController }) {
-      const getProductsResponse = await productsController.getAll(params, signInApiService.getToken());
+    test(`Should handle query parameters: ${description}`, async function ({ productsController }) {
+      const getProductsResponse = await productsController.getAll(params, token);
       validateResponse(getProductsResponse, expectedStatus, isSuccess, errorMessage);
       if (isSuccess) {
         validateJsonSchema(allProductsSchema, getProductsResponse);

@@ -2,8 +2,9 @@ import { STATUS_CODES } from '../../../data/api/statusCodes';
 import { generateProductData } from '../../../data/products/generateProduct';
 import { generateRandomId } from '../../../utils/id/radnomId';
 import { test, expect } from '../../../fixtures/apiServices.fixture';
+import { TAGS } from '../../../data/tags';
 
-test.describe('[API] [Products] Update', async function () {
+test.describe('[API] [Products] Update', { tag: TAGS.SMOKE }, async function () {
   let id = '',
     token: string;
   test.beforeAll(async function ({ signInApiService }) {
