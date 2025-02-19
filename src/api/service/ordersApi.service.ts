@@ -1,12 +1,13 @@
+import { expect } from 'allure-playwright';
 import { STATUS_CODES } from '../../data/api/statusCodes';
 import { createOrderSchema } from '../../data/jsonSchemas/createOrder.shcema';
-import { IOrderRequest } from '../../data/types/orders/orders.types';
+import { IOrder, IOrderRequest } from '../../data/types/orders/orders.types';
 import { validateJsonSchema, validateResponse } from '../../utils/validation/apiValidation';
 import { OrdersController } from '../controllers/orders.controller';
 import { SignInApiService } from './signInApiService.service';
 
 export class OrdersApiService {
-  private createdOrders: unknown[] = [];
+  private createdOrders: IOrder[] = [];
 
   constructor(
     private ordersController = new OrdersController(),
@@ -28,6 +29,7 @@ export class OrdersApiService {
 
   async delete(id: string, token?: string) {
     const authToken = token || (await this.signInApiService.signInAsAdmin());
-    await this.ordersController.delete(id, authToken);
+    const response = await this.ordersController.delete(id, authToken);
+    expect(response.status).toBe(STATUS_CODES.DELETED);
   }
 }
