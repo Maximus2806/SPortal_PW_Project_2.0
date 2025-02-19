@@ -1,5 +1,5 @@
 import { generateNewCustomer } from './customers/generateCustomer';
-import { generateProductData } from './productss/generateProduct';
+import { generateProductData } from './products/generateProduct';
 
 export const routesProducts = [
   { route: 'get', requiresId: true },

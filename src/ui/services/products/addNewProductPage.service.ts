@@ -1,4 +1,4 @@
-import { generateProductData } from '../../../data/productss/generateProduct';
+import { generateProductData } from '../../../data/products/generateProduct';
 import { IProduct } from '../../../data/types/products/product.types';
 import { AddNewProductPage } from '../../pages/Products/addNewProduct.page';
 import { SalesPortalPageService } from '../salesPortal.service';

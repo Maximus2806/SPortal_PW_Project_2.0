@@ -5,7 +5,7 @@ import { IProduct, IProductFromResponse, MANUFACTURERS } from '../../data/types/
 import { validateJsonSchema, validateResponse } from '../../utils/validation/apiValidation';
 import { ProductsController } from '../controllers/products.controller';
 import { SignInApiService } from './signInApiService.service';
-import { generateProductData } from '../../data/productss/generateProduct';
+import { generateProductData } from '../../data/products/generateProduct';
 import { IGetAllProducsParams } from '../../data/types/products/productSortFields';
 
 export class ProductApiService {
