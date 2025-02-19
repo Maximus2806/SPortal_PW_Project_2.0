@@ -1,7 +1,7 @@
 import _ from 'lodash';
 import { createBodyData } from '../../../data/api/Products/createBodyData';
 import { STATUS_CODES } from '../../../data/api/statusCodes';
-import { generateProductData } from '../../../data/products/generateProduct';
+import { generateProductData } from '../../../data/productss/generateProduct';
 import { IProduct } from '../../../data/types/products/product.types';
 import { test, expect } from '../../../fixtures/apiServices.fixture';
 import { validateJsonSchema, validateResponse } from '../../../utils/validation/apiValidation';
