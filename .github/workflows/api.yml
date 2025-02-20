@@ -27,9 +27,9 @@ jobs:
         run: npm ci
 
       # Install browsers
-      - name: Install browsers
-        run: PLAYWRIGHT_SKIP_BROWSER_DOWNLOAD=1 npx playwright install --with-deps --only-shell
-
+      # - name: Install browsers
+      # run: PLAYWRIGHT_SKIP_BROWSER_DOWNLOAD=1 npx playwright install --with-deps --only-shell chrome
+      # run: npm install --save-dev @playwright/test
       # Run [API] [SMOKE] tests
       - name: Run Playwright API tests
         env:
