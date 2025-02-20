@@ -16,7 +16,7 @@ dotenv.config();
  */
 export default defineConfig({
   testDir: './src',
-  // globalTeardown: require.resolve('./src/config/global-teardown.ts'),
+  globalTeardown: require.resolve('./src/config/global-teardown.ts'),
   // testIgnore: '**/old/**',
   /* Run tests in files in parallel */
   fullyParallel: false,
@@ -56,11 +56,11 @@ export default defineConfig({
       testMatch: /.*\.setup\.ts/,
       testDir: './src/config'
     },
-    {
-      name: 'slack notification',
-      testMatch: /global-teardown\.ts/,
-      testDir: './src/config'
-    },
+    // {
+    //   name: 'slack notification',
+    //   testMatch: /global-teardown\.ts/,
+    //   testDir: './src/config'
+    // },
     {
       name: 'API',
       use: {
@@ -68,7 +68,7 @@ export default defineConfig({
         headless: process.env.HEADLESS === 'true'
       },
       testMatch: ['**/api/tests/**/*.spec.ts'],
-      teardown: 'slack notification'
+      // teardown: 'slack notification'
     },
     {
       dependencies: ['setup'],
