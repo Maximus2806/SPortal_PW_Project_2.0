@@ -1,3 +1,4 @@
+import { TAGS } from '../../tags';
 import { STATUS_CODES } from '../statusCodes';
 
 export const createBodyData = [
@@ -7,56 +8,64 @@ export const createBodyData = [
     params: { name: 'A'.repeat(3) },
     expectedStatus: STATUS_CODES.CREATED,
     isSuccess: true,
-    errorMessage: null
+    errorMessage: null,
+    tags: [TAGS.REGRESSION]
   },
   {
     description: 'Should create product with maximal valid name length',
     params: { name: 'A'.repeat(40) },
     expectedStatus: STATUS_CODES.CREATED,
     isSuccess: true,
-    errorMessage: null
+    errorMessage: null,
+    tags: [TAGS.REGRESSION]
   },
   {
     description: 'Should create product with minimal valid price length',
     params: { price: 1 },
     expectedStatus: STATUS_CODES.CREATED,
     isSuccess: true,
-    errorMessage: null
+    errorMessage: null,
+    tags: [TAGS.REGRESSION]
   },
   {
     description: 'Should create product with maximal valid price length',
     params: { price: 99999 },
     expectedStatus: STATUS_CODES.CREATED,
     isSuccess: true,
-    errorMessage: null
+    errorMessage: null,
+    tags: [TAGS.REGRESSION]
   },
   {
     description: 'Should create product with minimal valid amount length',
     params: { amount: 0 },
     expectedStatus: STATUS_CODES.CREATED,
     isSuccess: true,
-    errorMessage: null
+    errorMessage: null,
+    tags: [TAGS.REGRESSION]
   },
   {
     description: 'Should create product with maximal valid amount length',
     params: { amount: 999 },
     expectedStatus: STATUS_CODES.CREATED,
     isSuccess: true,
-    errorMessage: null
+    errorMessage: null,
+    tags: [TAGS.REGRESSION]
   },
   {
     description: 'Should create product with minimal valid notes length',
     params: { notes: '' },
     expectedStatus: STATUS_CODES.CREATED,
     isSuccess: true,
-    errorMessage: null
+    errorMessage: null,
+    tags: [TAGS.REGRESSION]
   },
   {
     description: 'Should create product with maximal valid notes length',
     params: { notes: 'A'.repeat(250) },
     expectedStatus: STATUS_CODES.CREATED,
     isSuccess: true,
-    errorMessage: null
+    errorMessage: null,
+    tags: [TAGS.REGRESSION]
   },
   //Negative tests
   {
@@ -66,7 +75,8 @@ export const createBodyData = [
     },
     expectedStatus: STATUS_CODES.BAD_REQUEST,
     isSuccess: false,
-    errorMessage: 'Incorrect request body'
+    errorMessage: 'Incorrect request body',
+    tags: [TAGS.REGRESSION]
   },
   {
     description: 'Should not create product with Name shorter than 3 characters',
@@ -75,7 +85,8 @@ export const createBodyData = [
     },
     expectedStatus: STATUS_CODES.BAD_REQUEST,
     isSuccess: false,
-    errorMessage: 'Incorrect request body'
+    errorMessage: 'Incorrect request body',
+    tags: [TAGS.REGRESSION]
   },
   {
     description: 'Should not create product with Name longer than 40 characters',
@@ -84,7 +95,8 @@ export const createBodyData = [
     },
     expectedStatus: STATUS_CODES.BAD_REQUEST,
     isSuccess: false,
-    errorMessage: 'Incorrect request body'
+    errorMessage: 'Incorrect request body',
+    tags: [TAGS.REGRESSION]
   },
   {
     description: 'Should not create product with Name with repeating spaces',
@@ -93,7 +105,8 @@ export const createBodyData = [
     },
     expectedStatus: STATUS_CODES.BAD_REQUEST,
     isSuccess: false,
-    errorMessage: 'Incorrect request body'
+    errorMessage: 'Incorrect request body',
+    tags: [TAGS.REGRESSION]
   },
   {
     description: 'Should not create product with empty Name',
@@ -102,7 +115,8 @@ export const createBodyData = [
     },
     expectedStatus: STATUS_CODES.BAD_REQUEST,
     isSuccess: false,
-    errorMessage: 'Incorrect request body'
+    errorMessage: 'Incorrect request body',
+    tags: [TAGS.REGRESSION]
   },
   {
     description: 'Should not create product with Invalid manufacturer (not in the allowed list)',
@@ -111,7 +125,8 @@ export const createBodyData = [
     },
     expectedStatus: STATUS_CODES.BAD_REQUEST,
     isSuccess: false,
-    errorMessage: 'Incorrect request body'
+    errorMessage: 'Incorrect request body',
+    tags: [TAGS.REGRESSION]
   },
   {
     description: 'Should not create product with price greater than 99999',
@@ -120,7 +135,8 @@ export const createBodyData = [
     },
     expectedStatus: STATUS_CODES.BAD_REQUEST,
     isSuccess: false,
-    errorMessage: 'Incorrect request body'
+    errorMessage: 'Incorrect request body',
+    tags: [TAGS.REGRESSION]
   },
   {
     description: 'Should not create product with price smaller than 1',
@@ -129,7 +145,8 @@ export const createBodyData = [
     },
     expectedStatus: STATUS_CODES.BAD_REQUEST,
     isSuccess: false,
-    errorMessage: 'Incorrect request body'
+    errorMessage: 'Incorrect request body',
+    tags: [TAGS.REGRESSION]
   },
   {
     description: 'Should not create product with price value which is not a number',
@@ -138,7 +155,8 @@ export const createBodyData = [
     },
     expectedStatus: STATUS_CODES.BAD_REQUEST,
     isSuccess: false,
-    errorMessage: 'Incorrect request body'
+    errorMessage: 'Incorrect request body',
+    tags: [TAGS.REGRESSION]
   },
   {
     description: 'Should not create product with amount greater than 999',
@@ -147,7 +165,8 @@ export const createBodyData = [
     },
     expectedStatus: STATUS_CODES.BAD_REQUEST,
     isSuccess: false,
-    errorMessage: 'Incorrect request body'
+    errorMessage: 'Incorrect request body',
+    tags: [TAGS.REGRESSION]
   },
   {
     description: 'Should not create product with amount smaller than 0',
@@ -156,7 +175,8 @@ export const createBodyData = [
     },
     expectedStatus: STATUS_CODES.BAD_REQUEST,
     isSuccess: false,
-    errorMessage: 'Incorrect request body'
+    errorMessage: 'Incorrect request body',
+    tags: [TAGS.REGRESSION]
   },
   {
     description: 'Should not create product with amount value which is not a number',
@@ -165,7 +185,8 @@ export const createBodyData = [
     },
     expectedStatus: STATUS_CODES.BAD_REQUEST,
     isSuccess: false,
-    errorMessage: 'Incorrect request body'
+    errorMessage: 'Incorrect request body',
+    tags: [TAGS.REGRESSION]
   },
   {
     description: 'Should not create product with Notes with more than 250 characters',
@@ -174,7 +195,8 @@ export const createBodyData = [
     },
     expectedStatus: STATUS_CODES.BAD_REQUEST,
     isSuccess: false,
-    errorMessage: 'Incorrect request body'
+    errorMessage: 'Incorrect request body',
+    tags: [TAGS.REGRESSION]
   },
   {
     description: 'Should not create product with Notes with invalid characters <>',
@@ -183,6 +205,7 @@ export const createBodyData = [
     },
     expectedStatus: STATUS_CODES.BAD_REQUEST,
     isSuccess: false,
-    errorMessage: 'Incorrect request body'
+    errorMessage: 'Incorrect request body',
+    tags: [TAGS.REGRESSION]
   }
 ];

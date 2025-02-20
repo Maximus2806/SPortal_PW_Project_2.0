@@ -6,6 +6,7 @@ import { IProduct } from '../../../data/types/products/product.types';
 import { test, expect } from '../../../fixtures/apiServices.fixture';
 import { validateJsonSchema, validateResponse } from '../../../utils/validation/apiValidation';
 import { createProductSchema } from '../../../data/jsonSchemas/createProduct.schema';
+import { TAGS } from '../../../data/tags';
 
 test.describe('[API] [Products] [Create New Product]', async function () {
   let token = '';
@@ -78,15 +79,19 @@ test.describe('[API] [Products] [Create New Product]', async function () {
 
   const requiredFields = ['name', 'manufacturer', 'price', 'amount'];
   requiredFields.forEach((field) =>
-    test(`Should not create product without ${field} field`, async function ({ productsController }) {
-      const productData = _.omit(generateProductData(), field);
-      const response = await productsController.create(productData as IProduct, token);
-      validateResponse(response, STATUS_CODES.BAD_REQUEST, false, 'Incorrect request body');
-    })
+    test(
+      `Should not create product without ${field} field`,
+      { tag: TAGS.REGRESSION },
+      async function ({ productsController }) {
+        const productData = _.omit(generateProductData(), field);
+        const response = await productsController.create(productData as IProduct, token);
+        validateResponse(response, STATUS_CODES.BAD_REQUEST, false, 'Incorrect request body');
+      }
+    )
   );
 
-  createBodyData.forEach(({ description, params, expectedStatus, isSuccess, errorMessage }) => {
-    test(`${description}`, async function ({ signInApiService, productsController, productApiService }) {
+  createBodyData.forEach(({ description, params, expectedStatus, isSuccess, errorMessage, tags }) => {
+    test(`${description}`, { tag: tags }, async function ({ signInApiService, productsController, productApiService }) {
       const createProductsResponse = await productsController.create(
         generateProductData(params as Partial<IProduct>),
         signInApiService.getToken()
