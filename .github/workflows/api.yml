@@ -28,7 +28,7 @@ jobs:
 
       # Install browsers
       - name: Install browsers
-        run: npx playwright install --with-deps --only-shell
+        run: PLAYWRIGHT_SKIP_BROWSER_DOWNLOAD=1 npx playwright install --with-deps --only-shell
 
       # Run [API] [SMOKE] tests
       - name: Run Playwright API tests
