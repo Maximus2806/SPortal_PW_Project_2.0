@@ -126,7 +126,7 @@ test.describe('[API] [Orders] Create order [Negative]', async function () {
       expect(order.status).toBe(STATUS_CODES.NOT_FOUND);
     }
   );
-//skip untill fixed
+  //skip untill fixed
   test.skip(
     'Should return 400 error when creating an order with invalid customerId',
     { tag: [TAGS.REGRESSION] },
@@ -141,7 +141,7 @@ test.describe('[API] [Orders] Create order [Negative]', async function () {
       expect(order.status).toBe(STATUS_CODES.BAD_REQUEST);
     }
   );
-//skip untill fixed
+  //skip untill fixed
   test.skip(
     'Should return 400 error when creating an order with invalid productId',
     { tag: [TAGS.REGRESSION] },
@@ -189,3 +189,4 @@ test.describe('[API] [Orders] Create order [Negative]', async function () {
   );
 });
 //test github actions
+//another test

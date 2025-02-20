@@ -106,8 +106,7 @@ export class CustomersApiService {
     }
     const lowerSearch = params.search.toLocaleLowerCase();
     for (const { email, name, country } of response) {
-      expect([email, name, country].some((field) => field.toLocaleLowerCase().includes(lowerSearch)))
-        .toBe(true);
+      expect([email, name, country].some((field) => field.toLocaleLowerCase().includes(lowerSearch))).toBe(true);
     }
     return response.length;
   }
