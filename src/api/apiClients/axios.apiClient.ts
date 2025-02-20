@@ -17,7 +17,7 @@ export class AxiosApiClient {
         return this.transformResponse();
       }
     } finally {
-      // reportApiRequest<T>(options, this.transformResponse());
+      reportApiRequest<T>(options, this.transformResponse());
     }
   }
 
