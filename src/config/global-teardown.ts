@@ -2,7 +2,7 @@ import notificationService from '../services/notification.service';
 import { ENVIRONMENT } from './environment';
 import { test as teardown } from '../../src/fixtures/apiServices.fixture';
 
-export default teardown('SLACK NOTIFICATION', async () => {
+teardown('SLACK NOTIFICATION', async () => {
   console.log('TEARDOWN NOTIFICATION - LAUNCHED');
   if (ENVIRONMENT === 'ci') {
     await notificationService.postNotification(
