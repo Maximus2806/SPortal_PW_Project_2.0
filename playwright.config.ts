@@ -56,19 +56,19 @@ export default defineConfig({
       testMatch: /.*\.setup\.ts/,
       testDir: './src/config'
     },
-    {
-      name: 'slack notification',
-      testMatch: /global-teardown\.ts/,
-      testDir: './src/config'
-    },
+    // {
+    //   name: 'slack notification',
+    //   testMatch: /global-teardown\.ts/,
+    //   testDir: './src/config'
+    // },
     {
       name: 'API',
       use: {
         ...devices['Desktop Chrome'],
         headless: process.env.HEADLESS === 'true'
       },
-      testMatch: ['**/api/tests/**/*.spec.ts'],
-      teardown: 'slack notification'
+      testMatch: ['**/api/tests/**/*.spec.ts']
+      // teardown: 'slack notification'
     },
     {
       dependencies: ['setup'],
