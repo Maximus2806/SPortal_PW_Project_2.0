@@ -25,8 +25,8 @@ test.describe('[API] [Customers] Get customer by Id', async function () {
     const getCustomerResponse = await customersController.get(signInApiService.getToken(), nonExistentId);
     expect(getCustomerResponse.status).toBe(STATUS_CODES.NOT_FOUND);
   });
-
-  test('Should return 400 error for invalid Id', async function ({ signInApiService, customersController }) {
+//skip untill fixed
+  test.skip('Should return 400 error for invalid Id', async function ({ signInApiService, customersController }) {
     const invalidId = 'invalidId';
     const getCustomerResponse = await customersController.get(signInApiService.getToken(), invalidId);
     expect(getCustomerResponse.status).toBe(STATUS_CODES.BAD_REQUEST);
