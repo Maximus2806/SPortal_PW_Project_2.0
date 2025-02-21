@@ -102,13 +102,12 @@ export class CustomersApiService {
     const response = await this.getAll({ search: params.search });
     if (response.length === 0) {
       console.log(`Search by "${params.search}" has no results`);
+      return 0;
     }
-    response.forEach(() => {
-      const lowerSearch = params.search.toLocaleLowerCase();
-      response.forEach(({ email, name, country }) => {
-        expect([email, name, country].some((field) => field.toLocaleLowerCase().includes(lowerSearch))).toBe(true);
-      });
-    });
+    const lowerSearch = params.search.toLocaleLowerCase();
+    for (const { email, name, country } of response) {
+      expect([email, name, country].some((field) => field.toLocaleLowerCase().includes(lowerSearch))).toBe(true);
+    }
     return response.length;
   }
 
