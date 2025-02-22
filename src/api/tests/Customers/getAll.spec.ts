@@ -176,7 +176,7 @@ test.describe('[API] [Customers] [Get all customers]', async function () {
       await customersApiService.delete(customer3._id);
     }
   });
-  
+
   test('Should sort customers by email', async function ({ customersApiService }) {
     const customers = [
       await customersApiService.create({ email: 'z' + Date.now() + '@example.com' }),
@@ -194,7 +194,7 @@ test.describe('[API] [Customers] [Get all customers]', async function () {
       await Promise.all(customers.map((c) => customersApiService.delete(c._id)));
     }
   });
-  
+
   test('Should sort customers by name', async function ({ customersApiService }) {
     const customers = [
       await customersApiService.create({ name: faker.string.alpha(10) }),
@@ -212,7 +212,7 @@ test.describe('[API] [Customers] [Get all customers]', async function () {
       await Promise.all(customers.map((c) => customersApiService.delete(c._id)));
     }
   });
-  
+
   test('Should sort customers by country', async function ({ customersApiService }) {
     const customers = [
       await customersApiService.create({ country: COUNTRIES.USA }),
@@ -233,8 +233,8 @@ test.describe('[API] [Customers] [Get all customers]', async function () {
   });
 
   test('Should sort customers by creation date', async function ({ customersApiService }) {
-    const customer1 = await customersApiService.create();    
-    const customer2 = await customersApiService.create();    
+    const customer1 = await customersApiService.create();
+    const customer2 = await customersApiService.create();
     const customer3 = await customersApiService.create();
 
     try {

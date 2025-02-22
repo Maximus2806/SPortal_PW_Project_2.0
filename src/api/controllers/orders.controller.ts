@@ -23,6 +23,18 @@ export class OrdersController {
     return await this.apiClient.send<IOrderResponse>(options);
   }
 
+  async update(id: string, body: IOrderRequest, token: string) {
+    const options: IRequestOptions = {
+      baseURL: apiConfig.baseUrl,
+      url: apiConfig.endpoints['Get Order By Id'](id),
+      method: 'put',
+      headers: { 'Content-Type': ContentType.JSON, Authorization: `Bearer ${token}` },
+      data: body
+    };
+
+    return await this.apiClient.send<IOrderResponse>(options);
+  }
+
   async getAll(params = {}, token: string) {
     let urlParams = '';
     if (params) {

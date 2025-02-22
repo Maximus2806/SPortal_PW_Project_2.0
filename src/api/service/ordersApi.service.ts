@@ -22,6 +22,14 @@ export class OrdersApiService {
     return response.body.Order;
   }
 
+  async update(id: string, body: IOrderRequest, token?: string) {
+    const authToken = token || (await this.signInApiService.signInAsAdmin());
+    const response = await this.ordersController.update(id, body, authToken);
+    validateResponse(response, STATUS_CODES.OK, true, null);
+    validateJsonSchema(createOrderSchema, response);
+    return response.body.Order;
+  }
+
   async getAll(params = {}, token?: string) {
     const authToken = token || (await this.signInApiService.signInAsAdmin());
     return (await this.ordersController.getAll(params, authToken)).body.Orders;
