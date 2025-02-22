@@ -176,15 +176,15 @@ test.describe('[API] [Customers] [Get all customers]', async function () {
       await customersApiService.delete(customer3._id);
     }
   });
-  //skip untill fixed
-  test.skip('Should sort customers by email', async function ({ customersApiService }) {
+  
+  test('Should sort customers by email', async function ({ customersApiService }) {
     const customers = [
       await customersApiService.create({ email: 'z' + Date.now() + '@example.com' }),
       await customersApiService.create({ email: 'a' + Date.now() + '@example.com' }),
       await customersApiService.create({ email: 'g' + Date.now() + '@example.com' })
     ];
     try {
-      const params = { sortField: 'name', sortOrder: 'asc' };
+      const params = { sortField: 'email', sortOrder: 'asc' };
       const responseAsc = await customersApiService.getAll(params);
       await customersApiService.validateSorting(responseAsc, CUSTOMER_SORT_FIELDS.EMAIL, SORT_ORDER.ASC);
       params.sortOrder = 'desc';
@@ -194,8 +194,8 @@ test.describe('[API] [Customers] [Get all customers]', async function () {
       await Promise.all(customers.map((c) => customersApiService.delete(c._id)));
     }
   });
-  //skip untill fixed
-  test.skip('Should sort customers by name', async function ({ customersApiService }) {
+  
+  test('Should sort customers by name', async function ({ customersApiService }) {
     const customers = [
       await customersApiService.create({ name: faker.string.alpha(10) }),
       await customersApiService.create({ name: faker.string.alpha(10) }),
@@ -212,8 +212,8 @@ test.describe('[API] [Customers] [Get all customers]', async function () {
       await Promise.all(customers.map((c) => customersApiService.delete(c._id)));
     }
   });
-  //skip untill fixed
-  test.skip('Should sort customers by country', async function ({ customersApiService }) {
+  
+  test('Should sort customers by country', async function ({ customersApiService }) {
     const customers = [
       await customersApiService.create({ country: COUNTRIES.USA }),
       await customersApiService.create({ country: COUNTRIES.CANADA }),
@@ -233,10 +233,8 @@ test.describe('[API] [Customers] [Get all customers]', async function () {
   });
 
   test('Should sort customers by creation date', async function ({ customersApiService }) {
-    const customer1 = await customersApiService.create();
-    await new Promise((res) => setTimeout(res, 1000));
-    const customer2 = await customersApiService.create();
-    await new Promise((res) => setTimeout(res, 1000));
+    const customer1 = await customersApiService.create();    
+    const customer2 = await customersApiService.create();    
     const customer3 = await customersApiService.create();
 
     try {
