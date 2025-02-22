@@ -10,7 +10,7 @@ test('Clear orders, products, customers from server', async ({
 }) => {
   const token = await signInApiService.signInAsAdmin();
 
-  const ordersId = (await ordersApiService.getAll({}, token)).map((order) => order._id);  
+  const ordersId = (await ordersApiService.getAll({}, token)).map((order) => order._id);
   await Promise.all(ordersId.map((id) => ordersApiService.delete(id, token)));
 
   const productsIds = (await productApiService.getAll({}, token)).map((product) => product._id);
