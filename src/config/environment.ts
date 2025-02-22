@@ -5,3 +5,4 @@ export const TESTS = `${process.env.TESTS}`;
 export const SLACK_NOTIFICATION_URL = `${process.env.SLACK_NOTIFICATION_URL}`;
 export const SLACK_CHANNEL_ID = `${process.env.SLACK_CHANNEL_ID}`;
 export const ENVIRONMENT = `${process.env.ENVIRONMENT}`;
+export const CI = `${process.env.CI}`;

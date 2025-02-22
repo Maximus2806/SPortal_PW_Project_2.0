@@ -5,7 +5,7 @@ import stylisticJs from '@stylistic/eslint-plugin-js';
 
 export default [
   pluginJs.configs.recommended,
-  ...tseslint.configs.recommended,
+  ...tseslint.configs.recommendedTypeChecked,
   {
     files: ['**/*.{js,mjs,cjs,ts}'],
     plugins: { '@stylistic/js': stylisticJs },
@@ -53,7 +53,8 @@ export default [
       ],
       'no-empty-pattern': ['error', { allowObjectPatternsAsParameters: true }],
       // '@typescript-eslint/no-unused-expressions': 0,
-      '@typescript-eslint/no-unsafe-function-type': 'off'
+      '@typescript-eslint/no-unsafe-function-type': 'off',
+      '@typescript-eslint/no-floating-promises': 'error'
       // '@typescript-eslint/no-unused-expressions': [
       //   'error',
       //   {
@@ -76,5 +77,13 @@ export default [
       'src/utils/eslint'
     ]
   },
-  { languageOptions: { globals: globals.browser } }
+  {
+    languageOptions: {
+      globals: globals.browser,
+      parserOptions: {
+        projectService: true,
+        tsconfigRootDir: process.cwd()
+      }
+    }
+  }
 ];
