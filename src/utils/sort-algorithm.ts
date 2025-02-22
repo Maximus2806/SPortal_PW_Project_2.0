@@ -54,8 +54,7 @@ const compareString = (a: string, b: string, dir: TSortOrder): number =>
  * @returns {number} A negative number if `a` is smaller than `b`,
  * a positive number if `a` is greater than `b`, or 0 if they are equal.
  */
-const compareNumeric = (a: number, b: number, dir: TSortOrder): number =>
-  dir === 'asc' ? a - b : b - a;
+const compareNumeric = (a: number, b: number, dir: TSortOrder): number => (dir === 'asc' ? a - b : b - a);
 
 /**
  * Compares two date strings based on the specified sort order.

@@ -54,7 +54,7 @@ export default [
       'no-empty-pattern': ['error', { allowObjectPatternsAsParameters: true }],
       // '@typescript-eslint/no-unused-expressions': 0,
       '@typescript-eslint/no-unsafe-function-type': 'off',
-      '@typescript-eslint/no-floating-promises': 'error',
+      '@typescript-eslint/no-floating-promises': 'error'
       // '@typescript-eslint/no-unused-expressions': [
       //   'error',
       //   {
@@ -82,8 +82,8 @@ export default [
       globals: globals.browser,
       parserOptions: {
         projectService: true,
-        tsconfigRootDir: process.cwd(),
-      },
-    },
-  } 
+        tsconfigRootDir: process.cwd()
+      }
+    }
+  }
 ];
