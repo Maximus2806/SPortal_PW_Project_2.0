@@ -41,28 +41,28 @@ export class HomePageService {
     const actualValue = await this.homePage.getMetricValue(metric);
     let expectedValue: string | number;
     switch (metric) {
-      case 'Total Orders': {
-        expectedValue = value;
-        break;
-      }
-      case 'Total Revenue': {
-        expectedValue = `$${numeral(value).format('0.0a')}`;
-        break;
-      }
+    case 'Total Orders': {
+      expectedValue = value;
+      break;
+    }
+    case 'Total Revenue': {
+      expectedValue = `$${numeral(value).format('0.0a')}`;
+      break;
+    }
 
-      case 'Avg Order Value': {
-        expectedValue = `$${numeral(value).format('0.0a')}`;
-        break;
-      }
+    case 'Avg Order Value': {
+      expectedValue = `$${numeral(value).format('0.0a')}`;
+      break;
+    }
 
-      case 'Canceled Orders': {
-        expectedValue = value;
-        break;
-      }
-      case 'New Customers': {
-        expectedValue = value;
-        break;
-      }
+    case 'Canceled Orders': {
+      expectedValue = value;
+      break;
+    }
+    case 'New Customers': {
+      expectedValue = value;
+      break;
+    }
     }
     expect(actualValue).toBe(expectedValue);
   }

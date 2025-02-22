@@ -14,7 +14,8 @@ test.describe('[UI] [Customers] [Add New Customer]', async function () {
     await page.getByPlaceholder('Enter password').fill('password');
     await page.getByText('Login', { exact: true }).click();
     await page.waitForTimeout(5000);
-    await page.getByRole('listitem').filter({ hasText: 'Customers' }).click();
+    await page.getByRole('listitem').filter({ hasText: 'Customers' })
+      .click();
     await page.locator('.spinner-border').waitFor({ state: 'hidden' });
     await page.locator('.page-title-button').click();
     await page.locator('#inputName').fill('Test Customer');

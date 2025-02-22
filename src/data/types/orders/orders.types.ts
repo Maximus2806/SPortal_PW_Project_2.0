@@ -82,3 +82,15 @@ export interface IRequestedProductDetails {
   manufacturer: string;
   notes?: string;
 }
+
+export interface IOrderDelivery {
+  finalDate: string;
+  address: {
+    country: string;
+    city: string;
+    street: string;
+    house: number;
+    flat: number;
+  };
+  condition: 'Delivery' | 'Pickup';
+}
