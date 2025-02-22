@@ -16,11 +16,14 @@ export class CustomersListPage extends SalesPortalPage {
   readonly ['Table Rows'] = '//tbody/tr';
   readonly ['Customer Table Row by email'] = (email: string) => this.findElement(`tbody tr`).filter({ hasText: email });
   readonly ['Edit button by email'] = (email: string) =>
-    this.findElement('tbody tr').filter({ hasText: email }).locator('button[title="Edit"]');
+    this.findElement('tbody tr').filter({ hasText: email })
+      .locator('button[title="Edit"]');
   readonly ['Details button by email'] = (email: string) =>
-    this.findElement('tbody tr').filter({ hasText: email }).locator('button[title="Details"]');
+    this.findElement('tbody tr').filter({ hasText: email })
+      .locator('button[title="Details"]');
   readonly ['Delete button by email'] = (email: string) =>
-    this.findElement('tbody tr').filter({ hasText: email }).locator('button[title="Delete"]');
+    this.findElement('tbody tr').filter({ hasText: email })
+      .locator('button[title="Delete"]');
 
   async clickOnAddNewCustomer() {
     await this.click(this['Add New Customer button']);
@@ -49,7 +52,8 @@ export class CustomersListPage extends SalesPortalPage {
 
   async getCustomerFromTable(customerEmail: string) {
     const [email, name, country, createdOn] = await Promise.all(
-      (await this['Customer Table Row by email'](customerEmail).locator('td').all()).map((td) => this.getText(td))
+      (await this['Customer Table Row by email'](customerEmail).locator('td')
+        .all()).map((td) => this.getText(td))
     );
     return { email, name, country, createdOn };
   }
