@@ -6,7 +6,7 @@ export const createOrderSchema = {
       type: 'object',
       properties: {
         _id: { type: 'string', pattern: '^[a-fA-F0-9]{24}$' },
-        status: { type: 'string', enum: ['Draft', 'Confirmed', 'Shipped', 'Delivered', 'Cancelled'] },
+        status: { type: 'string', enum: ['Draft', 'In Process', 'Delivered', 'Canceled'] },
         customer: {
           type: 'object',
           properties: {

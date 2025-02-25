@@ -5,6 +5,8 @@ import { IOrder, IOrderDelivery, IOrderRequest } from '../../data/types/orders/o
 import { validateJsonSchema, validateResponse } from '../../utils/validation/apiValidation';
 import { OrdersController } from '../controllers/orders.controller';
 import { SignInApiService } from './signInApiService.service';
+import { de } from '@faker-js/faker/.';
+import { generateDelivery } from '../../data/orders/generateDelivery';
 
 export class OrdersApiService {
   private createdOrders: IOrder[] = [];
@@ -30,9 +32,18 @@ export class OrdersApiService {
     return response.body.Order;
   }
 
-  async updateDelivery(id: string, deliveryDetails: IOrderDelivery, token?: string) {
+  async updateDelivery(id: string, deliveryDetails?: IOrderDelivery, token?: string) {
     const authToken = token || (await this.signInApiService.signInAsAdmin());
-    const response = await this.ordersController.updateDelivery(id, deliveryDetails, authToken);
+    const details = deliveryDetails || generateDelivery();
+    const response = await this.ordersController.updateDelivery(id, details, authToken);
+    validateResponse(response, STATUS_CODES.OK, true, null);
+    validateJsonSchema(createOrderSchema, response);
+    return response.body.Order;
+  }
+
+  async updateStatus(id: string, status: string, token?: string) {
+    const authToken = token || (await this.signInApiService.signInAsAdmin());
+    const response = await this.ordersController.updateOrderStatus(id, status, authToken);
     validateResponse(response, STATUS_CODES.OK, true, null);
     validateJsonSchema(createOrderSchema, response);
     return response.body.Order;

@@ -44,7 +44,7 @@ export class OrdersController {
       url: apiConfig.endpoints['Orders'] + urlParams,
       headers: { 'Content-Type': ContentType.JSON, Authorization: `Bearer ${token}` }
     };
-    return this.apiClient.send<IOrdersResponse>(options);
+    return await this.apiClient.send<IOrdersResponse>(options);
   }
 
   async delete(id: string, token: string) {
@@ -54,7 +54,7 @@ export class OrdersController {
       url: apiConfig.endpoints['Get Order By Id'](id),
       headers: { Authorization: `Bearer ${token}`, 'Content-Type': ContentType.JSON }
     };
-    return this.apiClient.send(options);
+    return await this.apiClient.send(options);
   }
 
   async updateDelivery(id: string, deliveryDetails: IOrderDelivery, token: string) {
@@ -65,7 +65,7 @@ export class OrdersController {
       headers: { Authorization: `Bearer ${token}`, 'Content-Type': ContentType.JSON },
       data: deliveryDetails
     };
-    return this.apiClient.send<IOrderResponse>(options);
+    return await this.apiClient.send<IOrderResponse>(options);
   }
 
   async markAsReceived(id: string, token: string) {
@@ -75,7 +75,7 @@ export class OrdersController {
       url: apiConfig.endpoints['Order Received'](id),
       headers: { Authorization: `Bearer ${token}`, 'Content-Type': ContentType.JSON }
     };
-    return this.apiClient.send<IOrderResponse>(options);
+    return await this.apiClient.send<IOrderResponse>(options);
   }
 
   async updateOrderStatus(id: string, status: string, token: string) {
@@ -86,7 +86,7 @@ export class OrdersController {
       headers: { Authorization: `Bearer ${token}`, 'Content-Type': ContentType.JSON },
       data: { status }
     };
-    return this.apiClient.send<IOrderResponse>(options);
+    return await this.apiClient.send<IOrderResponse>(options);
   }
 
   async addComments(id: string, comment: string, token: string) {
@@ -97,7 +97,7 @@ export class OrdersController {
       headers: { Authorization: `Bearer ${token}`, 'Content-Type': ContentType.JSON },
       data: { comment }
     };
-    return this.apiClient.send<IOrderResponse>(options);
+    return await this.apiClient.send<IOrderResponse>(options);
   }
 
   async deleteComments(id: string, commentId: string, token: string) {
@@ -107,6 +107,6 @@ export class OrdersController {
       url: apiConfig.endpoints['Order Comments'](id) + commentId,
       headers: { Authorization: `Bearer ${token}`, 'Content-Type': ContentType.JSON }
     };
-    return this.apiClient.send(options);
+    return await this.apiClient.send(options);
   }
 }
