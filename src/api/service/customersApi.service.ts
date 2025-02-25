@@ -98,8 +98,8 @@ export class CustomersApiService {
   }
 
   @logStep('Validate search results')
-  async validateSearchResults(params: { search: string }) {
-    const response = await this.getAll({ search: params.search });
+  async validateSearchResults(params: { search: string }, token?: string) {
+    const response = await this.getAll({ search: params.search }, token);
     if (response.length === 0) {
       console.log(`Search by "${params.search}" has no results`);
       return 0;

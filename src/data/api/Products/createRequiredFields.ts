@@ -1,4 +1,4 @@
-import { MANUFACTURERS } from '../../types/product.types';
+import { MANUFACTURERS } from '../../types/products/product.types';
 import { STATUS_CODES } from '../statusCodes';
 
 export const createProductRequiredFields = [
