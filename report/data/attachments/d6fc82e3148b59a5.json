@@ -1,0 +1,76 @@
+{
+  "Order": {
+    "_id": "67c0edc57b4bcc16671a1de2",
+    "status": "Canceled",
+    "customer": {
+      "_id": "67c0edc17b4bcc16671a1d6f",
+      "email": "Kitty.Hayes@yahoo.com",
+      "name": "Name OyqgswpWiJhnCiPgaUbVIywgIVFDtYBJgWe",
+      "country": "Belarus",
+      "city": "City DeqYizxaFLDjreW",
+      "street": "Street GIm2x7IeKpMDUKIc5Nyhcl8l95jh44f0f",
+      "house": 688,
+      "flat": 6756,
+      "phone": "+787323161361",
+      "createdOn": "2025-02-27T22:57:05.000Z",
+      "notes": "Notes cVpzAXshEBtQDhAnYHFaKtmvwNYOFLJPOheVPwUOpHnWqrPetOyKkLdtDnGczKQonjGhuPLxhyZBaFhiuDvoYiPlEDoAXteOQrpLgAMcaEplqASKJYYjujKmsmIEjEyEbiQwuvzjfzcaGZMywncSJwMWWveMapfFvWVDMnEfWMHhfdbRbFzQbZCvYGyrxcAknFskIgNHFjqZeONOyZImjbbVKseiNOBImDPdKqrqPNIbYrhdbsGS"
+    },
+    "products": [
+      {
+        "_id": "67c0edc27b4bcc16671a1daa",
+        "name": "Table20872",
+        "amount": 382,
+        "price": 96910,
+        "manufacturer": "Tesla",
+        "notes": "XcDfT7UCnt1ZZfyjgWjigNwGfXgNHvVOISKbjDc9Ci6x801xoP7nhYd4F1yGD63jkWWAGToqO8mya8EPd4fb1GYaWa6LFuqHw9wgcDTy9n7MNWXTIDbNZk6AlZOnWPHr981v2445KsWJHhKAGfh0sYcBApwlq20El5FueN38hWVmLArcO49cde7fOQtZM4fEbfN8ksurmD02TooOmJxxP6kjt9qWawwOtBEPaiSKjKWrjRooAPvp8JkcFl",
+        "received": false
+      }
+    ],
+    "delivery": null,
+    "total_price": 96910,
+    "createdOn": "2025-02-27T22:57:09.000Z",
+    "comments": [],
+    "history": [
+      {
+        "status": "Canceled",
+        "customer": "67c0edc17b4bcc16671a1d6f",
+        "products": [
+          {
+            "_id": "67c0edc27b4bcc16671a1daa",
+            "name": "Table20872",
+            "amount": 382,
+            "price": 96910,
+            "manufacturer": "Tesla",
+            "notes": "XcDfT7UCnt1ZZfyjgWjigNwGfXgNHvVOISKbjDc9Ci6x801xoP7nhYd4F1yGD63jkWWAGToqO8mya8EPd4fb1GYaWa6LFuqHw9wgcDTy9n7MNWXTIDbNZk6AlZOnWPHr981v2445KsWJHhKAGfh0sYcBApwlq20El5FueN38hWVmLArcO49cde7fOQtZM4fEbfN8ksurmD02TooOmJxxP6kjt9qWawwOtBEPaiSKjKWrjRooAPvp8JkcFl",
+            "received": false
+          }
+        ],
+        "total_price": 96910,
+        "delivery": null,
+        "changedOn": "2025-02-27T22:57:12.000Z",
+        "action": "Order canceled"
+      },
+      {
+        "status": "Draft",
+        "customer": "67c0edc17b4bcc16671a1d6f",
+        "products": [
+          {
+            "_id": "67c0edc27b4bcc16671a1daa",
+            "name": "Table20872",
+            "amount": 382,
+            "price": 96910,
+            "manufacturer": "Tesla",
+            "notes": "XcDfT7UCnt1ZZfyjgWjigNwGfXgNHvVOISKbjDc9Ci6x801xoP7nhYd4F1yGD63jkWWAGToqO8mya8EPd4fb1GYaWa6LFuqHw9wgcDTy9n7MNWXTIDbNZk6AlZOnWPHr981v2445KsWJHhKAGfh0sYcBApwlq20El5FueN38hWVmLArcO49cde7fOQtZM4fEbfN8ksurmD02TooOmJxxP6kjt9qWawwOtBEPaiSKjKWrjRooAPvp8JkcFl",
+            "received": false
+          }
+        ],
+        "total_price": 96910,
+        "delivery": null,
+        "changedOn": "2025-02-27T22:57:09.000Z",
+        "action": "Order created"
+      }
+    ]
+  },
+  "IsSuccess": true,
+  "ErrorMessage": null
+}

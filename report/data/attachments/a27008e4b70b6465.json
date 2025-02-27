@@ -1,0 +1,57 @@
+{
+  "Order": {
+    "status": "Draft",
+    "customer": {
+      "_id": "67c0ed937b4bcc16671a199f",
+      "email": "Candida24@hotmail.com",
+      "name": "Name VVaFJxorSGNDlPilqpdyTLWGwjhyjQmjwNH",
+      "country": "Germany",
+      "city": "City xRonacEqJYCxiLy",
+      "street": "Street 4JEnq0f0ozb8pzL6jsuB5btiAQeFYWyhG",
+      "house": 885,
+      "flat": 8533,
+      "phone": "+748656681382",
+      "createdOn": "2025-02-27T22:56:19.000Z",
+      "notes": "Notes GWCfzjDSucyHgPWfVQMoBIDzGwvPckrYqwRLLKuEBmSKKfbbaMMnbsZuvVXDQQTuLYZWvKgdpReGJyOSPgZCSJRcFDEJTzoTzPMJhbYkXeKEAJpqyeYEGrNiGfsleVPjYtIrcQkUDqfAZvoalCFFDlRPrJcdkyuFtsqBlZSlHxUiOKSfuUcNLHSvYLFogLzrdTiDUaePcRUxlZonWFaFrFOWvIGuBLrknMCtSRQyHQjlHyXLrExo"
+    },
+    "products": [
+      {
+        "_id": "67c0ed967b4bcc16671a19d1",
+        "name": "Towels65593",
+        "amount": 406,
+        "price": 90968,
+        "manufacturer": "Tesla",
+        "notes": "dIGiXnx4OLABLUfxI0J1lopngWJTOXykXoTzOAzlHRbZ9i2d6fVmvcOG5yHEDpUrP8y5sD2Zx0oKTH9TfzfLjonPzD6YmsxaWB7b2kL3AEGcPKxqgZ9JI75oRwsDi9qRHoYRqa7CyjyikyWTNVItEl3K3IWqhqcYx0CzonpIvYdOMJawFWGotzKQYsjnSEzE7KZiYWOYguMsM9zlVOT2HSbMdJJhMije12f6lr6gHYckwDVCYZhG7KdiIH",
+        "received": false
+      }
+    ],
+    "delivery": null,
+    "total_price": 90968,
+    "createdOn": "2025-02-27T22:56:26.000Z",
+    "comments": [],
+    "history": [
+      {
+        "status": "Draft",
+        "customer": "67c0ed937b4bcc16671a199f",
+        "products": [
+          {
+            "_id": "67c0ed967b4bcc16671a19d1",
+            "name": "Towels65593",
+            "amount": 406,
+            "price": 90968,
+            "manufacturer": "Tesla",
+            "notes": "dIGiXnx4OLABLUfxI0J1lopngWJTOXykXoTzOAzlHRbZ9i2d6fVmvcOG5yHEDpUrP8y5sD2Zx0oKTH9TfzfLjonPzD6YmsxaWB7b2kL3AEGcPKxqgZ9JI75oRwsDi9qRHoYRqa7CyjyikyWTNVItEl3K3IWqhqcYx0CzonpIvYdOMJawFWGotzKQYsjnSEzE7KZiYWOYguMsM9zlVOT2HSbMdJJhMije12f6lr6gHYckwDVCYZhG7KdiIH",
+            "received": false
+          }
+        ],
+        "total_price": 90968,
+        "delivery": null,
+        "changedOn": "2025-02-27T22:56:26.000Z",
+        "action": "Order created"
+      }
+    ],
+    "_id": "67c0ed9a7b4bcc16671a1a26"
+  },
+  "IsSuccess": true,
+  "ErrorMessage": null
+}

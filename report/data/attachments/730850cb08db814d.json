@@ -1,0 +1,112 @@
+{
+  "Order": {
+    "_id": "67c0edb97b4bcc16671a1cd3",
+    "status": "Draft",
+    "customer": {
+      "_id": "67c0edb47b4bcc16671a1c4d",
+      "email": "Anahi.Balistreri79@gmail.com",
+      "name": "Name EhstarLQrSqCFjiMGnSrulVedBEiyFDrIBc",
+      "country": "Great Britain",
+      "city": "City tFJYIeUzfxTCYKk",
+      "street": "Street CsiiPi6bbOaiYOAUUexqjViKcCmiFqehW",
+      "house": 552,
+      "flat": 5674,
+      "phone": "+220939785414",
+      "createdOn": "2025-02-27T22:56:52.000Z",
+      "notes": "Notes cVxeLRZGAaKVcNcEVpKBEahCdvhVJGbkCIteQfwaQOdhFUMBljWcpNIRNslxxNAWAaeMejeqwqRJXoUhVfIqEtABOghSgyHYwAnEfAiIkTXzqAWytoYbHDPvrjBxEVPaXfbhztNODGIGnfxREmmXgeGNADNVpyuyxhBySIovPlvCaYIzKyaUvoIpuTETrNgfQVMdHKugxaVCeUPBGqOgEcuMtMmuPPEnNDDubAGJAMXLsQoFqTKs"
+    },
+    "products": [
+      {
+        "_id": "67c0edb77b4bcc16671a1c8c",
+        "name": "Sausages70908",
+        "amount": 547,
+        "price": 8791,
+        "manufacturer": "Xiaomi",
+        "notes": "jXGpcgrQUaqpOLGbtZ9lY5vCM9hLPtjX3YJ4Wlx1EsdQOa84RRrJiZ4ypFkm24iOhfyVKIHvUnGMJIVq7L6AgWHEEHGXT1mVhYnWy4a6DFF9NMJ8gVY5rWSKzdKT2f5QrurwCxyGbqUh6T7QDsNA4fqXVN147znQaABQwm6Teuk0rpa5DwYpjU7q8eBI8d0agbATE9IjEaIQRt9z0RQHjTX68tQ3nzrtrAzVu7RUv15eXcRUBJ7qCFUIly",
+        "received": false
+      },
+      {
+        "_id": "67c0edbd7b4bcc16671a1d10",
+        "name": "Bike54690",
+        "amount": 429,
+        "price": 41589,
+        "manufacturer": "Sony",
+        "notes": "GSJDP0Mtvb7sRyIq8rdQ85LwvFXbJLckUHfcHNPbsygcA7fN9jKvy2Eo6zsDczrcZK9PhSSvd3feTwqA1U7Xhz4LC1sWClBeHFTqwMQ7yByBoIvFE8KZJ5l4Fe2sBHzZfVXjOVRoy6S5LpNjUh2hm93s96Lva3XU5GSWjYiuUH04gxmKTUo4bLdAVgfyYkeqVBTwbDaMubHrzs3JPlNvh0eSoPFziFP7aehzpDIromG3NxXajyNe5qdDHs",
+        "received": false
+      },
+      {
+        "_id": "67c0edc07b4bcc16671a1d48",
+        "name": "Hat57085",
+        "amount": 169,
+        "price": 44176,
+        "manufacturer": "Sony",
+        "notes": "NUsUrV6IJKQh2gJXaiodLYOSGKqfP3y4MQSaxSBybRETOjODykYyg4ncybjAdbdjhQi7wVwAAL2JsaV4n2Yi7YHHukztvlfEhWGaFkVHqB3eMK6uB3arPdugfalbYUdYJa67RuHyZZUVxdPCo0wGtWP7BYhA4RVMW19n4oiywVa4uTLpG37QEU66uVaxFfTvivoLDG7GOFVH4kBTcAEaAkJouMu6g1HKO7HjmhN9WVWXsxGsLtYetuuArA",
+        "received": false
+      }
+    ],
+    "delivery": null,
+    "total_price": 94556,
+    "createdOn": "2025-02-27T22:56:57.000Z",
+    "comments": [],
+    "history": [
+      {
+        "status": "Draft",
+        "customer": "67c0edb47b4bcc16671a1c4d",
+        "products": [
+          {
+            "_id": "67c0edb77b4bcc16671a1c8c",
+            "name": "Sausages70908",
+            "amount": 547,
+            "price": 8791,
+            "manufacturer": "Xiaomi",
+            "notes": "jXGpcgrQUaqpOLGbtZ9lY5vCM9hLPtjX3YJ4Wlx1EsdQOa84RRrJiZ4ypFkm24iOhfyVKIHvUnGMJIVq7L6AgWHEEHGXT1mVhYnWy4a6DFF9NMJ8gVY5rWSKzdKT2f5QrurwCxyGbqUh6T7QDsNA4fqXVN147znQaABQwm6Teuk0rpa5DwYpjU7q8eBI8d0agbATE9IjEaIQRt9z0RQHjTX68tQ3nzrtrAzVu7RUv15eXcRUBJ7qCFUIly",
+            "received": false
+          },
+          {
+            "_id": "67c0edbd7b4bcc16671a1d10",
+            "name": "Bike54690",
+            "amount": 429,
+            "price": 41589,
+            "manufacturer": "Sony",
+            "notes": "GSJDP0Mtvb7sRyIq8rdQ85LwvFXbJLckUHfcHNPbsygcA7fN9jKvy2Eo6zsDczrcZK9PhSSvd3feTwqA1U7Xhz4LC1sWClBeHFTqwMQ7yByBoIvFE8KZJ5l4Fe2sBHzZfVXjOVRoy6S5LpNjUh2hm93s96Lva3XU5GSWjYiuUH04gxmKTUo4bLdAVgfyYkeqVBTwbDaMubHrzs3JPlNvh0eSoPFziFP7aehzpDIromG3NxXajyNe5qdDHs",
+            "received": false
+          },
+          {
+            "_id": "67c0edc07b4bcc16671a1d48",
+            "name": "Hat57085",
+            "amount": 169,
+            "price": 44176,
+            "manufacturer": "Sony",
+            "notes": "NUsUrV6IJKQh2gJXaiodLYOSGKqfP3y4MQSaxSBybRETOjODykYyg4ncybjAdbdjhQi7wVwAAL2JsaV4n2Yi7YHHukztvlfEhWGaFkVHqB3eMK6uB3arPdugfalbYUdYJa67RuHyZZUVxdPCo0wGtWP7BYhA4RVMW19n4oiywVa4uTLpG37QEU66uVaxFfTvivoLDG7GOFVH4kBTcAEaAkJouMu6g1HKO7HjmhN9WVWXsxGsLtYetuuArA",
+            "received": false
+          }
+        ],
+        "total_price": 94556,
+        "delivery": null,
+        "changedOn": "2025-02-27T22:57:07.000Z",
+        "action": "Requested products changed"
+      },
+      {
+        "status": "Draft",
+        "customer": "67c0edb47b4bcc16671a1c4d",
+        "products": [
+          {
+            "_id": "67c0edb77b4bcc16671a1c8c",
+            "name": "Sausages70908",
+            "amount": 547,
+            "price": 8791,
+            "manufacturer": "Xiaomi",
+            "notes": "jXGpcgrQUaqpOLGbtZ9lY5vCM9hLPtjX3YJ4Wlx1EsdQOa84RRrJiZ4ypFkm24iOhfyVKIHvUnGMJIVq7L6AgWHEEHGXT1mVhYnWy4a6DFF9NMJ8gVY5rWSKzdKT2f5QrurwCxyGbqUh6T7QDsNA4fqXVN147znQaABQwm6Teuk0rpa5DwYpjU7q8eBI8d0agbATE9IjEaIQRt9z0RQHjTX68tQ3nzrtrAzVu7RUv15eXcRUBJ7qCFUIly",
+            "received": false
+          }
+        ],
+        "total_price": 8791,
+        "delivery": null,
+        "changedOn": "2025-02-27T22:56:57.000Z",
+        "action": "Order created"
+      }
+    ]
+  },
+  "IsSuccess": true,
+  "ErrorMessage": null
+}

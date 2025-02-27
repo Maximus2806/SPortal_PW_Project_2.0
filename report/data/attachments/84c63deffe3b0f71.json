@@ -1,0 +1,57 @@
+{
+  "Order": {
+    "status": "Draft",
+    "customer": {
+      "_id": "67c0edb47b4bcc16671a1c4d",
+      "email": "Anahi.Balistreri79@gmail.com",
+      "name": "Name EhstarLQrSqCFjiMGnSrulVedBEiyFDrIBc",
+      "country": "Great Britain",
+      "city": "City tFJYIeUzfxTCYKk",
+      "street": "Street CsiiPi6bbOaiYOAUUexqjViKcCmiFqehW",
+      "house": 552,
+      "flat": 5674,
+      "phone": "+220939785414",
+      "createdOn": "2025-02-27T22:56:52.000Z",
+      "notes": "Notes cVxeLRZGAaKVcNcEVpKBEahCdvhVJGbkCIteQfwaQOdhFUMBljWcpNIRNslxxNAWAaeMejeqwqRJXoUhVfIqEtABOghSgyHYwAnEfAiIkTXzqAWytoYbHDPvrjBxEVPaXfbhztNODGIGnfxREmmXgeGNADNVpyuyxhBySIovPlvCaYIzKyaUvoIpuTETrNgfQVMdHKugxaVCeUPBGqOgEcuMtMmuPPEnNDDubAGJAMXLsQoFqTKs"
+    },
+    "products": [
+      {
+        "_id": "67c0edb77b4bcc16671a1c8c",
+        "name": "Sausages70908",
+        "amount": 547,
+        "price": 8791,
+        "manufacturer": "Xiaomi",
+        "notes": "jXGpcgrQUaqpOLGbtZ9lY5vCM9hLPtjX3YJ4Wlx1EsdQOa84RRrJiZ4ypFkm24iOhfyVKIHvUnGMJIVq7L6AgWHEEHGXT1mVhYnWy4a6DFF9NMJ8gVY5rWSKzdKT2f5QrurwCxyGbqUh6T7QDsNA4fqXVN147znQaABQwm6Teuk0rpa5DwYpjU7q8eBI8d0agbATE9IjEaIQRt9z0RQHjTX68tQ3nzrtrAzVu7RUv15eXcRUBJ7qCFUIly",
+        "received": false
+      }
+    ],
+    "delivery": null,
+    "total_price": 8791,
+    "createdOn": "2025-02-27T22:56:57.000Z",
+    "comments": [],
+    "history": [
+      {
+        "status": "Draft",
+        "customer": "67c0edb47b4bcc16671a1c4d",
+        "products": [
+          {
+            "_id": "67c0edb77b4bcc16671a1c8c",
+            "name": "Sausages70908",
+            "amount": 547,
+            "price": 8791,
+            "manufacturer": "Xiaomi",
+            "notes": "jXGpcgrQUaqpOLGbtZ9lY5vCM9hLPtjX3YJ4Wlx1EsdQOa84RRrJiZ4ypFkm24iOhfyVKIHvUnGMJIVq7L6AgWHEEHGXT1mVhYnWy4a6DFF9NMJ8gVY5rWSKzdKT2f5QrurwCxyGbqUh6T7QDsNA4fqXVN147znQaABQwm6Teuk0rpa5DwYpjU7q8eBI8d0agbATE9IjEaIQRt9z0RQHjTX68tQ3nzrtrAzVu7RUv15eXcRUBJ7qCFUIly",
+            "received": false
+          }
+        ],
+        "total_price": 8791,
+        "delivery": null,
+        "changedOn": "2025-02-27T22:56:57.000Z",
+        "action": "Order created"
+      }
+    ],
+    "_id": "67c0edb97b4bcc16671a1cd3"
+  },
+  "IsSuccess": true,
+  "ErrorMessage": null
+}

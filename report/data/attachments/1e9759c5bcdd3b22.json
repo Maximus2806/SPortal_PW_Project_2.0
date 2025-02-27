@@ -1,0 +1,95 @@
+{
+  "Order": {
+    "_id": "67c0ed9a7b4bcc16671a1a26",
+    "status": "Draft",
+    "customer": {
+      "_id": "67c0ed9e7b4bcc16671a1a74",
+      "email": "Laurine_Luettgen@hotmail.com",
+      "name": "Name vziOSxzBmCxUySZqoMykXZmOHMepWPRXlGS",
+      "country": "Germany",
+      "city": "City ptBIGbiNOJYffXs",
+      "street": "Street 48HcMhVgaH8i1R0oG0yJbvWCtZSu2clst",
+      "house": 458,
+      "flat": 7550,
+      "phone": "+716202121965",
+      "createdOn": "2025-02-27T22:56:30.000Z",
+      "notes": "Notes upXNecnewcgBlvmOmhpqqtmXCdjUdGrODizLxqcRTjRNphnfRjlBctLEPHuWHDVSuXcsjGcDuRYoAEsPfiKfJXIImaGIsvBOGPqDvlzIsOLVMUBAzMZDAMMLnmqkqJMLMtJUwDSHNIeYtpWJidITXyDrLioUTCeIDoGmVnAIaUKZSwpVZAnCKbDCFeENzFPbUlONcYKwNewkJWmlPaAoKmzWPIjxQLVGDLldvWiFuSfbvdTDVpiv"
+    },
+    "products": [
+      {
+        "_id": "67c0eda07b4bcc16671a1aac",
+        "name": "Table53997",
+        "amount": 172,
+        "price": 97573,
+        "manufacturer": "Sony",
+        "notes": "YMkhwrmlmV6BomXlrFFIkQXAYyZt5w0JgInxH6thf5r1lACGdLyWnbDdZYbVwW2WlSgaE3wgbfAlTqvaNFJlPMdglrduWG0YE6yhdhpuYNMGXylmm41ktRrU3VmjJH29DAlV56wWwqO49jjwfIiUzmuy9d82KHJwCRYITMTtY8M1LGXsm9BfrAEYgVbvUCq95cjuTbO7oAp3wRmSOCNdl6W1Mwx9zhvii7XQ9fkS91mRUmRLhAoCbsU1Ul",
+        "received": false
+      }
+    ],
+    "delivery": null,
+    "total_price": 97573,
+    "createdOn": "2025-02-27T22:56:26.000Z",
+    "comments": [],
+    "history": [
+      {
+        "status": "Draft",
+        "customer": "67c0ed9e7b4bcc16671a1a74",
+        "products": [
+          {
+            "_id": "67c0ed967b4bcc16671a19d1",
+            "name": "Towels65593",
+            "amount": 406,
+            "price": 90968,
+            "manufacturer": "Tesla",
+            "notes": "dIGiXnx4OLABLUfxI0J1lopngWJTOXykXoTzOAzlHRbZ9i2d6fVmvcOG5yHEDpUrP8y5sD2Zx0oKTH9TfzfLjonPzD6YmsxaWB7b2kL3AEGcPKxqgZ9JI75oRwsDi9qRHoYRqa7CyjyikyWTNVItEl3K3IWqhqcYx0CzonpIvYdOMJawFWGotzKQYsjnSEzE7KZiYWOYguMsM9zlVOT2HSbMdJJhMije12f6lr6gHYckwDVCYZhG7KdiIH",
+            "received": false
+          }
+        ],
+        "total_price": 97573,
+        "delivery": null,
+        "changedOn": "2025-02-27T22:56:37.000Z",
+        "action": "Customer changed"
+      },
+      {
+        "status": "Draft",
+        "customer": "67c0ed937b4bcc16671a199f",
+        "products": [
+          {
+            "_id": "67c0eda07b4bcc16671a1aac",
+            "name": "Table53997",
+            "amount": 172,
+            "price": 97573,
+            "manufacturer": "Sony",
+            "notes": "YMkhwrmlmV6BomXlrFFIkQXAYyZt5w0JgInxH6thf5r1lACGdLyWnbDdZYbVwW2WlSgaE3wgbfAlTqvaNFJlPMdglrduWG0YE6yhdhpuYNMGXylmm41ktRrU3VmjJH29DAlV56wWwqO49jjwfIiUzmuy9d82KHJwCRYITMTtY8M1LGXsm9BfrAEYgVbvUCq95cjuTbO7oAp3wRmSOCNdl6W1Mwx9zhvii7XQ9fkS91mRUmRLhAoCbsU1Ul",
+            "received": false
+          }
+        ],
+        "total_price": 97573,
+        "delivery": null,
+        "changedOn": "2025-02-27T22:56:37.000Z",
+        "action": "Requested products changed"
+      },
+      {
+        "status": "Draft",
+        "customer": "67c0ed937b4bcc16671a199f",
+        "products": [
+          {
+            "_id": "67c0ed967b4bcc16671a19d1",
+            "name": "Towels65593",
+            "amount": 406,
+            "price": 90968,
+            "manufacturer": "Tesla",
+            "notes": "dIGiXnx4OLABLUfxI0J1lopngWJTOXykXoTzOAzlHRbZ9i2d6fVmvcOG5yHEDpUrP8y5sD2Zx0oKTH9TfzfLjonPzD6YmsxaWB7b2kL3AEGcPKxqgZ9JI75oRwsDi9qRHoYRqa7CyjyikyWTNVItEl3K3IWqhqcYx0CzonpIvYdOMJawFWGotzKQYsjnSEzE7KZiYWOYguMsM9zlVOT2HSbMdJJhMije12f6lr6gHYckwDVCYZhG7KdiIH",
+            "received": false
+          }
+        ],
+        "total_price": 90968,
+        "delivery": null,
+        "changedOn": "2025-02-27T22:56:26.000Z",
+        "action": "Order created"
+      }
+    ]
+  },
+  "IsSuccess": true,
+  "ErrorMessage": null
+}

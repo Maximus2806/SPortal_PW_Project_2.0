@@ -1,0 +1,96 @@
+{
+  "Order": {
+    "_id": "67c0edb67b4bcc16671a1c77",
+    "status": "Draft",
+    "customer": {
+      "_id": "67c0edb27b4bcc16671a1c16",
+      "email": "Brycen_Langworth73@gmail.com",
+      "name": "Name CTtjldHwtVrTrNQkIFPzaNMNpMRJHKGSjsf",
+      "country": "Germany",
+      "city": "City aeGJEABwagQJOgD",
+      "street": "Street 3CGM10DsyBCf3NTdEzZpxtsjOwqS9EzgT",
+      "house": 446,
+      "flat": 1070,
+      "phone": "+141255988120",
+      "createdOn": "2025-02-27T22:56:50.000Z",
+      "notes": "Notes EwSTjlzRULTKuxAiDgNtZpHlYfFQYRMEFgkqzPIOjBNJcoJWcMqLHGxMNYNbZaduswyJQyupGyhZYTndejVxJxDPYgwaWxgGFXjujFxFofgxJqodNkInPiXUoQRUgjKMlQojJAQNYiSoInVSzteoDqoCmLnmJqnpeOhWJEUdBORaeLvVEpFGqHvWmyKzJBLSKknVpsEknaIUByBPStnSHuQMsXALFHiHJIgiBndLzcQANtyBWmFF"
+    },
+    "products": [
+      {
+        "_id": "67c0edb47b4bcc16671a1c3d",
+        "name": "Salad43117",
+        "amount": 588,
+        "price": 26991,
+        "manufacturer": "Apple",
+        "notes": "JSHE8UiLLHOHGiRLf3DPYMCIUMhD3Ic1RGmLFmzD84PHCGeIQ6nlsbScrMiD0tB2rNWAUgpYzwxVKU2dw9uxXTrsgagSEnu9AFm98oAporZT49gYF1VQ5EyL5UzszLk2twgofl529KfXKarPpHz6UsJxdsdExVA1v2HVuqJFPss0uTwzsou53FuZgRStUb4jvEngy3BzNXfZEGkrYGriUWJmHl38d9pbeoVo4IFcRNtVX5TdvGHZ4MNuIv",
+        "received": false
+      }
+    ],
+    "delivery": {
+      "address": {
+        "country": "Germany",
+        "city": "Berlin",
+        "street": "Main Street 123",
+        "house": 123,
+        "flat": 5678
+      },
+      "finalDate": "2025-03-04T00:00:00.000Z",
+      "condition": "Delivery"
+    },
+    "total_price": 26991,
+    "createdOn": "2025-02-27T22:56:54.000Z",
+    "comments": [],
+    "history": [
+      {
+        "status": "Draft",
+        "customer": "67c0edb27b4bcc16671a1c16",
+        "products": [
+          {
+            "_id": "67c0edb47b4bcc16671a1c3d",
+            "name": "Salad43117",
+            "amount": 588,
+            "price": 26991,
+            "manufacturer": "Apple",
+            "notes": "JSHE8UiLLHOHGiRLf3DPYMCIUMhD3Ic1RGmLFmzD84PHCGeIQ6nlsbScrMiD0tB2rNWAUgpYzwxVKU2dw9uxXTrsgagSEnu9AFm98oAporZT49gYF1VQ5EyL5UzszLk2twgofl529KfXKarPpHz6UsJxdsdExVA1v2HVuqJFPss0uTwzsou53FuZgRStUb4jvEngy3BzNXfZEGkrYGriUWJmHl38d9pbeoVo4IFcRNtVX5TdvGHZ4MNuIv",
+            "received": false
+          }
+        ],
+        "total_price": 26991,
+        "delivery": {
+          "address": {
+            "country": "Germany",
+            "city": "Berlin",
+            "street": "Main Street 123",
+            "house": 123,
+            "flat": 5678
+          },
+          "finalDate": "2025-03-04T00:00:00.000Z",
+          "condition": "Delivery"
+        },
+        "changedOn": "2025-02-27T22:56:57.000Z",
+        "action": "Delivery Scheduled"
+      },
+      {
+        "status": "Draft",
+        "customer": "67c0edb27b4bcc16671a1c16",
+        "products": [
+          {
+            "_id": "67c0edb47b4bcc16671a1c3d",
+            "name": "Salad43117",
+            "amount": 588,
+            "price": 26991,
+            "manufacturer": "Apple",
+            "notes": "JSHE8UiLLHOHGiRLf3DPYMCIUMhD3Ic1RGmLFmzD84PHCGeIQ6nlsbScrMiD0tB2rNWAUgpYzwxVKU2dw9uxXTrsgagSEnu9AFm98oAporZT49gYF1VQ5EyL5UzszLk2twgofl529KfXKarPpHz6UsJxdsdExVA1v2HVuqJFPss0uTwzsou53FuZgRStUb4jvEngy3BzNXfZEGkrYGriUWJmHl38d9pbeoVo4IFcRNtVX5TdvGHZ4MNuIv",
+            "received": false
+          }
+        ],
+        "total_price": 26991,
+        "delivery": null,
+        "changedOn": "2025-02-27T22:56:54.000Z",
+        "action": "Order created"
+      }
+    ]
+  },
+  "IsSuccess": true,
+  "ErrorMessage": null
+}

@@ -1,0 +1,57 @@
+{
+  "Order": {
+    "status": "Draft",
+    "customer": {
+      "_id": "67c0eddd7b4bcc16671a1fea",
+      "email": "Abbigail_Corkery97@hotmail.com",
+      "name": "Name eFlFvsHaumkcqgyUSvoOCEYsxlnBGPYcLMj",
+      "country": "Great Britain",
+      "city": "City HeVEezRroPRsCIo",
+      "street": "Street 8sHAk5u2YMelAVAarGWcs7IgYKqrQFvOl",
+      "house": 694,
+      "flat": 1398,
+      "phone": "+280703496321",
+      "createdOn": "2025-02-27T22:57:33.000Z",
+      "notes": "Notes gbFKOdJZaRcpZafEjFmpowxRqvTxGpYIGMPwFyzprhUHLqerNfmKpsYyMdClwzJybqZtpdVgYJOIaSRZRRkckehHtWsslAuDyQjfChhGRmcyKIMPIZKzTqYdHprFhHCoZQngBTWXrgCGlcYdFmMZdFKDsBexRLiIOBtogrUJRDhjGiMVbwwawtQtmJpuwwsptqUIHxXrvdAzklwHMLOlKcWZGbfVXYWwfArrgHrHYJUKQGyyaTuf"
+    },
+    "products": [
+      {
+        "_id": "67c0edde7b4bcc16671a2005",
+        "name": "Fish34441",
+        "amount": 336,
+        "price": 1042,
+        "manufacturer": "Amazon",
+        "notes": "mhJC6bdLUvo6keuMZRR2YUCRIsz2N6Qbo1wRjCcOyP90vh4LAEuDo0l43zeIMsMtdSF5E4jUkflJ0RQ7p9x6INPSdHmLjct3nYPFOnQ43EtNI8T66gj4WGq0tFAk8TIdhOps3aTOWcWySgL0Zw99U37XDtcIRyapHV2v0byO8hOXtboGtEa7gXIWZSzldyEZYTJyPscQm96EPiYaSDVqyzsjzBaUmyga7skd2lWWjcIlV643V9ZtAOkc9d",
+        "received": false
+      }
+    ],
+    "delivery": null,
+    "total_price": 1042,
+    "createdOn": "2025-02-27T22:57:35.000Z",
+    "comments": [],
+    "history": [
+      {
+        "status": "Draft",
+        "customer": "67c0eddd7b4bcc16671a1fea",
+        "products": [
+          {
+            "_id": "67c0edde7b4bcc16671a2005",
+            "name": "Fish34441",
+            "amount": 336,
+            "price": 1042,
+            "manufacturer": "Amazon",
+            "notes": "mhJC6bdLUvo6keuMZRR2YUCRIsz2N6Qbo1wRjCcOyP90vh4LAEuDo0l43zeIMsMtdSF5E4jUkflJ0RQ7p9x6INPSdHmLjct3nYPFOnQ43EtNI8T66gj4WGq0tFAk8TIdhOps3aTOWcWySgL0Zw99U37XDtcIRyapHV2v0byO8hOXtboGtEa7gXIWZSzldyEZYTJyPscQm96EPiYaSDVqyzsjzBaUmyga7skd2lWWjcIlV643V9ZtAOkc9d",
+            "received": false
+          }
+        ],
+        "total_price": 1042,
+        "delivery": null,
+        "changedOn": "2025-02-27T22:57:35.000Z",
+        "action": "Order created"
+      }
+    ],
+    "_id": "67c0eddf7b4bcc16671a201d"
+  },
+  "IsSuccess": true,
+  "ErrorMessage": null
+}
