@@ -1,0 +1,17 @@
+{
+  "Customer": {
+    "_id": "67c0ebf37b4bcc16671a1144",
+    "email": "Dan14@hotmail.com",
+    "name": "Name sGcbvNTShpLheEyxOSoLqEByeSZghehBzGt",
+    "country": "Germany",
+    "city": "City CpAKLcWLDLEXCqB",
+    "street": "Street 5AYDlh1MrKrLDgzc3OYJZvUtJN5GdpN0P",
+    "house": 142,
+    "flat": 20,
+    "phone": "+422200748230",
+    "createdOn": "2025-02-27T22:49:23.000Z",
+    "notes": "Notes ocibirISYLaQfswBkpyDKIoahIvabhCkKwPIgKovBvAZfkVIGXvFtJOsIcPrEWxqdjuLoBuTLeIELMBvhjnMqUgzlzFsFEEAFPGUFznbqykaXoBRFxddBxQlbcizpWdhzmkuzqObiEOdBhNbZgKmrtNnpRndfIIxVpvYIaDSiQnUJpOPHuPmqvxwJbLpurvzdNOwBkHCrZSvjHBtvFTexlcCZRztjKcMdthCjlWaEghvTLBjqovj"
+  },
+  "IsSuccess": true,
+  "ErrorMessage": null
+}

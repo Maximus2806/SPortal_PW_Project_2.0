@@ -1,0 +1,112 @@
+{
+  "Order": {
+    "_id": "67c0ec207b4bcc16671a1533",
+    "status": "Draft",
+    "customer": {
+      "_id": "67c0ec1f7b4bcc16671a14c4",
+      "email": "Russel.Berge30@gmail.com",
+      "name": "Name hjHnUvfEbINpWbOAdaQITINFSKNxEeNVsZc",
+      "country": "Ukraine",
+      "city": "City vtyposPjVIiQxdq",
+      "street": "Street fJTTjM0U2pGYb4mKdHMt31CEONs5JvYDp",
+      "house": 461,
+      "flat": 6553,
+      "phone": "+680994505976",
+      "createdOn": "2025-02-27T22:50:07.000Z",
+      "notes": "Notes epPIoaikeWQOHHfRiOVHHgZCbheQMFIpqfeqwLHIfTQUJONKOKIZJMuLkilYzINoxNdGkVzkePlkYZmSOocXHlCVjDkyjmRIetsyjHdYwalwCtkIpQmAoINmNSglbqDTBSukpHLCSLnCeLKEPXUGDnKGwcVOWWAaneifFLAlSvOqJgnNlEyTWjlBzIXdqVLBKgMyLADiUeNjpWgNjqwaDHmjhyPGErpqOTsUvCpAETekdesldgEH"
+    },
+    "products": [
+      {
+        "_id": "67c0ec1f7b4bcc16671a14ec",
+        "name": "Ball48736",
+        "amount": 27,
+        "price": 25780,
+        "manufacturer": "Tesla",
+        "notes": "LgztKaHCEbTgv6YF4qkkLtMDI0DcAkxGEZsNfChYiPkuyPNfMr0PKC0bAPQqXugpDWCtcaY5kjsBt8amQNLJnYOCEs88W1P4TI9L9ZTNSEIi5eUrzK0xXQ6VrC8Lg51ebf1sNxb2a50wdp4jBhx0gb5TU74kFSanXEePTGJxIp3K8maeNBKEWalQrg6qOaHGN7chIphRsHGrqTwW6U92Vr3oY5vuqcXcLBGx7lseJGfnIvth3iwj2yoTO0",
+        "received": false
+      },
+      {
+        "_id": "67c0ec217b4bcc16671a156b",
+        "name": "Table78668",
+        "amount": 448,
+        "price": 92484,
+        "manufacturer": "Apple",
+        "notes": "HjonN6I07ECaWSLwZu09PLp7jPIv1JB40fTOSgS4ErPraQYMOcwNf5H1Yqp0t1M6AYhE2miNC0MZdfWSBUaBtjj73ughde6nNnTVjMTUxCAkYN0gOdr75U7SFwsInSOTefxvT1vQ28M4j3305kk8oIZDRR0ZmHOanE81tknYLYNuDv86zIqkhfyxTHFqZjAbIVdGx3pO9pdE3rtmN3bgCOqHTOnwl0telbaFC06lkjgMov35VGdHuVFdKX",
+        "received": false
+      },
+      {
+        "_id": "67c0ec217b4bcc16671a159f",
+        "name": "Table3047",
+        "amount": 690,
+        "price": 55569,
+        "manufacturer": "Samsung",
+        "notes": "pgc0h0mvUA7LZQF5ijesZxkto8G7icZUGgjrf06SgOmLVHBj3ayoY93nRA783xZNoe9VrhwZhFUzwYFDvxQaUMN9DFjBixb1KvqGpDJ6klFsA6SLQf17hbKQB1SynfAmGAP343T2c2fD8ctAuYhvpJZ3XfpmmaVGhL6AeozMenLYWx9fXuevf6KFyxvcHo0hIqwvKngF2GrzaCOu212WvCa3QQmDkxtxMLbop4j2lFtbjjQ6uqGyiiluVS",
+        "received": false
+      }
+    ],
+    "delivery": null,
+    "total_price": 173833,
+    "createdOn": "2025-02-27T22:50:08.000Z",
+    "comments": [],
+    "history": [
+      {
+        "status": "Draft",
+        "customer": "67c0ec1f7b4bcc16671a14c4",
+        "products": [
+          {
+            "_id": "67c0ec1f7b4bcc16671a14ec",
+            "name": "Ball48736",
+            "amount": 27,
+            "price": 25780,
+            "manufacturer": "Tesla",
+            "notes": "LgztKaHCEbTgv6YF4qkkLtMDI0DcAkxGEZsNfChYiPkuyPNfMr0PKC0bAPQqXugpDWCtcaY5kjsBt8amQNLJnYOCEs88W1P4TI9L9ZTNSEIi5eUrzK0xXQ6VrC8Lg51ebf1sNxb2a50wdp4jBhx0gb5TU74kFSanXEePTGJxIp3K8maeNBKEWalQrg6qOaHGN7chIphRsHGrqTwW6U92Vr3oY5vuqcXcLBGx7lseJGfnIvth3iwj2yoTO0",
+            "received": false
+          },
+          {
+            "_id": "67c0ec217b4bcc16671a156b",
+            "name": "Table78668",
+            "amount": 448,
+            "price": 92484,
+            "manufacturer": "Apple",
+            "notes": "HjonN6I07ECaWSLwZu09PLp7jPIv1JB40fTOSgS4ErPraQYMOcwNf5H1Yqp0t1M6AYhE2miNC0MZdfWSBUaBtjj73ughde6nNnTVjMTUxCAkYN0gOdr75U7SFwsInSOTefxvT1vQ28M4j3305kk8oIZDRR0ZmHOanE81tknYLYNuDv86zIqkhfyxTHFqZjAbIVdGx3pO9pdE3rtmN3bgCOqHTOnwl0telbaFC06lkjgMov35VGdHuVFdKX",
+            "received": false
+          },
+          {
+            "_id": "67c0ec217b4bcc16671a159f",
+            "name": "Table3047",
+            "amount": 690,
+            "price": 55569,
+            "manufacturer": "Samsung",
+            "notes": "pgc0h0mvUA7LZQF5ijesZxkto8G7icZUGgjrf06SgOmLVHBj3ayoY93nRA783xZNoe9VrhwZhFUzwYFDvxQaUMN9DFjBixb1KvqGpDJ6klFsA6SLQf17hbKQB1SynfAmGAP343T2c2fD8ctAuYhvpJZ3XfpmmaVGhL6AeozMenLYWx9fXuevf6KFyxvcHo0hIqwvKngF2GrzaCOu212WvCa3QQmDkxtxMLbop4j2lFtbjjQ6uqGyiiluVS",
+            "received": false
+          }
+        ],
+        "total_price": 173833,
+        "delivery": null,
+        "changedOn": "2025-02-27T22:50:10.000Z",
+        "action": "Requested products changed"
+      },
+      {
+        "status": "Draft",
+        "customer": "67c0ec1f7b4bcc16671a14c4",
+        "products": [
+          {
+            "_id": "67c0ec1f7b4bcc16671a14ec",
+            "name": "Ball48736",
+            "amount": 27,
+            "price": 25780,
+            "manufacturer": "Tesla",
+            "notes": "LgztKaHCEbTgv6YF4qkkLtMDI0DcAkxGEZsNfChYiPkuyPNfMr0PKC0bAPQqXugpDWCtcaY5kjsBt8amQNLJnYOCEs88W1P4TI9L9ZTNSEIi5eUrzK0xXQ6VrC8Lg51ebf1sNxb2a50wdp4jBhx0gb5TU74kFSanXEePTGJxIp3K8maeNBKEWalQrg6qOaHGN7chIphRsHGrqTwW6U92Vr3oY5vuqcXcLBGx7lseJGfnIvth3iwj2yoTO0",
+            "received": false
+          }
+        ],
+        "total_price": 25780,
+        "delivery": null,
+        "changedOn": "2025-02-27T22:50:08.000Z",
+        "action": "Order created"
+      }
+    ]
+  },
+  "IsSuccess": true,
+  "ErrorMessage": null
+}

@@ -1,0 +1,13 @@
+{
+  "Product": {
+    "name": "Shirt98417",
+    "amount": 701,
+    "price": 34241,
+    "manufacturer": "Xiaomi",
+    "createdOn": "2025-02-27T22:50:04.000Z",
+    "notes": "jjYV5XZrV2LsAdomGcmbNADtbwKBQsMkooqJTU0Qn58hF0dwaCm9TffjcJ4atDQEUZFhMK6GjswYLcnZzJuNjlyGEFTHsRzt7bMjkFBM68vFihRwlccX1H4w4YKtKhErn5mgnIvKDbsrA6jqRTM60uPjatMDESE0lgdhKqscI1hvWutvMQirAPy9IEljojIbvWlcGmHnO2tRW1qQ20I3dksCqSvz0VzeeSWFqTIT0HXtOR1LF1bgsZcM4L",
+    "_id": "67c0ec1c7b4bcc16671a13db"
+  },
+  "IsSuccess": true,
+  "ErrorMessage": null
+}

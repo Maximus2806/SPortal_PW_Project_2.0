@@ -1,0 +1,96 @@
+{
+  "Order": {
+    "_id": "67c0ec127b4bcc16671a1335",
+    "status": "Draft",
+    "customer": {
+      "_id": "67c0ec0f7b4bcc16671a12f0",
+      "email": "Nona_Christiansen-Marks46@hotmail.com",
+      "name": "Name ZHnOPxycOuewztbIEzjeayjrcaSbTEXcxaB",
+      "country": "Ukraine",
+      "city": "City gyGLDOPZebRkOUz",
+      "street": "Street yfDhqMmQcWVFqRVEDPmrdAytnu3D1TMgS",
+      "house": 102,
+      "flat": 1842,
+      "phone": "+237206397134",
+      "createdOn": "2025-02-27T22:49:51.000Z",
+      "notes": "Notes LgQxEgeboIUMIlBHQBDGjfnvUBuXAjcacIxKDvlBfNgtJvZiDaBdpSjOXMtLxjzhZdClOtLVMMbTKYTUgkJgicENdUdpkcsrnDCsFuUMMgZqSOptCztoHfezIhxjgdEYxdHoCYZyqosxjyiWkdRYPZnygIIddpksFFHgkVBoBbDxGUiMwyTczFoxKqjgTTiXexidcdIKyjYGgtRjRHLXkGjnuYBLSJiUkGkBlUeWPGmiDvmKBhDr"
+    },
+    "products": [
+      {
+        "_id": "67c0ec107b4bcc16671a130e",
+        "name": "Shoes85333",
+        "amount": 337,
+        "price": 49469,
+        "manufacturer": "Samsung",
+        "notes": "zCyNgFjkJQepjre887W9ONfDhgIADpWYEg5dDsLJezBwUY876liWosZiEIGDAEIlhABRplkSj2BbwMj1b0b8ztxY02SYZtSV47YX6NZYuzDO49xmQ81kv3AFcJKP0BU2OtRfq33Eodr7HUplMCu2YyLLmew2VVOgILJ57TWMshW8c7PRFG4Iq1JIGAnbTBqkBza1pE620STQC3xripqBZk86cFfg1A5sRJavOFpr2t8SPFXFyrjFeJtmFP",
+        "received": false
+      }
+    ],
+    "delivery": {
+      "address": {
+        "country": "USA",
+        "city": "City QZeKKTbQxbYsSAf",
+        "street": "Street gpC8RxGK0XUFAdWO4BUB6ZZGFx7dxsax0",
+        "house": 44,
+        "flat": 4663
+      },
+      "finalDate": "2025-03-07T00:00:00.000Z",
+      "condition": "Pickup"
+    },
+    "total_price": 49469,
+    "createdOn": "2025-02-27T22:49:54.000Z",
+    "comments": [],
+    "history": [
+      {
+        "status": "Draft",
+        "customer": "67c0ec0f7b4bcc16671a12f0",
+        "products": [
+          {
+            "_id": "67c0ec107b4bcc16671a130e",
+            "name": "Shoes85333",
+            "amount": 337,
+            "price": 49469,
+            "manufacturer": "Samsung",
+            "notes": "zCyNgFjkJQepjre887W9ONfDhgIADpWYEg5dDsLJezBwUY876liWosZiEIGDAEIlhABRplkSj2BbwMj1b0b8ztxY02SYZtSV47YX6NZYuzDO49xmQ81kv3AFcJKP0BU2OtRfq33Eodr7HUplMCu2YyLLmew2VVOgILJ57TWMshW8c7PRFG4Iq1JIGAnbTBqkBza1pE620STQC3xripqBZk86cFfg1A5sRJavOFpr2t8SPFXFyrjFeJtmFP",
+            "received": false
+          }
+        ],
+        "total_price": 49469,
+        "delivery": {
+          "address": {
+            "country": "USA",
+            "city": "City QZeKKTbQxbYsSAf",
+            "street": "Street gpC8RxGK0XUFAdWO4BUB6ZZGFx7dxsax0",
+            "house": 44,
+            "flat": 4663
+          },
+          "finalDate": "2025-03-07T00:00:00.000Z",
+          "condition": "Pickup"
+        },
+        "changedOn": "2025-02-27T22:49:58.000Z",
+        "action": "Delivery Scheduled"
+      },
+      {
+        "status": "Draft",
+        "customer": "67c0ec0f7b4bcc16671a12f0",
+        "products": [
+          {
+            "_id": "67c0ec107b4bcc16671a130e",
+            "name": "Shoes85333",
+            "amount": 337,
+            "price": 49469,
+            "manufacturer": "Samsung",
+            "notes": "zCyNgFjkJQepjre887W9ONfDhgIADpWYEg5dDsLJezBwUY876liWosZiEIGDAEIlhABRplkSj2BbwMj1b0b8ztxY02SYZtSV47YX6NZYuzDO49xmQ81kv3AFcJKP0BU2OtRfq33Eodr7HUplMCu2YyLLmew2VVOgILJ57TWMshW8c7PRFG4Iq1JIGAnbTBqkBza1pE620STQC3xripqBZk86cFfg1A5sRJavOFpr2t8SPFXFyrjFeJtmFP",
+            "received": false
+          }
+        ],
+        "total_price": 49469,
+        "delivery": null,
+        "changedOn": "2025-02-27T22:49:54.000Z",
+        "action": "Order created"
+      }
+    ]
+  },
+  "IsSuccess": true,
+  "ErrorMessage": null
+}

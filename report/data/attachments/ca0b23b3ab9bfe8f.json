@@ -1,0 +1,125 @@
+{
+  "Order": {
+    "_id": "67c0ec1c7b4bcc16671a13e6",
+    "status": "In Process",
+    "customer": {
+      "_id": "67c0ec157b4bcc16671a1362",
+      "email": "Brenda.Nikolaus84@hotmail.com",
+      "name": "Name hVxtYUQjPEEOiLjgfkPANtwfezdjacHIhsJ",
+      "country": "France",
+      "city": "City VRUJVkmFEuJrmnK",
+      "street": "Street cFYVRryhcQAVij3RvAYpQjkl5AklJXtqD",
+      "house": 74,
+      "flat": 7539,
+      "phone": "+413306323257",
+      "createdOn": "2025-02-27T22:49:57.000Z",
+      "notes": "Notes JLoxlvoxxqWJlHyqeFwAkBzYEjIFtQBSGfKbRpDReawrkCYeHPTFzQZtilgtLpCYPmuesPGZHaVVDPUcNBBgSKCIdQKpIeYMZUpLLBwdwPciaGBLOlZGptTjkXqsnQxKZSipaILYVgrCQRBPKOLUeXVRcExvWrlQQpDHApnjBKBMHjymZfvjGeuRTIMaypwjhkuVdhGOdZikCwCiZiygddSqWaITihanIMOyzGEBnFguleCricYP"
+    },
+    "products": [
+      {
+        "_id": "67c0ec197b4bcc16671a139e",
+        "name": "Cheese89969",
+        "amount": 402,
+        "price": 7237,
+        "manufacturer": "Amazon",
+        "notes": "SLd1xqOCpNDCRlCEdVwUkerMLdMI4tV7PYzK0jCDQgBO4n2S0lMCuPI4yekuOmC2oXxvyicwemaA93FmEk4IC1Xp2M7Me5iu8YhOknEJ0O6JX5NI4hdavtV7NsRAQmZ0tF1uhPhUZpgEyPGNMCeFJknRWJ2tN4Z4RqjYuEvW4znRAgWWBoeKpHRjv48rngGs5NxQliSthRzC5KjnsiENLt08oZAhEXR4zqdeJSpsd1vRBRDmZoKrZH56Pi",
+        "received": false
+      }
+    ],
+    "delivery": {
+      "address": {
+        "country": "France",
+        "city": "City CgNeAfgNDMWWpNg",
+        "street": "Street WF0rd5fJMcXCMkzRZWiH9gZjUQpO46sNt",
+        "house": 444,
+        "flat": 6885
+      },
+      "finalDate": "2025-03-02T00:00:00.000Z",
+      "condition": "Pickup"
+    },
+    "total_price": 7237,
+    "createdOn": "2025-02-27T22:50:04.000Z",
+    "comments": [],
+    "history": [
+      {
+        "status": "In Process",
+        "customer": "67c0ec157b4bcc16671a1362",
+        "products": [
+          {
+            "_id": "67c0ec197b4bcc16671a139e",
+            "name": "Cheese89969",
+            "amount": 402,
+            "price": 7237,
+            "manufacturer": "Amazon",
+            "notes": "SLd1xqOCpNDCRlCEdVwUkerMLdMI4tV7PYzK0jCDQgBO4n2S0lMCuPI4yekuOmC2oXxvyicwemaA93FmEk4IC1Xp2M7Me5iu8YhOknEJ0O6JX5NI4hdavtV7NsRAQmZ0tF1uhPhUZpgEyPGNMCeFJknRWJ2tN4Z4RqjYuEvW4znRAgWWBoeKpHRjv48rngGs5NxQliSthRzC5KjnsiENLt08oZAhEXR4zqdeJSpsd1vRBRDmZoKrZH56Pi",
+            "received": false
+          }
+        ],
+        "total_price": 7237,
+        "delivery": {
+          "address": {
+            "country": "France",
+            "city": "City CgNeAfgNDMWWpNg",
+            "street": "Street WF0rd5fJMcXCMkzRZWiH9gZjUQpO46sNt",
+            "house": 444,
+            "flat": 6885
+          },
+          "finalDate": "2025-03-02T00:00:00.000Z",
+          "condition": "Pickup"
+        },
+        "changedOn": "2025-02-27T22:50:06.000Z",
+        "action": "Order processing started"
+      },
+      {
+        "status": "Draft",
+        "customer": "67c0ec157b4bcc16671a1362",
+        "products": [
+          {
+            "_id": "67c0ec197b4bcc16671a139e",
+            "name": "Cheese89969",
+            "amount": 402,
+            "price": 7237,
+            "manufacturer": "Amazon",
+            "notes": "SLd1xqOCpNDCRlCEdVwUkerMLdMI4tV7PYzK0jCDQgBO4n2S0lMCuPI4yekuOmC2oXxvyicwemaA93FmEk4IC1Xp2M7Me5iu8YhOknEJ0O6JX5NI4hdavtV7NsRAQmZ0tF1uhPhUZpgEyPGNMCeFJknRWJ2tN4Z4RqjYuEvW4znRAgWWBoeKpHRjv48rngGs5NxQliSthRzC5KjnsiENLt08oZAhEXR4zqdeJSpsd1vRBRDmZoKrZH56Pi",
+            "received": false
+          }
+        ],
+        "total_price": 7237,
+        "delivery": {
+          "address": {
+            "country": "France",
+            "city": "City CgNeAfgNDMWWpNg",
+            "street": "Street WF0rd5fJMcXCMkzRZWiH9gZjUQpO46sNt",
+            "house": 444,
+            "flat": 6885
+          },
+          "finalDate": "2025-03-02T00:00:00.000Z",
+          "condition": "Pickup"
+        },
+        "changedOn": "2025-02-27T22:50:06.000Z",
+        "action": "Delivery Scheduled"
+      },
+      {
+        "status": "Draft",
+        "customer": "67c0ec157b4bcc16671a1362",
+        "products": [
+          {
+            "_id": "67c0ec197b4bcc16671a139e",
+            "name": "Cheese89969",
+            "amount": 402,
+            "price": 7237,
+            "manufacturer": "Amazon",
+            "notes": "SLd1xqOCpNDCRlCEdVwUkerMLdMI4tV7PYzK0jCDQgBO4n2S0lMCuPI4yekuOmC2oXxvyicwemaA93FmEk4IC1Xp2M7Me5iu8YhOknEJ0O6JX5NI4hdavtV7NsRAQmZ0tF1uhPhUZpgEyPGNMCeFJknRWJ2tN4Z4RqjYuEvW4znRAgWWBoeKpHRjv48rngGs5NxQliSthRzC5KjnsiENLt08oZAhEXR4zqdeJSpsd1vRBRDmZoKrZH56Pi",
+            "received": false
+          }
+        ],
+        "total_price": 7237,
+        "delivery": null,
+        "changedOn": "2025-02-27T22:50:04.000Z",
+        "action": "Order created"
+      }
+    ]
+  },
+  "IsSuccess": true,
+  "ErrorMessage": null
+}

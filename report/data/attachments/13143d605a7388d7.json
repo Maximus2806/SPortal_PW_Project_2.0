@@ -1,0 +1,13 @@
+{
+  "Product": {
+    "name": "Chips74430",
+    "amount": 357,
+    "price": 40149,
+    "manufacturer": "Microsoft",
+    "createdOn": "2025-02-27T22:49:41.000Z",
+    "notes": "G6BXZbofuaFbHHS5SHKHATXVit649lDhEvPzoww0kBMO2vH99dAsdS39NODVbgpHYbEznTyOppfH2fIKf9f7zIW9aqUzDP24SIrNEIsbSykOgjT7nLjGUmYBNhk9W4SbKxQM0b6pzPudkbecCIqPx5j0YWcTiJ0P4ytJvDXjZDmizZvOrj1OAJS2heWXyES9KBKU58MarRs4KAQ8e60hvRXUZUkocsssZY6JxEfJ3YWW4905udhzKAURwv",
+    "_id": "67c0ec057b4bcc16671a123b"
+  },
+  "IsSuccess": true,
+  "ErrorMessage": null
+}

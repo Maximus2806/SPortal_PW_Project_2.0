@@ -1,0 +1,13 @@
+{
+  "Product": {
+    "name": "Pizza51593",
+    "amount": 185,
+    "price": 42740,
+    "manufacturer": "Apple",
+    "createdOn": "2025-02-27T22:50:12.000Z",
+    "notes": "URNs3hnGazaos4SBSasUoDacgb1gWBA3AA2Ntyj3lBC9xaHuQn2jti4FFkbym6Qcdp4F9Zx4LCetxe9Ne6ZaMTwQTwr4l5eBTdJqcDBX7krYQckRYup1ugyCw97FIyVctYmB3WG9kbWZTtUfudYNCgBgqvSiyML05k0p6Y1uiFeja8yf44OB78VN670SFXkCoE8vphCI1JqzlYlRHzpe2eZN3dmfRxzFa9a8d781XA90u6Eumr562t4XXK",
+    "_id": "67c0ec247b4bcc16671a16f7"
+  },
+  "IsSuccess": true,
+  "ErrorMessage": null
+}

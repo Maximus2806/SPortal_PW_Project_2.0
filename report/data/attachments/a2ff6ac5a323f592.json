@@ -1,0 +1,19 @@
+{
+  "Products": [
+    {
+      "_id": "67c0ec197b4bcc16671a13a4",
+      "name": "Computer64849",
+      "amount": 615,
+      "price": 34641,
+      "manufacturer": "Xiaomi",
+      "createdOn": "2025-02-27T22:50:01.000Z",
+      "notes": "kecrz3HsXEnCieJj8ivJoLJ3MOqmqjvUb5DxIcfVFhcySvBk6ebTbOyyUMn76dSJMu29ccPDjCkB74Z4y8whDlGgNSRXH0MWrieXWJmUXn09BHsGHYPSoiI3yAc27xPgE0ZKDBRrtZ3VJd9s3XIKncDjYxghddm8mA2QWqkrwBt1SC0M7oEDafXc1NNRQ46DT3KYWmOaAvL6umQNwsZSpK5QIMWUSktJxdWFQqyjLOA8hZ0qh9xD2sS9Kr"
+    }
+  ],
+  "sorting": {
+    "sortField": "createdOn",
+    "sortOrder": "desc"
+  },
+  "IsSuccess": true,
+  "ErrorMessage": null
+}
