@@ -1,0 +1,13 @@
+{
+  "Product": {
+    "name": "Shoes42370",
+    "amount": 602,
+    "price": 7008,
+    "manufacturer": "Microsoft",
+    "createdOn": "2025-02-27T23:18:31.000Z",
+    "notes": "7h6yQPi63zKaW6vpVitq3BscJnsm6QRbtXaeTaSX8lwthAAh4Mvh9WrYB0kRbkuQzDS6XDVF0Jm0J63OnIABAIvSKt8HpcwrPzsNwWHK2IBlhMImmzL2021H1PE2wYDNlnXTxQ8huBv1rb6VQ0BAOqrm9TdesXMytgVzk5TvU3oSKhKy2ai3EIDRigTmbD5cULdDtSkw0wBY0D4OQZ31TMeBw1SID8PdmVjcphiVgdxLTEvK97frMB1Zst",
+    "_id": "67c0f2c87b4bcc16671a2d70"
+  },
+  "IsSuccess": true,
+  "ErrorMessage": null
+}

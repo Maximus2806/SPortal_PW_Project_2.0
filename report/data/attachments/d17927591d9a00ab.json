@@ -1,0 +1,13 @@
+{
+  "Product": {
+    "name": "Cheese21908",
+    "amount": 509,
+    "price": 11910,
+    "manufacturer": "Microsoft",
+    "createdOn": "2025-02-27T23:17:33.000Z",
+    "notes": "IpfOEkcgXtiWMJfpm6wtG9uIN5cRwRDC9ZcASLlFkjAxmfzDE66wfNnTgWIQQllYuUwrsYu59fn2U017WJlznPdfxVhwJgQUsMggPQefM5UR845UeGcGu7xbWQTl6IfFnBYW0pdEFH9H1AXzAMXMsqpvLKXbP3z1Iv6asZ4ouaX7POteLvOPAjUvugjrTCvTHw75089xVw0JgOu6dGyhccjXIbptyuBECVnymGv1gWHY2a5wUqULjRnHvK",
+    "_id": "67c0f28d7b4bcc16671a28b8"
+  },
+  "IsSuccess": true,
+  "ErrorMessage": null
+}

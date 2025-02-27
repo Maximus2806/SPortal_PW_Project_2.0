@@ -1,0 +1,19 @@
+{
+  "Products": [
+    {
+      "_id": "67c0f2a57b4bcc16671a2a60",
+      "name": "Pants9080",
+      "amount": 135,
+      "price": 60842,
+      "manufacturer": "Apple",
+      "createdOn": "2025-02-27T23:17:57.000Z",
+      "notes": "DxMsXZ70o69uz10ub3c0AWdsKjqRtANWU2JRMRHDb6WXe1pjGnFXn0wZdsvV5Mr7sFy5R6TAi7FiBhCssm4mlJeoYF5j2WBTZd7zBw39xVTSLC7aOjtJXnPIpPlvQdCkw28vmqJrBtZQanW1BNJtwYlDRxUHX3PRKjPAHluIhCLteRYKjLrbWc9bADcaIZX21TmNNZAtnLEa27S6vXdukrp8S1zppsCI6jMo8eVWBww0hKBUQElACBrPXg"
+    }
+  ],
+  "sorting": {
+    "sortField": "createdOn",
+    "sortOrder": "desc"
+  },
+  "IsSuccess": true,
+  "ErrorMessage": null
+}

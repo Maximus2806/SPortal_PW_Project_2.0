@@ -1,0 +1,93 @@
+{
+  "Order": {
+    "status": "Draft",
+    "customer": {
+      "_id": "67c0f2c67b4bcc16671a2d51",
+      "email": "Helene_Baumbach55@yahoo.com",
+      "name": "Name cfpEcHvscvMZUOvWYqFqUgQKESBTkXZGfWN",
+      "country": "Ukraine",
+      "city": "City LOOKqsJHbrfoFyj",
+      "street": "Street cpBnVEVdBw1cb7UO5tJT45K1VyIbOPh8N",
+      "house": 237,
+      "flat": 3804,
+      "phone": "+296015752379",
+      "createdOn": "2025-02-27T23:18:30.000Z",
+      "notes": "Notes orwPtJIdmKfoyChdnVqHZyZECokuhfAcXujOLuOtTkMRBwUhUibzJQtVXbLCdCDQpBAiAVHelblSCKRRhsLBobhzADifUNTQFuHPuOrqiJiugSZLnJjyXxNenzSFInvsAxQDFMwgFdCOcRdtkwGBPusKTpMWKcRHvtCpjVgXwyObCXYMoobYBTsrHcPxaEKxIjHWNqqtsrSyYdElQZZPkaiyXbxkiwtaFKAmPsLtcXrSyjvqCcAE"
+    },
+    "products": [
+      {
+        "_id": "67c0f2c87b4bcc16671a2d70",
+        "name": "Shoes42370",
+        "amount": 602,
+        "price": 7008,
+        "manufacturer": "Microsoft",
+        "notes": "7h6yQPi63zKaW6vpVitq3BscJnsm6QRbtXaeTaSX8lwthAAh4Mvh9WrYB0kRbkuQzDS6XDVF0Jm0J63OnIABAIvSKt8HpcwrPzsNwWHK2IBlhMImmzL2021H1PE2wYDNlnXTxQ8huBv1rb6VQ0BAOqrm9TdesXMytgVzk5TvU3oSKhKy2ai3EIDRigTmbD5cULdDtSkw0wBY0D4OQZ31TMeBw1SID8PdmVjcphiVgdxLTEvK97frMB1Zst",
+        "received": false
+      },
+      {
+        "_id": "67c0f2c87b4bcc16671a2d70",
+        "name": "Shoes42370",
+        "amount": 602,
+        "price": 7008,
+        "manufacturer": "Microsoft",
+        "notes": "7h6yQPi63zKaW6vpVitq3BscJnsm6QRbtXaeTaSX8lwthAAh4Mvh9WrYB0kRbkuQzDS6XDVF0Jm0J63OnIABAIvSKt8HpcwrPzsNwWHK2IBlhMImmzL2021H1PE2wYDNlnXTxQ8huBv1rb6VQ0BAOqrm9TdesXMytgVzk5TvU3oSKhKy2ai3EIDRigTmbD5cULdDtSkw0wBY0D4OQZ31TMeBw1SID8PdmVjcphiVgdxLTEvK97frMB1Zst",
+        "received": false
+      },
+      {
+        "_id": "67c0f2c87b4bcc16671a2d70",
+        "name": "Shoes42370",
+        "amount": 602,
+        "price": 7008,
+        "manufacturer": "Microsoft",
+        "notes": "7h6yQPi63zKaW6vpVitq3BscJnsm6QRbtXaeTaSX8lwthAAh4Mvh9WrYB0kRbkuQzDS6XDVF0Jm0J63OnIABAIvSKt8HpcwrPzsNwWHK2IBlhMImmzL2021H1PE2wYDNlnXTxQ8huBv1rb6VQ0BAOqrm9TdesXMytgVzk5TvU3oSKhKy2ai3EIDRigTmbD5cULdDtSkw0wBY0D4OQZ31TMeBw1SID8PdmVjcphiVgdxLTEvK97frMB1Zst",
+        "received": false
+      }
+    ],
+    "delivery": null,
+    "total_price": 21024,
+    "createdOn": "2025-02-27T23:18:35.000Z",
+    "comments": [],
+    "history": [
+      {
+        "status": "Draft",
+        "customer": "67c0f2c67b4bcc16671a2d51",
+        "products": [
+          {
+            "_id": "67c0f2c87b4bcc16671a2d70",
+            "name": "Shoes42370",
+            "amount": 602,
+            "price": 7008,
+            "manufacturer": "Microsoft",
+            "notes": "7h6yQPi63zKaW6vpVitq3BscJnsm6QRbtXaeTaSX8lwthAAh4Mvh9WrYB0kRbkuQzDS6XDVF0Jm0J63OnIABAIvSKt8HpcwrPzsNwWHK2IBlhMImmzL2021H1PE2wYDNlnXTxQ8huBv1rb6VQ0BAOqrm9TdesXMytgVzk5TvU3oSKhKy2ai3EIDRigTmbD5cULdDtSkw0wBY0D4OQZ31TMeBw1SID8PdmVjcphiVgdxLTEvK97frMB1Zst",
+            "received": false
+          },
+          {
+            "_id": "67c0f2c87b4bcc16671a2d70",
+            "name": "Shoes42370",
+            "amount": 602,
+            "price": 7008,
+            "manufacturer": "Microsoft",
+            "notes": "7h6yQPi63zKaW6vpVitq3BscJnsm6QRbtXaeTaSX8lwthAAh4Mvh9WrYB0kRbkuQzDS6XDVF0Jm0J63OnIABAIvSKt8HpcwrPzsNwWHK2IBlhMImmzL2021H1PE2wYDNlnXTxQ8huBv1rb6VQ0BAOqrm9TdesXMytgVzk5TvU3oSKhKy2ai3EIDRigTmbD5cULdDtSkw0wBY0D4OQZ31TMeBw1SID8PdmVjcphiVgdxLTEvK97frMB1Zst",
+            "received": false
+          },
+          {
+            "_id": "67c0f2c87b4bcc16671a2d70",
+            "name": "Shoes42370",
+            "amount": 602,
+            "price": 7008,
+            "manufacturer": "Microsoft",
+            "notes": "7h6yQPi63zKaW6vpVitq3BscJnsm6QRbtXaeTaSX8lwthAAh4Mvh9WrYB0kRbkuQzDS6XDVF0Jm0J63OnIABAIvSKt8HpcwrPzsNwWHK2IBlhMImmzL2021H1PE2wYDNlnXTxQ8huBv1rb6VQ0BAOqrm9TdesXMytgVzk5TvU3oSKhKy2ai3EIDRigTmbD5cULdDtSkw0wBY0D4OQZ31TMeBw1SID8PdmVjcphiVgdxLTEvK97frMB1Zst",
+            "received": false
+          }
+        ],
+        "total_price": 21024,
+        "delivery": null,
+        "changedOn": "2025-02-27T23:18:35.000Z",
+        "action": "Order created"
+      }
+    ],
+    "_id": "67c0f2cb7b4bcc16671a2db5"
+  },
+  "IsSuccess": true,
+  "ErrorMessage": null
+}

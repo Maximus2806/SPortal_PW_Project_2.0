@@ -1,0 +1,17 @@
+{
+  "Customer": {
+    "_id": "67c0f2857b4bcc16671a284d",
+    "email": "Donald.Auer-Lowe@gmail.com",
+    "name": "Name NuKTNmyOPyIkCVvXtRtWvcMuqKqCnOAqgUx",
+    "country": "Germany",
+    "city": "City CVZqVjKucjFRQtP",
+    "street": "Street 4yAqmYHrAeptl42KIe21SfeubCiGJLrgt",
+    "house": 475,
+    "flat": 6428,
+    "phone": "+786823144898",
+    "createdOn": "2025-02-27T23:17:25.000Z",
+    "notes": "Notes thqvAHaEhrgjewhvTPoAEUmLdxqKMaIIYjzCqlBnSKlqNfTAIucGNcehqeSxlFMaNMKKtzZUcOYZIBJjpbxSEssZdLSvMQKxpEzgtCKXcLyRLytbmPQLtVdbRsMSZYjMbfhvWsTVQXUKaRtZCLfClBoKLWVlyECMPATNJvPtJRLltElNntidicGqxDUnuHNcTtCllnyXZbeoyEJkFLQXuhgPyeGGibqzuSbbEIbjtvweCWtOYypK"
+  },
+  "IsSuccess": true,
+  "ErrorMessage": null
+}

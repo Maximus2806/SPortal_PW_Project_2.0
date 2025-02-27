@@ -1,0 +1,112 @@
+{
+  "Order": {
+    "_id": "67c0f2bc7b4bcc16671a2c3d",
+    "status": "Draft",
+    "customer": {
+      "_id": "67c0f2b57b4bcc16671a2bbf",
+      "email": "Maynard37@yahoo.com",
+      "name": "Name GaLDRFmknYyGnnkNxXkxBkoXzddRyhIHpMs",
+      "country": "Belarus",
+      "city": "City kTgGPJEDHmaanTn",
+      "street": "Street eUNhW0cRdEso9OqPg16JKwNuil5LqTG0K",
+      "house": 649,
+      "flat": 3536,
+      "phone": "+763398825709",
+      "createdOn": "2025-02-27T23:18:13.000Z",
+      "notes": "Notes WMXDiKSANwaiHeELVdWwmGyOAztzyMqoGsxinEKQZoUaoZzLulxrsjrSxlpyDsMzEKFBWkfANKMqyPgzmzMziEPdkLBuIKGRlpvjYHIoimjRKGwpfZBMIILHOTxPWANyspVItqHazLOUPzbNEXAlMczKuOrfPYMQAAsfZWNBSiZneqLBfNOMPPrmwoUMUpDTEuONJUtbUFiybnYERDUYjxSNPJDJrfkQwQcXFKWEgJGHvWAUWdcL"
+    },
+    "products": [
+      {
+        "_id": "67c0f2b97b4bcc16671a2bf6",
+        "name": "Shirt96596",
+        "amount": 668,
+        "price": 392,
+        "manufacturer": "Amazon",
+        "notes": "PeQRb7F8dziaezoxtkueYNjEGHFOQOzVMIQEp0I8CC66ZNo9Gm3RWnLBB7JUCIpqMQKahZlJGdmN9mDz3qEejQBIrHwSIDFtOpK4DezABx0nayP5FukAvCJlCFDJrP9Pql7vEfdVk3TL2Zb0JNA8hSiOf44zINI051S6KNPVk62xgAkWYn4y4IsWnV0EOFqH95fKb7GxilLshWG0zGRNU2KSnDWLIT3UAtGuEKky728tlB9GTmxFNqyfTp",
+        "received": false
+      },
+      {
+        "_id": "67c0f2bf7b4bcc16671a2c82",
+        "name": "Chips17034",
+        "amount": 520,
+        "price": 78305,
+        "manufacturer": "Samsung",
+        "notes": "dHLqzXW1IKGdNfpSQUgk3H2A4L84yELUvCcSvXG1VBBIO6jA54GivIlMKjvWmjtxn43XGD9rTvFdQhAe05coAZLh0pwLeY3lxkQHhcMHJuWITDKc0Ac0QldIB5eVhlqx24smUHKHgVNs3kq7b2P9iCrQLL22fySWQphSuzEhFulIcPcb77Gip7vu7exVxh8rfMP71QES1g8eD1x5vKmMNV01GSS0RZcta1wJ4cfUNgLaRvOWedwKr6zjNe",
+        "received": false
+      },
+      {
+        "_id": "67c0f2c17b4bcc16671a2cb4",
+        "name": "Chair79516",
+        "amount": 268,
+        "price": 66611,
+        "manufacturer": "Sony",
+        "notes": "780uTgL9jh7rhfVp7mdxQsuaizjubBkauRio7BteS8kkkvVD2K444Jg5TwzcL8XXIQYwkmjRRCQixf1DHVFZC1itjzQ5WyaAdNb8UlPWigvoG4IxgyP8L21ePFUM6xgAoRCvmT8kSgsoFiesdjwGDiqIQ1hRkIpsRhsQlLU7cdiYQZxEaEpa1uNW2txLEWKPNGYJBPy6tBFVglqYKp9iUwnA5eEUO8DkuqcZdKYZxW8EIBsf5F5jBBNEYg",
+        "received": false
+      }
+    ],
+    "delivery": null,
+    "total_price": 145308,
+    "createdOn": "2025-02-27T23:18:20.000Z",
+    "comments": [],
+    "history": [
+      {
+        "status": "Draft",
+        "customer": "67c0f2b57b4bcc16671a2bbf",
+        "products": [
+          {
+            "_id": "67c0f2b97b4bcc16671a2bf6",
+            "name": "Shirt96596",
+            "amount": 668,
+            "price": 392,
+            "manufacturer": "Amazon",
+            "notes": "PeQRb7F8dziaezoxtkueYNjEGHFOQOzVMIQEp0I8CC66ZNo9Gm3RWnLBB7JUCIpqMQKahZlJGdmN9mDz3qEejQBIrHwSIDFtOpK4DezABx0nayP5FukAvCJlCFDJrP9Pql7vEfdVk3TL2Zb0JNA8hSiOf44zINI051S6KNPVk62xgAkWYn4y4IsWnV0EOFqH95fKb7GxilLshWG0zGRNU2KSnDWLIT3UAtGuEKky728tlB9GTmxFNqyfTp",
+            "received": false
+          },
+          {
+            "_id": "67c0f2bf7b4bcc16671a2c82",
+            "name": "Chips17034",
+            "amount": 520,
+            "price": 78305,
+            "manufacturer": "Samsung",
+            "notes": "dHLqzXW1IKGdNfpSQUgk3H2A4L84yELUvCcSvXG1VBBIO6jA54GivIlMKjvWmjtxn43XGD9rTvFdQhAe05coAZLh0pwLeY3lxkQHhcMHJuWITDKc0Ac0QldIB5eVhlqx24smUHKHgVNs3kq7b2P9iCrQLL22fySWQphSuzEhFulIcPcb77Gip7vu7exVxh8rfMP71QES1g8eD1x5vKmMNV01GSS0RZcta1wJ4cfUNgLaRvOWedwKr6zjNe",
+            "received": false
+          },
+          {
+            "_id": "67c0f2c17b4bcc16671a2cb4",
+            "name": "Chair79516",
+            "amount": 268,
+            "price": 66611,
+            "manufacturer": "Sony",
+            "notes": "780uTgL9jh7rhfVp7mdxQsuaizjubBkauRio7BteS8kkkvVD2K444Jg5TwzcL8XXIQYwkmjRRCQixf1DHVFZC1itjzQ5WyaAdNb8UlPWigvoG4IxgyP8L21ePFUM6xgAoRCvmT8kSgsoFiesdjwGDiqIQ1hRkIpsRhsQlLU7cdiYQZxEaEpa1uNW2txLEWKPNGYJBPy6tBFVglqYKp9iUwnA5eEUO8DkuqcZdKYZxW8EIBsf5F5jBBNEYg",
+            "received": false
+          }
+        ],
+        "total_price": 145308,
+        "delivery": null,
+        "changedOn": "2025-02-27T23:18:28.000Z",
+        "action": "Requested products changed"
+      },
+      {
+        "status": "Draft",
+        "customer": "67c0f2b57b4bcc16671a2bbf",
+        "products": [
+          {
+            "_id": "67c0f2b97b4bcc16671a2bf6",
+            "name": "Shirt96596",
+            "amount": 668,
+            "price": 392,
+            "manufacturer": "Amazon",
+            "notes": "PeQRb7F8dziaezoxtkueYNjEGHFOQOzVMIQEp0I8CC66ZNo9Gm3RWnLBB7JUCIpqMQKahZlJGdmN9mDz3qEejQBIrHwSIDFtOpK4DezABx0nayP5FukAvCJlCFDJrP9Pql7vEfdVk3TL2Zb0JNA8hSiOf44zINI051S6KNPVk62xgAkWYn4y4IsWnV0EOFqH95fKb7GxilLshWG0zGRNU2KSnDWLIT3UAtGuEKky728tlB9GTmxFNqyfTp",
+            "received": false
+          }
+        ],
+        "total_price": 392,
+        "delivery": null,
+        "changedOn": "2025-02-27T23:18:20.000Z",
+        "action": "Order created"
+      }
+    ]
+  },
+  "IsSuccess": true,
+  "ErrorMessage": null
+}

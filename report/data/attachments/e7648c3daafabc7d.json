@@ -1,0 +1,57 @@
+{
+  "Order": {
+    "status": "Draft",
+    "customer": {
+      "_id": "67c0f2c07b4bcc16671a2c95",
+      "email": "Foster.Howe@gmail.com",
+      "name": "Name egxrPjEtcvJtyDcNPIuVqgjjhKBIoaeASje",
+      "country": "USA",
+      "city": "City HbyDTdbAQgmbyvT",
+      "street": "Street orp1KTJzkQpBKbjp4nemvbSNhOsnS9RUL",
+      "house": 657,
+      "flat": 6145,
+      "phone": "+223688227648",
+      "createdOn": "2025-02-27T23:18:24.000Z",
+      "notes": "Notes xZMiQzoyLeDkmFwOlWikVompbwAhetmARFuqKsPXDOYeagxXnRHeyJBKNuzLlPtsQDglHGeGSzaaZXwuIzKfqVagqbtvMrbiTFDZWHdHbdBVDbhnIVJuiXjYcRLTxokZXEzATpeKwKRObeskoWmcolEtbZkLZmMVMyAosyFTgyuOpJeeYyjYcaItmMIoeRoBDMXUjzoJJmckLCSeFhvGdQSBKRHCFqGRoxouIjRWFHygmgSbRfSj"
+    },
+    "products": [
+      {
+        "_id": "67c0f2c27b4bcc16671a2ccf",
+        "name": "Gloves83831",
+        "amount": 837,
+        "price": 13836,
+        "manufacturer": "Microsoft",
+        "notes": "ZqCoCXH23EsBS9TOrYifyp5tQc61wPgqXuZ5fIa02mXHA2wjuiVlVfPztiyYNeGm5eWolJFlasgGbHWibB55Zo3TEHbczHQQpaNEa46A4nBFvkVL3IHr8A0sBnLBPTGkT3uZSlNMKS2FRzxGjeW8m7MQ4MEtybvGQld5eWUs1FdkOVQcDb7fnJEjIZa091GZoiEcjA7dIA3CQ3MuOL3hTbzjbCNcGrYJOIqHOVZ9GXpX6OLHi7EVNbVjyl",
+        "received": false
+      }
+    ],
+    "delivery": null,
+    "total_price": 13836,
+    "createdOn": "2025-02-27T23:18:28.000Z",
+    "comments": [],
+    "history": [
+      {
+        "status": "Draft",
+        "customer": "67c0f2c07b4bcc16671a2c95",
+        "products": [
+          {
+            "_id": "67c0f2c27b4bcc16671a2ccf",
+            "name": "Gloves83831",
+            "amount": 837,
+            "price": 13836,
+            "manufacturer": "Microsoft",
+            "notes": "ZqCoCXH23EsBS9TOrYifyp5tQc61wPgqXuZ5fIa02mXHA2wjuiVlVfPztiyYNeGm5eWolJFlasgGbHWibB55Zo3TEHbczHQQpaNEa46A4nBFvkVL3IHr8A0sBnLBPTGkT3uZSlNMKS2FRzxGjeW8m7MQ4MEtybvGQld5eWUs1FdkOVQcDb7fnJEjIZa091GZoiEcjA7dIA3CQ3MuOL3hTbzjbCNcGrYJOIqHOVZ9GXpX6OLHi7EVNbVjyl",
+            "received": false
+          }
+        ],
+        "total_price": 13836,
+        "delivery": null,
+        "changedOn": "2025-02-27T23:18:28.000Z",
+        "action": "Order created"
+      }
+    ],
+    "_id": "67c0f2c47b4bcc16671a2d28"
+  },
+  "IsSuccess": true,
+  "ErrorMessage": null
+}

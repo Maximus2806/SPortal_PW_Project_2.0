@@ -1,0 +1,13 @@
+{
+  "Product": {
+    "name": "Car68894",
+    "amount": 173,
+    "price": 93757,
+    "manufacturer": "Xiaomi",
+    "createdOn": "2025-02-27T23:18:06.000Z",
+    "notes": "8i6eTeMXzSKjthAjhLhsOatp2j935ZSXHLJq0JFhZfMB41Cb54EuStwtn1EUodVLRF7bx1YjhYLgW5WkKB6pSb5fc4etYVgE7G6Y5HXPuXtbFLMOqELJW0atWcsmXlgACzbE0aijd4fb2wwC5CD4v6kvtFpz9UtKvk9kSW1aHuZm4Nfp16NvZs3YJLLapmJAuTpPLSTESIQpmfftUIzTjZYRY2zIORxfbXGbkoiLj5LNiD8Rblo3ga3ysN",
+    "_id": "67c0f2ae7b4bcc16671a2b2f"
+  },
+  "IsSuccess": true,
+  "ErrorMessage": null
+}

@@ -1,0 +1,13 @@
+{
+  "Product": {
+    "name": "Car62739",
+    "amount": 646,
+    "price": 14579,
+    "manufacturer": "Apple",
+    "createdOn": "2025-02-27T23:17:59.000Z",
+    "notes": "haiIF3ktRGuCTCZeGJAwd9M6yS3gX4cOUDXCq7GFreBcoDmClTzeODqUhA4SFFcnRRx3k8hNM9mSYXSGuYCxoa8Naz8eD5OPFee4TcRV8n0T6v6yDVjpl75sfqqidqmvmgha5OeXEbY1DBKfTNBxuyXc1GdQAR3ff2Bu0Z1PbaZZGMpJDlLJsXWobjA1K6ABpbExRQqCnGBywCDFg48muwE5jdHIU4MXDH0y6z4ujnsDvGDS74R0xiPq6T",
+    "_id": "67c0f2a77b4bcc16671a2a8e"
+  },
+  "IsSuccess": true,
+  "ErrorMessage": null
+}

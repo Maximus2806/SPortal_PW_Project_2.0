@@ -1,0 +1,17 @@
+{
+  "Customer": {
+    "email": "Ayla.Nitzsche@yahoo.com",
+    "name": "Name gDBkPPVxfnVLRvpwqhDaGsYoNOKOMsemhBg",
+    "country": "USA",
+    "city": "City BVKNTCaJtopayNc",
+    "street": "Street Pqb9dOptFU66fzQNZ7jrYkC9BsEOJaZgQ",
+    "house": 333,
+    "flat": 1581,
+    "phone": "+452792481638",
+    "createdOn": "2025-02-27T23:17:54.000Z",
+    "notes": "Notes rCtTIzLPhaRkTeZHkwGGvXnHrqCXxZvHEXomFRSPnGFEidhdPQoiWUtpTUFHPVBvvkyWBEJLnLknuFEQaUGRikmyrqdjVTAOYUsmWJoSDBgLOfhoVKjZQKRNsSIxQdfypCSojvLJTPUdlBrpIRCsTDmYhyticFgPoSRZgbVjQAqHqsrEJWxBhCduqCfzfLuIHjtuDFjcAFGlJPWVTiNqecQTDtRlmKDOyEciiWQnrIdlFZpOeyfu",
+    "_id": "67c0f2a27b4bcc16671a2a1d"
+  },
+  "IsSuccess": true,
+  "ErrorMessage": null
+}

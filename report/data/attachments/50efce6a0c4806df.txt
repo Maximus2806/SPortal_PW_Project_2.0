@@ -1,2 +1,0 @@
-Error Request failed with status code 401
-Request URL: get api/customers/67c0ed977b4bcc16671a19dc/

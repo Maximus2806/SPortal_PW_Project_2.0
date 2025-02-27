@@ -1,0 +1,57 @@
+{
+  "Order": {
+    "status": "Draft",
+    "customer": {
+      "_id": "67c0f2ad7b4bcc16671a2b15",
+      "email": "Avis_Greenfelder64@hotmail.com",
+      "name": "Name jovWEbTEmvsuDEmcMrTeaUcKHtUfvzFdHCZ",
+      "country": "Belarus",
+      "city": "City VYmDYQtmiFkDbFM",
+      "street": "Street 9KmMyJ4ayq91VMK1emV7LcbYFoveFZaLT",
+      "house": 453,
+      "flat": 5843,
+      "phone": "+903664137490",
+      "createdOn": "2025-02-27T23:18:05.000Z",
+      "notes": "Notes nRrKcOgeZqwwxcIhfKPoZvwfpkRHVAWdkCABuznHbzkTyjIzRyDfumcLQRUACZLDTVqsTphSvGQOFsSXNqClsknOZIiZyQwNRJNWMTVVwGvUpKRKzPdiGgDCrcCuPjawEYHBvFLQhfNUypgznaHebecskYiLzCFgeLVrkRknnUjkkmsekKnuZhKIqaYxtoaInqOpvTIUOYpYVerHSTsKHkHfPEXhLrFUgJWRGItVzowSyIPXxfnu"
+    },
+    "products": [
+      {
+        "_id": "67c0f2ae7b4bcc16671a2b2f",
+        "name": "Car68894",
+        "amount": 173,
+        "price": 93757,
+        "manufacturer": "Xiaomi",
+        "notes": "8i6eTeMXzSKjthAjhLhsOatp2j935ZSXHLJq0JFhZfMB41Cb54EuStwtn1EUodVLRF7bx1YjhYLgW5WkKB6pSb5fc4etYVgE7G6Y5HXPuXtbFLMOqELJW0atWcsmXlgACzbE0aijd4fb2wwC5CD4v6kvtFpz9UtKvk9kSW1aHuZm4Nfp16NvZs3YJLLapmJAuTpPLSTESIQpmfftUIzTjZYRY2zIORxfbXGbkoiLj5LNiD8Rblo3ga3ysN",
+        "received": false
+      }
+    ],
+    "delivery": null,
+    "total_price": 93757,
+    "createdOn": "2025-02-27T23:18:08.000Z",
+    "comments": [],
+    "history": [
+      {
+        "status": "Draft",
+        "customer": "67c0f2ad7b4bcc16671a2b15",
+        "products": [
+          {
+            "_id": "67c0f2ae7b4bcc16671a2b2f",
+            "name": "Car68894",
+            "amount": 173,
+            "price": 93757,
+            "manufacturer": "Xiaomi",
+            "notes": "8i6eTeMXzSKjthAjhLhsOatp2j935ZSXHLJq0JFhZfMB41Cb54EuStwtn1EUodVLRF7bx1YjhYLgW5WkKB6pSb5fc4etYVgE7G6Y5HXPuXtbFLMOqELJW0atWcsmXlgACzbE0aijd4fb2wwC5CD4v6kvtFpz9UtKvk9kSW1aHuZm4Nfp16NvZs3YJLLapmJAuTpPLSTESIQpmfftUIzTjZYRY2zIORxfbXGbkoiLj5LNiD8Rblo3ga3ysN",
+            "received": false
+          }
+        ],
+        "total_price": 93757,
+        "delivery": null,
+        "changedOn": "2025-02-27T23:18:08.000Z",
+        "action": "Order created"
+      }
+    ],
+    "_id": "67c0f2b07b4bcc16671a2b5c"
+  },
+  "IsSuccess": true,
+  "ErrorMessage": null
+}

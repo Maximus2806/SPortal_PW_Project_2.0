@@ -1,0 +1,46 @@
+{
+  "Products": [
+    {
+      "_id": "67c0f2aa7b4bcc16671a2acc",
+      "name": "Hat80493",
+      "amount": 15,
+      "price": 64535,
+      "manufacturer": "Xiaomi",
+      "createdOn": "2025-02-27T23:18:02.000Z",
+      "notes": "GsMP7KFfkYhUfORJlXk3hbGmiWIpPAG5ShC4RT4tX3V5tqYHsfAzPbkPyaP3C1cSZkeLxKxpVaTqCiTmGtwpZF0mQS5r4ZLtU8Rv0aBf9s4U71Jt3rGtUvqee5PToVKyi7zdMdZqRk2wOtBxyCmrrzkV4Zzeab1XFOKVwNPZ45aj76ZgzUPvISgSBcnXNQ7I9JAi7kKd0PignIf9dKLDEjpHOxDs7KkeE2LL9ZrYnJJEdOn4wJqI1lflGD"
+    },
+    {
+      "_id": "67c0f2a47b4bcc16671a2a59",
+      "name": "Table4689",
+      "amount": 370,
+      "price": 34658,
+      "manufacturer": "Xiaomi",
+      "createdOn": "2025-02-27T23:17:56.000Z",
+      "notes": "Jz347bJpiUtbIpQKV0OHqMuLVflLxyN5joN86Ndzm1m9nNGYcQ7tlmrqtFIN6Y1KWbsfv38bIbJK8PbTdAdkKEo9jhwDDAocD4FHQHs0AFSF0ZpIINmCtva87qsD77mckyb1XwPByoNiby2O7fmtwovspPs4PfjaObu4ZjUmqkegljX9gqwiyd9BvBAdDp4Me1vUmH0An3C1s7OJUsBc9CvO8iIBkwI0rTMJq2k4gW2qGfCk4i84MXAy5Z"
+    },
+    {
+      "_id": "67c0f2a47b4bcc16671a2a57",
+      "name": "Pants87169",
+      "amount": 557,
+      "price": 53511,
+      "manufacturer": "Xiaomi",
+      "createdOn": "2025-02-27T23:17:56.000Z",
+      "notes": "G0YNoI60jAB3wQdqUngRvRS2l4XgXKPeIjHULeQuSqmRtHtR49dGhC5FXlouNgzqFZE5I4nggSwlXk0kbyImKIxadbvTHVCQ7sWLFfM0wsomXy8Gm9J4kSSVhKezCt34AqOz0MPjOI1Skt0nw5twspz6qn8bBZ6mPUvX0Ah7Jpl7hbL8EMud6O8eOdXfWZW8SrM0BzWaB6lp98lrOChVgLpbcBb9qudLlOOvpSlKVNXEPVrBFFCgug2d0l"
+    },
+    {
+      "_id": "67c0f29e7b4bcc16671a29d4",
+      "name": "Cheese32065",
+      "amount": 383,
+      "price": 90709,
+      "manufacturer": "Xiaomi",
+      "createdOn": "2025-02-27T23:17:50.000Z",
+      "notes": "805RF6uBH73fqKjniWPLEhCWJqZ1eYPsVmKtLpLUPKJGSYxAhMSx5Pp5yJw1dblslqmox9cgIoXN4x5hQJmRX9SAUaKkyNpfbFcf3Ncgr9ssCnb2gQo5T8Evm0UFNamJVBPEDkleQk6CJrw2qwhr4cvCIxTHzgSMDM14KDHbmkdC6KRVta023bl5eCoVJUtXdJhXWjQCc2w1UJwUUsotnnnqIj33VecQHlKi6J01eZmpoXaScc3bMVZ9ok"
+    }
+  ],
+  "sorting": {
+    "sortField": "createdOn",
+    "sortOrder": "desc"
+  },
+  "IsSuccess": true,
+  "ErrorMessage": null
+}

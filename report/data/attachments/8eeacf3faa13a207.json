@@ -1,0 +1,95 @@
+{
+  "Order": {
+    "_id": "67c0f29b7b4bcc16671a29af",
+    "status": "Draft",
+    "customer": {
+      "_id": "67c0f2a07b4bcc16671a29f1",
+      "email": "Adriana20@hotmail.com",
+      "name": "Name HCRVnDsUAyqymKtnPCLuAufFJkbeCjODCOz",
+      "country": "Germany",
+      "city": "City CZfcZYeBoFOrPOh",
+      "street": "Street 1JQs4fvd5JeUihRi140d5WCa5EFWOPiSc",
+      "house": 258,
+      "flat": 1032,
+      "phone": "+216140876120",
+      "createdOn": "2025-02-27T23:17:52.000Z",
+      "notes": "Notes WNzOlSRTbAIJPuLfOxTXztoREUBzdAUikIfKpggXVtFQpmCjqoUkABnXJNAUojJMOGFsoFGZNbZxYTzbByncybsgiIeJvZoxkipyoKOYgUhJNUCIjcrTDDwPyXYPRBbEUaYyQhhfAgCtzvCDKyhOSLjRisISCpDMiPiFZvYMoudtOjXSbWwqtyZhlMEIULqeIGDdAbqHNgEuHyPnqKBCWUkpWtNThPHeKsNsLndaRxaYdNUTqnTw"
+    },
+    "products": [
+      {
+        "_id": "67c0f2a27b4bcc16671a2a2f",
+        "name": "Ball95749",
+        "amount": 575,
+        "price": 87684,
+        "manufacturer": "Sony",
+        "notes": "Xdmw3KCisjI37psTeZYye83mmCcoL5V8ybTyztTfSRSfcanJigvQYlovnacoXXuCvqAsCW53EbASc10WTIr8Zh4TdGGtkt2e8QZo0IkqEJKKOq8EJk1rB7GBy285Onb6DAcdqNOnK9fK1eY8pwUk1hB1vObkgYbw0TjfjICCIg11sSfSJxHn3WMJwQ2PANq4L1i87pAubSKclLEDlAbkJOJ97vtFd4FQze3OhEyfd0OEcD6dDjSrL3ba0w",
+        "received": false
+      }
+    ],
+    "delivery": null,
+    "total_price": 87684,
+    "createdOn": "2025-02-27T23:17:47.000Z",
+    "comments": [],
+    "history": [
+      {
+        "status": "Draft",
+        "customer": "67c0f2a07b4bcc16671a29f1",
+        "products": [
+          {
+            "_id": "67c0f2977b4bcc16671a2974",
+            "name": "Soap14162",
+            "amount": 645,
+            "price": 29114,
+            "manufacturer": "Samsung",
+            "notes": "1NU2ezIF5PX3hMGWn9D4neKjcpAHCTLITQyDymm47tLyQhsztiUYMUxxoTP8fV4KTEMTm7ZygOBH8G6bJ06r684mrW9D5qF8TPpTSgSEI0aBfJ1Bnd1z1PtdN5J09UDpgoFcN8zPZc9KBL4ucEMC2W4Pc4HQfX7Yuq3yDYmHZRV56deN84qqWJsL3HLHWYj6Ti6clColLjCtTqrXszheIiiBS8NiHKsvFQgYiNr6i5jmAjNu45nQy7giCf",
+            "received": false
+          }
+        ],
+        "total_price": 87684,
+        "delivery": null,
+        "changedOn": "2025-02-27T23:17:58.000Z",
+        "action": "Customer changed"
+      },
+      {
+        "status": "Draft",
+        "customer": "67c0f2957b4bcc16671a294a",
+        "products": [
+          {
+            "_id": "67c0f2a27b4bcc16671a2a2f",
+            "name": "Ball95749",
+            "amount": 575,
+            "price": 87684,
+            "manufacturer": "Sony",
+            "notes": "Xdmw3KCisjI37psTeZYye83mmCcoL5V8ybTyztTfSRSfcanJigvQYlovnacoXXuCvqAsCW53EbASc10WTIr8Zh4TdGGtkt2e8QZo0IkqEJKKOq8EJk1rB7GBy285Onb6DAcdqNOnK9fK1eY8pwUk1hB1vObkgYbw0TjfjICCIg11sSfSJxHn3WMJwQ2PANq4L1i87pAubSKclLEDlAbkJOJ97vtFd4FQze3OhEyfd0OEcD6dDjSrL3ba0w",
+            "received": false
+          }
+        ],
+        "total_price": 87684,
+        "delivery": null,
+        "changedOn": "2025-02-27T23:17:58.000Z",
+        "action": "Requested products changed"
+      },
+      {
+        "status": "Draft",
+        "customer": "67c0f2957b4bcc16671a294a",
+        "products": [
+          {
+            "_id": "67c0f2977b4bcc16671a2974",
+            "name": "Soap14162",
+            "amount": 645,
+            "price": 29114,
+            "manufacturer": "Samsung",
+            "notes": "1NU2ezIF5PX3hMGWn9D4neKjcpAHCTLITQyDymm47tLyQhsztiUYMUxxoTP8fV4KTEMTm7ZygOBH8G6bJ06r684mrW9D5qF8TPpTSgSEI0aBfJ1Bnd1z1PtdN5J09UDpgoFcN8zPZc9KBL4ucEMC2W4Pc4HQfX7Yuq3yDYmHZRV56deN84qqWJsL3HLHWYj6Ti6clColLjCtTqrXszheIiiBS8NiHKsvFQgYiNr6i5jmAjNu45nQy7giCf",
+            "received": false
+          }
+        ],
+        "total_price": 29114,
+        "delivery": null,
+        "changedOn": "2025-02-27T23:17:47.000Z",
+        "action": "Order created"
+      }
+    ]
+  },
+  "IsSuccess": true,
+  "ErrorMessage": null
+}

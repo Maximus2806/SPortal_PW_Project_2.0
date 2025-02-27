@@ -1,0 +1,96 @@
+{
+  "Order": {
+    "_id": "67c0f2d37b4bcc16671a2e46",
+    "status": "Draft",
+    "customer": {
+      "_id": "67c0f2ce7b4bcc16671a2df7",
+      "email": "Sylvester.Gibson@yahoo.com",
+      "name": "Name hkUMweHdJsMJVGSWqAavEvaZASqxWfpKYGM",
+      "country": "France",
+      "city": "City TUHJzSfuxBTeexz",
+      "street": "Street sVnzbMIWrmXJmheRfHykOzTNJS1TXFbgC",
+      "house": 318,
+      "flat": 2840,
+      "phone": "+864236349530",
+      "createdOn": "2025-02-27T23:18:38.000Z",
+      "notes": "Notes iQIFByfilCDKWpdKPrCtEqwWbwcfASkVYpZxJMewUiXeAKbpUxJCIrMfqiZwoAaXJLHDgmVRanQbsHQjQZVbtwbmbLLadStuSuawhMWSpiYLSDHaNjGTtuskKstQWVBWJqRKWfYjZUgeoJaEzgyePbwOEoSBFgaICvRLczfiXWLWHLSuZQeWgArnqpTYPXwrJJcNjayFXQfsuWjmJWEFemDQIyKwlSurLsdBcqhPeKPnyPRZHezY"
+    },
+    "products": [
+      {
+        "_id": "67c0f2cf7b4bcc16671a2e12",
+        "name": "Keyboard78366",
+        "amount": 427,
+        "price": 83486,
+        "manufacturer": "Samsung",
+        "notes": "z79jBJUAI5rJ726HmGiY8pBKMy5CIYt85fv0TgbaKSXKKGViuc8usGXpQVHDRQSZ63uOdjbxfekRX8hk5mv3IdBTTmJb4Snp7RCvaYxiffoyCQteXFZOUT84CR0kKOTuXQqPAUzGFsqvsvtN3AavNPhXM2WGGoHIZMuoAPD78amgSAMNY5BBJnzyA43YQzpJ3fFElKlhRkmqzfXQ9QvSAq0whe6bKzSZg8ctPxBq4Udud9Hl6uCT3uwhTl",
+        "received": false
+      }
+    ],
+    "delivery": {
+      "address": {
+        "country": "Great Britain",
+        "city": "City boghTckOpFVicFa",
+        "street": "Street S02UX1gT3AZk2XwB5mOeXM0ECSR1kKvGG",
+        "house": 670,
+        "flat": 7393
+      },
+      "finalDate": "2025-03-08T00:00:00.000Z",
+      "condition": "Delivery"
+    },
+    "total_price": 83486,
+    "createdOn": "2025-02-27T23:18:43.000Z",
+    "comments": [],
+    "history": [
+      {
+        "status": "Draft",
+        "customer": "67c0f2ce7b4bcc16671a2df7",
+        "products": [
+          {
+            "_id": "67c0f2cf7b4bcc16671a2e12",
+            "name": "Keyboard78366",
+            "amount": 427,
+            "price": 83486,
+            "manufacturer": "Samsung",
+            "notes": "z79jBJUAI5rJ726HmGiY8pBKMy5CIYt85fv0TgbaKSXKKGViuc8usGXpQVHDRQSZ63uOdjbxfekRX8hk5mv3IdBTTmJb4Snp7RCvaYxiffoyCQteXFZOUT84CR0kKOTuXQqPAUzGFsqvsvtN3AavNPhXM2WGGoHIZMuoAPD78amgSAMNY5BBJnzyA43YQzpJ3fFElKlhRkmqzfXQ9QvSAq0whe6bKzSZg8ctPxBq4Udud9Hl6uCT3uwhTl",
+            "received": false
+          }
+        ],
+        "total_price": 83486,
+        "delivery": {
+          "address": {
+            "country": "Great Britain",
+            "city": "City boghTckOpFVicFa",
+            "street": "Street S02UX1gT3AZk2XwB5mOeXM0ECSR1kKvGG",
+            "house": 670,
+            "flat": 7393
+          },
+          "finalDate": "2025-03-08T00:00:00.000Z",
+          "condition": "Delivery"
+        },
+        "changedOn": "2025-02-27T23:18:46.000Z",
+        "action": "Delivery Scheduled"
+      },
+      {
+        "status": "Draft",
+        "customer": "67c0f2ce7b4bcc16671a2df7",
+        "products": [
+          {
+            "_id": "67c0f2cf7b4bcc16671a2e12",
+            "name": "Keyboard78366",
+            "amount": 427,
+            "price": 83486,
+            "manufacturer": "Samsung",
+            "notes": "z79jBJUAI5rJ726HmGiY8pBKMy5CIYt85fv0TgbaKSXKKGViuc8usGXpQVHDRQSZ63uOdjbxfekRX8hk5mv3IdBTTmJb4Snp7RCvaYxiffoyCQteXFZOUT84CR0kKOTuXQqPAUzGFsqvsvtN3AavNPhXM2WGGoHIZMuoAPD78amgSAMNY5BBJnzyA43YQzpJ3fFElKlhRkmqzfXQ9QvSAq0whe6bKzSZg8ctPxBq4Udud9Hl6uCT3uwhTl",
+            "received": false
+          }
+        ],
+        "total_price": 83486,
+        "delivery": null,
+        "changedOn": "2025-02-27T23:18:43.000Z",
+        "action": "Order created"
+      }
+    ]
+  },
+  "IsSuccess": true,
+  "ErrorMessage": null
+}

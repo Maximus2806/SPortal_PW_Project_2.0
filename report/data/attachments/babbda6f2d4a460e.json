@@ -1,0 +1,129 @@
+{
+  "Order": {
+    "status": "Draft",
+    "customer": {
+      "_id": "67c0f2a27b4bcc16671a2a1d",
+      "email": "Ayla.Nitzsche@yahoo.com",
+      "name": "Name gDBkPPVxfnVLRvpwqhDaGsYoNOKOMsemhBg",
+      "country": "USA",
+      "city": "City BVKNTCaJtopayNc",
+      "street": "Street Pqb9dOptFU66fzQNZ7jrYkC9BsEOJaZgQ",
+      "house": 333,
+      "flat": 1581,
+      "phone": "+452792481638",
+      "createdOn": "2025-02-27T23:17:54.000Z",
+      "notes": "Notes rCtTIzLPhaRkTeZHkwGGvXnHrqCXxZvHEXomFRSPnGFEidhdPQoiWUtpTUFHPVBvvkyWBEJLnLknuFEQaUGRikmyrqdjVTAOYUsmWJoSDBgLOfhoVKjZQKRNsSIxQdfypCSojvLJTPUdlBrpIRCsTDmYhyticFgPoSRZgbVjQAqHqsrEJWxBhCduqCfzfLuIHjtuDFjcAFGlJPWVTiNqecQTDtRlmKDOyEciiWQnrIdlFZpOeyfu"
+    },
+    "products": [
+      {
+        "_id": "67c0f2a47b4bcc16671a2a57",
+        "name": "Pants87169",
+        "amount": 557,
+        "price": 53511,
+        "manufacturer": "Xiaomi",
+        "notes": "G0YNoI60jAB3wQdqUngRvRS2l4XgXKPeIjHULeQuSqmRtHtR49dGhC5FXlouNgzqFZE5I4nggSwlXk0kbyImKIxadbvTHVCQ7sWLFfM0wsomXy8Gm9J4kSSVhKezCt34AqOz0MPjOI1Skt0nw5twspz6qn8bBZ6mPUvX0Ah7Jpl7hbL8EMud6O8eOdXfWZW8SrM0BzWaB6lp98lrOChVgLpbcBb9qudLlOOvpSlKVNXEPVrBFFCgug2d0l",
+        "received": false
+      },
+      {
+        "_id": "67c0f2a77b4bcc16671a2a8e",
+        "name": "Car62739",
+        "amount": 646,
+        "price": 14579,
+        "manufacturer": "Apple",
+        "notes": "haiIF3ktRGuCTCZeGJAwd9M6yS3gX4cOUDXCq7GFreBcoDmClTzeODqUhA4SFFcnRRx3k8hNM9mSYXSGuYCxoa8Naz8eD5OPFee4TcRV8n0T6v6yDVjpl75sfqqidqmvmgha5OeXEbY1DBKfTNBxuyXc1GdQAR3ff2Bu0Z1PbaZZGMpJDlLJsXWobjA1K6ABpbExRQqCnGBywCDFg48muwE5jdHIU4MXDH0y6z4ujnsDvGDS74R0xiPq6T",
+        "received": false
+      },
+      {
+        "_id": "67c0f2a97b4bcc16671a2abc",
+        "name": "Bacon63818",
+        "amount": 253,
+        "price": 79483,
+        "manufacturer": "Google",
+        "notes": "wfwCreveRDf6u2R4eJqjrB4rfiplAVGSwihpVKUVBvTg31hzA5g1bq0zn8PX1n7UXDKejQPNXoSVbCXZFEsSI0RQxdPLy7dFokyAgkpOYMUa4HGXVdicQpLE9PV8GFpySsPocigVMosnCDmEEgYOehb5VrNleyFUjEHna4f38LwNJppHxfrrWvDFy4rljnqfJD8URVAWX5K1QezFFERr0ybVfPM4ovYAdGTEd7lStBDGnUE1IHy65ZMhMp",
+        "received": false
+      },
+      {
+        "_id": "67c0f2ab7b4bcc16671a2aeb",
+        "name": "Chips85331",
+        "amount": 921,
+        "price": 16254,
+        "manufacturer": "Samsung",
+        "notes": "T6QMHE8bvrhMW5R0JG0h6eWJalnK6Q64sE4DiNhcocK5EkCc9OWzbRRRfVejj3mknpVrqYpJv1Xgsd3KuEzDj3KLEzvr1dr8An73aKQi07hMqXlz41DDEcszErWIfvl6lFMFXZBOOC1rJYYsEXgo9qHxopz5KIaGL2ZPVHEbRvBAcG9aTy15ABHPjz5L9LqnVPSNZ0KmcFUNLHxcMmwrcHQLLmkCqRf7XuCX7hojhv4ZfOZTBsQjE1VjM6",
+        "received": false
+      },
+      {
+        "_id": "67c0f2ae7b4bcc16671a2b2d",
+        "name": "Hat54713",
+        "amount": 76,
+        "price": 16333,
+        "manufacturer": "Amazon",
+        "notes": "Wou4y9b4EJITDYb2J4QYAEZ3Mqoh3fjpUipu2m9sWp5xQMPM7BLlEQFPtgylWpquZpoyPlAhhwgKbjvLGDJP3hXlUkDshd0f0N1XgYzKqF1lLVSuipi1ddOwsSeYpocDshuAbZsKVzSAEk1D4KhLLpR7eeLb7sXAfXwDubuxDRnJgfcMll8n49b6mVWmBJyunVhnDbSsq7hKZYxu4eCJyJArpqPyRdKErxJUpLFSlHIsqlrr9EnRGAQmoi",
+        "received": false
+      }
+    ],
+    "delivery": null,
+    "total_price": 180160,
+    "createdOn": "2025-02-27T23:18:13.000Z",
+    "comments": [],
+    "history": [
+      {
+        "status": "Draft",
+        "customer": "67c0f2a27b4bcc16671a2a1d",
+        "products": [
+          {
+            "_id": "67c0f2a47b4bcc16671a2a57",
+            "name": "Pants87169",
+            "amount": 557,
+            "price": 53511,
+            "manufacturer": "Xiaomi",
+            "notes": "G0YNoI60jAB3wQdqUngRvRS2l4XgXKPeIjHULeQuSqmRtHtR49dGhC5FXlouNgzqFZE5I4nggSwlXk0kbyImKIxadbvTHVCQ7sWLFfM0wsomXy8Gm9J4kSSVhKezCt34AqOz0MPjOI1Skt0nw5twspz6qn8bBZ6mPUvX0Ah7Jpl7hbL8EMud6O8eOdXfWZW8SrM0BzWaB6lp98lrOChVgLpbcBb9qudLlOOvpSlKVNXEPVrBFFCgug2d0l",
+            "received": false
+          },
+          {
+            "_id": "67c0f2a77b4bcc16671a2a8e",
+            "name": "Car62739",
+            "amount": 646,
+            "price": 14579,
+            "manufacturer": "Apple",
+            "notes": "haiIF3ktRGuCTCZeGJAwd9M6yS3gX4cOUDXCq7GFreBcoDmClTzeODqUhA4SFFcnRRx3k8hNM9mSYXSGuYCxoa8Naz8eD5OPFee4TcRV8n0T6v6yDVjpl75sfqqidqmvmgha5OeXEbY1DBKfTNBxuyXc1GdQAR3ff2Bu0Z1PbaZZGMpJDlLJsXWobjA1K6ABpbExRQqCnGBywCDFg48muwE5jdHIU4MXDH0y6z4ujnsDvGDS74R0xiPq6T",
+            "received": false
+          },
+          {
+            "_id": "67c0f2a97b4bcc16671a2abc",
+            "name": "Bacon63818",
+            "amount": 253,
+            "price": 79483,
+            "manufacturer": "Google",
+            "notes": "wfwCreveRDf6u2R4eJqjrB4rfiplAVGSwihpVKUVBvTg31hzA5g1bq0zn8PX1n7UXDKejQPNXoSVbCXZFEsSI0RQxdPLy7dFokyAgkpOYMUa4HGXVdicQpLE9PV8GFpySsPocigVMosnCDmEEgYOehb5VrNleyFUjEHna4f38LwNJppHxfrrWvDFy4rljnqfJD8URVAWX5K1QezFFERr0ybVfPM4ovYAdGTEd7lStBDGnUE1IHy65ZMhMp",
+            "received": false
+          },
+          {
+            "_id": "67c0f2ab7b4bcc16671a2aeb",
+            "name": "Chips85331",
+            "amount": 921,
+            "price": 16254,
+            "manufacturer": "Samsung",
+            "notes": "T6QMHE8bvrhMW5R0JG0h6eWJalnK6Q64sE4DiNhcocK5EkCc9OWzbRRRfVejj3mknpVrqYpJv1Xgsd3KuEzDj3KLEzvr1dr8An73aKQi07hMqXlz41DDEcszErWIfvl6lFMFXZBOOC1rJYYsEXgo9qHxopz5KIaGL2ZPVHEbRvBAcG9aTy15ABHPjz5L9LqnVPSNZ0KmcFUNLHxcMmwrcHQLLmkCqRf7XuCX7hojhv4ZfOZTBsQjE1VjM6",
+            "received": false
+          },
+          {
+            "_id": "67c0f2ae7b4bcc16671a2b2d",
+            "name": "Hat54713",
+            "amount": 76,
+            "price": 16333,
+            "manufacturer": "Amazon",
+            "notes": "Wou4y9b4EJITDYb2J4QYAEZ3Mqoh3fjpUipu2m9sWp5xQMPM7BLlEQFPtgylWpquZpoyPlAhhwgKbjvLGDJP3hXlUkDshd0f0N1XgYzKqF1lLVSuipi1ddOwsSeYpocDshuAbZsKVzSAEk1D4KhLLpR7eeLb7sXAfXwDubuxDRnJgfcMll8n49b6mVWmBJyunVhnDbSsq7hKZYxu4eCJyJArpqPyRdKErxJUpLFSlHIsqlrr9EnRGAQmoi",
+            "received": false
+          }
+        ],
+        "total_price": 180160,
+        "delivery": null,
+        "changedOn": "2025-02-27T23:18:13.000Z",
+        "action": "Order created"
+      }
+    ],
+    "_id": "67c0f2b57b4bcc16671a2bb1"
+  },
+  "IsSuccess": true,
+  "ErrorMessage": null
+}
