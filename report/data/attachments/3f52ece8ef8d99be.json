@@ -1,0 +1,76 @@
+{
+  "Order": {
+    "_id": "67c0f4257b4bcc16671a3480",
+    "status": "Canceled",
+    "customer": {
+      "_id": "67c0f4207b4bcc16671a340c",
+      "email": "Amara_Price@hotmail.com",
+      "name": "Name SkHqUPtpBFeBtZAsVKxuXbKgFzBNjgNLqol",
+      "country": "Belarus",
+      "city": "City PUVYXiRCLysDBUq",
+      "street": "Street 6xU2DHskydppFeRifE4RxJo8d9RjS71sX",
+      "house": 105,
+      "flat": 5118,
+      "phone": "+372458069215",
+      "createdOn": "2025-02-27T23:24:16.000Z",
+      "notes": "Notes WrGNdHRlCtnSggXYxHDEpSrPIkYStTmHYjOszZErpHnTJTOmYowofqVCtpZatldgoOvklCuRYuguwNnXHoJfUXSHEUqwZqxXzdGBGllEXCXFHkuZRQSkxoobnofCXxzKfHCXySRJkKNacgDfNissdUrqicGmuRqHxGxpuTFVoNaiVtiNEUhNHwqpqEfJvAaSLUzYZctPNypIkdhKJtFZDMtmkaleQAAjMNIVStgrDOrOjNZzdCfS"
+    },
+    "products": [
+      {
+        "_id": "67c0f4237b4bcc16671a343b",
+        "name": "Hat24566",
+        "amount": 947,
+        "price": 91991,
+        "manufacturer": "Amazon",
+        "notes": "cwYoxUVkyL5h8qE1ddjG1lz9Qzz2ObgEOr54ge5znnJ06hKdppuQoprbRppLPzkkZ4wDEO1r8oQw7Nqv0S1kXc1OfeVW6ocAj9aQ8Pt2NerXKbtPVsfzRziLIu58svN5g7sGx1DipggbKjYrdgmiDnHcjWB4prlEfWa5DiQML1HcCoBxfVZ8TSZ8EFxO6r2L1KH6VbImcvHOClgz5MHdbTdg0M5WFhZdM9zt3w8abStARjknBnwMIiqXrX",
+        "received": false
+      }
+    ],
+    "delivery": null,
+    "total_price": 91991,
+    "createdOn": "2025-02-27T23:24:21.000Z",
+    "comments": [],
+    "history": [
+      {
+        "status": "Canceled",
+        "customer": "67c0f4207b4bcc16671a340c",
+        "products": [
+          {
+            "_id": "67c0f4237b4bcc16671a343b",
+            "name": "Hat24566",
+            "amount": 947,
+            "price": 91991,
+            "manufacturer": "Amazon",
+            "notes": "cwYoxUVkyL5h8qE1ddjG1lz9Qzz2ObgEOr54ge5znnJ06hKdppuQoprbRppLPzkkZ4wDEO1r8oQw7Nqv0S1kXc1OfeVW6ocAj9aQ8Pt2NerXKbtPVsfzRziLIu58svN5g7sGx1DipggbKjYrdgmiDnHcjWB4prlEfWa5DiQML1HcCoBxfVZ8TSZ8EFxO6r2L1KH6VbImcvHOClgz5MHdbTdg0M5WFhZdM9zt3w8abStARjknBnwMIiqXrX",
+            "received": false
+          }
+        ],
+        "total_price": 91991,
+        "delivery": null,
+        "changedOn": "2025-02-27T23:24:24.000Z",
+        "action": "Order canceled"
+      },
+      {
+        "status": "Draft",
+        "customer": "67c0f4207b4bcc16671a340c",
+        "products": [
+          {
+            "_id": "67c0f4237b4bcc16671a343b",
+            "name": "Hat24566",
+            "amount": 947,
+            "price": 91991,
+            "manufacturer": "Amazon",
+            "notes": "cwYoxUVkyL5h8qE1ddjG1lz9Qzz2ObgEOr54ge5znnJ06hKdppuQoprbRppLPzkkZ4wDEO1r8oQw7Nqv0S1kXc1OfeVW6ocAj9aQ8Pt2NerXKbtPVsfzRziLIu58svN5g7sGx1DipggbKjYrdgmiDnHcjWB4prlEfWa5DiQML1HcCoBxfVZ8TSZ8EFxO6r2L1KH6VbImcvHOClgz5MHdbTdg0M5WFhZdM9zt3w8abStARjknBnwMIiqXrX",
+            "received": false
+          }
+        ],
+        "total_price": 91991,
+        "delivery": null,
+        "changedOn": "2025-02-27T23:24:21.000Z",
+        "action": "Order created"
+      }
+    ]
+  },
+  "IsSuccess": true,
+  "ErrorMessage": null
+}

@@ -1,0 +1,13 @@
+{
+  "Product": {
+    "name": "Car10382",
+    "amount": 286,
+    "price": 61040,
+    "manufacturer": "Google",
+    "createdOn": "2025-02-27T23:23:53.000Z",
+    "notes": "3EmUhwGIwsoSgUmLTTOLh4PT4GS7UclWGTRgkfFZ5NwNJokNKfHbsRPgbCCwdMYieMjTSAjsMGhrouymVtJMy3v5RBAkra5eQP49sQgL8m4nOSxRAaD0AHjYd8NcsiHB7PXP74Wjx1EP69rhYKxyklPQNdPccUoxk28rIPFPbSlTVsQTfUDj4cSpkr3LWJVoKcXaNzkUIAkCf3AEIrrvWcxXnmISGCWkQIiQrt8dUnHPikHzwAcu082dS9",
+    "_id": "67c0f4097b4bcc16671a321c"
+  },
+  "IsSuccess": true,
+  "ErrorMessage": null
+}

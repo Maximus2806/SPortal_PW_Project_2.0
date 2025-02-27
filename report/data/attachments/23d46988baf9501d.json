@@ -1,0 +1,13 @@
+{
+  "Product": {
+    "name": "Pizza63772",
+    "amount": 476,
+    "price": 25493,
+    "manufacturer": "Microsoft",
+    "createdOn": "2025-02-27T23:23:55.000Z",
+    "notes": "m7yovCajhRX0qeXm03TCjP7F8jfLt88rfOIbqtMCuyRmtNBX8TpHoRUsLUDmz9dMby8H0XCqZT7Eq8pOi9MLUMu6a4mWZor5zK5pP4mvDB782mokjJWzzrHexWwM1Pxq1QDuZO0xG6NWiNu18gjhSZ8JjV1RORYKDTs8r5v4OknwWMDkDUjPyJCUxzFwSNherVjK3kbVYl5QBXWnV1ggarszXxOSfmA99YCDc31i4NzpAQie2GN52g7uxI",
+    "_id": "67c0f40b7b4bcc16671a3243"
+  },
+  "IsSuccess": true,
+  "ErrorMessage": null
+}

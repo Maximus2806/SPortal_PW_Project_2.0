@@ -1,0 +1,17 @@
+{
+  "Customer": {
+    "_id": "67c0f3e37b4bcc16671a2fc2",
+    "email": "Karlee_Lemke-McLaughlin@gmail.com",
+    "name": "Name CnEOknUZeviTLRrYkfdSiaCsaxdtWQggBLK",
+    "country": "Russia",
+    "city": "City PHZlJETQmIKSJdO",
+    "street": "Street mcE1vAKi0NpPSttntNlq5MY6O5AhkNPsc",
+    "house": 761,
+    "flat": 8135,
+    "phone": "+557894196920",
+    "createdOn": "2025-02-27T23:23:15.000Z",
+    "notes": "Notes gRyIeFOnaTTaxVPHQuNYWltQiKEGFIaOdxVNHyfJrsZDKNUtYmAMUwvffSRCIKrAtfsqcamYgcSjpPJeLaBaPyrwFglzBeJhXBuIdfdVemnqfsSTSacMnQicwXIJJqNtLqGvRaOKoIxXRUhSpkqqtODihpwxmZcGcFxOBDMirTvBVxVpAGFlwQVaoPCmjuhJXlNIEEDXeMraonldxCINITLVVBmGFkwiCNEDvneatnaZjVXzeMka"
+  },
+  "IsSuccess": true,
+  "ErrorMessage": null
+}

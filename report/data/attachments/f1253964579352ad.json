@@ -1,0 +1,17 @@
+{
+  "Customer": {
+    "email": "Emory.Gutmann@yahoo.com",
+    "name": "Name LMZwYPYmfymgDFYcscekBrjfLcKpVAKhcTC",
+    "country": "Belarus",
+    "city": "City wfWhNYoElSwxwbq",
+    "street": "Street 0BUt8jpCGtEluoSe2REglyRt3L6cKMp1Y",
+    "house": 870,
+    "flat": 1000,
+    "phone": "+955047209032",
+    "createdOn": "2025-02-27T23:23:25.000Z",
+    "notes": "Notes YPOGOqlfQuLwmVGoMmNtAWeMCPwZbWQHqehgmPDIAauXCXuwYFfsLEUTtxINIagbMhuvdxrQMXPhmZtUlrAYnQPnMxNRsJILQdNxrjXoXbkAPskDlBIwRDjCyKLuBmgGQyAamGzvgNAnIZFHlfLkqZvspkVFKaATzruLuBAEYUCATpZCZzAxBUuAGzqGDSJVXfezGfMqUxOatMaSxmzwdvzRxzYQpjSIaKgjJtkEsQWXjbRuzBog",
+    "_id": "67c0f3ed7b4bcc16671a303b"
+  },
+  "IsSuccess": true,
+  "ErrorMessage": null
+}

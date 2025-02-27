@@ -1,0 +1,95 @@
+{
+  "Order": {
+    "_id": "67c0f3f77b4bcc16671a30db",
+    "status": "Draft",
+    "customer": {
+      "_id": "67c0f3fa7b4bcc16671a3113",
+      "email": "Geraldine.Hermann18@hotmail.com",
+      "name": "Name tBETLiOQfWTCrYOvxAeEYinsttoMYwGfyUP",
+      "country": "USA",
+      "city": "City GYaZbTJGGrNWPxC",
+      "street": "Street UORKCGJ9QAE2ko6zcE4tSA3vjrp4iCLua",
+      "house": 102,
+      "flat": 8919,
+      "phone": "+611446472964",
+      "createdOn": "2025-02-27T23:23:38.000Z",
+      "notes": "Notes rkBmIQhXScwitazSXJTrsHgYykMzvHlLLzQmkdYnqusdERjlWDSDlPooPQSEUueYsADduOWdzwIIgjwFwWdATwmeuriOQqgTIUOKtitguknlzZsJNjFLZSjlpqtahARdRyPxfJPoYMYCgMqnBUagHEDgHnNQhbLjZQeaDvzVuqxqdwCqRnjXxhxFOHWjeVKtdrLtihlAJxVafCmILrDprWYmUoPMBkbSBEToQxYPmhtkdNkmExll"
+    },
+    "products": [
+      {
+        "_id": "67c0f3fd7b4bcc16671a314a",
+        "name": "Sausages65987",
+        "amount": 50,
+        "price": 24548,
+        "manufacturer": "Apple",
+        "notes": "cCC0qa6gFLb8lPjkiiGATCG9ooxs517Zlgc4c8ITppv1neoCVESxOlFDOfXjzzkXJgNuN8SC2l6uOulZG465v3g7zCVHJ3MW210MTfJq6fjnCaUk1Xqbes38mKDQO663Rkse3j0NypmfkSo2vujvehJRSFEZajDho82AZg33wb5eLV6PGYpk9B3onpVqHo39NKgrTyVyWzq9WmFCywj47bpZG3tRp4627SQCxt43sc9fJ60TIu28jaggak",
+        "received": false
+      }
+    ],
+    "delivery": null,
+    "total_price": 24548,
+    "createdOn": "2025-02-27T23:23:35.000Z",
+    "comments": [],
+    "history": [
+      {
+        "status": "Draft",
+        "customer": "67c0f3fa7b4bcc16671a3113",
+        "products": [
+          {
+            "_id": "67c0f3f37b4bcc16671a3098",
+            "name": "Mouse51245",
+            "amount": 937,
+            "price": 24319,
+            "manufacturer": "Tesla",
+            "notes": "3U3Q7wILulCEg0w0gtlthZHY1Gg1fLcvDc5MA4fxETyL5zmPKjOskW7ckPU5En1mTfmd6xQneTuqn4vuxWcT8wFWzzpLLDHBIcdktZE0RBVLZoAyHczWyONwXfp3sAfvQzeynrQhK90PgWMhwK3ADJXDqVTniytL7o94TzDwfSqFeVIQa80lXSaPAL7qZvjC7Ece1Jk0n7tsKn7RNzl0XoOofdM3P8LZc88gCxMmXfZ5ZHmbqMQNrvB79T",
+            "received": false
+          }
+        ],
+        "total_price": 24548,
+        "delivery": null,
+        "changedOn": "2025-02-27T23:23:46.000Z",
+        "action": "Customer changed"
+      },
+      {
+        "status": "Draft",
+        "customer": "67c0f3ef7b4bcc16671a3066",
+        "products": [
+          {
+            "_id": "67c0f3fd7b4bcc16671a314a",
+            "name": "Sausages65987",
+            "amount": 50,
+            "price": 24548,
+            "manufacturer": "Apple",
+            "notes": "cCC0qa6gFLb8lPjkiiGATCG9ooxs517Zlgc4c8ITppv1neoCVESxOlFDOfXjzzkXJgNuN8SC2l6uOulZG465v3g7zCVHJ3MW210MTfJq6fjnCaUk1Xqbes38mKDQO663Rkse3j0NypmfkSo2vujvehJRSFEZajDho82AZg33wb5eLV6PGYpk9B3onpVqHo39NKgrTyVyWzq9WmFCywj47bpZG3tRp4627SQCxt43sc9fJ60TIu28jaggak",
+            "received": false
+          }
+        ],
+        "total_price": 24548,
+        "delivery": null,
+        "changedOn": "2025-02-27T23:23:46.000Z",
+        "action": "Requested products changed"
+      },
+      {
+        "status": "Draft",
+        "customer": "67c0f3ef7b4bcc16671a3066",
+        "products": [
+          {
+            "_id": "67c0f3f37b4bcc16671a3098",
+            "name": "Mouse51245",
+            "amount": 937,
+            "price": 24319,
+            "manufacturer": "Tesla",
+            "notes": "3U3Q7wILulCEg0w0gtlthZHY1Gg1fLcvDc5MA4fxETyL5zmPKjOskW7ckPU5En1mTfmd6xQneTuqn4vuxWcT8wFWzzpLLDHBIcdktZE0RBVLZoAyHczWyONwXfp3sAfvQzeynrQhK90PgWMhwK3ADJXDqVTniytL7o94TzDwfSqFeVIQa80lXSaPAL7qZvjC7Ece1Jk0n7tsKn7RNzl0XoOofdM3P8LZc88gCxMmXfZ5ZHmbqMQNrvB79T",
+            "received": false
+          }
+        ],
+        "total_price": 24319,
+        "delivery": null,
+        "changedOn": "2025-02-27T23:23:35.000Z",
+        "action": "Order created"
+      }
+    ]
+  },
+  "IsSuccess": true,
+  "ErrorMessage": null
+}

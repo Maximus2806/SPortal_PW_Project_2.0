@@ -1,0 +1,57 @@
+{
+  "Order": {
+    "_id": "67c0f4327b4bcc16671a35cf",
+    "status": "Draft",
+    "customer": {
+      "_id": "67c0f42f7b4bcc16671a3584",
+      "email": "Tanya_Schultz@hotmail.com",
+      "name": "Name hkaZXXjutsikeviCHqUzWruJanwXYiibwIA",
+      "country": "Ukraine",
+      "city": "City nmjaGWqXFwetwvS",
+      "street": "Street RhqFQVwGEQakvuGPdaABh1j1Ix7acl1UA",
+      "house": 71,
+      "flat": 6880,
+      "phone": "+228830423620",
+      "createdOn": "2025-02-27T23:24:31.000Z",
+      "notes": "Notes zjBujkTTEXjAmVbjwVbmMGuacydxHSucMMuTAsPJEffapmakxcCnTkilQueWUSdNSBJaJOnafXCOMCSulWrdqclxYTWfCbzcPWfqguHdkTqYqGbuslWwKNJNPZjwEGdqaMgbCmRvLaANkwSjOOVxTxPBrWcpwpNpnETVprodVnLKCelSnnevAHVnQazTmAaTsyTXFIyqFYitmGStstMaGaImMFVevglftKlcfosqXpRPyaZjltBF"
+    },
+    "products": [
+      {
+        "_id": "67c0f4317b4bcc16671a35a7",
+        "name": "Chips9941",
+        "amount": 116,
+        "price": 78362,
+        "manufacturer": "Microsoft",
+        "notes": "fUOf5G4K4Rk0j5QwVySptCyLOZopGmRDZmXQRui1LEkJozJSHpMo6tF5mkKiAwfQOLqajPHSKTxMgIK5SwVmsuqsOdPt1m3tJbMnOMfaZ5lVZrlLNedQQgM6VKBObDi4VKRmQ40Ey61PaYdJGhHVpcYK7RYtvmN9rZvKYRQpakQx6i9Y88hILp0svFDMZ6yrs2odjGuVHrsqaE0HoX85ZCpsMRKZyrM6ZmFB9dC1HTC3Ejh8fVRr9eurqP",
+        "received": false
+      }
+    ],
+    "delivery": null,
+    "total_price": 78362,
+    "createdOn": "2025-02-27T23:24:34.000Z",
+    "comments": [],
+    "history": [
+      {
+        "status": "Draft",
+        "customer": "67c0f42f7b4bcc16671a3584",
+        "products": [
+          {
+            "_id": "67c0f4317b4bcc16671a35a7",
+            "name": "Chips9941",
+            "amount": 116,
+            "price": 78362,
+            "manufacturer": "Microsoft",
+            "notes": "fUOf5G4K4Rk0j5QwVySptCyLOZopGmRDZmXQRui1LEkJozJSHpMo6tF5mkKiAwfQOLqajPHSKTxMgIK5SwVmsuqsOdPt1m3tJbMnOMfaZ5lVZrlLNedQQgM6VKBObDi4VKRmQ40Ey61PaYdJGhHVpcYK7RYtvmN9rZvKYRQpakQx6i9Y88hILp0svFDMZ6yrs2odjGuVHrsqaE0HoX85ZCpsMRKZyrM6ZmFB9dC1HTC3Ejh8fVRr9eurqP",
+            "received": false
+          }
+        ],
+        "total_price": 78362,
+        "delivery": null,
+        "changedOn": "2025-02-27T23:24:34.000Z",
+        "action": "Order created"
+      }
+    ]
+  },
+  "IsSuccess": true,
+  "ErrorMessage": null
+}

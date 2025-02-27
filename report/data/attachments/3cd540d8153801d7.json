@@ -1,0 +1,96 @@
+{
+  "Order": {
+    "_id": "67c0f40d7b4bcc16671a3269",
+    "status": "Draft",
+    "customer": {
+      "_id": "67c0f4047b4bcc16671a31cb",
+      "email": "Alicia93@yahoo.com",
+      "name": "Name BXVQvrdIdKJGfgJbtiHHMKKwELjiYiflDnJ",
+      "country": "Belarus",
+      "city": "City mZDqkVrHeYOKJgH",
+      "street": "Street TE2VBSQLvI6DtU84QqEfxn6NgAnPY9ULH",
+      "house": 208,
+      "flat": 5090,
+      "phone": "+472427563236",
+      "createdOn": "2025-02-27T23:23:48.000Z",
+      "notes": "Notes CBEIeRiuAsHOcpjEaBXLDnqtjwYCrJhqQRSLIxNBcDbDUNQuCSgcNLmtSAKnBKZbfhwXJLdKfeBNsRjIKCLDYNpbRrEnxufNpvXFAzZvUhvuCykiItlMbEIHyUQEEpIpxjkNNrIqNtqBGpIQxYytqlbyhGPOVqeKwMWglIGxQemHrFIQKsWNZZfXpSHaGcdaDPvYsImTLUodviDmZtesUXhGkXDovLyVMtgeBDcftpIKkKwdszsg"
+    },
+    "products": [
+      {
+        "_id": "67c0f4097b4bcc16671a3218",
+        "name": "Fish23963",
+        "amount": 712,
+        "price": 72347,
+        "manufacturer": "Samsung",
+        "notes": "d800GBIMlfLLG06mUlHwRlIsIJrEGcosgUcQgRN1l06ZwMKRQeSl8MUACc0ZKVoEerlQLibENQThs8vNQBibiDMXd26FQcX4Wi6aCvQilqjxnJeWxfBoAJi19EyqU3rCHfwl6stuuW03yEkPvd55M9ayT3YMMG4RYhsf39t2wST0CRWZgvJAkxTje6gIkAPfv8gwW9y0gspgc5fhoIVAeBul7xVgs09dyWyao4iYboecWDS2XGaC3ZD4el",
+        "received": false
+      }
+    ],
+    "delivery": {
+      "address": {
+        "country": "Belarus",
+        "city": "City zOeIxIjftAvAsbg",
+        "street": "Street yfy0rgBqguvbJjrcBmro69YCDJxNn2bkJ",
+        "house": 340,
+        "flat": 4502
+      },
+      "finalDate": "2025-03-03T00:00:00.000Z",
+      "condition": "Pickup"
+    },
+    "total_price": 72347,
+    "createdOn": "2025-02-27T23:23:57.000Z",
+    "comments": [],
+    "history": [
+      {
+        "status": "Draft",
+        "customer": "67c0f4047b4bcc16671a31cb",
+        "products": [
+          {
+            "_id": "67c0f4097b4bcc16671a3218",
+            "name": "Fish23963",
+            "amount": 712,
+            "price": 72347,
+            "manufacturer": "Samsung",
+            "notes": "d800GBIMlfLLG06mUlHwRlIsIJrEGcosgUcQgRN1l06ZwMKRQeSl8MUACc0ZKVoEerlQLibENQThs8vNQBibiDMXd26FQcX4Wi6aCvQilqjxnJeWxfBoAJi19EyqU3rCHfwl6stuuW03yEkPvd55M9ayT3YMMG4RYhsf39t2wST0CRWZgvJAkxTje6gIkAPfv8gwW9y0gspgc5fhoIVAeBul7xVgs09dyWyao4iYboecWDS2XGaC3ZD4el",
+            "received": false
+          }
+        ],
+        "total_price": 72347,
+        "delivery": {
+          "address": {
+            "country": "Belarus",
+            "city": "City zOeIxIjftAvAsbg",
+            "street": "Street yfy0rgBqguvbJjrcBmro69YCDJxNn2bkJ",
+            "house": 340,
+            "flat": 4502
+          },
+          "finalDate": "2025-03-03T00:00:00.000Z",
+          "condition": "Pickup"
+        },
+        "changedOn": "2025-02-27T23:24:02.000Z",
+        "action": "Delivery Scheduled"
+      },
+      {
+        "status": "Draft",
+        "customer": "67c0f4047b4bcc16671a31cb",
+        "products": [
+          {
+            "_id": "67c0f4097b4bcc16671a3218",
+            "name": "Fish23963",
+            "amount": 712,
+            "price": 72347,
+            "manufacturer": "Samsung",
+            "notes": "d800GBIMlfLLG06mUlHwRlIsIJrEGcosgUcQgRN1l06ZwMKRQeSl8MUACc0ZKVoEerlQLibENQThs8vNQBibiDMXd26FQcX4Wi6aCvQilqjxnJeWxfBoAJi19EyqU3rCHfwl6stuuW03yEkPvd55M9ayT3YMMG4RYhsf39t2wST0CRWZgvJAkxTje6gIkAPfv8gwW9y0gspgc5fhoIVAeBul7xVgs09dyWyao4iYboecWDS2XGaC3ZD4el",
+            "received": false
+          }
+        ],
+        "total_price": 72347,
+        "delivery": null,
+        "changedOn": "2025-02-27T23:23:57.000Z",
+        "action": "Order created"
+      }
+    ]
+  },
+  "IsSuccess": true,
+  "ErrorMessage": null
+}

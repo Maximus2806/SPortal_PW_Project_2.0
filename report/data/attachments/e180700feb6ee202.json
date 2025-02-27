@@ -1,0 +1,93 @@
+{
+  "Order": {
+    "status": "Draft",
+    "customer": {
+      "_id": "67c0f42a7b4bcc16671a3511",
+      "email": "Helen49@hotmail.com",
+      "name": "Name kamOqclVnkqMIadScECKTIdooebdcIfbhuw",
+      "country": "Russia",
+      "city": "City JQrZmhSVDvvYRxk",
+      "street": "Street PASQcVRyvkuE3vMWMDdhsW65Anb9W2fws",
+      "house": 923,
+      "flat": 3442,
+      "phone": "+463727879865",
+      "createdOn": "2025-02-27T23:24:26.000Z",
+      "notes": "Notes xWotIMZxhHKUvHUgInHRlCYUfXcbBZrSCEgrGZYBVxeTxJrmbceQclFnzulncXpRSIMsZLTRchurAcZuXEmIyepjKsCoOdrOCKVlufOiXtiLNJajNCydzDKTGosRYiVomscuOTuAbDDHIyHWmeMpLgsFCLnqUAzPtclVpsGTMPBPbsnNCGoiqQUGrigEgzXYyowsvxqVAQTmFYCsNHBndnBuHXPmKYbxoQvsZtQDXHVsOjFqCFtq"
+    },
+    "products": [
+      {
+        "_id": "67c0f42b7b4bcc16671a3534",
+        "name": "Pants85583",
+        "amount": 815,
+        "price": 91915,
+        "manufacturer": "Apple",
+        "notes": "LqpSDwWSzYwHg3T1G7q9oeFArNFfbdcpiL5XcXxgQOiWAAR7mxZLfbAnaLONwfwJ7SSsqVENxkcHoBCWBpgJvx075WLdUy1u1kYeYrVTBJiLFxq6e0Q7eEH80N2eMNKblnq8nCgczwcdxwXeywxELbVb4blvoayuoxBYCmzV1exfNNyjMLCCPb6u4zUmQUa5JLBvqdypgJfuIUcwnaK5bISazGHrivbWfObg2fJiOn59OKCthA8uQX0xhf",
+        "received": false
+      },
+      {
+        "_id": "67c0f42b7b4bcc16671a3534",
+        "name": "Pants85583",
+        "amount": 815,
+        "price": 91915,
+        "manufacturer": "Apple",
+        "notes": "LqpSDwWSzYwHg3T1G7q9oeFArNFfbdcpiL5XcXxgQOiWAAR7mxZLfbAnaLONwfwJ7SSsqVENxkcHoBCWBpgJvx075WLdUy1u1kYeYrVTBJiLFxq6e0Q7eEH80N2eMNKblnq8nCgczwcdxwXeywxELbVb4blvoayuoxBYCmzV1exfNNyjMLCCPb6u4zUmQUa5JLBvqdypgJfuIUcwnaK5bISazGHrivbWfObg2fJiOn59OKCthA8uQX0xhf",
+        "received": false
+      },
+      {
+        "_id": "67c0f42b7b4bcc16671a3534",
+        "name": "Pants85583",
+        "amount": 815,
+        "price": 91915,
+        "manufacturer": "Apple",
+        "notes": "LqpSDwWSzYwHg3T1G7q9oeFArNFfbdcpiL5XcXxgQOiWAAR7mxZLfbAnaLONwfwJ7SSsqVENxkcHoBCWBpgJvx075WLdUy1u1kYeYrVTBJiLFxq6e0Q7eEH80N2eMNKblnq8nCgczwcdxwXeywxELbVb4blvoayuoxBYCmzV1exfNNyjMLCCPb6u4zUmQUa5JLBvqdypgJfuIUcwnaK5bISazGHrivbWfObg2fJiOn59OKCthA8uQX0xhf",
+        "received": false
+      }
+    ],
+    "delivery": null,
+    "total_price": 275745,
+    "createdOn": "2025-02-27T23:24:31.000Z",
+    "comments": [],
+    "history": [
+      {
+        "status": "Draft",
+        "customer": "67c0f42a7b4bcc16671a3511",
+        "products": [
+          {
+            "_id": "67c0f42b7b4bcc16671a3534",
+            "name": "Pants85583",
+            "amount": 815,
+            "price": 91915,
+            "manufacturer": "Apple",
+            "notes": "LqpSDwWSzYwHg3T1G7q9oeFArNFfbdcpiL5XcXxgQOiWAAR7mxZLfbAnaLONwfwJ7SSsqVENxkcHoBCWBpgJvx075WLdUy1u1kYeYrVTBJiLFxq6e0Q7eEH80N2eMNKblnq8nCgczwcdxwXeywxELbVb4blvoayuoxBYCmzV1exfNNyjMLCCPb6u4zUmQUa5JLBvqdypgJfuIUcwnaK5bISazGHrivbWfObg2fJiOn59OKCthA8uQX0xhf",
+            "received": false
+          },
+          {
+            "_id": "67c0f42b7b4bcc16671a3534",
+            "name": "Pants85583",
+            "amount": 815,
+            "price": 91915,
+            "manufacturer": "Apple",
+            "notes": "LqpSDwWSzYwHg3T1G7q9oeFArNFfbdcpiL5XcXxgQOiWAAR7mxZLfbAnaLONwfwJ7SSsqVENxkcHoBCWBpgJvx075WLdUy1u1kYeYrVTBJiLFxq6e0Q7eEH80N2eMNKblnq8nCgczwcdxwXeywxELbVb4blvoayuoxBYCmzV1exfNNyjMLCCPb6u4zUmQUa5JLBvqdypgJfuIUcwnaK5bISazGHrivbWfObg2fJiOn59OKCthA8uQX0xhf",
+            "received": false
+          },
+          {
+            "_id": "67c0f42b7b4bcc16671a3534",
+            "name": "Pants85583",
+            "amount": 815,
+            "price": 91915,
+            "manufacturer": "Apple",
+            "notes": "LqpSDwWSzYwHg3T1G7q9oeFArNFfbdcpiL5XcXxgQOiWAAR7mxZLfbAnaLONwfwJ7SSsqVENxkcHoBCWBpgJvx075WLdUy1u1kYeYrVTBJiLFxq6e0Q7eEH80N2eMNKblnq8nCgczwcdxwXeywxELbVb4blvoayuoxBYCmzV1exfNNyjMLCCPb6u4zUmQUa5JLBvqdypgJfuIUcwnaK5bISazGHrivbWfObg2fJiOn59OKCthA8uQX0xhf",
+            "received": false
+          }
+        ],
+        "total_price": 275745,
+        "delivery": null,
+        "changedOn": "2025-02-27T23:24:31.000Z",
+        "action": "Order created"
+      }
+    ],
+    "_id": "67c0f42f7b4bcc16671a3578"
+  },
+  "IsSuccess": true,
+  "ErrorMessage": null
+}

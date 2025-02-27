@@ -1,0 +1,17 @@
+{
+  "Customer": {
+    "_id": "67c0f3e47b4bcc16671a2fdd",
+    "email": "Betsy_Cassin@hotmail.com",
+    "name": "Name gHhOfqdxtvZGRoUSSabhxuVaMlcnrsmTLhi",
+    "country": "Great Britain",
+    "city": "City RjRrCQGtAsThYud",
+    "street": "Street 2whkannI1ns1QYCZbegXqgP7p9OCPZt27",
+    "house": 143,
+    "flat": 3281,
+    "phone": "+841329112632",
+    "createdOn": "2025-02-27T23:23:16.000Z",
+    "notes": "Notes hMjowaLuvuiXEBjzjrdGkNvEpTETyRMyGOsTSyeQJQpZheozrhLtLEDiJFacjEesyjLjZSmkXAgdoLaZZYTUrmHRYtXyskFFmjvmuHvJZIXLdoIpvNPLqfXxSIpPBTOsujRVlVnypyvBDtpNAlDjdPjoMPlZpQDawpjCWmMlTSncnIjqxYASysKYqRwatYWMpjvcnfOtFHukdFNhExyYJahvkNhfTASXaPcxtGNnBePmlrdmptHk"
+  },
+  "IsSuccess": true,
+  "ErrorMessage": null
+}
