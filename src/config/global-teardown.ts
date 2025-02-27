@@ -7,7 +7,7 @@ teardown('SLACK NOTIFICATION', async () => {
   if (CI) {
     await notificationService.postNotification(
       `Test run funished:
-       link to report: TODO ADD LINK TO REPORT IN REPO`
+       link to report: https://maximus2806.github.io/SPortal_PW_Project_2.0/report/`
     );
   }
   console.log('TEARDOWN NOTIFICATION - FINISHED');
