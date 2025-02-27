@@ -1,0 +1,96 @@
+{
+  "Order": {
+    "_id": "67c0f5867b4bcc16671a38ec",
+    "status": "Draft",
+    "customer": {
+      "_id": "67c0f5857b4bcc16671a38b8",
+      "email": "Adell_Daugherty75@gmail.com",
+      "name": "Name cKRqBSBGsYSFfMLTpJUcYClqQiUmrggnvuX",
+      "country": "Russia",
+      "city": "City gKWqbqrdedQvZMB",
+      "street": "Street ft0V6Vm6JWHt7Mw0jHEyrOsyu1UKZ4AHw",
+      "house": 404,
+      "flat": 907,
+      "phone": "+593793769635",
+      "createdOn": "2025-02-27T23:30:13.000Z",
+      "notes": "Notes xfWzOKgzqWfvaIaaMMOKfjavYPWoCHleWzPKVAceIoJevNbeLFCMsGLhmmIRAJeydPWTplmzclqYZWSSvKHWYPFPXjhTtTAzzRnVreocOeMLKgWuLLExIwJsBTraBRjppMBQlqUBJKqlRzHkGXdYxtYABzZAVMFsVLUPgariCjInRvcWmwegxKVqJueKhBPCshNBzMulDvYebgMjROXTMPEeuqeIoDDMRFGkCikMCgsUHZtzbrVi"
+    },
+    "products": [
+      {
+        "_id": "67c0f5857b4bcc16671a38ce",
+        "name": "Table30457",
+        "amount": 642,
+        "price": 95210,
+        "manufacturer": "Apple",
+        "notes": "ONgy1vJ7WqzwY7TT4KmUl0pFayskUIy6v2YeBFGbOlZ8JcjjhOrDKEtALfzTlgTE7PkvUi2X0qKrzuv62qrtijIfJKTI5zQi9WZYjcEayoehH6dPNeooVxObBaOQJDjM0EotNvaEx0JacrmXyhHXyEQbSHh0TTgPjvuiGnXjKtqT3cFmJHHAanAe80vRHCFqAjvBcdcvBiWTCBT6VebWqgn7PDWknDDVUKnStwWICVWoP6llLH5ELORP7h",
+        "received": false
+      }
+    ],
+    "delivery": {
+      "address": {
+        "country": "Belarus",
+        "city": "City ZiazMPbVOOEDNnx",
+        "street": "Street kK4AFm2t7cMI6Om3QUwE7qSdMDqVhqQyV",
+        "house": 202,
+        "flat": 8541
+      },
+      "finalDate": "2025-03-08T00:00:00.000Z",
+      "condition": "Delivery"
+    },
+    "total_price": 95210,
+    "createdOn": "2025-02-27T23:30:14.000Z",
+    "comments": [],
+    "history": [
+      {
+        "status": "Draft",
+        "customer": "67c0f5857b4bcc16671a38b8",
+        "products": [
+          {
+            "_id": "67c0f5857b4bcc16671a38ce",
+            "name": "Table30457",
+            "amount": 642,
+            "price": 95210,
+            "manufacturer": "Apple",
+            "notes": "ONgy1vJ7WqzwY7TT4KmUl0pFayskUIy6v2YeBFGbOlZ8JcjjhOrDKEtALfzTlgTE7PkvUi2X0qKrzuv62qrtijIfJKTI5zQi9WZYjcEayoehH6dPNeooVxObBaOQJDjM0EotNvaEx0JacrmXyhHXyEQbSHh0TTgPjvuiGnXjKtqT3cFmJHHAanAe80vRHCFqAjvBcdcvBiWTCBT6VebWqgn7PDWknDDVUKnStwWICVWoP6llLH5ELORP7h",
+            "received": false
+          }
+        ],
+        "total_price": 95210,
+        "delivery": {
+          "address": {
+            "country": "Belarus",
+            "city": "City ZiazMPbVOOEDNnx",
+            "street": "Street kK4AFm2t7cMI6Om3QUwE7qSdMDqVhqQyV",
+            "house": 202,
+            "flat": 8541
+          },
+          "finalDate": "2025-03-08T00:00:00.000Z",
+          "condition": "Delivery"
+        },
+        "changedOn": "2025-02-27T23:30:14.000Z",
+        "action": "Delivery Scheduled"
+      },
+      {
+        "status": "Draft",
+        "customer": "67c0f5857b4bcc16671a38b8",
+        "products": [
+          {
+            "_id": "67c0f5857b4bcc16671a38ce",
+            "name": "Table30457",
+            "amount": 642,
+            "price": 95210,
+            "manufacturer": "Apple",
+            "notes": "ONgy1vJ7WqzwY7TT4KmUl0pFayskUIy6v2YeBFGbOlZ8JcjjhOrDKEtALfzTlgTE7PkvUi2X0qKrzuv62qrtijIfJKTI5zQi9WZYjcEayoehH6dPNeooVxObBaOQJDjM0EotNvaEx0JacrmXyhHXyEQbSHh0TTgPjvuiGnXjKtqT3cFmJHHAanAe80vRHCFqAjvBcdcvBiWTCBT6VebWqgn7PDWknDDVUKnStwWICVWoP6llLH5ELORP7h",
+            "received": false
+          }
+        ],
+        "total_price": 95210,
+        "delivery": null,
+        "changedOn": "2025-02-27T23:30:14.000Z",
+        "action": "Order created"
+      }
+    ]
+  },
+  "IsSuccess": true,
+  "ErrorMessage": null
+}

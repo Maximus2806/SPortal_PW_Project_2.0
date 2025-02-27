@@ -1,0 +1,93 @@
+{
+  "Order": {
+    "status": "Draft",
+    "customer": {
+      "_id": "67c0f58e7b4bcc16671a3c4f",
+      "email": "Carmen_Keeling@hotmail.com",
+      "name": "Name AqsfXQtegAZoiltzppfEckyDpyMNjeNprSs",
+      "country": "France",
+      "city": "City AbvSjsXODEaSaqz",
+      "street": "Street 9T43rQrjWtOMKLpoBqQ2xo8O2wpAMkV5r",
+      "house": 128,
+      "flat": 4548,
+      "phone": "+636710044404",
+      "createdOn": "2025-02-27T23:30:22.000Z",
+      "notes": "Notes PJoebXhcNDqttzSmNqYxHCSKIMEelXsPaUsMVEfxETjpmORRIlFoVxtaOKBorSaypQWVmnXeNQuakliSEVviZWXfDACMbsHeKzjjFepzYtcbRWYeCOUjDFZIEJgOlAsGSALcQljpbNKVyrQbPCVUoCYAjmgtSHSpPvneusbsJlgjraVlkGlaWubcbDborSqtNIMhBcmaJrhilspZDprynOnuYOwEuhYJFzQvfnOJRSzUOMqMQjAo"
+    },
+    "products": [
+      {
+        "_id": "67c0f58e7b4bcc16671a3c83",
+        "name": "Keyboard4019",
+        "amount": 920,
+        "price": 88852,
+        "manufacturer": "Xiaomi",
+        "notes": "lA1ay91Ce8VF3Ta67JiUpz7qrMNSQu12Aw9cHtssQ0HySF1tRMrsBPrcdedwPfuOgxCNAhLFOlwJWbxlo1tc8SqvaRgehJbu7a8tq86SCtpeP9mtpRxqHgsA1PF9uXN4wWmsB7jCBEVopMZYqOUyiI7SliSmgpgt8NL9aqnBkZ7vIHokcaVYkM265opwFskei0DkQ7Wj4n4VbSlepk8GVdlE9QMDZ6Ehxzgx1AadWhXtowffwrrXUsdc1n",
+        "received": false
+      },
+      {
+        "_id": "67c0f58e7b4bcc16671a3c83",
+        "name": "Keyboard4019",
+        "amount": 920,
+        "price": 88852,
+        "manufacturer": "Xiaomi",
+        "notes": "lA1ay91Ce8VF3Ta67JiUpz7qrMNSQu12Aw9cHtssQ0HySF1tRMrsBPrcdedwPfuOgxCNAhLFOlwJWbxlo1tc8SqvaRgehJbu7a8tq86SCtpeP9mtpRxqHgsA1PF9uXN4wWmsB7jCBEVopMZYqOUyiI7SliSmgpgt8NL9aqnBkZ7vIHokcaVYkM265opwFskei0DkQ7Wj4n4VbSlepk8GVdlE9QMDZ6Ehxzgx1AadWhXtowffwrrXUsdc1n",
+        "received": false
+      },
+      {
+        "_id": "67c0f58e7b4bcc16671a3c83",
+        "name": "Keyboard4019",
+        "amount": 920,
+        "price": 88852,
+        "manufacturer": "Xiaomi",
+        "notes": "lA1ay91Ce8VF3Ta67JiUpz7qrMNSQu12Aw9cHtssQ0HySF1tRMrsBPrcdedwPfuOgxCNAhLFOlwJWbxlo1tc8SqvaRgehJbu7a8tq86SCtpeP9mtpRxqHgsA1PF9uXN4wWmsB7jCBEVopMZYqOUyiI7SliSmgpgt8NL9aqnBkZ7vIHokcaVYkM265opwFskei0DkQ7Wj4n4VbSlepk8GVdlE9QMDZ6Ehxzgx1AadWhXtowffwrrXUsdc1n",
+        "received": false
+      }
+    ],
+    "delivery": null,
+    "total_price": 266556,
+    "createdOn": "2025-02-27T23:30:23.000Z",
+    "comments": [],
+    "history": [
+      {
+        "status": "Draft",
+        "customer": "67c0f58e7b4bcc16671a3c4f",
+        "products": [
+          {
+            "_id": "67c0f58e7b4bcc16671a3c83",
+            "name": "Keyboard4019",
+            "amount": 920,
+            "price": 88852,
+            "manufacturer": "Xiaomi",
+            "notes": "lA1ay91Ce8VF3Ta67JiUpz7qrMNSQu12Aw9cHtssQ0HySF1tRMrsBPrcdedwPfuOgxCNAhLFOlwJWbxlo1tc8SqvaRgehJbu7a8tq86SCtpeP9mtpRxqHgsA1PF9uXN4wWmsB7jCBEVopMZYqOUyiI7SliSmgpgt8NL9aqnBkZ7vIHokcaVYkM265opwFskei0DkQ7Wj4n4VbSlepk8GVdlE9QMDZ6Ehxzgx1AadWhXtowffwrrXUsdc1n",
+            "received": false
+          },
+          {
+            "_id": "67c0f58e7b4bcc16671a3c83",
+            "name": "Keyboard4019",
+            "amount": 920,
+            "price": 88852,
+            "manufacturer": "Xiaomi",
+            "notes": "lA1ay91Ce8VF3Ta67JiUpz7qrMNSQu12Aw9cHtssQ0HySF1tRMrsBPrcdedwPfuOgxCNAhLFOlwJWbxlo1tc8SqvaRgehJbu7a8tq86SCtpeP9mtpRxqHgsA1PF9uXN4wWmsB7jCBEVopMZYqOUyiI7SliSmgpgt8NL9aqnBkZ7vIHokcaVYkM265opwFskei0DkQ7Wj4n4VbSlepk8GVdlE9QMDZ6Ehxzgx1AadWhXtowffwrrXUsdc1n",
+            "received": false
+          },
+          {
+            "_id": "67c0f58e7b4bcc16671a3c83",
+            "name": "Keyboard4019",
+            "amount": 920,
+            "price": 88852,
+            "manufacturer": "Xiaomi",
+            "notes": "lA1ay91Ce8VF3Ta67JiUpz7qrMNSQu12Aw9cHtssQ0HySF1tRMrsBPrcdedwPfuOgxCNAhLFOlwJWbxlo1tc8SqvaRgehJbu7a8tq86SCtpeP9mtpRxqHgsA1PF9uXN4wWmsB7jCBEVopMZYqOUyiI7SliSmgpgt8NL9aqnBkZ7vIHokcaVYkM265opwFskei0DkQ7Wj4n4VbSlepk8GVdlE9QMDZ6Ehxzgx1AadWhXtowffwrrXUsdc1n",
+            "received": false
+          }
+        ],
+        "total_price": 266556,
+        "delivery": null,
+        "changedOn": "2025-02-27T23:30:23.000Z",
+        "action": "Order created"
+      }
+    ],
+    "_id": "67c0f58f7b4bcc16671a3cc7"
+  },
+  "IsSuccess": true,
+  "ErrorMessage": null
+}

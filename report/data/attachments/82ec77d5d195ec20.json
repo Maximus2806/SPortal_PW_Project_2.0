@@ -1,0 +1,17 @@
+{
+  "Customer": {
+    "_id": "67c0f5817b4bcc16671a377d",
+    "email": "Aileen.Collier50@yahoo.com",
+    "name": "Name IQRbAJeFjcXuPiligNfBBgqdNiNWrChiHRi",
+    "country": "France",
+    "city": "City JBmsSdrsBlBqFKB",
+    "street": "Street Qzc3EA0mImHhrhW8faymSAJHMQqHnfSgp",
+    "house": 53,
+    "flat": 4947,
+    "phone": "+821005543864",
+    "createdOn": "2025-02-27T23:30:09.000Z",
+    "notes": "Notes PzJsOAjVVcERUsQAlulxywRVdTzXYomLiyQbflCUDJSnTavOvAStxjjQVIAiuszpTbNwbgUsYtXlpFeZLzZTXZEUCNMElDBDmZNuhtTCKcWBKXrjHddZtOTHbKEgKmkQfnznAtLdvDqYeJbPtFkAybesQIrXGtrTZqgyweQmFjyIZcKhTGOjegFhJAxjXtkWksCtXdBXFkslfrLVgVWOKJrpFGaPLRBkrxAMmgEWheiMTcFnjTOt"
+  },
+  "IsSuccess": true,
+  "ErrorMessage": null
+}

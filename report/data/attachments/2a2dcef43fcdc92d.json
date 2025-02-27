@@ -1,0 +1,112 @@
+{
+  "Order": {
+    "_id": "67c0f58a7b4bcc16671a3ad5",
+    "status": "Draft",
+    "customer": {
+      "_id": "67c0f5897b4bcc16671a3a54",
+      "email": "Aaliyah.Kuphal@yahoo.com",
+      "name": "Name DytMXUyVnMLPZBaxzwmMVbFkBVRcqcWEHNj",
+      "country": "Russia",
+      "city": "City CGINBJekGiPIkbO",
+      "street": "Street ln2c0qmNpVrBK9Y1ANRHWBTy4Ocu7V4hJ",
+      "house": 812,
+      "flat": 550,
+      "phone": "+236646301242",
+      "createdOn": "2025-02-27T23:30:17.000Z",
+      "notes": "Notes UyZkQVBuYPUUdNxZGKIOcWiJVHLhHbireYNOcNBNGaHzvdJACmvYzdqIeMfJIJjuQaqHdKqAmCZLZIeKBTrAaTuZQuQmLHxfavZIVxuqhOAZdQZwwJItrdOxxJKkaOiPREOaAAQOmOvAmAJEnZlFLGhsmpfPpbjwcsRWPmdatHWWxEDMcfLskmYFmbHOajqwTPlheFhTnbESZyHofjQYWJTTXvYoymkvNZSYQFYCYygAFcHsYkKQ"
+    },
+    "products": [
+      {
+        "_id": "67c0f58a7b4bcc16671a3a93",
+        "name": "Chair15614",
+        "amount": 47,
+        "price": 41155,
+        "manufacturer": "Apple",
+        "notes": "hEesvDXNkrk61d9pxsCCoH050y0ec41RA0lWJk9leSNQXpc4V4CyaEQ330uNtlykkL6qmkaMPxFzG98IwgG5pkfVrCRnbTtQIiLRmrXhARni0Eaq98W3MQ3hDJYE4Kcy1VA9mMetuUUokfKqhU22gAthFAOxgZwhFXdjmQBhuVJ9EbbaUtpgojvdW5i95KfS1EqQ7RXUfDBCqhj5i2tXG9RJXBMwazx26hq4gT0HrWwKWvsFA3ePwYoZdU",
+        "received": false
+      },
+      {
+        "_id": "67c0f58b7b4bcc16671a3b11",
+        "name": "Hat11992",
+        "amount": 450,
+        "price": 99823,
+        "manufacturer": "Sony",
+        "notes": "MzwXbizfHAlZad9LeCtQTEGTCDIcUgxdE7VmXsUF8ckDU7Gz09KOPjRrToH3aiM1XstZtrH5MR8AhYB381SW4xHLEvRynsfeQ2SJWukHNru7CPlXSmCul0qbjbcYkzSe8l4hzEMagYySzCo9B7JSF0R7j4qmO9YWFhMjMLD6m3TevJe5Z8FyXWHDvdsm45BEv7ErfTa8QWXuW6hWFyIQXqOAAThyrvYct6bsGQhKsYG9rkxy6rwjSmID0q",
+        "received": false
+      },
+      {
+        "_id": "67c0f58b7b4bcc16671a3b4b",
+        "name": "Ball86379",
+        "amount": 899,
+        "price": 31457,
+        "manufacturer": "Apple",
+        "notes": "aKNPtDLQo6qpjjPBI8RvOFlive3Ib96CXOwvo7UNohCESkzfBGt7sL3cA9hXEGWowr4eGS5dRJ34mAkrfbntD3MmkH0y31CN6C1nMepqbKLGOu4Pt8DaOfY2wyw4FMt7uKcO6EguNKDm1HqAe18arfQm1kZwQs8YeX0M7TsnUeTZY0soNeEUJLkZidDRKs8BLxW8CwgCNKdNDUG7SH5KIH9Fdr3JfhdVpe8NZT3pBdF9AyxtwJtMicSpqt",
+        "received": false
+      }
+    ],
+    "delivery": null,
+    "total_price": 172435,
+    "createdOn": "2025-02-27T23:30:18.000Z",
+    "comments": [],
+    "history": [
+      {
+        "status": "Draft",
+        "customer": "67c0f5897b4bcc16671a3a54",
+        "products": [
+          {
+            "_id": "67c0f58a7b4bcc16671a3a93",
+            "name": "Chair15614",
+            "amount": 47,
+            "price": 41155,
+            "manufacturer": "Apple",
+            "notes": "hEesvDXNkrk61d9pxsCCoH050y0ec41RA0lWJk9leSNQXpc4V4CyaEQ330uNtlykkL6qmkaMPxFzG98IwgG5pkfVrCRnbTtQIiLRmrXhARni0Eaq98W3MQ3hDJYE4Kcy1VA9mMetuUUokfKqhU22gAthFAOxgZwhFXdjmQBhuVJ9EbbaUtpgojvdW5i95KfS1EqQ7RXUfDBCqhj5i2tXG9RJXBMwazx26hq4gT0HrWwKWvsFA3ePwYoZdU",
+            "received": false
+          },
+          {
+            "_id": "67c0f58b7b4bcc16671a3b11",
+            "name": "Hat11992",
+            "amount": 450,
+            "price": 99823,
+            "manufacturer": "Sony",
+            "notes": "MzwXbizfHAlZad9LeCtQTEGTCDIcUgxdE7VmXsUF8ckDU7Gz09KOPjRrToH3aiM1XstZtrH5MR8AhYB381SW4xHLEvRynsfeQ2SJWukHNru7CPlXSmCul0qbjbcYkzSe8l4hzEMagYySzCo9B7JSF0R7j4qmO9YWFhMjMLD6m3TevJe5Z8FyXWHDvdsm45BEv7ErfTa8QWXuW6hWFyIQXqOAAThyrvYct6bsGQhKsYG9rkxy6rwjSmID0q",
+            "received": false
+          },
+          {
+            "_id": "67c0f58b7b4bcc16671a3b4b",
+            "name": "Ball86379",
+            "amount": 899,
+            "price": 31457,
+            "manufacturer": "Apple",
+            "notes": "aKNPtDLQo6qpjjPBI8RvOFlive3Ib96CXOwvo7UNohCESkzfBGt7sL3cA9hXEGWowr4eGS5dRJ34mAkrfbntD3MmkH0y31CN6C1nMepqbKLGOu4Pt8DaOfY2wyw4FMt7uKcO6EguNKDm1HqAe18arfQm1kZwQs8YeX0M7TsnUeTZY0soNeEUJLkZidDRKs8BLxW8CwgCNKdNDUG7SH5KIH9Fdr3JfhdVpe8NZT3pBdF9AyxtwJtMicSpqt",
+            "received": false
+          }
+        ],
+        "total_price": 172435,
+        "delivery": null,
+        "changedOn": "2025-02-27T23:30:20.000Z",
+        "action": "Requested products changed"
+      },
+      {
+        "status": "Draft",
+        "customer": "67c0f5897b4bcc16671a3a54",
+        "products": [
+          {
+            "_id": "67c0f58a7b4bcc16671a3a93",
+            "name": "Chair15614",
+            "amount": 47,
+            "price": 41155,
+            "manufacturer": "Apple",
+            "notes": "hEesvDXNkrk61d9pxsCCoH050y0ec41RA0lWJk9leSNQXpc4V4CyaEQ330uNtlykkL6qmkaMPxFzG98IwgG5pkfVrCRnbTtQIiLRmrXhARni0Eaq98W3MQ3hDJYE4Kcy1VA9mMetuUUokfKqhU22gAthFAOxgZwhFXdjmQBhuVJ9EbbaUtpgojvdW5i95KfS1EqQ7RXUfDBCqhj5i2tXG9RJXBMwazx26hq4gT0HrWwKWvsFA3ePwYoZdU",
+            "received": false
+          }
+        ],
+        "total_price": 41155,
+        "delivery": null,
+        "changedOn": "2025-02-27T23:30:18.000Z",
+        "action": "Order created"
+      }
+    ]
+  },
+  "IsSuccess": true,
+  "ErrorMessage": null
+}

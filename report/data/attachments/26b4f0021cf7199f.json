@@ -1,0 +1,95 @@
+{
+  "Order": {
+    "_id": "67c0f5847b4bcc16671a3873",
+    "status": "Draft",
+    "customer": {
+      "_id": "67c0f5857b4bcc16671a38a6",
+      "email": "Bailee_Bechtelar44@hotmail.com",
+      "name": "Name KpOGNQzoruidloRxcfdKFCSkGWFVYWgZZLO",
+      "country": "France",
+      "city": "City tJfIISINkzvREmf",
+      "street": "Street HNyjwn3LGSYgjZqNPL4mKmwh3WNJNxpI0",
+      "house": 471,
+      "flat": 1060,
+      "phone": "+635491027793",
+      "createdOn": "2025-02-27T23:30:13.000Z",
+      "notes": "Notes ZPBAboMBwzGsFyCfQSAIjTZqSxmFEEZKjMntoIIQUpUEWIeCOOUrFCfxJObNxTMfVKLlqerGaVPZaWnownFATdFnyazYwRjmdUZJdgomqRHidOUMYmcybqpNEKRUydOWYfUUYUxPYFdjFbWgHZUSbXJpAYECcSjyBqnJCNBioGhizsijKVOeGAiTNJLTzbmkVsvTRzseycqHkoFJsnPCznBPzKBpGAoAIOGlHsZGZNgFGjkCnnxt"
+    },
+    "products": [
+      {
+        "_id": "67c0f5867b4bcc16671a38df",
+        "name": "Pizza14368",
+        "amount": 234,
+        "price": 43613,
+        "manufacturer": "Samsung",
+        "notes": "8Cff756Ze94lVopshAXRIqhvyJNyCWCu4sIYrzq9gEqs9lCBNpN7SCsV3Aw828wG3zioe0VhQTtaHMEMCFAhlz55Ggunihszm1uDN4OuBLHfrpoE5FsqdU1eS6Lg9Zo6nBzouWT7V9mwcrF9AE3anSzQHZbjenicfhQ39prpFr1qtnpgmXTmjl89BXttUiEMSdufBT8ZAsws1GiXSq4WS9kI9gNOYsnbV6INLncoCEIUuUKKT0qCelKobj",
+        "received": false
+      }
+    ],
+    "delivery": null,
+    "total_price": 43613,
+    "createdOn": "2025-02-27T23:30:12.000Z",
+    "comments": [],
+    "history": [
+      {
+        "status": "Draft",
+        "customer": "67c0f5857b4bcc16671a38a6",
+        "products": [
+          {
+            "_id": "67c0f5847b4bcc16671a3835",
+            "name": "Car50507",
+            "amount": 678,
+            "price": 4779,
+            "manufacturer": "Tesla",
+            "notes": "Xph15OnJyJv10NJWKLSANHKfWFbYncYR7Ua7rVNItmx9VVz0yDmMPfYrsgJaiS9ErmDvjUAgAKJLEkUiUYyDIaTNC4ZoNTVYKV9rNXJ6a6YQh5QdHwB46b1QjB2Jdq0EVlUYsGVSkYWLQUCWe6oJ72GFV9YVu7P0ejwpEUKQgN0SR3gHgpGUKhZL4d5WjCIwzTrxafirvpcYTKwjNd72R0n1wkPXDNGnzWI1exWGxYckSsCp07pRto8xIy",
+            "received": false
+          }
+        ],
+        "total_price": 43613,
+        "delivery": null,
+        "changedOn": "2025-02-27T23:30:14.000Z",
+        "action": "Customer changed"
+      },
+      {
+        "status": "Draft",
+        "customer": "67c0f5837b4bcc16671a3802",
+        "products": [
+          {
+            "_id": "67c0f5867b4bcc16671a38df",
+            "name": "Pizza14368",
+            "amount": 234,
+            "price": 43613,
+            "manufacturer": "Samsung",
+            "notes": "8Cff756Ze94lVopshAXRIqhvyJNyCWCu4sIYrzq9gEqs9lCBNpN7SCsV3Aw828wG3zioe0VhQTtaHMEMCFAhlz55Ggunihszm1uDN4OuBLHfrpoE5FsqdU1eS6Lg9Zo6nBzouWT7V9mwcrF9AE3anSzQHZbjenicfhQ39prpFr1qtnpgmXTmjl89BXttUiEMSdufBT8ZAsws1GiXSq4WS9kI9gNOYsnbV6INLncoCEIUuUKKT0qCelKobj",
+            "received": false
+          }
+        ],
+        "total_price": 43613,
+        "delivery": null,
+        "changedOn": "2025-02-27T23:30:14.000Z",
+        "action": "Requested products changed"
+      },
+      {
+        "status": "Draft",
+        "customer": "67c0f5837b4bcc16671a3802",
+        "products": [
+          {
+            "_id": "67c0f5847b4bcc16671a3835",
+            "name": "Car50507",
+            "amount": 678,
+            "price": 4779,
+            "manufacturer": "Tesla",
+            "notes": "Xph15OnJyJv10NJWKLSANHKfWFbYncYR7Ua7rVNItmx9VVz0yDmMPfYrsgJaiS9ErmDvjUAgAKJLEkUiUYyDIaTNC4ZoNTVYKV9rNXJ6a6YQh5QdHwB46b1QjB2Jdq0EVlUYsGVSkYWLQUCWe6oJ72GFV9YVu7P0ejwpEUKQgN0SR3gHgpGUKhZL4d5WjCIwzTrxafirvpcYTKwjNd72R0n1wkPXDNGnzWI1exWGxYckSsCp07pRto8xIy",
+            "received": false
+          }
+        ],
+        "total_price": 4779,
+        "delivery": null,
+        "changedOn": "2025-02-27T23:30:12.000Z",
+        "action": "Order created"
+      }
+    ]
+  },
+  "IsSuccess": true,
+  "ErrorMessage": null
+}

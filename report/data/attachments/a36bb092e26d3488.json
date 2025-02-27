@@ -1,0 +1,154 @@
+{
+  "Order": {
+    "_id": "67c0f58f7b4bcc16671a3cf0",
+    "status": "Canceled",
+    "customer": {
+      "_id": "67c0f58e7b4bcc16671a3c88",
+      "email": "Anastacio.Bednar-Ondricka10@hotmail.com",
+      "name": "Name ZWqxKHFQoWugzXlHafcGEsRMOWBrvzlpoNk",
+      "country": "Canada",
+      "city": "City yxpfhvkpiWKEjnu",
+      "street": "Street vX2theVrW33hrgvZeAXQGJHG3tPRSX3rC",
+      "house": 587,
+      "flat": 9750,
+      "phone": "+124497516376",
+      "createdOn": "2025-02-27T23:30:22.000Z",
+      "notes": "Notes FtNYAxxHHUacmIWkqXlkAgRSJTwvRLdEDwxmTdBTNntinzHKqJUJDMZEUJmiCwZPsDlRflSwYZxvnBoVAEGhatGJtIYkKqmhCXjDciHPOZMkVUYSFLiCXUlzkSumpybDCBwlfGXmSWyuLZzOVQktZvycPDvMvposULJjzwkrSxxlmthpucyFjprnmRePdQsIrEwBbyEIwtjGHqxBNYrihcCWFoysQtUjSvleoQPkivIenMAuCjDX"
+    },
+    "products": [
+      {
+        "_id": "67c0f58f7b4bcc16671a3cb2",
+        "name": "Cheese10801",
+        "amount": 11,
+        "price": 5753,
+        "manufacturer": "Xiaomi",
+        "notes": "qMlI9J2xGpeCPIQ0b29LZQnQL7jXrvcNAIzEqGlt11Frl30UZQvsbLoPUnXsT344csIEUTB2ViMq6va1efC0g0uu751wzYBCez3xWhpJZHqFTqB0amkeoDF4ty6BCcXBFUkJYMN5WLIsaRI8IH3jQcKkRhZ6A1plvmW44pZpaGR2vVtFIuSgSWiss9wGEUDk9bFPC07IN1876SVz22BAp1bfkYrpAQ5PPLd1jPP0sLxTVGU3IzgcE3JQLV",
+        "received": false
+      }
+    ],
+    "delivery": {
+      "address": {
+        "country": "France",
+        "city": "City arGDoTcoHlsFTlj",
+        "street": "Street ffweK40Fy9Q5dMMu4uTfWfmP5A6dIELev",
+        "house": 466,
+        "flat": 7481
+      },
+      "finalDate": "2025-03-06T00:00:00.000Z",
+      "condition": "Pickup"
+    },
+    "total_price": 5753,
+    "createdOn": "2025-02-27T23:30:23.000Z",
+    "comments": [],
+    "history": [
+      {
+        "status": "Canceled",
+        "customer": "67c0f58e7b4bcc16671a3c88",
+        "products": [
+          {
+            "_id": "67c0f58f7b4bcc16671a3cb2",
+            "name": "Cheese10801",
+            "amount": 11,
+            "price": 5753,
+            "manufacturer": "Xiaomi",
+            "notes": "qMlI9J2xGpeCPIQ0b29LZQnQL7jXrvcNAIzEqGlt11Frl30UZQvsbLoPUnXsT344csIEUTB2ViMq6va1efC0g0uu751wzYBCez3xWhpJZHqFTqB0amkeoDF4ty6BCcXBFUkJYMN5WLIsaRI8IH3jQcKkRhZ6A1plvmW44pZpaGR2vVtFIuSgSWiss9wGEUDk9bFPC07IN1876SVz22BAp1bfkYrpAQ5PPLd1jPP0sLxTVGU3IzgcE3JQLV",
+            "received": false
+          }
+        ],
+        "total_price": 5753,
+        "delivery": {
+          "address": {
+            "country": "France",
+            "city": "City arGDoTcoHlsFTlj",
+            "street": "Street ffweK40Fy9Q5dMMu4uTfWfmP5A6dIELev",
+            "house": 466,
+            "flat": 7481
+          },
+          "finalDate": "2025-03-06T00:00:00.000Z",
+          "condition": "Pickup"
+        },
+        "changedOn": "2025-02-27T23:30:25.000Z",
+        "action": "Order canceled"
+      },
+      {
+        "status": "In Process",
+        "customer": "67c0f58e7b4bcc16671a3c88",
+        "products": [
+          {
+            "_id": "67c0f58f7b4bcc16671a3cb2",
+            "name": "Cheese10801",
+            "amount": 11,
+            "price": 5753,
+            "manufacturer": "Xiaomi",
+            "notes": "qMlI9J2xGpeCPIQ0b29LZQnQL7jXrvcNAIzEqGlt11Frl30UZQvsbLoPUnXsT344csIEUTB2ViMq6va1efC0g0uu751wzYBCez3xWhpJZHqFTqB0amkeoDF4ty6BCcXBFUkJYMN5WLIsaRI8IH3jQcKkRhZ6A1plvmW44pZpaGR2vVtFIuSgSWiss9wGEUDk9bFPC07IN1876SVz22BAp1bfkYrpAQ5PPLd1jPP0sLxTVGU3IzgcE3JQLV",
+            "received": false
+          }
+        ],
+        "total_price": 5753,
+        "delivery": {
+          "address": {
+            "country": "France",
+            "city": "City arGDoTcoHlsFTlj",
+            "street": "Street ffweK40Fy9Q5dMMu4uTfWfmP5A6dIELev",
+            "house": 466,
+            "flat": 7481
+          },
+          "finalDate": "2025-03-06T00:00:00.000Z",
+          "condition": "Pickup"
+        },
+        "changedOn": "2025-02-27T23:30:24.000Z",
+        "action": "Order processing started"
+      },
+      {
+        "status": "Draft",
+        "customer": "67c0f58e7b4bcc16671a3c88",
+        "products": [
+          {
+            "_id": "67c0f58f7b4bcc16671a3cb2",
+            "name": "Cheese10801",
+            "amount": 11,
+            "price": 5753,
+            "manufacturer": "Xiaomi",
+            "notes": "qMlI9J2xGpeCPIQ0b29LZQnQL7jXrvcNAIzEqGlt11Frl30UZQvsbLoPUnXsT344csIEUTB2ViMq6va1efC0g0uu751wzYBCez3xWhpJZHqFTqB0amkeoDF4ty6BCcXBFUkJYMN5WLIsaRI8IH3jQcKkRhZ6A1plvmW44pZpaGR2vVtFIuSgSWiss9wGEUDk9bFPC07IN1876SVz22BAp1bfkYrpAQ5PPLd1jPP0sLxTVGU3IzgcE3JQLV",
+            "received": false
+          }
+        ],
+        "total_price": 5753,
+        "delivery": {
+          "address": {
+            "country": "France",
+            "city": "City arGDoTcoHlsFTlj",
+            "street": "Street ffweK40Fy9Q5dMMu4uTfWfmP5A6dIELev",
+            "house": 466,
+            "flat": 7481
+          },
+          "finalDate": "2025-03-06T00:00:00.000Z",
+          "condition": "Pickup"
+        },
+        "changedOn": "2025-02-27T23:30:24.000Z",
+        "action": "Delivery Scheduled"
+      },
+      {
+        "status": "Draft",
+        "customer": "67c0f58e7b4bcc16671a3c88",
+        "products": [
+          {
+            "_id": "67c0f58f7b4bcc16671a3cb2",
+            "name": "Cheese10801",
+            "amount": 11,
+            "price": 5753,
+            "manufacturer": "Xiaomi",
+            "notes": "qMlI9J2xGpeCPIQ0b29LZQnQL7jXrvcNAIzEqGlt11Frl30UZQvsbLoPUnXsT344csIEUTB2ViMq6va1efC0g0uu751wzYBCez3xWhpJZHqFTqB0amkeoDF4ty6BCcXBFUkJYMN5WLIsaRI8IH3jQcKkRhZ6A1plvmW44pZpaGR2vVtFIuSgSWiss9wGEUDk9bFPC07IN1876SVz22BAp1bfkYrpAQ5PPLd1jPP0sLxTVGU3IzgcE3JQLV",
+            "received": false
+          }
+        ],
+        "total_price": 5753,
+        "delivery": null,
+        "changedOn": "2025-02-27T23:30:23.000Z",
+        "action": "Order created"
+      }
+    ]
+  },
+  "IsSuccess": true,
+  "ErrorMessage": null
+}

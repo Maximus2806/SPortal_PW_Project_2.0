@@ -1,0 +1,12 @@
+{
+  "date": "Thu, 27 Feb 2025 23:30:14 GMT",
+  "server": "Apache",
+  "x-powered-by": "Express",
+  "access-control-allow-origin": "*",
+  "access-control-expose-headers": "Authorization",
+  "content-type": "application/json; charset=utf-8",
+  "content-length": "1730",
+  "etag": "W/\"6c2-tUJfFUQMcwd4vWeSjT4cbdNhk4E\"",
+  "keep-alive": "timeout=5, max=82",
+  "connection": "Keep-Alive"
+}

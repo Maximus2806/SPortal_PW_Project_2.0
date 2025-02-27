@@ -1,0 +1,13 @@
+{
+  "Product": {
+    "name": "Hat11992",
+    "amount": 450,
+    "price": 99823,
+    "manufacturer": "Sony",
+    "createdOn": "2025-02-27T23:30:19.000Z",
+    "notes": "MzwXbizfHAlZad9LeCtQTEGTCDIcUgxdE7VmXsUF8ckDU7Gz09KOPjRrToH3aiM1XstZtrH5MR8AhYB381SW4xHLEvRynsfeQ2SJWukHNru7CPlXSmCul0qbjbcYkzSe8l4hzEMagYySzCo9B7JSF0R7j4qmO9YWFhMjMLD6m3TevJe5Z8FyXWHDvdsm45BEv7ErfTa8QWXuW6hWFyIQXqOAAThyrvYct6bsGQhKsYG9rkxy6rwjSmID0q",
+    "_id": "67c0f58b7b4bcc16671a3b11"
+  },
+  "IsSuccess": true,
+  "ErrorMessage": null
+}

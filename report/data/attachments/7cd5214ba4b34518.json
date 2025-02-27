@@ -1,0 +1,13 @@
+{
+  "Product": {
+    "name": "Shoes80210",
+    "amount": 108,
+    "price": 45439,
+    "manufacturer": "Sony",
+    "createdOn": "2025-02-27T23:30:11.000Z",
+    "notes": "7flb9syQLw2gpwa1oXeaSflwyhgjNQhxXadgzjWkn7d5q7vzrTtkSEVQKBVsIOOmc5juexpK0BK59inJA7yKV30y1MGQvQsPFcPW3RGpTmbR7V6I1teXk8ZEXCv5FsoB2AVod5IbvJk9CjDfg8DHvvqnvSNUBCl4sBWM3wxo0pypl3SDBsQBHlMKxEc4nTyF7IKf2cC4ICfXAJjKvovHHqxgffj5LxipBvjz2rUkTHgdaW2MkTy1PvOstJ",
+    "_id": "67c0f5837b4bcc16671a3811"
+  },
+  "IsSuccess": true,
+  "ErrorMessage": null
+}

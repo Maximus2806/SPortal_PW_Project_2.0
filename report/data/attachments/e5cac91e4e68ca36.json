@@ -1,0 +1,13 @@
+{
+  "Product": {
+    "name": "Cheese10801",
+    "amount": 11,
+    "price": 5753,
+    "manufacturer": "Xiaomi",
+    "createdOn": "2025-02-27T23:30:23.000Z",
+    "notes": "qMlI9J2xGpeCPIQ0b29LZQnQL7jXrvcNAIzEqGlt11Frl30UZQvsbLoPUnXsT344csIEUTB2ViMq6va1efC0g0uu751wzYBCez3xWhpJZHqFTqB0amkeoDF4ty6BCcXBFUkJYMN5WLIsaRI8IH3jQcKkRhZ6A1plvmW44pZpaGR2vVtFIuSgSWiss9wGEUDk9bFPC07IN1876SVz22BAp1bfkYrpAQ5PPLd1jPP0sLxTVGU3IzgcE3JQLV",
+    "_id": "67c0f58f7b4bcc16671a3cb2"
+  },
+  "IsSuccess": true,
+  "ErrorMessage": null
+}

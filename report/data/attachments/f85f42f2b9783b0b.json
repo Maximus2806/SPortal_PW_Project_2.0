@@ -1,0 +1,13 @@
+{
+  "Product": {
+    "name": "Pizza14368",
+    "amount": 234,
+    "price": 43613,
+    "manufacturer": "Samsung",
+    "createdOn": "2025-02-27T23:30:14.000Z",
+    "notes": "8Cff756Ze94lVopshAXRIqhvyJNyCWCu4sIYrzq9gEqs9lCBNpN7SCsV3Aw828wG3zioe0VhQTtaHMEMCFAhlz55Ggunihszm1uDN4OuBLHfrpoE5FsqdU1eS6Lg9Zo6nBzouWT7V9mwcrF9AE3anSzQHZbjenicfhQ39prpFr1qtnpgmXTmjl89BXttUiEMSdufBT8ZAsws1GiXSq4WS9kI9gNOYsnbV6INLncoCEIUuUKKT0qCelKobj",
+    "_id": "67c0f5867b4bcc16671a38df"
+  },
+  "IsSuccess": true,
+  "ErrorMessage": null
+}

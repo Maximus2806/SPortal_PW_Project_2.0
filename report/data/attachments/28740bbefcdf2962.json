@@ -1,0 +1,13 @@
+{
+  "Product": {
+    "name": "Car50507",
+    "amount": 678,
+    "price": 4779,
+    "manufacturer": "Tesla",
+    "createdOn": "2025-02-27T23:30:12.000Z",
+    "notes": "Xph15OnJyJv10NJWKLSANHKfWFbYncYR7Ua7rVNItmx9VVz0yDmMPfYrsgJaiS9ErmDvjUAgAKJLEkUiUYyDIaTNC4ZoNTVYKV9rNXJ6a6YQh5QdHwB46b1QjB2Jdq0EVlUYsGVSkYWLQUCWe6oJ72GFV9YVu7P0ejwpEUKQgN0SR3gHgpGUKhZL4d5WjCIwzTrxafirvpcYTKwjNd72R0n1wkPXDNGnzWI1exWGxYckSsCp07pRto8xIy",
+    "_id": "67c0f5847b4bcc16671a3835"
+  },
+  "IsSuccess": true,
+  "ErrorMessage": null
+}

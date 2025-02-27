@@ -1,0 +1,17 @@
+{
+  "Customer": {
+    "email": "Robin.Swift-Nikolaus@hotmail.com",
+    "name": "Name UnevgRsqmRHHeimLNYVLaOKbwIxoFnolmgx",
+    "country": "Germany",
+    "city": "City wGvBLXPiTuHuxex",
+    "street": "Street FjgLVlmMgNnWryTO0gXV886RoNPjaI9Si",
+    "house": 13,
+    "flat": 868,
+    "phone": "+967968126982",
+    "createdOn": "2025-02-27T23:30:23.000Z",
+    "notes": "Notes xrbzDISqUgNRLKrKJVUYsIavLhIksQFciBhIQQeeTHsBeRaHjMtidqVTGwvJtZHItwGeMfsyjourgxUuDBWzpSMlnoeSRPaVSkbonxBvcafTxYfjopYOXeqIMEzHfsBpFZhNzDbmqTiriLWtoECOGpbUrRjLSBTkvWnnhGobbxaWTxcnJJYoTDAEhwTOdkmLPIXCkVOFUghIzGaXhmhrbDMVtbdYXZYbGrKbkYNimMImGBwSGLXs",
+    "_id": "67c0f58f7b4bcc16671a3ccd"
+  },
+  "IsSuccess": true,
+  "ErrorMessage": null
+}

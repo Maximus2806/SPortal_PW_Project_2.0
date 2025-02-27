@@ -1,0 +1,96 @@
+{
+  "Order": {
+    "_id": "67c0f5877b4bcc16671a39a3",
+    "status": "Draft",
+    "customer": {
+      "_id": "67c0f5867b4bcc16671a3936",
+      "email": "Dereck_Schamberger22@yahoo.com",
+      "name": "Name PjZEmsTqSeudOfrEuiaUiMcTRHvmVlxMvDA",
+      "country": "Ukraine",
+      "city": "City tiHqZzYwsFGKAGV",
+      "street": "Street VhkLB98OqpNFOT5tigWHIBF3ciMpoOkcn",
+      "house": 343,
+      "flat": 9898,
+      "phone": "+914004458911",
+      "createdOn": "2025-02-27T23:30:14.000Z",
+      "notes": "Notes hoiiwUuxjKrMRkKWccnePMVUZSHWniyjQSopVlPzXhKOasrYMylyhvDbRGhLdCBwkMhzwMdnAGYLMnehNDDNLoPdpSIjRlfWyHbmOPugXQlEoUPDCgjAzwlfTOrrPcDbdwhldfnORxQCChLpOaWlFVYXUbZKxzLPvchXzcCqODpLWqTSeKJeHTHYlAjRhCMyKVZKPUdUABotsGxhXFWdQYNwaWgGdWBfmGkwAWUeFEjINmFhUkdz"
+    },
+    "products": [
+      {
+        "_id": "67c0f5877b4bcc16671a3969",
+        "name": "Shirt49646",
+        "amount": 871,
+        "price": 28996,
+        "manufacturer": "Sony",
+        "notes": "nofHKoxc4FZosQrX5WSO7m43jnSPP0sZq2qOhNalu6H5S5c3vVv3zh80b5XmmjS2k4x0cz0Eq9kIYJL7VVySkqHxXojTiP0Jm4I2BvNN5SRMK5oflcdJisuQjuK0bgxkmUrry4fgSPgW2AOY9vzBaYVBp4s89ZSXaI0wLeb8ALmnG9Yd2BRkUH5u3cjC9tSp5s5MG1WgxScnHCstWjd17ZgrxHCozv45C0AW9xCCD7d8kDht5xBiFO7aWp",
+        "received": false
+      }
+    ],
+    "delivery": {
+      "address": {
+        "country": "Ukraine",
+        "city": "City PYHCXtPboEViRhB",
+        "street": "Street TndKf95g7AXEdIennJtzIa1nOT6DZYP3o",
+        "house": 607,
+        "flat": 2032
+      },
+      "finalDate": "2025-03-03T00:00:00.000Z",
+      "condition": "Delivery"
+    },
+    "total_price": 28996,
+    "createdOn": "2025-02-27T23:30:15.000Z",
+    "comments": [],
+    "history": [
+      {
+        "status": "Draft",
+        "customer": "67c0f5867b4bcc16671a3936",
+        "products": [
+          {
+            "_id": "67c0f5877b4bcc16671a3969",
+            "name": "Shirt49646",
+            "amount": 871,
+            "price": 28996,
+            "manufacturer": "Sony",
+            "notes": "nofHKoxc4FZosQrX5WSO7m43jnSPP0sZq2qOhNalu6H5S5c3vVv3zh80b5XmmjS2k4x0cz0Eq9kIYJL7VVySkqHxXojTiP0Jm4I2BvNN5SRMK5oflcdJisuQjuK0bgxkmUrry4fgSPgW2AOY9vzBaYVBp4s89ZSXaI0wLeb8ALmnG9Yd2BRkUH5u3cjC9tSp5s5MG1WgxScnHCstWjd17ZgrxHCozv45C0AW9xCCD7d8kDht5xBiFO7aWp",
+            "received": false
+          }
+        ],
+        "total_price": 28996,
+        "delivery": {
+          "address": {
+            "country": "Ukraine",
+            "city": "City PYHCXtPboEViRhB",
+            "street": "Street TndKf95g7AXEdIennJtzIa1nOT6DZYP3o",
+            "house": 607,
+            "flat": 2032
+          },
+          "finalDate": "2025-03-03T00:00:00.000Z",
+          "condition": "Delivery"
+        },
+        "changedOn": "2025-02-27T23:30:16.000Z",
+        "action": "Delivery Scheduled"
+      },
+      {
+        "status": "Draft",
+        "customer": "67c0f5867b4bcc16671a3936",
+        "products": [
+          {
+            "_id": "67c0f5877b4bcc16671a3969",
+            "name": "Shirt49646",
+            "amount": 871,
+            "price": 28996,
+            "manufacturer": "Sony",
+            "notes": "nofHKoxc4FZosQrX5WSO7m43jnSPP0sZq2qOhNalu6H5S5c3vVv3zh80b5XmmjS2k4x0cz0Eq9kIYJL7VVySkqHxXojTiP0Jm4I2BvNN5SRMK5oflcdJisuQjuK0bgxkmUrry4fgSPgW2AOY9vzBaYVBp4s89ZSXaI0wLeb8ALmnG9Yd2BRkUH5u3cjC9tSp5s5MG1WgxScnHCstWjd17ZgrxHCozv45C0AW9xCCD7d8kDht5xBiFO7aWp",
+            "received": false
+          }
+        ],
+        "total_price": 28996,
+        "delivery": null,
+        "changedOn": "2025-02-27T23:30:15.000Z",
+        "action": "Order created"
+      }
+    ]
+  },
+  "IsSuccess": true,
+  "ErrorMessage": null
+}
