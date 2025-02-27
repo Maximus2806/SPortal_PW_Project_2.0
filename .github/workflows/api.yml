@@ -53,6 +53,9 @@ jobs:
       #     retention-days: 5
 
       # Create Allure report
+      - name: Install Allure
+        run: npm install -g allure-commandline --save-dev
+
       - name: Create Allure report
         run: npm run report:generate
 
