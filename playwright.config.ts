@@ -15,7 +15,7 @@ dotenv.config();
  * See https://playwright.dev/docs/test-configuration.
  */
 export default defineConfig({
-  globalSetup: require.resolve("./src/config/globalSetup.ts"),
+  globalSetup: require.resolve('./src/config/globalSetup.ts'),
   testDir: './src',
   // globalTeardown: require.resolve('./src/config/global-teardown.ts'),
   // testIgnore: '**/old/**',

@@ -5,10 +5,12 @@ on:
     branches:
       - main
       - v-test
+      - feat/ui
   push:
     branches:
       - main
       - v-test
+      - feat/ui
 jobs:
   test-api:
     runs-on: ubuntu-latest

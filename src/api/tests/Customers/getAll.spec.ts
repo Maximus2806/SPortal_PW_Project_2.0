@@ -75,17 +75,21 @@ test.describe('[API] [Customers] [Get all customers]', async function () {
     }
   );
 
-  test('Should find customer by full or partial name', { tag: [TAGS.REGRESSION] }, async function ({ customersApiService }) {
-    const customer = await customersApiService.create();
-    try {
-      let params = { search: `${customer.name}` };
-      await customersApiService.validateSearchResults(params);
-      params = { search: `${customer.name.slice(0, customer.name.length - 1)}` };
-      await customersApiService.validateSearchResults(params);
-    } finally {
-      await customersApiService.delete(customer._id);
+  test(
+    'Should find customer by full or partial name',
+    { tag: [TAGS.REGRESSION] },
+    async function ({ customersApiService }) {
+      const customer = await customersApiService.create();
+      try {
+        let params = { search: `${customer.name}` };
+        await customersApiService.validateSearchResults(params);
+        params = { search: `${customer.name.slice(0, customer.name.length - 1)}` };
+        await customersApiService.validateSearchResults(params);
+      } finally {
+        await customersApiService.delete(customer._id);
+      }
     }
-  });
+  );
 
   test('Should find all customers by country', { tag: [TAGS.REGRESSION] }, async function ({ customersApiService }) {
     const customer = await customersApiService.create();
@@ -164,23 +168,27 @@ test.describe('[API] [Customers] [Get all customers]', async function () {
     }
   });
 
-  test('Should find customers by multiple countries', { tag: [TAGS.REGRESSION] }, async function ({ customersApiService }) {
-    const allowedCountries = [COUNTRIES.FRANCE, COUNTRIES.GERMANY];
-    const customer1 = await customersApiService.create({ country: COUNTRIES.FRANCE });
-    const customer2 = await customersApiService.create({ country: COUNTRIES.GERMANY });
-    const customer3 = await customersApiService.create({ country: COUNTRIES.USA });
+  test(
+    'Should find customers by multiple countries',
+    { tag: [TAGS.REGRESSION] },
+    async function ({ customersApiService }) {
+      const allowedCountries = [COUNTRIES.FRANCE, COUNTRIES.GERMANY];
+      const customer1 = await customersApiService.create({ country: COUNTRIES.FRANCE });
+      const customer2 = await customersApiService.create({ country: COUNTRIES.GERMANY });
+      const customer3 = await customersApiService.create({ country: COUNTRIES.USA });
 
-    try {
-      const params = { country: allowedCountries };
-      const response = await customersApiService.getAll(params);
-      expect(response.length).toBeGreaterThan(0);
-      response.forEach((c) => expect(allowedCountries).toContain(c.country));
-    } finally {
-      await customersApiService.delete(customer1._id);
-      await customersApiService.delete(customer2._id);
-      await customersApiService.delete(customer3._id);
+      try {
+        const params = { country: allowedCountries };
+        const response = await customersApiService.getAll(params);
+        expect(response.length).toBeGreaterThan(0);
+        response.forEach((c) => expect(allowedCountries).toContain(c.country));
+      } finally {
+        await customersApiService.delete(customer1._id);
+        await customersApiService.delete(customer2._id);
+        await customersApiService.delete(customer3._id);
+      }
     }
-  });
+  );
 
   test(
     'Should filter customers by country and search',
@@ -242,7 +250,7 @@ test.describe('[API] [Customers] [Get all customers]', async function () {
     }
   });
 
-  test('Should sort customers by country',{ tag: [TAGS.REGRESSION] }, async function ({ customersApiService }) {
+  test('Should sort customers by country', { tag: [TAGS.REGRESSION] }, async function ({ customersApiService }) {
     const customers = [
       await customersApiService.create({ country: COUNTRIES.USA }),
       await customersApiService.create({ country: COUNTRIES.CANADA }),
@@ -261,7 +269,7 @@ test.describe('[API] [Customers] [Get all customers]', async function () {
     }
   });
 
-  test('Should sort customers by creation date',{ tag: [TAGS.REGRESSION] }, async function ({ customersApiService }) {
+  test('Should sort customers by creation date', { tag: [TAGS.REGRESSION] }, async function ({ customersApiService }) {
     const customer1 = await customersApiService.create();
     const customer2 = await customersApiService.create();
     const customer3 = await customersApiService.create();
@@ -278,24 +286,36 @@ test.describe('[API] [Customers] [Get all customers]', async function () {
     }
   });
 
-  test('Sould not return errors in case query parameters are invalid',{ tag: [TAGS.REGRESSION] }, async function ({ customersApiService }) {
-    const params = { sortField: 'invalidSortField', sortOrder: 'invalidSortOrder' };
-    const response = await customersApiService.getAll(params);
-    expect(response.length).toBeGreaterThanOrEqual(0);
-  });
+  test(
+    'Sould not return errors in case query parameters are invalid',
+    { tag: [TAGS.REGRESSION] },
+    async function ({ customersApiService }) {
+      const params = { sortField: 'invalidSortField', sortOrder: 'invalidSortOrder' };
+      const response = await customersApiService.getAll(params);
+      expect(response.length).toBeGreaterThanOrEqual(0);
+    }
+  );
 
-  test('Should not return errors with empty search query',{ tag: [TAGS.REGRESSION] }, async function ({ customersApiService }) {
-    const params = { search: '' };
-    const response = await customersApiService.getAll(params);
-    expect(response.length).toBeGreaterThanOrEqual(0);
-  });
+  test(
+    'Should not return errors with empty search query',
+    { tag: [TAGS.REGRESSION] },
+    async function ({ customersApiService }) {
+      const params = { search: '' };
+      const response = await customersApiService.getAll(params);
+      expect(response.length).toBeGreaterThanOrEqual(0);
+    }
+  );
 
-  test('Should not return errors with long (251 char) search query',{ tag: [TAGS.REGRESSION] }, async function ({ customersApiService }) {
-    const params = {
-      search:
-        'aaoaglmsfkmqkuhiczgwasifumpxuvyjvqmevmagipbvdewhodnuahzsvdxgrxvpsgtfxbrybwduljapkjyrgoytxyuqdfdkbdhetonvzxxikuhyzeelzgccfmnnqszlxypwkxbsmlxrnsaukipqsjjqxireehfohkfswbzhcydiekvarttmuqtoehhkjcpoamqkbeequnxegatzuwsdexnxxbxbcnrvhyxstezpvsrutmfzvxiwtmurtve'
-    };
-    const response = await customersApiService.getAll(params);
-    expect(response.length).toBeGreaterThanOrEqual(0);
-  });
+  test(
+    'Should not return errors with long (251 char) search query',
+    { tag: [TAGS.REGRESSION] },
+    async function ({ customersApiService }) {
+      const params = {
+        search:
+          'aaoaglmsfkmqkuhiczgwasifumpxuvyjvqmevmagipbvdewhodnuahzsvdxgrxvpsgtfxbrybwduljapkjyrgoytxyuqdfdkbdhetonvzxxikuhyzeelzgccfmnnqszlxypwkxbsmlxrnsaukipqsjjqxireehfohkfswbzhcydiekvarttmuqtoehhkjcpoamqkbeequnxegatzuwsdexnxxbxbcnrvhyxstezpvsrutmfzvxiwtmurtve'
+      };
+      const response = await customersApiService.getAll(params);
+      expect(response.length).toBeGreaterThanOrEqual(0);
+    }
+  );
 });
