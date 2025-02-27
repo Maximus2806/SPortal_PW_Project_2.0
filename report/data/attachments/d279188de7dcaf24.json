@@ -1,0 +1,13 @@
+{
+  "Product": {
+    "name": "Ball72105",
+    "amount": 867,
+    "price": 91778,
+    "manufacturer": "Apple",
+    "createdOn": "2025-02-27T23:30:20.000Z",
+    "notes": "8igrvg2QjKzJZDzMUukujMLP5JyywVNs9nwIMgSOaHfhmaZcBF6X1xGNTuyFnmKpG3gBKciwgF4WHfkoKJyYL5SpWp4La4kbBwwZrWOFFgmRPEFqv8xecHBpedlWfrN6Df6P0vrnSmgqIGTM1QFp2GXOsPr5oIiKan0ziKas9fbVadsLtCrWyeYiI53wc8gI3Nxsmh4UEnv59IazywyaPjQPbVKSztBLSceg6KIwgtPCDtcGILpAvV1aVO",
+    "_id": "67c0f58c7b4bcc16671a3b94"
+  },
+  "IsSuccess": true,
+  "ErrorMessage": null
+}

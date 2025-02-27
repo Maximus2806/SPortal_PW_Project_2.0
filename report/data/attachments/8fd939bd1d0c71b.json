@@ -1,0 +1,13 @@
+{
+  "Product": {
+    "_id": "67c0f58c7b4bcc16671a3bc5",
+    "name": "Computer19935",
+    "amount": 899,
+    "price": 44325,
+    "manufacturer": "Amazon",
+    "createdOn": "2025-02-27T23:30:20.000Z",
+    "notes": "76jd1ciiqylWpfwxAhEtKpAYnd9xyZfeYhLKsuMqrBbqhSbDl0OL5cLfMBxL87EjhKvAxGSzQhR9n0Wm1cyBinKznkElpc820pRrEJF8CcL1uQ7zySDfvK1icF5xsBVbYLpUPrQgYEQte4glShIikJkFKYjHQhRzKce6p98RXOPoJZMZ7Sdk4qrDXCChE9pWjU74GDVObq20BFpOmD08qOqVLYomXNpH0IPaPN49t0Ui27ZObhdCghER4L"
+  },
+  "IsSuccess": true,
+  "ErrorMessage": null
+}

@@ -1,0 +1,57 @@
+{
+  "Order": {
+    "status": "Draft",
+    "customer": {
+      "_id": "67c0f5947b4bcc16671a3eac",
+      "email": "Avery.Hyatt@gmail.com",
+      "name": "Name CiwZfYRpTYSlrjPFrKEapcmOLqbSiolffZg",
+      "country": "Great Britain",
+      "city": "City TvhUqSGhNqJajib",
+      "street": "Street 7uoc7u65tGMte9D42OrtUFUbmtWWsPRc2",
+      "house": 617,
+      "flat": 9800,
+      "phone": "+121725660102",
+      "createdOn": "2025-02-27T23:30:28.000Z",
+      "notes": "Notes pntShocVpyTUQRWpUOwlqxceajwjmrMIeMunLPZmxgXRfWnDoVkqpVkEOeFxAsXNnokCbfYRQJErCUqsuRpIQSYFDxdhynYOagFfsEZijZUBWAYylYOmFFPxxenNxSiTgZtWunIapvvREwkXHGNYTrYLUJpwQRDoAbXdgUrbbtvXIeWbBWMPJDvfPKEQjHlVxgucTcxlwudelIsWewDWAzTeEsNHRznCekPdtktyRAFxjApXKemR"
+    },
+    "products": [
+      {
+        "_id": "67c0f5947b4bcc16671a3ebe",
+        "name": "Sausages5946",
+        "amount": 514,
+        "price": 49228,
+        "manufacturer": "Samsung",
+        "notes": "0iZJr9cEyTxcD58Djk11UYmHJ936obDcdhASgUkTdRRwGpgYeFPB99x9xqGv8DIGxz36ckQGvvkW17Vax3PzTl1zNtiBsxKIQOwMdI1lsvpbavZFwThuVTCfYaBkecFfaCsOJdqLMkFuGFIsdCv9rWrLruQxqIi2HR3uHqMNYGUrg386h2XNezxY7FPI234z5994R1Ahe6KFasQfnNZtFoumeToWktoGHknKDUGbFlo1MfcZ0mLZhNcpwY",
+        "received": false
+      }
+    ],
+    "delivery": null,
+    "total_price": 49228,
+    "createdOn": "2025-02-27T23:30:28.000Z",
+    "comments": [],
+    "history": [
+      {
+        "status": "Draft",
+        "customer": "67c0f5947b4bcc16671a3eac",
+        "products": [
+          {
+            "_id": "67c0f5947b4bcc16671a3ebe",
+            "name": "Sausages5946",
+            "amount": 514,
+            "price": 49228,
+            "manufacturer": "Samsung",
+            "notes": "0iZJr9cEyTxcD58Djk11UYmHJ936obDcdhASgUkTdRRwGpgYeFPB99x9xqGv8DIGxz36ckQGvvkW17Vax3PzTl1zNtiBsxKIQOwMdI1lsvpbavZFwThuVTCfYaBkecFfaCsOJdqLMkFuGFIsdCv9rWrLruQxqIi2HR3uHqMNYGUrg386h2XNezxY7FPI234z5994R1Ahe6KFasQfnNZtFoumeToWktoGHknKDUGbFlo1MfcZ0mLZhNcpwY",
+            "received": false
+          }
+        ],
+        "total_price": 49228,
+        "delivery": null,
+        "changedOn": "2025-02-27T23:30:28.000Z",
+        "action": "Order created"
+      }
+    ],
+    "_id": "67c0f5947b4bcc16671a3ecf"
+  },
+  "IsSuccess": true,
+  "ErrorMessage": null
+}

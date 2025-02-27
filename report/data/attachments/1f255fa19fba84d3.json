@@ -1,0 +1,17 @@
+{
+  "Customer": {
+    "_id": "67c0f5827b4bcc16671a37f2",
+    "email": "Anya_Grimes@yahoo.com",
+    "name": "Name BcnMINdFFpIwdKarJQSBqdLeLHrMkRHINxz",
+    "country": "Belarus",
+    "city": "City dSXrgnmeavJQppy",
+    "street": "Street zLVu6uEPv2jbAEQKFQlG60lw6cXqnZZp5",
+    "house": 808,
+    "flat": 8893,
+    "phone": "+702827583816",
+    "createdOn": "2025-02-27T23:30:10.000Z",
+    "notes": "Notes lhbWdAnHosxWJnGvpOrgTiafdTcNNpjxXtGIbhKugdYKXbMydIQzspRsbzUISPfQYeXlMhCaiIFVauiLeWQpUMrXyfeqPJjtbjkyzBtClNlNWHWiqFmrbOcqRFXwTzCrMWzMCevgfkBFDYxqgXoxwsPMDchmTXAQGwovWFXqtMVqRxrroCFFeTCjZsvwdsUNPnPAFABnWdNTcsWRIZzEweLkQJnuCxbVmzDONKgIgQrFVcObQSDP"
+  },
+  "IsSuccess": true,
+  "ErrorMessage": null
+}

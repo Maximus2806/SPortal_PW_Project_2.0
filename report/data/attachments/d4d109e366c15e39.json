@@ -1,0 +1,13 @@
+{
+  "Product": {
+    "name": "Hat96019",
+    "amount": 405,
+    "price": 23587,
+    "manufacturer": "Samsung",
+    "createdOn": "2025-02-27T23:30:21.000Z",
+    "notes": "u7eBHIaVQErKKazr7vVYrRcdmnGWeSL5iblAVl5gpTC2tKm4g4rLbj74eXiGYbnbsnyaWRXDiTNBIOviI6NsDOkROzN4tx8Y2Nyvor9BYcQMDP4vHV8ME8oIgtgTNCO5hWo8GmTQdUBuI3uUDEZS4UIV4Xh1eG1vgk5Nh3Wi9crKwCNnpUeu0DUTbXKyPBjYXJ53nf3nbYgdLCvkMZ6XvUj4qFb9lwAL7ycHpPT87Wpp0IhvHCzwQdvQPx",
+    "_id": "67c0f58d7b4bcc16671a3c2d"
+  },
+  "IsSuccess": true,
+  "ErrorMessage": null
+}

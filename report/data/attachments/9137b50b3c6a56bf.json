@@ -1,0 +1,95 @@
+{
+  "Order": {
+    "_id": "67c0f5877b4bcc16671a3979",
+    "status": "Draft",
+    "customer": {
+      "_id": "67c0f5887b4bcc16671a39b4",
+      "email": "Justus_Mante10@gmail.com",
+      "name": "Name RPmmzhwaTXUOVFwTiuVfAjrBDHyvQkOgzsT",
+      "country": "USA",
+      "city": "City MEyqXgaqGSuTear",
+      "street": "Street mjbhOtJzRi1dYAQFlSJvTvJxS8sEZYnQK",
+      "house": 768,
+      "flat": 2271,
+      "phone": "+948105569599",
+      "createdOn": "2025-02-27T23:30:16.000Z",
+      "notes": "Notes NGHBfvNbzaxCfplxxbAqOulraMbZaMfRONMRhAgHMnplkMuZeLNSLgnjzgVSORkFxVMAuCPVwTPGQRIlmXWigCTfURfvBbAFwRkeUJFpFaHOTgjgFWZxCTAnrotdtRaiTThuZmTyaVIFsVHPUYKiyRrCHxpvqmVFfybWYTEihDYmbqXIUNamnOIDggpJWGVMZcSjGqUGPczLRBXDHItvKwBmizuMTANcGIsynIxDGqNjEluMDuLG"
+    },
+    "products": [
+      {
+        "_id": "67c0f5887b4bcc16671a39ee",
+        "name": "Pizza35684",
+        "amount": 555,
+        "price": 62119,
+        "manufacturer": "Amazon",
+        "notes": "khstVL2n4zR6kTPMGTwM8i6Canogl3ytkVlDqQ0I8WZg7Hjd1JBH9RMXsRueB8oV8k4zlH9xEciGi8khGrHjLacp0AqeUmxWEgCfzuc32wY1pALrlbvMmE4dcNuJqD1jHVqhbz99DSQB00oDpvyF19IgZHYReagzgT1mRMkKs97M5cYL8MvrsOyTHEvpuYsRPemZfRPNXLMSs55N6y4tR57MKSVm3ajaOcdQcd106wVlmZP0GqplC9goAx",
+        "received": false
+      }
+    ],
+    "delivery": null,
+    "total_price": 62119,
+    "createdOn": "2025-02-27T23:30:15.000Z",
+    "comments": [],
+    "history": [
+      {
+        "status": "Draft",
+        "customer": "67c0f5887b4bcc16671a39b4",
+        "products": [
+          {
+            "_id": "67c0f5867b4bcc16671a3932",
+            "name": "Car15953",
+            "amount": 585,
+            "price": 35626,
+            "manufacturer": "Google",
+            "notes": "R7EA3Yv1X8tQobU0LXIO5oWoe0MwSdQDbJbMfh3YZAmmmp1UWFamflbsVF5l1vvcGb40u6K8HQTKV8Ui9bVWzEIA2sTXUEASp3eMGaXVEz6DmljrsNf9ON4EiOsalBlQzPkxJfnNVjYaUIbzVJ3XHas5rQx2L4CH8SMc0LecHXK4m26S56CnjiulAW2Xv1JJ4aaXIlIWHjhneVyJxcKwvRtrzlTzhTo5ILnoe6WBcvA0F9WzxuCqwWJSZK",
+            "received": false
+          }
+        ],
+        "total_price": 62119,
+        "delivery": null,
+        "changedOn": "2025-02-27T23:30:16.000Z",
+        "action": "Customer changed"
+      },
+      {
+        "status": "Draft",
+        "customer": "67c0f5867b4bcc16671a38f1",
+        "products": [
+          {
+            "_id": "67c0f5887b4bcc16671a39ee",
+            "name": "Pizza35684",
+            "amount": 555,
+            "price": 62119,
+            "manufacturer": "Amazon",
+            "notes": "khstVL2n4zR6kTPMGTwM8i6Canogl3ytkVlDqQ0I8WZg7Hjd1JBH9RMXsRueB8oV8k4zlH9xEciGi8khGrHjLacp0AqeUmxWEgCfzuc32wY1pALrlbvMmE4dcNuJqD1jHVqhbz99DSQB00oDpvyF19IgZHYReagzgT1mRMkKs97M5cYL8MvrsOyTHEvpuYsRPemZfRPNXLMSs55N6y4tR57MKSVm3ajaOcdQcd106wVlmZP0GqplC9goAx",
+            "received": false
+          }
+        ],
+        "total_price": 62119,
+        "delivery": null,
+        "changedOn": "2025-02-27T23:30:16.000Z",
+        "action": "Requested products changed"
+      },
+      {
+        "status": "Draft",
+        "customer": "67c0f5867b4bcc16671a38f1",
+        "products": [
+          {
+            "_id": "67c0f5867b4bcc16671a3932",
+            "name": "Car15953",
+            "amount": 585,
+            "price": 35626,
+            "manufacturer": "Google",
+            "notes": "R7EA3Yv1X8tQobU0LXIO5oWoe0MwSdQDbJbMfh3YZAmmmp1UWFamflbsVF5l1vvcGb40u6K8HQTKV8Ui9bVWzEIA2sTXUEASp3eMGaXVEz6DmljrsNf9ON4EiOsalBlQzPkxJfnNVjYaUIbzVJ3XHas5rQx2L4CH8SMc0LecHXK4m26S56CnjiulAW2Xv1JJ4aaXIlIWHjhneVyJxcKwvRtrzlTzhTo5ILnoe6WBcvA0F9WzxuCqwWJSZK",
+            "received": false
+          }
+        ],
+        "total_price": 35626,
+        "delivery": null,
+        "changedOn": "2025-02-27T23:30:15.000Z",
+        "action": "Order created"
+      }
+    ]
+  },
+  "IsSuccess": true,
+  "ErrorMessage": null
+}

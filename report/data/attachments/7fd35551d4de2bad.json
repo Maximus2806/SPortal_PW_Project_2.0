@@ -1,0 +1,112 @@
+{
+  "Order": {
+    "_id": "67c0f58d7b4bcc16671a3bf0",
+    "status": "Draft",
+    "customer": {
+      "_id": "67c0f58b7b4bcc16671a3b42",
+      "email": "Madeline90@gmail.com",
+      "name": "Name fRQNDZzxliBYECYYJXMXduFdmcJRgSxUxsQ",
+      "country": "Germany",
+      "city": "City jKukMSraBtjxiId",
+      "street": "Street An8dLG1o1cXWM7Wv5ozz4hCfxPHbZqnpn",
+      "house": 463,
+      "flat": 7909,
+      "phone": "+184405463192",
+      "createdOn": "2025-02-27T23:30:19.000Z",
+      "notes": "Notes bmpucUiwijBiNVCOarQmfRPhSoWHxvPqlQIuPGPdZCPwlcwASGfzciCsDscqycpEyiSYQpuJAOKlflQKYPZdFqDfsQudUYKahnQrhxbRalmPmaoENYUsLOqPOLiYmhClNnYyhbzMPuLPflmDEFRKsrOBQwZTpViWdGpXmatVFNUgBSNbTcXVvJrtnwmJWrdCzPeURQCuwjaxHKyWXrfOQCTqoDuFTKmwRLsIpGdPevFcbFdXDyhC"
+    },
+    "products": [
+      {
+        "_id": "67c0f58c7b4bcc16671a3b94",
+        "name": "Ball72105",
+        "amount": 867,
+        "price": 91778,
+        "manufacturer": "Apple",
+        "notes": "8igrvg2QjKzJZDzMUukujMLP5JyywVNs9nwIMgSOaHfhmaZcBF6X1xGNTuyFnmKpG3gBKciwgF4WHfkoKJyYL5SpWp4La4kbBwwZrWOFFgmRPEFqv8xecHBpedlWfrN6Df6P0vrnSmgqIGTM1QFp2GXOsPr5oIiKan0ziKas9fbVadsLtCrWyeYiI53wc8gI3Nxsmh4UEnv59IazywyaPjQPbVKSztBLSceg6KIwgtPCDtcGILpAvV1aVO",
+        "received": false
+      },
+      {
+        "_id": "67c0f58d7b4bcc16671a3c2d",
+        "name": "Hat96019",
+        "amount": 405,
+        "price": 23587,
+        "manufacturer": "Samsung",
+        "notes": "u7eBHIaVQErKKazr7vVYrRcdmnGWeSL5iblAVl5gpTC2tKm4g4rLbj74eXiGYbnbsnyaWRXDiTNBIOviI6NsDOkROzN4tx8Y2Nyvor9BYcQMDP4vHV8ME8oIgtgTNCO5hWo8GmTQdUBuI3uUDEZS4UIV4Xh1eG1vgk5Nh3Wi9crKwCNnpUeu0DUTbXKyPBjYXJ53nf3nbYgdLCvkMZ6XvUj4qFb9lwAL7ycHpPT87Wpp0IhvHCzwQdvQPx",
+        "received": false
+      },
+      {
+        "_id": "67c0f58e7b4bcc16671a3c60",
+        "name": "Chicken65613",
+        "amount": 737,
+        "price": 62152,
+        "manufacturer": "Amazon",
+        "notes": "6EIH3MGm48R0DCy5vsBIeERQo6JjzOCE87LiZ614yMba7dvPqRN4Up3FycYIMkKxcqHw38oDkcrBXokE4GPZjjNhmrenNaHfipg6BXlh4lISPX9S3Dlt7MFUS0F4XsOdFn9GYJO1zHRQez0aYaOROZRrOOnWvfFzRf2orJdpk7sF1lDZD3CEMMs9kHQF78HQrh5R4qiUGdLynmoP83B407LFhHyJpkHwgYB7pYJs9PQzXbJ8bVfmrgamFo",
+        "received": false
+      }
+    ],
+    "delivery": null,
+    "total_price": 177517,
+    "createdOn": "2025-02-27T23:30:21.000Z",
+    "comments": [],
+    "history": [
+      {
+        "status": "Draft",
+        "customer": "67c0f58b7b4bcc16671a3b42",
+        "products": [
+          {
+            "_id": "67c0f58c7b4bcc16671a3b94",
+            "name": "Ball72105",
+            "amount": 867,
+            "price": 91778,
+            "manufacturer": "Apple",
+            "notes": "8igrvg2QjKzJZDzMUukujMLP5JyywVNs9nwIMgSOaHfhmaZcBF6X1xGNTuyFnmKpG3gBKciwgF4WHfkoKJyYL5SpWp4La4kbBwwZrWOFFgmRPEFqv8xecHBpedlWfrN6Df6P0vrnSmgqIGTM1QFp2GXOsPr5oIiKan0ziKas9fbVadsLtCrWyeYiI53wc8gI3Nxsmh4UEnv59IazywyaPjQPbVKSztBLSceg6KIwgtPCDtcGILpAvV1aVO",
+            "received": false
+          },
+          {
+            "_id": "67c0f58d7b4bcc16671a3c2d",
+            "name": "Hat96019",
+            "amount": 405,
+            "price": 23587,
+            "manufacturer": "Samsung",
+            "notes": "u7eBHIaVQErKKazr7vVYrRcdmnGWeSL5iblAVl5gpTC2tKm4g4rLbj74eXiGYbnbsnyaWRXDiTNBIOviI6NsDOkROzN4tx8Y2Nyvor9BYcQMDP4vHV8ME8oIgtgTNCO5hWo8GmTQdUBuI3uUDEZS4UIV4Xh1eG1vgk5Nh3Wi9crKwCNnpUeu0DUTbXKyPBjYXJ53nf3nbYgdLCvkMZ6XvUj4qFb9lwAL7ycHpPT87Wpp0IhvHCzwQdvQPx",
+            "received": false
+          },
+          {
+            "_id": "67c0f58e7b4bcc16671a3c60",
+            "name": "Chicken65613",
+            "amount": 737,
+            "price": 62152,
+            "manufacturer": "Amazon",
+            "notes": "6EIH3MGm48R0DCy5vsBIeERQo6JjzOCE87LiZ614yMba7dvPqRN4Up3FycYIMkKxcqHw38oDkcrBXokE4GPZjjNhmrenNaHfipg6BXlh4lISPX9S3Dlt7MFUS0F4XsOdFn9GYJO1zHRQez0aYaOROZRrOOnWvfFzRf2orJdpk7sF1lDZD3CEMMs9kHQF78HQrh5R4qiUGdLynmoP83B407LFhHyJpkHwgYB7pYJs9PQzXbJ8bVfmrgamFo",
+            "received": false
+          }
+        ],
+        "total_price": 177517,
+        "delivery": null,
+        "changedOn": "2025-02-27T23:30:22.000Z",
+        "action": "Requested products changed"
+      },
+      {
+        "status": "Draft",
+        "customer": "67c0f58b7b4bcc16671a3b42",
+        "products": [
+          {
+            "_id": "67c0f58c7b4bcc16671a3b94",
+            "name": "Ball72105",
+            "amount": 867,
+            "price": 91778,
+            "manufacturer": "Apple",
+            "notes": "8igrvg2QjKzJZDzMUukujMLP5JyywVNs9nwIMgSOaHfhmaZcBF6X1xGNTuyFnmKpG3gBKciwgF4WHfkoKJyYL5SpWp4La4kbBwwZrWOFFgmRPEFqv8xecHBpedlWfrN6Df6P0vrnSmgqIGTM1QFp2GXOsPr5oIiKan0ziKas9fbVadsLtCrWyeYiI53wc8gI3Nxsmh4UEnv59IazywyaPjQPbVKSztBLSceg6KIwgtPCDtcGILpAvV1aVO",
+            "received": false
+          }
+        ],
+        "total_price": 91778,
+        "delivery": null,
+        "changedOn": "2025-02-27T23:30:21.000Z",
+        "action": "Order created"
+      }
+    ]
+  },
+  "IsSuccess": true,
+  "ErrorMessage": null
+}

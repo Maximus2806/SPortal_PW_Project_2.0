@@ -1,0 +1,96 @@
+{
+  "Order": {
+    "_id": "67c0f5927b4bcc16671a3df4",
+    "status": "Draft",
+    "customer": {
+      "_id": "67c0f5917b4bcc16671a3da0",
+      "email": "Mylene6@gmail.com",
+      "name": "Name kOWLGFkjiZOJMYgrdyUQhEhPwnyGXZeAOXT",
+      "country": "Ukraine",
+      "city": "City tuyqXalKOYpTDZC",
+      "street": "Street qUXe6o4LEF2DWndrFzkoAUiP55EdOJEtt",
+      "house": 418,
+      "flat": 1596,
+      "phone": "+742348620254",
+      "createdOn": "2025-02-27T23:30:25.000Z",
+      "notes": "Notes psnHyVgLYtRNzbjtKQTbZasufPOcEArZkvGloCbcESSbODnxgEOxctrHTjPRDyGzwXPWFVITQiGFZgiphhtpDfGEtuwhEPPojGmxwFgxqkScVtZOoPuafayPNAnsqtqOjeKCtymHNtfWRUpQmUeAPenBOByukucalxfAXdxhgnREVgodZlUwCadyqoAqJjIuhJmnEzqSMTQGtZukOSujwsnAcWxPVymNWWdrQWGZGPaiBwmOqVhg"
+    },
+    "products": [
+      {
+        "_id": "67c0f5917b4bcc16671a3dc7",
+        "name": "Bacon16775",
+        "amount": 909,
+        "price": 91679,
+        "manufacturer": "Google",
+        "notes": "stqJN643eRj8XWmQT5Jhmes70CWGVHr7rimnx9nNsy8lNs8Z6oFwPaEZAu8Hkj3gddrjxO1e4SqLZbSpkg5VtCMFE562jNb8Q7mVMpzQ7l4qMdqRk04qsN44iDq8YUHjhWZXsSXhoSwheOyaMWvqQZlTOaaBYe4rksHPzZmeN5RB3XFowfRNjkFz8FGNFhFyPedhLunmaJMr11VJkWbBZEYYsVIQD0D49NiG1bBSGmTieAEa6Ym3EFmsRx",
+        "received": false
+      }
+    ],
+    "delivery": {
+      "address": {
+        "country": "Belarus",
+        "city": "City oOnShzqfcwRmcBQ",
+        "street": "Street xOOoNLhycPRVXKTEmCO3uS0OK876ZTjsB",
+        "house": 274,
+        "flat": 1052
+      },
+      "finalDate": "2025-03-08T00:00:00.000Z",
+      "condition": "Pickup"
+    },
+    "total_price": 91679,
+    "createdOn": "2025-02-27T23:30:26.000Z",
+    "comments": [],
+    "history": [
+      {
+        "status": "Draft",
+        "customer": "67c0f5917b4bcc16671a3da0",
+        "products": [
+          {
+            "_id": "67c0f5917b4bcc16671a3dc7",
+            "name": "Bacon16775",
+            "amount": 909,
+            "price": 91679,
+            "manufacturer": "Google",
+            "notes": "stqJN643eRj8XWmQT5Jhmes70CWGVHr7rimnx9nNsy8lNs8Z6oFwPaEZAu8Hkj3gddrjxO1e4SqLZbSpkg5VtCMFE562jNb8Q7mVMpzQ7l4qMdqRk04qsN44iDq8YUHjhWZXsSXhoSwheOyaMWvqQZlTOaaBYe4rksHPzZmeN5RB3XFowfRNjkFz8FGNFhFyPedhLunmaJMr11VJkWbBZEYYsVIQD0D49NiG1bBSGmTieAEa6Ym3EFmsRx",
+            "received": false
+          }
+        ],
+        "total_price": 91679,
+        "delivery": {
+          "address": {
+            "country": "Belarus",
+            "city": "City oOnShzqfcwRmcBQ",
+            "street": "Street xOOoNLhycPRVXKTEmCO3uS0OK876ZTjsB",
+            "house": 274,
+            "flat": 1052
+          },
+          "finalDate": "2025-03-08T00:00:00.000Z",
+          "condition": "Pickup"
+        },
+        "changedOn": "2025-02-27T23:30:27.000Z",
+        "action": "Delivery Scheduled"
+      },
+      {
+        "status": "Draft",
+        "customer": "67c0f5917b4bcc16671a3da0",
+        "products": [
+          {
+            "_id": "67c0f5917b4bcc16671a3dc7",
+            "name": "Bacon16775",
+            "amount": 909,
+            "price": 91679,
+            "manufacturer": "Google",
+            "notes": "stqJN643eRj8XWmQT5Jhmes70CWGVHr7rimnx9nNsy8lNs8Z6oFwPaEZAu8Hkj3gddrjxO1e4SqLZbSpkg5VtCMFE562jNb8Q7mVMpzQ7l4qMdqRk04qsN44iDq8YUHjhWZXsSXhoSwheOyaMWvqQZlTOaaBYe4rksHPzZmeN5RB3XFowfRNjkFz8FGNFhFyPedhLunmaJMr11VJkWbBZEYYsVIQD0D49NiG1bBSGmTieAEa6Ym3EFmsRx",
+            "received": false
+          }
+        ],
+        "total_price": 91679,
+        "delivery": null,
+        "changedOn": "2025-02-27T23:30:26.000Z",
+        "action": "Order created"
+      }
+    ]
+  },
+  "IsSuccess": true,
+  "ErrorMessage": null
+}

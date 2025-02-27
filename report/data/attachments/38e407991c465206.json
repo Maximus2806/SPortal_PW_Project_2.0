@@ -1,0 +1,93 @@
+{
+  "Order": {
+    "status": "Draft",
+    "customer": {
+      "_id": "67c0f5917b4bcc16671a3d86",
+      "email": "Patsy16@hotmail.com",
+      "name": "Name KNCbsDxtMngbtXyLctIjpcXTTijOJbpqLNw",
+      "country": "Russia",
+      "city": "City jjwdavPpaiePzNF",
+      "street": "Street tQ7K6q1n1bvsgI3YVTuot1GMcRAQksd4a",
+      "house": 374,
+      "flat": 3596,
+      "phone": "+174819304862",
+      "createdOn": "2025-02-27T23:30:25.000Z",
+      "notes": "Notes yloqldLHblareFPRwvShMNvMelVNaPcmaQTLFjoxcMkBplhztPIsdTyNSaevaNyznNjtnEyLnhFGdKXwmzIAUeGzOCxaVfKCAsWEZZIbBOhVoiKKkzdLracizmzgNJRQZwfEAybwLxhEObfsCPhyFFXZxkyoKYNMAHrPnPXYZzKOhjCcMaWUuRcZCSemRqskGrdLeFKPFYoswqlfRTvHTfMAdKafxRFDrvgtuJMzSJjFunYIPeFu"
+    },
+    "products": [
+      {
+        "_id": "67c0f5917b4bcc16671a3dba",
+        "name": "Bacon2489",
+        "amount": 627,
+        "price": 1964,
+        "manufacturer": "Xiaomi",
+        "notes": "DIgAWcVMGVt0fw6omKqHzQvSP9y7fxdFBthUGcp3vkKTF2fvhpA0qjiX6D1JahL4SW6LJosCKw0D1OJTo5ouAYblu4V0T5OAwv75VqNar0E7sBWFGVwdcmdreZ1mcCzIo3utv5JribOpT9xuLhekJwVrWoqBO3Fj7AFCxg6bmDDBDsDfnRx3a2q2MNO1KMf75hS0TTuBy2g4KKlLr73uMuO9LoyNf02EBaF3uHkYCSRsiAlUplIriUrsij",
+        "received": false
+      },
+      {
+        "_id": "67c0f5917b4bcc16671a3dba",
+        "name": "Bacon2489",
+        "amount": 627,
+        "price": 1964,
+        "manufacturer": "Xiaomi",
+        "notes": "DIgAWcVMGVt0fw6omKqHzQvSP9y7fxdFBthUGcp3vkKTF2fvhpA0qjiX6D1JahL4SW6LJosCKw0D1OJTo5ouAYblu4V0T5OAwv75VqNar0E7sBWFGVwdcmdreZ1mcCzIo3utv5JribOpT9xuLhekJwVrWoqBO3Fj7AFCxg6bmDDBDsDfnRx3a2q2MNO1KMf75hS0TTuBy2g4KKlLr73uMuO9LoyNf02EBaF3uHkYCSRsiAlUplIriUrsij",
+        "received": false
+      },
+      {
+        "_id": "67c0f5917b4bcc16671a3dba",
+        "name": "Bacon2489",
+        "amount": 627,
+        "price": 1964,
+        "manufacturer": "Xiaomi",
+        "notes": "DIgAWcVMGVt0fw6omKqHzQvSP9y7fxdFBthUGcp3vkKTF2fvhpA0qjiX6D1JahL4SW6LJosCKw0D1OJTo5ouAYblu4V0T5OAwv75VqNar0E7sBWFGVwdcmdreZ1mcCzIo3utv5JribOpT9xuLhekJwVrWoqBO3Fj7AFCxg6bmDDBDsDfnRx3a2q2MNO1KMf75hS0TTuBy2g4KKlLr73uMuO9LoyNf02EBaF3uHkYCSRsiAlUplIriUrsij",
+        "received": false
+      }
+    ],
+    "delivery": null,
+    "total_price": 5892,
+    "createdOn": "2025-02-27T23:30:26.000Z",
+    "comments": [],
+    "history": [
+      {
+        "status": "Draft",
+        "customer": "67c0f5917b4bcc16671a3d86",
+        "products": [
+          {
+            "_id": "67c0f5917b4bcc16671a3dba",
+            "name": "Bacon2489",
+            "amount": 627,
+            "price": 1964,
+            "manufacturer": "Xiaomi",
+            "notes": "DIgAWcVMGVt0fw6omKqHzQvSP9y7fxdFBthUGcp3vkKTF2fvhpA0qjiX6D1JahL4SW6LJosCKw0D1OJTo5ouAYblu4V0T5OAwv75VqNar0E7sBWFGVwdcmdreZ1mcCzIo3utv5JribOpT9xuLhekJwVrWoqBO3Fj7AFCxg6bmDDBDsDfnRx3a2q2MNO1KMf75hS0TTuBy2g4KKlLr73uMuO9LoyNf02EBaF3uHkYCSRsiAlUplIriUrsij",
+            "received": false
+          },
+          {
+            "_id": "67c0f5917b4bcc16671a3dba",
+            "name": "Bacon2489",
+            "amount": 627,
+            "price": 1964,
+            "manufacturer": "Xiaomi",
+            "notes": "DIgAWcVMGVt0fw6omKqHzQvSP9y7fxdFBthUGcp3vkKTF2fvhpA0qjiX6D1JahL4SW6LJosCKw0D1OJTo5ouAYblu4V0T5OAwv75VqNar0E7sBWFGVwdcmdreZ1mcCzIo3utv5JribOpT9xuLhekJwVrWoqBO3Fj7AFCxg6bmDDBDsDfnRx3a2q2MNO1KMf75hS0TTuBy2g4KKlLr73uMuO9LoyNf02EBaF3uHkYCSRsiAlUplIriUrsij",
+            "received": false
+          },
+          {
+            "_id": "67c0f5917b4bcc16671a3dba",
+            "name": "Bacon2489",
+            "amount": 627,
+            "price": 1964,
+            "manufacturer": "Xiaomi",
+            "notes": "DIgAWcVMGVt0fw6omKqHzQvSP9y7fxdFBthUGcp3vkKTF2fvhpA0qjiX6D1JahL4SW6LJosCKw0D1OJTo5ouAYblu4V0T5OAwv75VqNar0E7sBWFGVwdcmdreZ1mcCzIo3utv5JribOpT9xuLhekJwVrWoqBO3Fj7AFCxg6bmDDBDsDfnRx3a2q2MNO1KMf75hS0TTuBy2g4KKlLr73uMuO9LoyNf02EBaF3uHkYCSRsiAlUplIriUrsij",
+            "received": false
+          }
+        ],
+        "total_price": 5892,
+        "delivery": null,
+        "changedOn": "2025-02-27T23:30:26.000Z",
+        "action": "Order created"
+      }
+    ],
+    "_id": "67c0f5927b4bcc16671a3def"
+  },
+  "IsSuccess": true,
+  "ErrorMessage": null
+}

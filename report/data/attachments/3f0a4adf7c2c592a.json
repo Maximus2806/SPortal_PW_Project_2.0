@@ -1,0 +1,13 @@
+{
+  "Product": {
+    "name": "Bike45840",
+    "amount": 189,
+    "price": 48997,
+    "manufacturer": "Sony",
+    "createdOn": "2025-02-27T23:30:20.000Z",
+    "notes": "lKuwjqm4hdiBkl4jSAINGuVqKDjF2CMeUbOWCdzc68oOoEIL6GqLou6jxOGgDP1IeyudgJDl7gT2WR1Ly4r9nAoakVVZnPJ3jVHGFc4WjUMdONAtCdOz9V4SWRkGZ3u3KhzrRiR2FyKnO2BiA6JSql0FG8gmWRtNvjNkTEdOlxEr2ySiqLA0x4EfmKUh2fd2sZPHVPTKQnOe1EnhsbkP29xCW8zZzUhw88wh16uQTFM3RnlbDwBgWLONGS",
+    "_id": "67c0f58c7b4bcc16671a3bc5"
+  },
+  "IsSuccess": true,
+  "ErrorMessage": null
+}
