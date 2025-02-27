@@ -1,0 +1,125 @@
+{
+  "Order": {
+    "_id": "67c0f40f7b4bcc16671a3298",
+    "status": "In Process",
+    "customer": {
+      "_id": "67c0f4087b4bcc16671a3210",
+      "email": "Mckenzie_Reichert@yahoo.com",
+      "name": "Name AbnzjcpgoewwbHgrMjORZgoTzyCgymJAaBg",
+      "country": "Belarus",
+      "city": "City DhSiJckCHbVNAVd",
+      "street": "Street RRihJTDldGtPtseY9HxjcM67JFyppER2B",
+      "house": 404,
+      "flat": 788,
+      "phone": "+775387277369",
+      "createdOn": "2025-02-27T23:23:52.000Z",
+      "notes": "Notes NxdFyZIbkWovprRupIvjoGxczKFaVACqVpSNSEvOHBDKomPmcAKxuCKhFSWhzFmOrGhfcwrbjyJnCZjKqddpQCLQkmpJWrASNGUAITZSwOekCTrYDTANgEaFPaSaAUtLCalKJDjaoXoNSRdiIHRqHSZXfMMVUkdiljAgUcunDAwXzehVHOFLJYJjZkNztTtoGTFtHadbzbSSSoErPhJSZZIJMTmJIKepmUbJZLvNmCeyfGIixjor"
+    },
+    "products": [
+      {
+        "_id": "67c0f40b7b4bcc16671a324f",
+        "name": "Mouse12284",
+        "amount": 456,
+        "price": 87816,
+        "manufacturer": "Sony",
+        "notes": "eo5rIkpiAvMislU7Vy3SuPb7smivWUW0sowW1XdOi6KITiG7UbxWhbWC5TlOl3G48UeXgkDbwr4aSkWjAn0ePtG5YoPR0lG9HmLKG5dJ2Ec57ouPiEjnGJl1MUwa016tHfPzne2Ayjax1FsRXGLYw67fe9NAiFcANvD4wdu1Y9kERACKeRrsuvq5wDnRUVLPRESLVfEzQTQ8YwGOoaAGVqiLcrIqFhGoTJ4bzPRJtCVRmkrXQFFWlashVC",
+        "received": false
+      }
+    ],
+    "delivery": {
+      "address": {
+        "country": "Great Britain",
+        "city": "City kFFegWvCEDpgYJp",
+        "street": "Street fuverUKzA4pmsNdKWqttCgCdE2D3l5Nhv",
+        "house": 627,
+        "flat": 2772
+      },
+      "finalDate": "2025-03-04T00:00:00.000Z",
+      "condition": "Delivery"
+    },
+    "total_price": 87816,
+    "createdOn": "2025-02-27T23:23:59.000Z",
+    "comments": [],
+    "history": [
+      {
+        "status": "In Process",
+        "customer": "67c0f4087b4bcc16671a3210",
+        "products": [
+          {
+            "_id": "67c0f40b7b4bcc16671a324f",
+            "name": "Mouse12284",
+            "amount": 456,
+            "price": 87816,
+            "manufacturer": "Sony",
+            "notes": "eo5rIkpiAvMislU7Vy3SuPb7smivWUW0sowW1XdOi6KITiG7UbxWhbWC5TlOl3G48UeXgkDbwr4aSkWjAn0ePtG5YoPR0lG9HmLKG5dJ2Ec57ouPiEjnGJl1MUwa016tHfPzne2Ayjax1FsRXGLYw67fe9NAiFcANvD4wdu1Y9kERACKeRrsuvq5wDnRUVLPRESLVfEzQTQ8YwGOoaAGVqiLcrIqFhGoTJ4bzPRJtCVRmkrXQFFWlashVC",
+            "received": false
+          }
+        ],
+        "total_price": 87816,
+        "delivery": {
+          "address": {
+            "country": "Great Britain",
+            "city": "City kFFegWvCEDpgYJp",
+            "street": "Street fuverUKzA4pmsNdKWqttCgCdE2D3l5Nhv",
+            "house": 627,
+            "flat": 2772
+          },
+          "finalDate": "2025-03-04T00:00:00.000Z",
+          "condition": "Delivery"
+        },
+        "changedOn": "2025-02-27T23:24:06.000Z",
+        "action": "Order processing started"
+      },
+      {
+        "status": "Draft",
+        "customer": "67c0f4087b4bcc16671a3210",
+        "products": [
+          {
+            "_id": "67c0f40b7b4bcc16671a324f",
+            "name": "Mouse12284",
+            "amount": 456,
+            "price": 87816,
+            "manufacturer": "Sony",
+            "notes": "eo5rIkpiAvMislU7Vy3SuPb7smivWUW0sowW1XdOi6KITiG7UbxWhbWC5TlOl3G48UeXgkDbwr4aSkWjAn0ePtG5YoPR0lG9HmLKG5dJ2Ec57ouPiEjnGJl1MUwa016tHfPzne2Ayjax1FsRXGLYw67fe9NAiFcANvD4wdu1Y9kERACKeRrsuvq5wDnRUVLPRESLVfEzQTQ8YwGOoaAGVqiLcrIqFhGoTJ4bzPRJtCVRmkrXQFFWlashVC",
+            "received": false
+          }
+        ],
+        "total_price": 87816,
+        "delivery": {
+          "address": {
+            "country": "Great Britain",
+            "city": "City kFFegWvCEDpgYJp",
+            "street": "Street fuverUKzA4pmsNdKWqttCgCdE2D3l5Nhv",
+            "house": 627,
+            "flat": 2772
+          },
+          "finalDate": "2025-03-04T00:00:00.000Z",
+          "condition": "Delivery"
+        },
+        "changedOn": "2025-02-27T23:24:03.000Z",
+        "action": "Delivery Scheduled"
+      },
+      {
+        "status": "Draft",
+        "customer": "67c0f4087b4bcc16671a3210",
+        "products": [
+          {
+            "_id": "67c0f40b7b4bcc16671a324f",
+            "name": "Mouse12284",
+            "amount": 456,
+            "price": 87816,
+            "manufacturer": "Sony",
+            "notes": "eo5rIkpiAvMislU7Vy3SuPb7smivWUW0sowW1XdOi6KITiG7UbxWhbWC5TlOl3G48UeXgkDbwr4aSkWjAn0ePtG5YoPR0lG9HmLKG5dJ2Ec57ouPiEjnGJl1MUwa016tHfPzne2Ayjax1FsRXGLYw67fe9NAiFcANvD4wdu1Y9kERACKeRrsuvq5wDnRUVLPRESLVfEzQTQ8YwGOoaAGVqiLcrIqFhGoTJ4bzPRJtCVRmkrXQFFWlashVC",
+            "received": false
+          }
+        ],
+        "total_price": 87816,
+        "delivery": null,
+        "changedOn": "2025-02-27T23:23:59.000Z",
+        "action": "Order created"
+      }
+    ]
+  },
+  "IsSuccess": true,
+  "ErrorMessage": null
+}

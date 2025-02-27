@@ -1,0 +1,13 @@
+{
+  "Product": {
+    "name": "Shoes9215",
+    "amount": 819,
+    "price": 60739,
+    "manufacturer": "Google",
+    "createdOn": "2025-02-27T23:24:02.000Z",
+    "notes": "N3cRLRQgOe10fnsXm2YMLPTZDtNwETQvqxdG7q2DEjko235NQvCsEUlw8fFZmaxA9oTKW5thNA39DbThEzkFDxCbOmmY7CHHLleTE7s9HdAjjVks8funlEajzglP1NseKnkY4G4McAfKFLcGN7U2liTP4S60LLVpZQPhY461d4AATFUHhadNWqYYo8KesefAg9X4PRqnwOphMv7pUrDGOJ3vD4cGdR5cO01K8vhghPfgmuOPCfz7Hha3Dn",
+    "_id": "67c0f4127b4bcc16671a32f1"
+  },
+  "IsSuccess": true,
+  "ErrorMessage": null
+}

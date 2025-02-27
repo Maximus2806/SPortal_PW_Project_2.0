@@ -1,0 +1,13 @@
+{
+  "Product": {
+    "name": "Computer56803",
+    "amount": 847,
+    "price": 54183,
+    "manufacturer": "Apple",
+    "createdOn": "2025-02-27T23:24:00.000Z",
+    "notes": "GdjRgLEisp1m8X1yX8v83xmUyhhtbm1XBvidM7lc3Tml6chVXKdcBcYYcbbiDCjlfeAPxT3yA9PetgNxoKH4HJHuHsCgBtAeotVYHBahpfn7SVgQ5RdBlyknBzDT8CTORDExB2ng6mFlVeYNgwh4c652iwhxey1EZ0cNIInzkXswqSrnRN0Ry7XCo3OJGLh1ZWt7c4VQVb46qq6HAVqtTNbVGRgUAWM3W5G0rb00xgMI7widirisJATKIp",
+    "_id": "67c0f4107b4bcc16671a32c0"
+  },
+  "IsSuccess": true,
+  "ErrorMessage": null
+}

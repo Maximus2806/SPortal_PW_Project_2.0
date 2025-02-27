@@ -1,0 +1,129 @@
+{
+  "Order": {
+    "status": "Draft",
+    "customer": {
+      "_id": "67c0f4097b4bcc16671a321e",
+      "email": "Lia5@yahoo.com",
+      "name": "Name WwCDjCrlpKLUSCWkWzWUGQyIlLbgqXUImCL",
+      "country": "Germany",
+      "city": "City IaomwvXhIWnyCiv",
+      "street": "Street fDXvLPDbIaQpRa1NPkQ0wQtbTkLkVeNZN",
+      "house": 186,
+      "flat": 4088,
+      "phone": "+578627435450",
+      "createdOn": "2025-02-27T23:23:53.000Z",
+      "notes": "Notes LrSnTMEcDmDRvJEkroRtcbsNxmMtqKHzMcYPnZlxOrIDIyDkFxPvEJfZkBHvcHIAftbMYNNJlSnrVoVUwxZQardTLLxgWdPKCGfefbNeYKGvvHnfpekMxrgmfeUZpmgKdqPcpKExmApnVIJwpmrORUdDABFWsxvsjMZPbtHTkRaKzSCexzfWfibhAeOlpvUuBtHrYegWaWMGpvWWFuJnuHHLntudOzGvqAUvVXaKlJhoRwRbeJIu"
+    },
+    "products": [
+      {
+        "_id": "67c0f40b7b4bcc16671a3251",
+        "name": "Shirt82795",
+        "amount": 74,
+        "price": 53043,
+        "manufacturer": "Amazon",
+        "notes": "6EplevIr6CYz0iEMgIRDr4eVSFkIYsLiKW2IymQgDuXIXNiAPxxMBqllmNpwrHfo4DxvaZQVko8ehd3INTxBooMy3JO1kxZfx9e0gRQSZhXrUW5qcQiaw2rEKO9MNEtiWXIm4Jtsk5TSdZC7VDnThokuE6aUDHHpEz7N0fGS7EraVyz3iNbHrxyOO4HVsvZR1bZi7SGf5pDhZbEzZYoMk21E8vvYLlik4yoBR33Y2i2zIHGSkNPd2gQiRG",
+        "received": false
+      },
+      {
+        "_id": "67c0f40e7b4bcc16671a3282",
+        "name": "Salad78974",
+        "amount": 428,
+        "price": 10956,
+        "manufacturer": "Xiaomi",
+        "notes": "fCWPE8DwCMFR12GhiItQkNikk2dAjQlmxtWsLuJn6vGPK61E1yuiSIklzCSKbs9ehvpxaOoUAWZsYA9gHWfjAGBkoGwV0OJfEkTtvDQ2vYcUWj2Gt57ZoJUjrh3R1YiEtf2HfWPCx2Fy4HUFeLu5qjqPZb0gJTdFlUJ2EvRhZKe72SqnYHPFQUmQxdHecAqVi7kdOUK292xbUjX5oypkML4Lb8Rji5n3P5ttkTutJEW9kgNl6gcUbIfIRQ",
+        "received": false
+      },
+      {
+        "_id": "67c0f4107b4bcc16671a32c0",
+        "name": "Computer56803",
+        "amount": 847,
+        "price": 54183,
+        "manufacturer": "Apple",
+        "notes": "GdjRgLEisp1m8X1yX8v83xmUyhhtbm1XBvidM7lc3Tml6chVXKdcBcYYcbbiDCjlfeAPxT3yA9PetgNxoKH4HJHuHsCgBtAeotVYHBahpfn7SVgQ5RdBlyknBzDT8CTORDExB2ng6mFlVeYNgwh4c652iwhxey1EZ0cNIInzkXswqSrnRN0Ry7XCo3OJGLh1ZWt7c4VQVb46qq6HAVqtTNbVGRgUAWM3W5G0rb00xgMI7widirisJATKIp",
+        "received": false
+      },
+      {
+        "_id": "67c0f4127b4bcc16671a32f1",
+        "name": "Shoes9215",
+        "amount": 819,
+        "price": 60739,
+        "manufacturer": "Google",
+        "notes": "N3cRLRQgOe10fnsXm2YMLPTZDtNwETQvqxdG7q2DEjko235NQvCsEUlw8fFZmaxA9oTKW5thNA39DbThEzkFDxCbOmmY7CHHLleTE7s9HdAjjVks8funlEajzglP1NseKnkY4G4McAfKFLcGN7U2liTP4S60LLVpZQPhY461d4AATFUHhadNWqYYo8KesefAg9X4PRqnwOphMv7pUrDGOJ3vD4cGdR5cO01K8vhghPfgmuOPCfz7Hha3Dn",
+        "received": false
+      },
+      {
+        "_id": "67c0f4157b4bcc16671a332a",
+        "name": "Ball16871",
+        "amount": 361,
+        "price": 1401,
+        "manufacturer": "Amazon",
+        "notes": "WMajGRA5ufsYHfQd4Izg9j99pxyPfSlhVO2sUXnlQI8JMNHP7WTmei0ioSLsvJNlxQ7b9w0e7uumnBJTPYquUBIxp3rIjGzxyqPAIwKoE1QCuLmiF9N7dvnueKWgTjfFzzzc8CGqX2HvT77CMcSWzvcI6HW6Jn9hJagl6sxCTQuxpKhsWjh5YhjIx5a0pW9jTCLs29gEmMMN7GLtMKvk3AbDwOfFm32m3OgZfHHNlykZdHuWDB6ObtiaMO",
+        "received": false
+      }
+    ],
+    "delivery": null,
+    "total_price": 180322,
+    "createdOn": "2025-02-27T23:24:11.000Z",
+    "comments": [],
+    "history": [
+      {
+        "status": "Draft",
+        "customer": "67c0f4097b4bcc16671a321e",
+        "products": [
+          {
+            "_id": "67c0f40b7b4bcc16671a3251",
+            "name": "Shirt82795",
+            "amount": 74,
+            "price": 53043,
+            "manufacturer": "Amazon",
+            "notes": "6EplevIr6CYz0iEMgIRDr4eVSFkIYsLiKW2IymQgDuXIXNiAPxxMBqllmNpwrHfo4DxvaZQVko8ehd3INTxBooMy3JO1kxZfx9e0gRQSZhXrUW5qcQiaw2rEKO9MNEtiWXIm4Jtsk5TSdZC7VDnThokuE6aUDHHpEz7N0fGS7EraVyz3iNbHrxyOO4HVsvZR1bZi7SGf5pDhZbEzZYoMk21E8vvYLlik4yoBR33Y2i2zIHGSkNPd2gQiRG",
+            "received": false
+          },
+          {
+            "_id": "67c0f40e7b4bcc16671a3282",
+            "name": "Salad78974",
+            "amount": 428,
+            "price": 10956,
+            "manufacturer": "Xiaomi",
+            "notes": "fCWPE8DwCMFR12GhiItQkNikk2dAjQlmxtWsLuJn6vGPK61E1yuiSIklzCSKbs9ehvpxaOoUAWZsYA9gHWfjAGBkoGwV0OJfEkTtvDQ2vYcUWj2Gt57ZoJUjrh3R1YiEtf2HfWPCx2Fy4HUFeLu5qjqPZb0gJTdFlUJ2EvRhZKe72SqnYHPFQUmQxdHecAqVi7kdOUK292xbUjX5oypkML4Lb8Rji5n3P5ttkTutJEW9kgNl6gcUbIfIRQ",
+            "received": false
+          },
+          {
+            "_id": "67c0f4107b4bcc16671a32c0",
+            "name": "Computer56803",
+            "amount": 847,
+            "price": 54183,
+            "manufacturer": "Apple",
+            "notes": "GdjRgLEisp1m8X1yX8v83xmUyhhtbm1XBvidM7lc3Tml6chVXKdcBcYYcbbiDCjlfeAPxT3yA9PetgNxoKH4HJHuHsCgBtAeotVYHBahpfn7SVgQ5RdBlyknBzDT8CTORDExB2ng6mFlVeYNgwh4c652iwhxey1EZ0cNIInzkXswqSrnRN0Ry7XCo3OJGLh1ZWt7c4VQVb46qq6HAVqtTNbVGRgUAWM3W5G0rb00xgMI7widirisJATKIp",
+            "received": false
+          },
+          {
+            "_id": "67c0f4127b4bcc16671a32f1",
+            "name": "Shoes9215",
+            "amount": 819,
+            "price": 60739,
+            "manufacturer": "Google",
+            "notes": "N3cRLRQgOe10fnsXm2YMLPTZDtNwETQvqxdG7q2DEjko235NQvCsEUlw8fFZmaxA9oTKW5thNA39DbThEzkFDxCbOmmY7CHHLleTE7s9HdAjjVks8funlEajzglP1NseKnkY4G4McAfKFLcGN7U2liTP4S60LLVpZQPhY461d4AATFUHhadNWqYYo8KesefAg9X4PRqnwOphMv7pUrDGOJ3vD4cGdR5cO01K8vhghPfgmuOPCfz7Hha3Dn",
+            "received": false
+          },
+          {
+            "_id": "67c0f4157b4bcc16671a332a",
+            "name": "Ball16871",
+            "amount": 361,
+            "price": 1401,
+            "manufacturer": "Amazon",
+            "notes": "WMajGRA5ufsYHfQd4Izg9j99pxyPfSlhVO2sUXnlQI8JMNHP7WTmei0ioSLsvJNlxQ7b9w0e7uumnBJTPYquUBIxp3rIjGzxyqPAIwKoE1QCuLmiF9N7dvnueKWgTjfFzzzc8CGqX2HvT77CMcSWzvcI6HW6Jn9hJagl6sxCTQuxpKhsWjh5YhjIx5a0pW9jTCLs29gEmMMN7GLtMKvk3AbDwOfFm32m3OgZfHHNlykZdHuWDB6ObtiaMO",
+            "received": false
+          }
+        ],
+        "total_price": 180322,
+        "delivery": null,
+        "changedOn": "2025-02-27T23:24:11.000Z",
+        "action": "Order created"
+      }
+    ],
+    "_id": "67c0f41b7b4bcc16671a33b5"
+  },
+  "IsSuccess": true,
+  "ErrorMessage": null
+}

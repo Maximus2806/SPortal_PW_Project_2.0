@@ -1,0 +1,13 @@
+{
+  "Product": {
+    "name": "Mouse12284",
+    "amount": 456,
+    "price": 87816,
+    "manufacturer": "Sony",
+    "createdOn": "2025-02-27T23:23:55.000Z",
+    "notes": "eo5rIkpiAvMislU7Vy3SuPb7smivWUW0sowW1XdOi6KITiG7UbxWhbWC5TlOl3G48UeXgkDbwr4aSkWjAn0ePtG5YoPR0lG9HmLKG5dJ2Ec57ouPiEjnGJl1MUwa016tHfPzne2Ayjax1FsRXGLYw67fe9NAiFcANvD4wdu1Y9kERACKeRrsuvq5wDnRUVLPRESLVfEzQTQ8YwGOoaAGVqiLcrIqFhGoTJ4bzPRJtCVRmkrXQFFWlashVC",
+    "_id": "67c0f40b7b4bcc16671a324f"
+  },
+  "IsSuccess": true,
+  "ErrorMessage": null
+}

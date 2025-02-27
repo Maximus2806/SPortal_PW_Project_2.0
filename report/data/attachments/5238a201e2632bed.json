@@ -1,0 +1,19 @@
+{
+  "Products": [
+    {
+      "_id": "67c0f40e7b4bcc16671a3282",
+      "name": "Salad78974",
+      "amount": 428,
+      "price": 10956,
+      "manufacturer": "Xiaomi",
+      "createdOn": "2025-02-27T23:23:58.000Z",
+      "notes": "fCWPE8DwCMFR12GhiItQkNikk2dAjQlmxtWsLuJn6vGPK61E1yuiSIklzCSKbs9ehvpxaOoUAWZsYA9gHWfjAGBkoGwV0OJfEkTtvDQ2vYcUWj2Gt57ZoJUjrh3R1YiEtf2HfWPCx2Fy4HUFeLu5qjqPZb0gJTdFlUJ2EvRhZKe72SqnYHPFQUmQxdHecAqVi7kdOUK292xbUjX5oypkML4Lb8Rji5n3P5ttkTutJEW9kgNl6gcUbIfIRQ"
+    }
+  ],
+  "sorting": {
+    "sortField": "createdOn",
+    "sortOrder": "desc"
+  },
+  "IsSuccess": true,
+  "ErrorMessage": null
+}

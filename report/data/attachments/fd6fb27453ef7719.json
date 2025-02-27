@@ -1,0 +1,13 @@
+{
+  "Product": {
+    "name": "Chair93147",
+    "amount": 928,
+    "price": 16642,
+    "manufacturer": "Tesla",
+    "createdOn": "2025-02-27T23:24:52.000Z",
+    "notes": "ymEkIM3iPPraxwtPCnDmdclERrrV5FtTc22gqJ79mjAQJWUiOj1fGaNYRDxhuBg8q8jsAjPJLO4gcqOga1nUqDVsjCPtSMInnEDTAYb4F00p2FulKGAiAxnxzGW86PkewIE956TIXxaIWqyMRtt4ICyCCRTPqVyBEACuuUvCtbfMveVdNrS1P00789Q4eVtFgU14mea2AkIAvEbrsOLfKzl43HjGjEHYehpcNAd4Gqh2q0QaMpnLVTvfBm",
+    "_id": "67c0f4447b4bcc16671a372d"
+  },
+  "IsSuccess": true,
+  "ErrorMessage": null
+}

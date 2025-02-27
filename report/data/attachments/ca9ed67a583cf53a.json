@@ -1,0 +1,93 @@
+{
+  "Order": {
+    "status": "Draft",
+    "customer": {
+      "_id": "67c0f42e7b4bcc16671a356e",
+      "email": "Cedrick_Kuvalis20@yahoo.com",
+      "name": "Name dCGaNHLXwCWtgeRjSUEIVRDoztLIkyGEHaj",
+      "country": "Great Britain",
+      "city": "City zwSAYsPhPuKbEHP",
+      "street": "Street 60F0VZp2aMqoDj7c2NI5J9yYrfIhV5mGa",
+      "house": 123,
+      "flat": 3938,
+      "phone": "+638179289551",
+      "createdOn": "2025-02-27T23:24:30.000Z",
+      "notes": "Notes mOhFljTRAOzdgdpYSIBITvWomgLDcIuifAUeWUZSrVEwlSAuWJjkuWAWlBEjZWVsIQiWJBLWEGCvAllvWkJIhZGVZhqBwTXlAZYQRzYRgGLnmkMwiWAULWiSehhukhNAWttLrrlSOfBDxXfurWtxWgkGOheBXgbxIbrrhyaCSHtOhqfuRUAzeCVNEZdLRGukzSLNhAwHSTIPqsjHSQDMPTwNAULBumUXNOcWVlxUgbMBwHNHnPZX"
+    },
+    "products": [
+      {
+        "_id": "67c0f4307b4bcc16671a3591",
+        "name": "Towels50806",
+        "amount": 331,
+        "price": 19977,
+        "manufacturer": "Apple",
+        "notes": "PoPdILCSu0Np7OsvwhSNEAkGZniqMhah2uI8zV6JN0NfAj1M56ErutpxObbDCvPkZB9vR8mnIAoqDzVrQVOb9oyZsIDZzg7ioxcHhIZ2s0o6HJxSxst5eczXaDsUDfVpQIXy8Aorw0jMEyPQxi8t0McfFEENLmiGHVvF65Y2HJuQBHzfCjFvNrl3V2akOwctfbNNew0xT9VhQJQuIlR3K0IA36FmQWMJHQ1nzsJNEFxcXCXQ1SgkpsFi5B",
+        "received": false
+      },
+      {
+        "_id": "67c0f4307b4bcc16671a3591",
+        "name": "Towels50806",
+        "amount": 331,
+        "price": 19977,
+        "manufacturer": "Apple",
+        "notes": "PoPdILCSu0Np7OsvwhSNEAkGZniqMhah2uI8zV6JN0NfAj1M56ErutpxObbDCvPkZB9vR8mnIAoqDzVrQVOb9oyZsIDZzg7ioxcHhIZ2s0o6HJxSxst5eczXaDsUDfVpQIXy8Aorw0jMEyPQxi8t0McfFEENLmiGHVvF65Y2HJuQBHzfCjFvNrl3V2akOwctfbNNew0xT9VhQJQuIlR3K0IA36FmQWMJHQ1nzsJNEFxcXCXQ1SgkpsFi5B",
+        "received": false
+      },
+      {
+        "_id": "67c0f4307b4bcc16671a3591",
+        "name": "Towels50806",
+        "amount": 331,
+        "price": 19977,
+        "manufacturer": "Apple",
+        "notes": "PoPdILCSu0Np7OsvwhSNEAkGZniqMhah2uI8zV6JN0NfAj1M56ErutpxObbDCvPkZB9vR8mnIAoqDzVrQVOb9oyZsIDZzg7ioxcHhIZ2s0o6HJxSxst5eczXaDsUDfVpQIXy8Aorw0jMEyPQxi8t0McfFEENLmiGHVvF65Y2HJuQBHzfCjFvNrl3V2akOwctfbNNew0xT9VhQJQuIlR3K0IA36FmQWMJHQ1nzsJNEFxcXCXQ1SgkpsFi5B",
+        "received": false
+      }
+    ],
+    "delivery": null,
+    "total_price": 59931,
+    "createdOn": "2025-02-27T23:24:35.000Z",
+    "comments": [],
+    "history": [
+      {
+        "status": "Draft",
+        "customer": "67c0f42e7b4bcc16671a356e",
+        "products": [
+          {
+            "_id": "67c0f4307b4bcc16671a3591",
+            "name": "Towels50806",
+            "amount": 331,
+            "price": 19977,
+            "manufacturer": "Apple",
+            "notes": "PoPdILCSu0Np7OsvwhSNEAkGZniqMhah2uI8zV6JN0NfAj1M56ErutpxObbDCvPkZB9vR8mnIAoqDzVrQVOb9oyZsIDZzg7ioxcHhIZ2s0o6HJxSxst5eczXaDsUDfVpQIXy8Aorw0jMEyPQxi8t0McfFEENLmiGHVvF65Y2HJuQBHzfCjFvNrl3V2akOwctfbNNew0xT9VhQJQuIlR3K0IA36FmQWMJHQ1nzsJNEFxcXCXQ1SgkpsFi5B",
+            "received": false
+          },
+          {
+            "_id": "67c0f4307b4bcc16671a3591",
+            "name": "Towels50806",
+            "amount": 331,
+            "price": 19977,
+            "manufacturer": "Apple",
+            "notes": "PoPdILCSu0Np7OsvwhSNEAkGZniqMhah2uI8zV6JN0NfAj1M56ErutpxObbDCvPkZB9vR8mnIAoqDzVrQVOb9oyZsIDZzg7ioxcHhIZ2s0o6HJxSxst5eczXaDsUDfVpQIXy8Aorw0jMEyPQxi8t0McfFEENLmiGHVvF65Y2HJuQBHzfCjFvNrl3V2akOwctfbNNew0xT9VhQJQuIlR3K0IA36FmQWMJHQ1nzsJNEFxcXCXQ1SgkpsFi5B",
+            "received": false
+          },
+          {
+            "_id": "67c0f4307b4bcc16671a3591",
+            "name": "Towels50806",
+            "amount": 331,
+            "price": 19977,
+            "manufacturer": "Apple",
+            "notes": "PoPdILCSu0Np7OsvwhSNEAkGZniqMhah2uI8zV6JN0NfAj1M56ErutpxObbDCvPkZB9vR8mnIAoqDzVrQVOb9oyZsIDZzg7ioxcHhIZ2s0o6HJxSxst5eczXaDsUDfVpQIXy8Aorw0jMEyPQxi8t0McfFEENLmiGHVvF65Y2HJuQBHzfCjFvNrl3V2akOwctfbNNew0xT9VhQJQuIlR3K0IA36FmQWMJHQ1nzsJNEFxcXCXQ1SgkpsFi5B",
+            "received": false
+          }
+        ],
+        "total_price": 59931,
+        "delivery": null,
+        "changedOn": "2025-02-27T23:24:35.000Z",
+        "action": "Order created"
+      }
+    ],
+    "_id": "67c0f4337b4bcc16671a35d6"
+  },
+  "IsSuccess": true,
+  "ErrorMessage": null
+}

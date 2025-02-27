@@ -1,0 +1,13 @@
+{
+  "Product": {
+    "name": "Computer44514",
+    "amount": 692,
+    "price": 11991,
+    "manufacturer": "Apple",
+    "createdOn": "2025-02-27T23:23:34.000Z",
+    "notes": "fETAfBdijrE7vMPXTVyFKvY5RqlwDNPTqM3tEvXASWuRj4NIURkkPju36eKKeg1fprCvuOu0SrKXzjVRIEup2mGVKntDCQeZWNyI3LFKMJGoQatZETCNp2oRySXzTXcVT7lS1yh8I6YJJ8av1MbKx8i8rt6kWlK8Yk3kJBFMCYnRrWsJPfmmB3BJEnaqa2Ya9bu4thXjPBwJFKOPF68CRNnLvdVDdblnJ7UVqdfIJFsNoWl5HLHjjh1mVs",
+    "_id": "67c0f3f67b4bcc16671a30c2"
+  },
+  "IsSuccess": true,
+  "ErrorMessage": null
+}

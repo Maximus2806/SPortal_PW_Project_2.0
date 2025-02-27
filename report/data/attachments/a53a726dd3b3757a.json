@@ -1,0 +1,17 @@
+{
+  "Customer": {
+    "email": "Fredy2@gmail.com",
+    "name": "Name xgMZEaXfPWMblTJvxSekBGAwbqNgzLVowcR",
+    "country": "USA",
+    "city": "City SuDxhKEjzelkHeX",
+    "street": "Street dTI3s4AChuPkJsB24uAgH1JgiQ0ihCFsb",
+    "house": 180,
+    "flat": 1235,
+    "phone": "+987327767387",
+    "createdOn": "2025-02-27T23:23:45.000Z",
+    "notes": "Notes weBUOEphtxWvAQRGmykDbYyinKmqBtTzKBztOLrqDvvZyNjwAbxKuFvpIfAbEZsBgyvvewayZJJMalLZKmWNXsiaTnYBzdqiakJkjAvzVDAkNEISXtHGBqOxKnqBLtxPZRaXvaMfgGBoEfFtHjAiutWAFWMIAhdsvJWsTEfzpnkePtsvQPSuDylMkbWUFTSIXcFtwbktHHisoxsoFGiwQHojdqCUZzLxNIKqliWJICBQfcHToWss",
+    "_id": "67c0f4017b4bcc16671a319f"
+  },
+  "IsSuccess": true,
+  "ErrorMessage": null
+}

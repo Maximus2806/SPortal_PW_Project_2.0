@@ -1,0 +1,96 @@
+{
+  "Order": {
+    "_id": "67c0f4177b4bcc16671a3372",
+    "status": "Draft",
+    "customer": {
+      "_id": "67c0f4147b4bcc16671a331d",
+      "email": "Nicole_Kunze-Nitzsche8@hotmail.com",
+      "name": "Name FNzAvWpUAtXJHYHjHwBcKmYzeuMQzNeGrAO",
+      "country": "Canada",
+      "city": "City qdzRucGPfSVtncg",
+      "street": "Street HuI39HWdftLiAOU9oFtkEGGD0Y1f6NEJP",
+      "house": 350,
+      "flat": 8538,
+      "phone": "+816920102903",
+      "createdOn": "2025-02-27T23:24:04.000Z",
+      "notes": "Notes UCNlDCCFqiLHkMtDYbpluQYCqUAWgYIDuzQuaPZWoxTwMpKFilOlykIyGRawDpkdjvWUCLQhvQClaGKvitfGnzJMAUHqWnQVSkXccueDOjDonnImSkWBSnFEPZVpfEEguciPkkqgXQNRpUPiKzLhdKZJNFaterLjizsNLpDYhZgzjaYCkGSAgfMwKeoKHxMcwQYZowQcWlrSuctdEcRzyUcovgrdRmFWetCvdSQdHcJZIDVAEpRH"
+    },
+    "products": [
+      {
+        "_id": "67c0f4157b4bcc16671a3335",
+        "name": "Tuna1901",
+        "amount": 652,
+        "price": 32909,
+        "manufacturer": "Microsoft",
+        "notes": "nf45dYZOF8HOv6ZVZ2Cy8936I7fbmchnfMl6jg2tMqtSl5YxytB0hP0LPtSXSMJaMTWy2Wx6ZC0GVXnTcgdZ2RFlwFIwkuEaRzFgaexXgWOYK6Gusu0lDVFpDUugME4xnzOucbl36J8q0lzDvFMw8Cs2CX1mQAYxwAEPnNYkmC6XAJi8SgH0ubLJlcP0cM1GzxZ9ePzoIhf4Wnd4UNWVYhmpeeRZD05qSZQlTBOq5Y37fatIjwxFcdm1tv",
+        "received": false
+      }
+    ],
+    "delivery": {
+      "address": {
+        "country": "Germany",
+        "city": "Berlin",
+        "street": "Main Street 123",
+        "house": 123,
+        "flat": 5678
+      },
+      "finalDate": "2025-03-04T00:00:00.000Z",
+      "condition": "Delivery"
+    },
+    "total_price": 32909,
+    "createdOn": "2025-02-27T23:24:07.000Z",
+    "comments": [],
+    "history": [
+      {
+        "status": "Draft",
+        "customer": "67c0f4147b4bcc16671a331d",
+        "products": [
+          {
+            "_id": "67c0f4157b4bcc16671a3335",
+            "name": "Tuna1901",
+            "amount": 652,
+            "price": 32909,
+            "manufacturer": "Microsoft",
+            "notes": "nf45dYZOF8HOv6ZVZ2Cy8936I7fbmchnfMl6jg2tMqtSl5YxytB0hP0LPtSXSMJaMTWy2Wx6ZC0GVXnTcgdZ2RFlwFIwkuEaRzFgaexXgWOYK6Gusu0lDVFpDUugME4xnzOucbl36J8q0lzDvFMw8Cs2CX1mQAYxwAEPnNYkmC6XAJi8SgH0ubLJlcP0cM1GzxZ9ePzoIhf4Wnd4UNWVYhmpeeRZD05qSZQlTBOq5Y37fatIjwxFcdm1tv",
+            "received": false
+          }
+        ],
+        "total_price": 32909,
+        "delivery": {
+          "address": {
+            "country": "Germany",
+            "city": "Berlin",
+            "street": "Main Street 123",
+            "house": 123,
+            "flat": 5678
+          },
+          "finalDate": "2025-03-04T00:00:00.000Z",
+          "condition": "Delivery"
+        },
+        "changedOn": "2025-02-27T23:24:14.000Z",
+        "action": "Delivery Scheduled"
+      },
+      {
+        "status": "Draft",
+        "customer": "67c0f4147b4bcc16671a331d",
+        "products": [
+          {
+            "_id": "67c0f4157b4bcc16671a3335",
+            "name": "Tuna1901",
+            "amount": 652,
+            "price": 32909,
+            "manufacturer": "Microsoft",
+            "notes": "nf45dYZOF8HOv6ZVZ2Cy8936I7fbmchnfMl6jg2tMqtSl5YxytB0hP0LPtSXSMJaMTWy2Wx6ZC0GVXnTcgdZ2RFlwFIwkuEaRzFgaexXgWOYK6Gusu0lDVFpDUugME4xnzOucbl36J8q0lzDvFMw8Cs2CX1mQAYxwAEPnNYkmC6XAJi8SgH0ubLJlcP0cM1GzxZ9ePzoIhf4Wnd4UNWVYhmpeeRZD05qSZQlTBOq5Y37fatIjwxFcdm1tv",
+            "received": false
+          }
+        ],
+        "total_price": 32909,
+        "delivery": null,
+        "changedOn": "2025-02-27T23:24:07.000Z",
+        "action": "Order created"
+      }
+    ]
+  },
+  "IsSuccess": true,
+  "ErrorMessage": null
+}
