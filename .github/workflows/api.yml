@@ -83,6 +83,7 @@ jobs:
           # publish_dir: ./src/report/html
           publish_dir: ./allure-report
           destination_dir: report
+          keep_files: true
 
   # test-ui:
   #   runs-on: ubuntu-latest
