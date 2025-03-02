@@ -1,4 +1,5 @@
 import { generateNewCustomer } from '../../../data/customers/generateCustomer';
+import { TAGS } from '../../../data/tags';
 import { test, expect } from '../../../fixtures/apiServices.fixture';
 
 test.describe('[API] [Customers] [Update Customer]', async function () {
@@ -10,7 +11,7 @@ test.describe('[API] [Customers] [Update Customer]', async function () {
   test.afterEach(async function ({ customersApiService }) {
     await customersApiService.delete(customerId);
   });
-  test('Should update customer with valid data', async function ({ customersApiService }) {
+  test('Should update customer with valid data', { tag: [TAGS.SMOKE] }, async function ({ customersApiService }) {
     const newCustomerData = generateNewCustomer();
     const createCustomerResponse = await customersApiService.update(customerId, newCustomerData);
     expect(createCustomerResponse).toMatchObject({

@@ -5,10 +5,12 @@ on:
     branches:
       - main
       - v-test
+      - feat/ui
   push:
     branches:
       - main
       - v-test
+      - feat/ui
 jobs:
   test-api:
     runs-on: ubuntu-latest
@@ -18,6 +20,8 @@ jobs:
 
     steps:
       - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
       - uses: actions/setup-node@v4
         with:
           node-version: lts/*
@@ -39,25 +43,54 @@ jobs:
           SLACK_NOTIFICATION_URL: ${{ secrets.SLACK_NOTIFICATION_URL }}
           SALES_PORTAL_URL: ${{ secrets.SALES_PORTAL_URL }}
           SLACK_CHANNEL_ID: ${{ secrets.SLACK_CHANNEL_ID }}
+          TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
+          TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
+
         run: npm run api:smoke
         continue-on-error: true
 
-        # Upload api html report
-      - name: Upload Artifact
+      #   # Upload api html report
+      # - name: Upload Artifact
+      #   uses: actions/upload-artifact@v4
+      #   with:
+      #     name: html-report
+      #     path: ./src/report/html
+      #     retention-days: 5
+
+      # Create Allure report
+      - name: Install Allure
+        run: npm install -g allure-commandline --save-dev
+
+      - name: Create Allure report
+        run: npm run report:generate
+
+      # Save allure report into artifacts
+      - name: Save Allure report
         uses: actions/upload-artifact@v4
         with:
-          name: html-report
-          path: ./src/report/html
-          retention-days: 5
+          name: api-smoke-report
+          path: ./allure-report
 
         # Deploy to GitHub Pages
+      - name: Fetch latest gh-pages
+        run: |
+          git fetch origin gh-pages
+          git checkout gh-pages || git checkout --orphan gh-pages
+          git reset --hard origin/gh-pages
+
+      - name: Pull latest changes before deploy
+        run: |
+          git pull origin gh-pages --rebase || echo "No existing gh-pages branch"
+
       - name: Deploy to GitHub Pages
         if: success()
         uses: peaceiris/actions-gh-pages@v3
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
-          publish_dir: ./src/report/html
+          # publish_dir: ./src/report/html
+          publish_dir: ./allure-report
           destination_dir: report
+          keep_files: true
 
   # test-ui:
   #   runs-on: ubuntu-latest
