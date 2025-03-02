@@ -1,0 +1,17 @@
+{
+  "Customer": {
+    "_id": "67c483f87b4bcc16671b00c4",
+    "email": "Audie_Huels59@hotmail.com",
+    "name": "Name MBhEuRDZnCZNepQosGOAQTtbdUSXNRlAjHS",
+    "country": "Great Britain",
+    "city": "City nUvHrKEbaqTrbvt",
+    "street": "Street lILRRZh9FnKg6k9rd7IeU8HqozZiQFSDN",
+    "house": 91,
+    "flat": 3655,
+    "phone": "+85693877735",
+    "createdOn": "2025-03-02T16:14:48.000Z",
+    "notes": "Notes naBXXqsoInVDoOSjyUBTspbvGoNsxtTVIQdSxLpvwsTNzXdrwjtIzVxScdSNIvwbNzwQjbzyaKzgAfnjVfvJusSfGgQwHARdXeJWpbphVRwKRhwLrwFWOsFxqOOrlcRdBulxGBBLeJIzEmqVNAkFEkpkHhqDlzEkpjsBYkzDlIulbuLXGndMDhNtJzTDmNmzcgBVDpEQufMebDsBPQDLelxzPkhfeXeiJtCyDnuJiNiMHRKRKuNe"
+  },
+  "IsSuccess": true,
+  "ErrorMessage": null
+}

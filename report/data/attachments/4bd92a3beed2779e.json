@@ -1,0 +1,57 @@
+{
+  "Order": {
+    "status": "Draft",
+    "customer": {
+      "_id": "67c4840f7b4bcc16671b033b",
+      "email": "Stefan_Daugherty@hotmail.com",
+      "name": "Name YEKjWaanLfKezjpBZYwWehoMOXOlWjAKgiA",
+      "country": "Belarus",
+      "city": "City JcQuiJCNBPtZjJC",
+      "street": "Street yHfJ4lHcKnqX07K8c2MqgwWGiUTnrIEMB",
+      "house": 932,
+      "flat": 3042,
+      "phone": "+227240007780",
+      "createdOn": "2025-03-02T16:15:11.000Z",
+      "notes": "Notes rHTZeFEUfxopzhReVBxfBHQUUEmcItsyTCrUampUZMWlfRxwKNSHRgygsgFuEvesgfpgJyEGHRsiyXgParTdlXDSMpJdrbrUSnDVFyMhuIKMjMOmBfqVHOkICzkfjYMEUforUxFORMYzjyYsKNfLHISBtIVXYFgmmvkMQCTlKvAYcLvdfUPvjbLivklFRyfQjcUifeHzMrvkOZhtbaOVggKMKlMzIRkvcYFeuDkIQJtrXpEjFkme"
+    },
+    "products": [
+      {
+        "_id": "67c484107b4bcc16671b035e",
+        "name": "Sausages63668",
+        "amount": 533,
+        "price": 25852,
+        "manufacturer": "Tesla",
+        "notes": "qCEb7e6qzD6BYmw0jIpTD2MbRJV3sDWIs9MwK8h0w2Uc5CHemVGZrTnW1Fn3FAC68uZLcTU3kDxh1JneFERdpiYOw3tU807Xm6cdoGQNY8vNbO2u30nIlh7WOUaTrN7XZG59iaMeUc5QoGJ6NWPWDVTLZi4oBUmwlAYpKQGyoTgABdHR6RaRY10WCl60xDRSUpWjgNSCahaksEWBhDMSB1pvE5m0qUNLsDtYLbTM20z5GmpLppKlTF99JC",
+        "received": false
+      }
+    ],
+    "delivery": null,
+    "total_price": 25852,
+    "createdOn": "2025-03-02T16:15:12.000Z",
+    "comments": [],
+    "history": [
+      {
+        "status": "Draft",
+        "customer": "67c4840f7b4bcc16671b033b",
+        "products": [
+          {
+            "_id": "67c484107b4bcc16671b035e",
+            "name": "Sausages63668",
+            "amount": 533,
+            "price": 25852,
+            "manufacturer": "Tesla",
+            "notes": "qCEb7e6qzD6BYmw0jIpTD2MbRJV3sDWIs9MwK8h0w2Uc5CHemVGZrTnW1Fn3FAC68uZLcTU3kDxh1JneFERdpiYOw3tU807Xm6cdoGQNY8vNbO2u30nIlh7WOUaTrN7XZG59iaMeUc5QoGJ6NWPWDVTLZi4oBUmwlAYpKQGyoTgABdHR6RaRY10WCl60xDRSUpWjgNSCahaksEWBhDMSB1pvE5m0qUNLsDtYLbTM20z5GmpLppKlTF99JC",
+            "received": false
+          }
+        ],
+        "total_price": 25852,
+        "delivery": null,
+        "changedOn": "2025-03-02T16:15:12.000Z",
+        "action": "Order created"
+      }
+    ],
+    "_id": "67c484107b4bcc16671b0384"
+  },
+  "IsSuccess": true,
+  "ErrorMessage": null
+}

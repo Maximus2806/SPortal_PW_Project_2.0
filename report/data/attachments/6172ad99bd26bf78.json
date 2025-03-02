@@ -1,0 +1,13 @@
+{
+  "Product": {
+    "_id": "67c484127b4bcc16671b046b",
+    "name": "Pants13994",
+    "amount": 776,
+    "price": 12450,
+    "manufacturer": "Google",
+    "createdOn": "2025-03-02T16:15:14.000Z",
+    "notes": "CHnDPhsNXOiU9YgWiTxx4zzzTgp1w4BoSzw2hJrFGdXPQXUpVH1dhoCSTxxEST2ilDqR0eiTdcPhUAhVCzSJKoQ0dLbKKulILgPyz3lbIgw8i4wWX6xKKZLhq7xXYObdeM42JTH4Y8aBkYOAFZ7mOSJAbeqtbACcADcrs3nmbq12GTUZ3ZnoR2apfQULdCV8CZfc9z2pXtTpaxJBC9Wo2lGOMuQdqDxRIlfgq2oIkp2JS9M7P7w8tc5NaM"
+  },
+  "IsSuccess": true,
+  "ErrorMessage": null
+}

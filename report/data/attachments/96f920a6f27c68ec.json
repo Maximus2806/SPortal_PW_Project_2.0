@@ -1,0 +1,154 @@
+{
+  "Order": {
+    "_id": "67c484177b4bcc16671b067f",
+    "status": "Canceled",
+    "customer": {
+      "_id": "67c484167b4bcc16671b0622",
+      "email": "Ramona.Bartell@gmail.com",
+      "name": "Name FBFXrjXiCcKEuwIAwyneLOqSpoEJzMMzbGV",
+      "country": "Russia",
+      "city": "City ymGQrTpxNnNfEQb",
+      "street": "Street M621mECi0OBz3tJnTuY1RHVVONsfwxdCS",
+      "house": 530,
+      "flat": 7876,
+      "phone": "+409637739657",
+      "createdOn": "2025-03-02T16:15:18.000Z",
+      "notes": "Notes rdgyLGtezIoCREYxokfazoVQiWfRYfIblJsqnHssRRbTViCMMDFnctsyhXyzaAcBBMwhbwZGowSaaRZMbjHmLCgbwDcFuUcqHOXHOepJzdzbscMSAWRzKmRNpupVmrnwBWupfxhfuFluYquvgxCHsZnDVYgnvcrRDOcLOCCpFNXheaapPiqzcUMNqhsyBTvXbRqfupiykeBBSqmxZZNCrcFuZWlUsAmZsNdfHhXLxclSFvkpZtUp"
+    },
+    "products": [
+      {
+        "_id": "67c484177b4bcc16671b0654",
+        "name": "Pizza5100",
+        "amount": 843,
+        "price": 14884,
+        "manufacturer": "Xiaomi",
+        "notes": "QHo7RuQdwQzdU9t3UHIUqZlYNUwiYJmrE2u1t2aNliALkgmHMdT5LnGYxDm5G6qPhzF1xJJbQlaIgIGlygoJZeuZPhnjwR7bmhWmF5ScK9afNyNzvLJvoOcSiZJZlQKJ9qndOOZZG5ReuC30K9slAXE2EX3OeZFUly4ttlovsBqqKsznw14XzjyyBllA3MUDkbIt3nIR9e0H8RcmO31Y3rJgl6IEoA9W5UbRcbtKhtB62GyM9HmZDMPdm3",
+        "received": false
+      }
+    ],
+    "delivery": {
+      "address": {
+        "country": "Great Britain",
+        "city": "City tsJusbcOCJdkWFH",
+        "street": "Street Xnx05WtsEYGUqwsUOd3Qyvpq0MYeVyERI",
+        "house": 56,
+        "flat": 4136
+      },
+      "finalDate": "2025-03-06T00:00:00.000Z",
+      "condition": "Pickup"
+    },
+    "total_price": 14884,
+    "createdOn": "2025-03-02T16:15:19.000Z",
+    "comments": [],
+    "history": [
+      {
+        "status": "Canceled",
+        "customer": "67c484167b4bcc16671b0622",
+        "products": [
+          {
+            "_id": "67c484177b4bcc16671b0654",
+            "name": "Pizza5100",
+            "amount": 843,
+            "price": 14884,
+            "manufacturer": "Xiaomi",
+            "notes": "QHo7RuQdwQzdU9t3UHIUqZlYNUwiYJmrE2u1t2aNliALkgmHMdT5LnGYxDm5G6qPhzF1xJJbQlaIgIGlygoJZeuZPhnjwR7bmhWmF5ScK9afNyNzvLJvoOcSiZJZlQKJ9qndOOZZG5ReuC30K9slAXE2EX3OeZFUly4ttlovsBqqKsznw14XzjyyBllA3MUDkbIt3nIR9e0H8RcmO31Y3rJgl6IEoA9W5UbRcbtKhtB62GyM9HmZDMPdm3",
+            "received": false
+          }
+        ],
+        "total_price": 14884,
+        "delivery": {
+          "address": {
+            "country": "Great Britain",
+            "city": "City tsJusbcOCJdkWFH",
+            "street": "Street Xnx05WtsEYGUqwsUOd3Qyvpq0MYeVyERI",
+            "house": 56,
+            "flat": 4136
+          },
+          "finalDate": "2025-03-06T00:00:00.000Z",
+          "condition": "Pickup"
+        },
+        "changedOn": "2025-03-02T16:15:20.000Z",
+        "action": "Order canceled"
+      },
+      {
+        "status": "In Process",
+        "customer": "67c484167b4bcc16671b0622",
+        "products": [
+          {
+            "_id": "67c484177b4bcc16671b0654",
+            "name": "Pizza5100",
+            "amount": 843,
+            "price": 14884,
+            "manufacturer": "Xiaomi",
+            "notes": "QHo7RuQdwQzdU9t3UHIUqZlYNUwiYJmrE2u1t2aNliALkgmHMdT5LnGYxDm5G6qPhzF1xJJbQlaIgIGlygoJZeuZPhnjwR7bmhWmF5ScK9afNyNzvLJvoOcSiZJZlQKJ9qndOOZZG5ReuC30K9slAXE2EX3OeZFUly4ttlovsBqqKsznw14XzjyyBllA3MUDkbIt3nIR9e0H8RcmO31Y3rJgl6IEoA9W5UbRcbtKhtB62GyM9HmZDMPdm3",
+            "received": false
+          }
+        ],
+        "total_price": 14884,
+        "delivery": {
+          "address": {
+            "country": "Great Britain",
+            "city": "City tsJusbcOCJdkWFH",
+            "street": "Street Xnx05WtsEYGUqwsUOd3Qyvpq0MYeVyERI",
+            "house": 56,
+            "flat": 4136
+          },
+          "finalDate": "2025-03-06T00:00:00.000Z",
+          "condition": "Pickup"
+        },
+        "changedOn": "2025-03-02T16:15:20.000Z",
+        "action": "Order processing started"
+      },
+      {
+        "status": "Draft",
+        "customer": "67c484167b4bcc16671b0622",
+        "products": [
+          {
+            "_id": "67c484177b4bcc16671b0654",
+            "name": "Pizza5100",
+            "amount": 843,
+            "price": 14884,
+            "manufacturer": "Xiaomi",
+            "notes": "QHo7RuQdwQzdU9t3UHIUqZlYNUwiYJmrE2u1t2aNliALkgmHMdT5LnGYxDm5G6qPhzF1xJJbQlaIgIGlygoJZeuZPhnjwR7bmhWmF5ScK9afNyNzvLJvoOcSiZJZlQKJ9qndOOZZG5ReuC30K9slAXE2EX3OeZFUly4ttlovsBqqKsznw14XzjyyBllA3MUDkbIt3nIR9e0H8RcmO31Y3rJgl6IEoA9W5UbRcbtKhtB62GyM9HmZDMPdm3",
+            "received": false
+          }
+        ],
+        "total_price": 14884,
+        "delivery": {
+          "address": {
+            "country": "Great Britain",
+            "city": "City tsJusbcOCJdkWFH",
+            "street": "Street Xnx05WtsEYGUqwsUOd3Qyvpq0MYeVyERI",
+            "house": 56,
+            "flat": 4136
+          },
+          "finalDate": "2025-03-06T00:00:00.000Z",
+          "condition": "Pickup"
+        },
+        "changedOn": "2025-03-02T16:15:20.000Z",
+        "action": "Delivery Scheduled"
+      },
+      {
+        "status": "Draft",
+        "customer": "67c484167b4bcc16671b0622",
+        "products": [
+          {
+            "_id": "67c484177b4bcc16671b0654",
+            "name": "Pizza5100",
+            "amount": 843,
+            "price": 14884,
+            "manufacturer": "Xiaomi",
+            "notes": "QHo7RuQdwQzdU9t3UHIUqZlYNUwiYJmrE2u1t2aNliALkgmHMdT5LnGYxDm5G6qPhzF1xJJbQlaIgIGlygoJZeuZPhnjwR7bmhWmF5ScK9afNyNzvLJvoOcSiZJZlQKJ9qndOOZZG5ReuC30K9slAXE2EX3OeZFUly4ttlovsBqqKsznw14XzjyyBllA3MUDkbIt3nIR9e0H8RcmO31Y3rJgl6IEoA9W5UbRcbtKhtB62GyM9HmZDMPdm3",
+            "received": false
+          }
+        ],
+        "total_price": 14884,
+        "delivery": null,
+        "changedOn": "2025-03-02T16:15:19.000Z",
+        "action": "Order created"
+      }
+    ]
+  },
+  "IsSuccess": true,
+  "ErrorMessage": null
+}

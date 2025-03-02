@@ -1,0 +1,96 @@
+{
+  "Order": {
+    "_id": "67c4840d7b4bcc16671b0263",
+    "status": "Draft",
+    "customer": {
+      "_id": "67c4840d7b4bcc16671b021d",
+      "email": "Pat_Zieme45@gmail.com",
+      "name": "Name qtdKJYVlWQTyLAWwJknlaiHhAuXGccCRhsP",
+      "country": "Great Britain",
+      "city": "City VFFPwyHiNfqKigF",
+      "street": "Street CgSgnZmUvjjgEP4CneEpdNtxFq3GxtRUc",
+      "house": 380,
+      "flat": 3887,
+      "phone": "+223715430848",
+      "createdOn": "2025-03-02T16:15:09.000Z",
+      "notes": "Notes XmJTnUYAWKAXjwbjeXeiqhAjMSiwPpVzDAXVPerowekkqoQphkcvNyrMIlygjvAAMRmnnxBtqKWGGRwvKThOYmaAVfKFVmVNuESPmktfRhneOigdAKyVkXAOGrCbqbJljjDIQYxikvmLDVAUbiWsQipNgrGSPBTrPrvtjvkRsOqzgYTjcbTwPiocwqbQPkEGsAqVQPptBWbacoWuOHAHlOLvnBrsNvGWpxYMUEiuhPVQeSViIKHd"
+    },
+    "products": [
+      {
+        "_id": "67c4840d7b4bcc16671b0236",
+        "name": "Gloves99214",
+        "amount": 953,
+        "price": 55675,
+        "manufacturer": "Sony",
+        "notes": "MPCQUXcWZZic5HtUCW4UPuQuy3UjA9IC5h4D1rdemenUTEvY9XQttK9RGg8Ni09G6Vmpyb3wVISaRXw0Kwzbjw6mizCPbDKLs8f7oCQ9dw0gLWFXzQlxTngTblB5AzUCKHACfVTlGzCDyxaUwNCNn4ovbggnhiKBH3NzZgLfkk8IYtzfQGqix6Udsu6V7LJQqFlLzwltuv48KMzFzTPndRuKRbuHMcS7hZmHgTNNay6tPTkbcEAYonRGC1",
+        "received": false
+      }
+    ],
+    "delivery": {
+      "address": {
+        "country": "Ukraine",
+        "city": "City euSFbOmhizozEih",
+        "street": "Street 90mokrV2g5LmEBuzxBP1P7y6rRIw9lI72",
+        "house": 914,
+        "flat": 9061
+      },
+      "finalDate": "2025-03-10T00:00:00.000Z",
+      "condition": "Delivery"
+    },
+    "total_price": 55675,
+    "createdOn": "2025-03-02T16:15:09.000Z",
+    "comments": [],
+    "history": [
+      {
+        "status": "Draft",
+        "customer": "67c4840d7b4bcc16671b021d",
+        "products": [
+          {
+            "_id": "67c4840d7b4bcc16671b0236",
+            "name": "Gloves99214",
+            "amount": 953,
+            "price": 55675,
+            "manufacturer": "Sony",
+            "notes": "MPCQUXcWZZic5HtUCW4UPuQuy3UjA9IC5h4D1rdemenUTEvY9XQttK9RGg8Ni09G6Vmpyb3wVISaRXw0Kwzbjw6mizCPbDKLs8f7oCQ9dw0gLWFXzQlxTngTblB5AzUCKHACfVTlGzCDyxaUwNCNn4ovbggnhiKBH3NzZgLfkk8IYtzfQGqix6Udsu6V7LJQqFlLzwltuv48KMzFzTPndRuKRbuHMcS7hZmHgTNNay6tPTkbcEAYonRGC1",
+            "received": false
+          }
+        ],
+        "total_price": 55675,
+        "delivery": {
+          "address": {
+            "country": "Ukraine",
+            "city": "City euSFbOmhizozEih",
+            "street": "Street 90mokrV2g5LmEBuzxBP1P7y6rRIw9lI72",
+            "house": 914,
+            "flat": 9061
+          },
+          "finalDate": "2025-03-10T00:00:00.000Z",
+          "condition": "Delivery"
+        },
+        "changedOn": "2025-03-02T16:15:10.000Z",
+        "action": "Delivery Scheduled"
+      },
+      {
+        "status": "Draft",
+        "customer": "67c4840d7b4bcc16671b021d",
+        "products": [
+          {
+            "_id": "67c4840d7b4bcc16671b0236",
+            "name": "Gloves99214",
+            "amount": 953,
+            "price": 55675,
+            "manufacturer": "Sony",
+            "notes": "MPCQUXcWZZic5HtUCW4UPuQuy3UjA9IC5h4D1rdemenUTEvY9XQttK9RGg8Ni09G6Vmpyb3wVISaRXw0Kwzbjw6mizCPbDKLs8f7oCQ9dw0gLWFXzQlxTngTblB5AzUCKHACfVTlGzCDyxaUwNCNn4ovbggnhiKBH3NzZgLfkk8IYtzfQGqix6Udsu6V7LJQqFlLzwltuv48KMzFzTPndRuKRbuHMcS7hZmHgTNNay6tPTkbcEAYonRGC1",
+            "received": false
+          }
+        ],
+        "total_price": 55675,
+        "delivery": null,
+        "changedOn": "2025-03-02T16:15:09.000Z",
+        "action": "Order created"
+      }
+    ]
+  },
+  "IsSuccess": true,
+  "ErrorMessage": null
+}

@@ -1,0 +1,96 @@
+{
+  "Order": {
+    "_id": "67c484107b4bcc16671b0381",
+    "status": "Draft",
+    "customer": {
+      "_id": "67c4840f7b4bcc16671b02f4",
+      "email": "Kaylin.Kub58@gmail.com",
+      "name": "Name cYpqmnSSuGPFwTqdcHDHrMncYhagiLdjuXx",
+      "country": "Great Britain",
+      "city": "City LGuCQEuadeLOrNG",
+      "street": "Street AhVEKgKlyHs7cbFV2IXo3kEWMR7pQFdQW",
+      "house": 105,
+      "flat": 2619,
+      "phone": "+696437173132",
+      "createdOn": "2025-03-02T16:15:11.000Z",
+      "notes": "Notes EddTpeZqyxiZQoOARlvxHAZWqywhenwkbUhxlHPhoYhSzLkEeRxHkAHoKxaloZkdYgHckmpIBOHiPdUIHsscRrazMPEvftEeroHKmlXmBNVmCPwPCIBVbTZtwDkzwBIIStwrdrNUqfvbXCDtHIiSMlwZRgLaUZexTTYcxqJPAiHbNXOoSuADixdlmbAoHOBScQDzVbXyJDdVaMGYNeclTEzlgnngqWHMojghqKYmoJzOHDmruWpA"
+    },
+    "products": [
+      {
+        "_id": "67c4840f7b4bcc16671b032c",
+        "name": "Bike89993",
+        "amount": 845,
+        "price": 15206,
+        "manufacturer": "Samsung",
+        "notes": "1rw19mA6Ha9Q13CoObWBE4i2Xc3r2XrxmWK6AV9CdVp0502MpwqqCG2vg66ZolQrDoZgleJ4dPIVAXCjPhUziCOFLDPGDuhfsTHNQwK3oyRWtabkeAC1PPmkmZm30sspr7RRxXLTNTicN1kt2RgiZy5LzleoMs4mpusy75GAWzECCza7g6oAo46kuYABOhsz1HSB0jsAU89g7bnhY1zz78Hnyw8cyG1XO1N6z8WNm2wsAyqJj8m4nsMVrh",
+        "received": false
+      }
+    ],
+    "delivery": {
+      "address": {
+        "country": "Russia",
+        "city": "City wUnEUqBMylcYTdi",
+        "street": "Street aPHsPOuXvcwt5n52PGhry1QQ3zOtKozZU",
+        "house": 124,
+        "flat": 4066
+      },
+      "finalDate": "2025-03-10T00:00:00.000Z",
+      "condition": "Pickup"
+    },
+    "total_price": 15206,
+    "createdOn": "2025-03-02T16:15:12.000Z",
+    "comments": [],
+    "history": [
+      {
+        "status": "Draft",
+        "customer": "67c4840f7b4bcc16671b02f4",
+        "products": [
+          {
+            "_id": "67c4840f7b4bcc16671b032c",
+            "name": "Bike89993",
+            "amount": 845,
+            "price": 15206,
+            "manufacturer": "Samsung",
+            "notes": "1rw19mA6Ha9Q13CoObWBE4i2Xc3r2XrxmWK6AV9CdVp0502MpwqqCG2vg66ZolQrDoZgleJ4dPIVAXCjPhUziCOFLDPGDuhfsTHNQwK3oyRWtabkeAC1PPmkmZm30sspr7RRxXLTNTicN1kt2RgiZy5LzleoMs4mpusy75GAWzECCza7g6oAo46kuYABOhsz1HSB0jsAU89g7bnhY1zz78Hnyw8cyG1XO1N6z8WNm2wsAyqJj8m4nsMVrh",
+            "received": false
+          }
+        ],
+        "total_price": 15206,
+        "delivery": {
+          "address": {
+            "country": "Russia",
+            "city": "City wUnEUqBMylcYTdi",
+            "street": "Street aPHsPOuXvcwt5n52PGhry1QQ3zOtKozZU",
+            "house": 124,
+            "flat": 4066
+          },
+          "finalDate": "2025-03-10T00:00:00.000Z",
+          "condition": "Pickup"
+        },
+        "changedOn": "2025-03-02T16:15:13.000Z",
+        "action": "Delivery Scheduled"
+      },
+      {
+        "status": "Draft",
+        "customer": "67c4840f7b4bcc16671b02f4",
+        "products": [
+          {
+            "_id": "67c4840f7b4bcc16671b032c",
+            "name": "Bike89993",
+            "amount": 845,
+            "price": 15206,
+            "manufacturer": "Samsung",
+            "notes": "1rw19mA6Ha9Q13CoObWBE4i2Xc3r2XrxmWK6AV9CdVp0502MpwqqCG2vg66ZolQrDoZgleJ4dPIVAXCjPhUziCOFLDPGDuhfsTHNQwK3oyRWtabkeAC1PPmkmZm30sspr7RRxXLTNTicN1kt2RgiZy5LzleoMs4mpusy75GAWzECCza7g6oAo46kuYABOhsz1HSB0jsAU89g7bnhY1zz78Hnyw8cyG1XO1N6z8WNm2wsAyqJj8m4nsMVrh",
+            "received": false
+          }
+        ],
+        "total_price": 15206,
+        "delivery": null,
+        "changedOn": "2025-03-02T16:15:12.000Z",
+        "action": "Order created"
+      }
+    ]
+  },
+  "IsSuccess": true,
+  "ErrorMessage": null
+}

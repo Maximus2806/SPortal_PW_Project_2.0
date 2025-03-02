@@ -1,0 +1,112 @@
+{
+  "Order": {
+    "_id": "67c484127b4bcc16671b0440",
+    "status": "Draft",
+    "customer": {
+      "_id": "67c484107b4bcc16671b03b7",
+      "email": "Kacey_Wehner@hotmail.com",
+      "name": "Name wGXGNXhnCjpIqfrzBvUwuGMVQoCfdrSBqOQ",
+      "country": "Russia",
+      "city": "City EbTUdDYgnHUucbR",
+      "street": "Street Qtu86zcWaGwSSpVjDzR4f43Ph8sOiAxT5",
+      "house": 862,
+      "flat": 5234,
+      "phone": "+192125602087",
+      "createdOn": "2025-03-02T16:15:12.000Z",
+      "notes": "Notes LfWYSCIdHQeRxarvwZNAoJYtSHzIdRJlJOcSsZBGUOXfnCtJjTJKlbjtGKWsyCOOEJPKaNjitBIzWTZCJmlCEPGHlFuejpJmTOqcdLEqztUAmuVFyaQKasvsBnJdJqyraiWxfOSIBSkUIrpaIkHchwaTeZjHgHMzvWqyNmregKYkgEOmwSpqGJnYRmZiAdOIHVYsKBqauhvVnoZEwZAbISxMbPfMKaMwPiSlBcZuYQdQsGYcFcWc"
+    },
+    "products": [
+      {
+        "_id": "67c484117b4bcc16671b03f3",
+        "name": "Chips64341",
+        "amount": 571,
+        "price": 72318,
+        "manufacturer": "Microsoft",
+        "notes": "NxaLnIQSOVXye4K8HBZhbq6ovee1Zua4UJqmnxQozXPhvQ2riNb5E6ALzFksEvR5AMfke25C3qUd9syyAGVilbgkvFKkTTijH7gHvpLBAB0qfR83kdP6cvkZ1ZQwwyo39PIVcAOSQEAlB7TPoET4heCiCO6bxLagebKB6MMdZvaL6wOvfwWVGDF6XId1N54nNHdZ8IktNeyQna3TcIWKbfkpMK05sJcl30HbjFSgJgIUDo8VQeTAjjeUwD",
+        "received": false
+      },
+      {
+        "_id": "67c484127b4bcc16671b0480",
+        "name": "Tuna41278",
+        "amount": 7,
+        "price": 71949,
+        "manufacturer": "Amazon",
+        "notes": "4TqBhERmDTIwzNzfIQjOjjPyuguWb4O7MV7xSI87RclloxAWHtvxBj4jqfZeFKS4v1RkMzEtKVblJ2BhDWLlnDb88b1TfV8BNEpxyz6cbcNkwIszqLIcIntU2ySj0luFxrIZUBmSDdOOI0FRRZPJiyspUbCb09hewRg4iko6ScfvsrfPFjTkt5BxjtcQS6bRrTR58w4irUIdfiwtVsICXIGjhS3TEYUPT88fpFM1BZEBeUYIkjmm2oSG7a",
+        "received": false
+      },
+      {
+        "_id": "67c484137b4bcc16671b04bf",
+        "name": "Cheese17207",
+        "amount": 917,
+        "price": 7013,
+        "manufacturer": "Amazon",
+        "notes": "5iPgULpyuC48qgOGpSzTNQho9uJ9LErm8m0Z3lEjtIisb2TvlZhrKg8SiVOo6pM2kZ7Sz8S1AqqEiIzGFDe8HGFtnKBeoerzJpHSfejh0Q03f9d92BQ2hBzBfsNJ0JuSm5KWFPGhHznPEvmZit8cdLmSXcunIxQz4p5uDG493osJL7c6FtBj28pKFNvA5Wzv3Da9bfactB1Om3KtSTaU15SSFC4QF373j1UZU8SEvKAOAS5V6mRrauW0ik",
+        "received": false
+      }
+    ],
+    "delivery": null,
+    "total_price": 151280,
+    "createdOn": "2025-03-02T16:15:14.000Z",
+    "comments": [],
+    "history": [
+      {
+        "status": "Draft",
+        "customer": "67c484107b4bcc16671b03b7",
+        "products": [
+          {
+            "_id": "67c484117b4bcc16671b03f3",
+            "name": "Chips64341",
+            "amount": 571,
+            "price": 72318,
+            "manufacturer": "Microsoft",
+            "notes": "NxaLnIQSOVXye4K8HBZhbq6ovee1Zua4UJqmnxQozXPhvQ2riNb5E6ALzFksEvR5AMfke25C3qUd9syyAGVilbgkvFKkTTijH7gHvpLBAB0qfR83kdP6cvkZ1ZQwwyo39PIVcAOSQEAlB7TPoET4heCiCO6bxLagebKB6MMdZvaL6wOvfwWVGDF6XId1N54nNHdZ8IktNeyQna3TcIWKbfkpMK05sJcl30HbjFSgJgIUDo8VQeTAjjeUwD",
+            "received": false
+          },
+          {
+            "_id": "67c484127b4bcc16671b0480",
+            "name": "Tuna41278",
+            "amount": 7,
+            "price": 71949,
+            "manufacturer": "Amazon",
+            "notes": "4TqBhERmDTIwzNzfIQjOjjPyuguWb4O7MV7xSI87RclloxAWHtvxBj4jqfZeFKS4v1RkMzEtKVblJ2BhDWLlnDb88b1TfV8BNEpxyz6cbcNkwIszqLIcIntU2ySj0luFxrIZUBmSDdOOI0FRRZPJiyspUbCb09hewRg4iko6ScfvsrfPFjTkt5BxjtcQS6bRrTR58w4irUIdfiwtVsICXIGjhS3TEYUPT88fpFM1BZEBeUYIkjmm2oSG7a",
+            "received": false
+          },
+          {
+            "_id": "67c484137b4bcc16671b04bf",
+            "name": "Cheese17207",
+            "amount": 917,
+            "price": 7013,
+            "manufacturer": "Amazon",
+            "notes": "5iPgULpyuC48qgOGpSzTNQho9uJ9LErm8m0Z3lEjtIisb2TvlZhrKg8SiVOo6pM2kZ7Sz8S1AqqEiIzGFDe8HGFtnKBeoerzJpHSfejh0Q03f9d92BQ2hBzBfsNJ0JuSm5KWFPGhHznPEvmZit8cdLmSXcunIxQz4p5uDG493osJL7c6FtBj28pKFNvA5Wzv3Da9bfactB1Om3KtSTaU15SSFC4QF373j1UZU8SEvKAOAS5V6mRrauW0ik",
+            "received": false
+          }
+        ],
+        "total_price": 151280,
+        "delivery": null,
+        "changedOn": "2025-03-02T16:15:16.000Z",
+        "action": "Requested products changed"
+      },
+      {
+        "status": "Draft",
+        "customer": "67c484107b4bcc16671b03b7",
+        "products": [
+          {
+            "_id": "67c484117b4bcc16671b03f3",
+            "name": "Chips64341",
+            "amount": 571,
+            "price": 72318,
+            "manufacturer": "Microsoft",
+            "notes": "NxaLnIQSOVXye4K8HBZhbq6ovee1Zua4UJqmnxQozXPhvQ2riNb5E6ALzFksEvR5AMfke25C3qUd9syyAGVilbgkvFKkTTijH7gHvpLBAB0qfR83kdP6cvkZ1ZQwwyo39PIVcAOSQEAlB7TPoET4heCiCO6bxLagebKB6MMdZvaL6wOvfwWVGDF6XId1N54nNHdZ8IktNeyQna3TcIWKbfkpMK05sJcl30HbjFSgJgIUDo8VQeTAjjeUwD",
+            "received": false
+          }
+        ],
+        "total_price": 72318,
+        "delivery": null,
+        "changedOn": "2025-03-02T16:15:14.000Z",
+        "action": "Order created"
+      }
+    ]
+  },
+  "IsSuccess": true,
+  "ErrorMessage": null
+}

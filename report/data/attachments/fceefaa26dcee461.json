@@ -1,0 +1,13 @@
+{
+  "Product": {
+    "name": "Bike93902",
+    "amount": 928,
+    "price": 53337,
+    "manufacturer": "Microsoft",
+    "createdOn": "2025-03-02T16:15:01.000Z",
+    "notes": "bAJyoBUtwtprrEIwlvFOxVp6VQ6KnZHRVf7o4ldsxWn84zRO3QXhcIVXPuJRAdEIJqnrcMIhle1hGjHZaU2uRylvXML4hwN2TciuNUWSebvNCPfgAg8qVnzq1Ovw5OPrtTLinfS6D3LU3pRmmuufXawuRMjMJAs91HCAlCoL0dgSEDvSu6RPfSBJSOPo9EEHtymHPI6Z03hDh8fUXOexomJeKoXYcp7uLmjqRFKADdmyLfJesvaKKKZuIh",
+    "_id": "67c484057b4bcc16671b018c"
+  },
+  "IsSuccess": true,
+  "ErrorMessage": null
+}

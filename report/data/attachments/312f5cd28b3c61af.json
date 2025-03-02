@@ -1,0 +1,57 @@
+{
+  "Order": {
+    "status": "Draft",
+    "customer": {
+      "_id": "67c484197b4bcc16671b0766",
+      "email": "Phyllis_Blanda99@yahoo.com",
+      "name": "Name OwcrYELtdNlZVIFoLaOFweTlijgdWKxnRJA",
+      "country": "Belarus",
+      "city": "City PjNktxQRbxFmVGL",
+      "street": "Street McPQrk2mbh0LGLUHeyHJoQlS7YHAp8QTI",
+      "house": 224,
+      "flat": 6241,
+      "phone": "+336596139921",
+      "createdOn": "2025-03-02T16:15:21.000Z",
+      "notes": "Notes YWwHhOjxRtkLjRbJETXAgNxdvfmZPzGiMqgQiqLETXcYQmNFBsJqUBShVDYjVcjOzYNWlumyzHIGcEGpIYtkjhRevjQsHZQnoUmCMonMMuelxuYArZtBFsOeITIGzKswGoDcIgyLzfMtCmRrBfnoARpDZkRSSpLpohqdIonnvjQxOzGCsazqyiIEIGfLtvntCEezJnglAxGkwxCdiLFgEKBokLiaVnxsISNWQBxpcMUlSGPlCXQD"
+    },
+    "products": [
+      {
+        "_id": "67c4841a7b4bcc16671b078e",
+        "name": "Keyboard92016",
+        "amount": 999,
+        "price": 98086,
+        "manufacturer": "Amazon",
+        "notes": "YEVlJd0ggEZWnWfT4JNCX4JVG3lJDmMVIv36BaaYpnHVbVx8HvlIe2ktw0tmcO0AN6JJ9vxlnuH499Ak9ypGA6Ueb4DEnAit03sbwjurliL9cOKhZUC4F9KWde2w2T0xxsavQXcAboHZMzI2aQEPb3iqAOZmE7Dvw2JxcnxefrfseLMCodpQ7fzRemG9n3NzgH7P9FsJMWg0doJQpALC3GRpdqRQT9n1Bl87d3uvKQuFUDPzYh4bJmruF9",
+        "received": false
+      }
+    ],
+    "delivery": null,
+    "total_price": 98086,
+    "createdOn": "2025-03-02T16:15:22.000Z",
+    "comments": [],
+    "history": [
+      {
+        "status": "Draft",
+        "customer": "67c484197b4bcc16671b0766",
+        "products": [
+          {
+            "_id": "67c4841a7b4bcc16671b078e",
+            "name": "Keyboard92016",
+            "amount": 999,
+            "price": 98086,
+            "manufacturer": "Amazon",
+            "notes": "YEVlJd0ggEZWnWfT4JNCX4JVG3lJDmMVIv36BaaYpnHVbVx8HvlIe2ktw0tmcO0AN6JJ9vxlnuH499Ak9ypGA6Ueb4DEnAit03sbwjurliL9cOKhZUC4F9KWde2w2T0xxsavQXcAboHZMzI2aQEPb3iqAOZmE7Dvw2JxcnxefrfseLMCodpQ7fzRemG9n3NzgH7P9FsJMWg0doJQpALC3GRpdqRQT9n1Bl87d3uvKQuFUDPzYh4bJmruF9",
+            "received": false
+          }
+        ],
+        "total_price": 98086,
+        "delivery": null,
+        "changedOn": "2025-03-02T16:15:22.000Z",
+        "action": "Order created"
+      }
+    ],
+    "_id": "67c4841a7b4bcc16671b07ac"
+  },
+  "IsSuccess": true,
+  "ErrorMessage": null
+}

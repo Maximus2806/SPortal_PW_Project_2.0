@@ -1,0 +1,95 @@
+{
+  "Order": {
+    "_id": "67c4840b7b4bcc16671b01de",
+    "status": "Draft",
+    "customer": {
+      "_id": "67c4840d7b4bcc16671b021b",
+      "email": "Tyler.Sipes38@gmail.com",
+      "name": "Name LxXxYVrztQJFOTOmJJAfeNwSjznqXeFCIhN",
+      "country": "Russia",
+      "city": "City lygtCdxYnNdLoVY",
+      "street": "Street znuXtrAm5Rj5gUUJQ5SwPchuFpzQxWptJ",
+      "house": 686,
+      "flat": 4129,
+      "phone": "+810865034708",
+      "createdOn": "2025-03-02T16:15:09.000Z",
+      "notes": "Notes kocbZuFeYUprsZWwHlApabMRbYqWPwnzIqaYicIbgNmOJImcHnXqMbptGSucFxxqRjzEyJHLMhPymFKCMoLLjkjhNcoFyqncsiWktVXvUmkkavVMxQMdZvPBYonNdkcYGoIZJauvbHBkKmrfhkmngpUcCTLnicQMXDCtHMFcqHnIecxFuKaGwMpNYnCGnXLDfsHUnQonJgNqIjZhWbYGclprYrOLUOjJOoDoTCjZZUCMrwaLNrCe"
+    },
+    "products": [
+      {
+        "_id": "67c4840d7b4bcc16671b025e",
+        "name": "Tuna55732",
+        "amount": 987,
+        "price": 81827,
+        "manufacturer": "Xiaomi",
+        "notes": "J7MlSXUIrmO2Hs1grFw3Y655q36Nf1c3eKApZUer8P2dd1h3C7fCnU5nc3DqctWrz1Rft6xMqglyBbL4wVzdGf2WFHQ1a7lGNb3oXOULOazzmwvpX7l3Hpxk2hwieQkCv9oVA98XfIhE3ZcPmxZMSuNc1AiDchEQYySFP0hA5qiUxw42bRgN9cyVTZ4CDX0RHJT9W465Cjp1UEOdQjM4ekrKrsph4OIzFycd6hyToLmwfJIUGFATeag1l5",
+        "received": false
+      }
+    ],
+    "delivery": null,
+    "total_price": 81827,
+    "createdOn": "2025-03-02T16:15:07.000Z",
+    "comments": [],
+    "history": [
+      {
+        "status": "Draft",
+        "customer": "67c4840d7b4bcc16671b021b",
+        "products": [
+          {
+            "_id": "67c484057b4bcc16671b018c",
+            "name": "Bike93902",
+            "amount": 928,
+            "price": 53337,
+            "manufacturer": "Microsoft",
+            "notes": "bAJyoBUtwtprrEIwlvFOxVp6VQ6KnZHRVf7o4ldsxWn84zRO3QXhcIVXPuJRAdEIJqnrcMIhle1hGjHZaU2uRylvXML4hwN2TciuNUWSebvNCPfgAg8qVnzq1Ovw5OPrtTLinfS6D3LU3pRmmuufXawuRMjMJAs91HCAlCoL0dgSEDvSu6RPfSBJSOPo9EEHtymHPI6Z03hDh8fUXOexomJeKoXYcp7uLmjqRFKADdmyLfJesvaKKKZuIh",
+            "received": false
+          }
+        ],
+        "total_price": 81827,
+        "delivery": null,
+        "changedOn": "2025-03-02T16:15:10.000Z",
+        "action": "Customer changed"
+      },
+      {
+        "status": "Draft",
+        "customer": "67c484027b4bcc16671b0154",
+        "products": [
+          {
+            "_id": "67c4840d7b4bcc16671b025e",
+            "name": "Tuna55732",
+            "amount": 987,
+            "price": 81827,
+            "manufacturer": "Xiaomi",
+            "notes": "J7MlSXUIrmO2Hs1grFw3Y655q36Nf1c3eKApZUer8P2dd1h3C7fCnU5nc3DqctWrz1Rft6xMqglyBbL4wVzdGf2WFHQ1a7lGNb3oXOULOazzmwvpX7l3Hpxk2hwieQkCv9oVA98XfIhE3ZcPmxZMSuNc1AiDchEQYySFP0hA5qiUxw42bRgN9cyVTZ4CDX0RHJT9W465Cjp1UEOdQjM4ekrKrsph4OIzFycd6hyToLmwfJIUGFATeag1l5",
+            "received": false
+          }
+        ],
+        "total_price": 81827,
+        "delivery": null,
+        "changedOn": "2025-03-02T16:15:10.000Z",
+        "action": "Requested products changed"
+      },
+      {
+        "status": "Draft",
+        "customer": "67c484027b4bcc16671b0154",
+        "products": [
+          {
+            "_id": "67c484057b4bcc16671b018c",
+            "name": "Bike93902",
+            "amount": 928,
+            "price": 53337,
+            "manufacturer": "Microsoft",
+            "notes": "bAJyoBUtwtprrEIwlvFOxVp6VQ6KnZHRVf7o4ldsxWn84zRO3QXhcIVXPuJRAdEIJqnrcMIhle1hGjHZaU2uRylvXML4hwN2TciuNUWSebvNCPfgAg8qVnzq1Ovw5OPrtTLinfS6D3LU3pRmmuufXawuRMjMJAs91HCAlCoL0dgSEDvSu6RPfSBJSOPo9EEHtymHPI6Z03hDh8fUXOexomJeKoXYcp7uLmjqRFKADdmyLfJesvaKKKZuIh",
+            "received": false
+          }
+        ],
+        "total_price": 53337,
+        "delivery": null,
+        "changedOn": "2025-03-02T16:15:07.000Z",
+        "action": "Order created"
+      }
+    ]
+  },
+  "IsSuccess": true,
+  "ErrorMessage": null
+}

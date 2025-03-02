@@ -1,0 +1,28 @@
+{
+  "Products": [
+    {
+      "_id": "67c4840f7b4bcc16671b0353",
+      "name": "Tuna23785",
+      "amount": 647,
+      "price": 11963,
+      "manufacturer": "Microsoft",
+      "createdOn": "2025-03-02T16:15:11.000Z",
+      "notes": "H3j63AwLFKxLZjToRG7jabZ8QOCBh0WVAWgd6qizkWTqaJlFXVTWZLBC2dpCAlewPTVn7VpErT80540V3iq80iJHjnowLEg3O2y0FGBQqkLSgJl0LRbXDVFp6v1ppFVRjJ5HVgfvmVmVGu4WT61oPTvhWTz26GNQg0QlGn2aiIWKGnWAoiqh6gRMwXMGbM80M766KrBw1f0fxRjDB98EmL9o7FQhFQWFgt8RW1EoEHF9dZ1qMxzoKV4kJG"
+    },
+    {
+      "_id": "67c4840d7b4bcc16671b025e",
+      "name": "Tuna55732",
+      "amount": 987,
+      "price": 81827,
+      "manufacturer": "Xiaomi",
+      "createdOn": "2025-03-02T16:15:09.000Z",
+      "notes": "J7MlSXUIrmO2Hs1grFw3Y655q36Nf1c3eKApZUer8P2dd1h3C7fCnU5nc3DqctWrz1Rft6xMqglyBbL4wVzdGf2WFHQ1a7lGNb3oXOULOazzmwvpX7l3Hpxk2hwieQkCv9oVA98XfIhE3ZcPmxZMSuNc1AiDchEQYySFP0hA5qiUxw42bRgN9cyVTZ4CDX0RHJT9W465Cjp1UEOdQjM4ekrKrsph4OIzFycd6hyToLmwfJIUGFATeag1l5"
+    }
+  ],
+  "sorting": {
+    "sortField": "createdOn",
+    "sortOrder": "desc"
+  },
+  "IsSuccess": true,
+  "ErrorMessage": null
+}

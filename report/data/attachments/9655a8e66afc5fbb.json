@@ -1,0 +1,93 @@
+{
+  "Order": {
+    "status": "Draft",
+    "customer": {
+      "_id": "67c484157b4bcc16671b05d7",
+      "email": "Sabryna_Welch1@gmail.com",
+      "name": "Name DoSdPdBpQYlSgZptlXNIGpzzTSVSeHqjOpw",
+      "country": "Belarus",
+      "city": "City jaxWtxMOdjODkgU",
+      "street": "Street jCkPUSTfZKkZFgmkH7NreYVbK2Bs0OzFy",
+      "house": 362,
+      "flat": 7078,
+      "phone": "+23734939043",
+      "createdOn": "2025-03-02T16:15:17.000Z",
+      "notes": "Notes ZMwQiCyhAiVaVHgEHavYgCIirvqWsbMiKJIjagHTfnGuZDfYreLIYwTxHpnqzwwtepmBPkwTpRkfcyqYULodcNHIaSUhIaseJwqWAUntWVaQEPWSVEqnmpRSRYBDAbXzPCytllPwfeUPveMMtJKxETGQQFgsnQKavjDjnyylLUkdgJhvXSvdbHkZttSGpAHLNiFLAylQvUEcqaiWDnNUyyywkkmeUSVtaPDbNnzjfYfbRWHtgTkh"
+    },
+    "products": [
+      {
+        "_id": "67c484167b4bcc16671b0604",
+        "name": "Ball93312",
+        "amount": 177,
+        "price": 99848,
+        "manufacturer": "Google",
+        "notes": "wUNCJNTOsRbGnkr5nm1uHRqseuBirDlj0h0skHRKoKmz3L8yqLErI0hhvhONP9JNFIgV03CsN39thpGrNgaMm32m05EAh08LcaANM5CVgxWORFDKUDnqd7zWXq0EecjE6tJii1KR082VvBghbsIEtKhEfflcz4KmtAb7pHeZw5vdPvDK5xMHle2PoSSfWRoF01Bj9MaTxlwpDZKViGqjgc4H3zJsZIEm1BWFinwWnaeIwVGayQLj6SY4gu",
+        "received": false
+      },
+      {
+        "_id": "67c484167b4bcc16671b0604",
+        "name": "Ball93312",
+        "amount": 177,
+        "price": 99848,
+        "manufacturer": "Google",
+        "notes": "wUNCJNTOsRbGnkr5nm1uHRqseuBirDlj0h0skHRKoKmz3L8yqLErI0hhvhONP9JNFIgV03CsN39thpGrNgaMm32m05EAh08LcaANM5CVgxWORFDKUDnqd7zWXq0EecjE6tJii1KR082VvBghbsIEtKhEfflcz4KmtAb7pHeZw5vdPvDK5xMHle2PoSSfWRoF01Bj9MaTxlwpDZKViGqjgc4H3zJsZIEm1BWFinwWnaeIwVGayQLj6SY4gu",
+        "received": false
+      },
+      {
+        "_id": "67c484167b4bcc16671b0604",
+        "name": "Ball93312",
+        "amount": 177,
+        "price": 99848,
+        "manufacturer": "Google",
+        "notes": "wUNCJNTOsRbGnkr5nm1uHRqseuBirDlj0h0skHRKoKmz3L8yqLErI0hhvhONP9JNFIgV03CsN39thpGrNgaMm32m05EAh08LcaANM5CVgxWORFDKUDnqd7zWXq0EecjE6tJii1KR082VvBghbsIEtKhEfflcz4KmtAb7pHeZw5vdPvDK5xMHle2PoSSfWRoF01Bj9MaTxlwpDZKViGqjgc4H3zJsZIEm1BWFinwWnaeIwVGayQLj6SY4gu",
+        "received": false
+      }
+    ],
+    "delivery": null,
+    "total_price": 299544,
+    "createdOn": "2025-03-02T16:15:18.000Z",
+    "comments": [],
+    "history": [
+      {
+        "status": "Draft",
+        "customer": "67c484157b4bcc16671b05d7",
+        "products": [
+          {
+            "_id": "67c484167b4bcc16671b0604",
+            "name": "Ball93312",
+            "amount": 177,
+            "price": 99848,
+            "manufacturer": "Google",
+            "notes": "wUNCJNTOsRbGnkr5nm1uHRqseuBirDlj0h0skHRKoKmz3L8yqLErI0hhvhONP9JNFIgV03CsN39thpGrNgaMm32m05EAh08LcaANM5CVgxWORFDKUDnqd7zWXq0EecjE6tJii1KR082VvBghbsIEtKhEfflcz4KmtAb7pHeZw5vdPvDK5xMHle2PoSSfWRoF01Bj9MaTxlwpDZKViGqjgc4H3zJsZIEm1BWFinwWnaeIwVGayQLj6SY4gu",
+            "received": false
+          },
+          {
+            "_id": "67c484167b4bcc16671b0604",
+            "name": "Ball93312",
+            "amount": 177,
+            "price": 99848,
+            "manufacturer": "Google",
+            "notes": "wUNCJNTOsRbGnkr5nm1uHRqseuBirDlj0h0skHRKoKmz3L8yqLErI0hhvhONP9JNFIgV03CsN39thpGrNgaMm32m05EAh08LcaANM5CVgxWORFDKUDnqd7zWXq0EecjE6tJii1KR082VvBghbsIEtKhEfflcz4KmtAb7pHeZw5vdPvDK5xMHle2PoSSfWRoF01Bj9MaTxlwpDZKViGqjgc4H3zJsZIEm1BWFinwWnaeIwVGayQLj6SY4gu",
+            "received": false
+          },
+          {
+            "_id": "67c484167b4bcc16671b0604",
+            "name": "Ball93312",
+            "amount": 177,
+            "price": 99848,
+            "manufacturer": "Google",
+            "notes": "wUNCJNTOsRbGnkr5nm1uHRqseuBirDlj0h0skHRKoKmz3L8yqLErI0hhvhONP9JNFIgV03CsN39thpGrNgaMm32m05EAh08LcaANM5CVgxWORFDKUDnqd7zWXq0EecjE6tJii1KR082VvBghbsIEtKhEfflcz4KmtAb7pHeZw5vdPvDK5xMHle2PoSSfWRoF01Bj9MaTxlwpDZKViGqjgc4H3zJsZIEm1BWFinwWnaeIwVGayQLj6SY4gu",
+            "received": false
+          }
+        ],
+        "total_price": 299544,
+        "delivery": null,
+        "changedOn": "2025-03-02T16:15:18.000Z",
+        "action": "Order created"
+      }
+    ],
+    "_id": "67c484167b4bcc16671b0639"
+  },
+  "IsSuccess": true,
+  "ErrorMessage": null
+}

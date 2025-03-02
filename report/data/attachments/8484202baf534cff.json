@@ -1,0 +1,13 @@
+{
+  "Product": {
+    "name": "Pizza5100",
+    "amount": 843,
+    "price": 14884,
+    "manufacturer": "Xiaomi",
+    "createdOn": "2025-03-02T16:15:19.000Z",
+    "notes": "QHo7RuQdwQzdU9t3UHIUqZlYNUwiYJmrE2u1t2aNliALkgmHMdT5LnGYxDm5G6qPhzF1xJJbQlaIgIGlygoJZeuZPhnjwR7bmhWmF5ScK9afNyNzvLJvoOcSiZJZlQKJ9qndOOZZG5ReuC30K9slAXE2EX3OeZFUly4ttlovsBqqKsznw14XzjyyBllA3MUDkbIt3nIR9e0H8RcmO31Y3rJgl6IEoA9W5UbRcbtKhtB62GyM9HmZDMPdm3",
+    "_id": "67c484177b4bcc16671b0654"
+  },
+  "IsSuccess": true,
+  "ErrorMessage": null
+}

@@ -1,0 +1,13 @@
+{
+  "Product": {
+    "name": "Bike89993",
+    "amount": 845,
+    "price": 15206,
+    "manufacturer": "Samsung",
+    "createdOn": "2025-03-02T16:15:11.000Z",
+    "notes": "1rw19mA6Ha9Q13CoObWBE4i2Xc3r2XrxmWK6AV9CdVp0502MpwqqCG2vg66ZolQrDoZgleJ4dPIVAXCjPhUziCOFLDPGDuhfsTHNQwK3oyRWtabkeAC1PPmkmZm30sspr7RRxXLTNTicN1kt2RgiZy5LzleoMs4mpusy75GAWzECCza7g6oAo46kuYABOhsz1HSB0jsAU89g7bnhY1zz78Hnyw8cyG1XO1N6z8WNm2wsAyqJj8m4nsMVrh",
+    "_id": "67c4840f7b4bcc16671b032c"
+  },
+  "IsSuccess": true,
+  "ErrorMessage": null
+}
