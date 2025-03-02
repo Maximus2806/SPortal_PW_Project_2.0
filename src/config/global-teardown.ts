@@ -6,8 +6,10 @@ const message = 'Test run funished: link to report: https://maximus2806.github.i
 teardown('SLACK NOTIFICATION', async () => {
   console.log('TEARDOWN NOTIFICATION - LAUNCHED');
   if (CI) {
-    await notificationService.postNotification(message);
-    await notificationService.sendTelegramNotification(message);
+    await Promise.all([
+      notificationService.postNotification(message),
+      notificationService.sendTelegramNotification(message)
+    ]);    
   }
   console.log('TEARDOWN NOTIFICATION - FINISHED');
 });
