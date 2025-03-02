@@ -1,4 +1,4 @@
-import TelegramBot from "node-telegram-bot-api";
+import TelegramBot from 'node-telegram-bot-api';
 
 // Ваш токен от BotFather
 const botToken = `${process.env.TELEGRAM_BOT_TOKEN}`;
