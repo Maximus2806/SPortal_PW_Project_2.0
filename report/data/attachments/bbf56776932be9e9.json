@@ -1,0 +1,125 @@
+{
+  "Order": {
+    "_id": "67c44e287b4bcc16671adc25",
+    "status": "In Process",
+    "customer": {
+      "_id": "67c44e267b4bcc16671adba4",
+      "email": "Anjali.Connelly-Kautzer22@hotmail.com",
+      "name": "Name wRGoCEseOdhDthtnYduNYnrhWJagznVEzoY",
+      "country": "Russia",
+      "city": "City oxUWJsfwaszPevF",
+      "street": "Street EBu8aOKFB0vN5t5VUIostvw6fDZ6hmBfc",
+      "house": 535,
+      "flat": 7114,
+      "phone": "+830548836651",
+      "createdOn": "2025-03-02T12:25:10.000Z",
+      "notes": "Notes DVCFqGcRYfgjFPdHumYTDalDkXBIUmWWjEhDtTFWBfXVQvwACxwsPeygkLNwHHahKJxnkDonuUtwpoSqcZFMNsekagqjNFOvRrcTZAxKSURLTUKskmdWFuIEvwKCyGIUUPpbyCDbYWxOWdXkckgpBsvjepTVjssndDTsAnBXXCTbtdSXxYcptnydRPMBmMryxFglyptOoQGEmBZKNZwsXhVskiqFgStIwQDdnrAfpcWZfCbXMtpg"
+    },
+    "products": [
+      {
+        "_id": "67c44e277b4bcc16671adbdc",
+        "name": "Table49094",
+        "amount": 450,
+        "price": 80856,
+        "manufacturer": "Tesla",
+        "notes": "zdN39tSIpp36z3BVpRWnb9oBlqUDlvIThYv8SkHb69Pp07jPThocAFKpeSRRi3Cs5LsgrvG5rNUEh7QVgzbL9PFFXbOm4t59e0buvtlZtbo8Pi3TXQPTPURmmGFmcI4noaHHeh89knKnl7z6Y6F0eJR6VDGrecjyIdMzk9yylSz8dGFIPJgC1ZJMdUaqjSd4Wu9ucfDB2IiYp5WpsQFL1ybN90MUoDfnuty2QLHQMyfCBmsrNlyWoDujHO",
+        "received": false
+      }
+    ],
+    "delivery": {
+      "address": {
+        "country": "Ukraine",
+        "city": "City klDvDdzaTyqieeJ",
+        "street": "Street pzNn5nvTFjaGVxkWYIOUlsuM11hrKjElu",
+        "house": 505,
+        "flat": 1661
+      },
+      "finalDate": "2025-03-09T00:00:00.000Z",
+      "condition": "Pickup"
+    },
+    "total_price": 80856,
+    "createdOn": "2025-03-02T12:25:12.000Z",
+    "comments": [],
+    "history": [
+      {
+        "status": "In Process",
+        "customer": "67c44e267b4bcc16671adba4",
+        "products": [
+          {
+            "_id": "67c44e277b4bcc16671adbdc",
+            "name": "Table49094",
+            "amount": 450,
+            "price": 80856,
+            "manufacturer": "Tesla",
+            "notes": "zdN39tSIpp36z3BVpRWnb9oBlqUDlvIThYv8SkHb69Pp07jPThocAFKpeSRRi3Cs5LsgrvG5rNUEh7QVgzbL9PFFXbOm4t59e0buvtlZtbo8Pi3TXQPTPURmmGFmcI4noaHHeh89knKnl7z6Y6F0eJR6VDGrecjyIdMzk9yylSz8dGFIPJgC1ZJMdUaqjSd4Wu9ucfDB2IiYp5WpsQFL1ybN90MUoDfnuty2QLHQMyfCBmsrNlyWoDujHO",
+            "received": false
+          }
+        ],
+        "total_price": 80856,
+        "delivery": {
+          "address": {
+            "country": "Ukraine",
+            "city": "City klDvDdzaTyqieeJ",
+            "street": "Street pzNn5nvTFjaGVxkWYIOUlsuM11hrKjElu",
+            "house": 505,
+            "flat": 1661
+          },
+          "finalDate": "2025-03-09T00:00:00.000Z",
+          "condition": "Pickup"
+        },
+        "changedOn": "2025-03-02T12:25:13.000Z",
+        "action": "Order processing started"
+      },
+      {
+        "status": "Draft",
+        "customer": "67c44e267b4bcc16671adba4",
+        "products": [
+          {
+            "_id": "67c44e277b4bcc16671adbdc",
+            "name": "Table49094",
+            "amount": 450,
+            "price": 80856,
+            "manufacturer": "Tesla",
+            "notes": "zdN39tSIpp36z3BVpRWnb9oBlqUDlvIThYv8SkHb69Pp07jPThocAFKpeSRRi3Cs5LsgrvG5rNUEh7QVgzbL9PFFXbOm4t59e0buvtlZtbo8Pi3TXQPTPURmmGFmcI4noaHHeh89knKnl7z6Y6F0eJR6VDGrecjyIdMzk9yylSz8dGFIPJgC1ZJMdUaqjSd4Wu9ucfDB2IiYp5WpsQFL1ybN90MUoDfnuty2QLHQMyfCBmsrNlyWoDujHO",
+            "received": false
+          }
+        ],
+        "total_price": 80856,
+        "delivery": {
+          "address": {
+            "country": "Ukraine",
+            "city": "City klDvDdzaTyqieeJ",
+            "street": "Street pzNn5nvTFjaGVxkWYIOUlsuM11hrKjElu",
+            "house": 505,
+            "flat": 1661
+          },
+          "finalDate": "2025-03-09T00:00:00.000Z",
+          "condition": "Pickup"
+        },
+        "changedOn": "2025-03-02T12:25:13.000Z",
+        "action": "Delivery Scheduled"
+      },
+      {
+        "status": "Draft",
+        "customer": "67c44e267b4bcc16671adba4",
+        "products": [
+          {
+            "_id": "67c44e277b4bcc16671adbdc",
+            "name": "Table49094",
+            "amount": 450,
+            "price": 80856,
+            "manufacturer": "Tesla",
+            "notes": "zdN39tSIpp36z3BVpRWnb9oBlqUDlvIThYv8SkHb69Pp07jPThocAFKpeSRRi3Cs5LsgrvG5rNUEh7QVgzbL9PFFXbOm4t59e0buvtlZtbo8Pi3TXQPTPURmmGFmcI4noaHHeh89knKnl7z6Y6F0eJR6VDGrecjyIdMzk9yylSz8dGFIPJgC1ZJMdUaqjSd4Wu9ucfDB2IiYp5WpsQFL1ybN90MUoDfnuty2QLHQMyfCBmsrNlyWoDujHO",
+            "received": false
+          }
+        ],
+        "total_price": 80856,
+        "delivery": null,
+        "changedOn": "2025-03-02T12:25:12.000Z",
+        "action": "Order created"
+      }
+    ]
+  },
+  "IsSuccess": true,
+  "ErrorMessage": null
+}

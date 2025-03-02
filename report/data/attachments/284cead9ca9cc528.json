@@ -1,0 +1,57 @@
+{
+  "Order": {
+    "status": "Draft",
+    "customer": {
+      "_id": "67c44e1c7b4bcc16671ada39",
+      "email": "Giuseppe.Hamill45@yahoo.com",
+      "name": "Name fTjiHXEGrlxRFUCGzXNcaZobLxfYLLIsOEh",
+      "country": "Canada",
+      "city": "City TnCotNSUBwtZfLI",
+      "street": "Street 0iYZcGD70S7l6rPTJ9iQ64cDibtZ8Gt1T",
+      "house": 889,
+      "flat": 9696,
+      "phone": "+241207593128",
+      "createdOn": "2025-03-02T12:25:00.000Z",
+      "notes": "Notes IVgtaAgdsTdSknOOadldjjxZeBrAhmGYSksDCLqcOGfHnqrcsgfJuMhCkKznUuLwHYXRWopCMIDuBSmqadtvmMbTUxobglLqbVWPPjjpskTnIvPTyQGpBjYGnDsflEElmkYDpxETYpOhxgoQTyRrozJsGVmNHlXQNrZvXOrPiLoLVvoaPGuRUzyPgYmmKHYcoMKylLQnaNRzCEAisWWjoGkbmjcRjlkpWFhzJRiLHFLKlPsCWNpB"
+    },
+    "products": [
+      {
+        "_id": "67c44e207b4bcc16671ada6d",
+        "name": "Towels27030",
+        "amount": 471,
+        "price": 43718,
+        "manufacturer": "Google",
+        "notes": "kiIuhLGDIPW1D2d1J0Bka9EsENkmFLOBYOWzzX4CaInbm1Ba53KJR0A7TKqSHxsgP4wNRM0ghZoTH4B4nNKZoujdafwwOZCDvTEpvFGARL6hbsXLqdoPdIvPt6hTE2ghESBHZU3vjHGNiMHENbWh3sdX8mSDQXG6Hi7haLdmm01jBb9AbcFCdll6Vm9DoObhOKVWOTzKatNJbcuqdupN1YyDhZTPV0SW562SM6QneHeHJoTI0R1JEwoN5q",
+        "received": false
+      }
+    ],
+    "delivery": null,
+    "total_price": 43718,
+    "createdOn": "2025-03-02T12:25:08.000Z",
+    "comments": [],
+    "history": [
+      {
+        "status": "Draft",
+        "customer": "67c44e1c7b4bcc16671ada39",
+        "products": [
+          {
+            "_id": "67c44e207b4bcc16671ada6d",
+            "name": "Towels27030",
+            "amount": 471,
+            "price": 43718,
+            "manufacturer": "Google",
+            "notes": "kiIuhLGDIPW1D2d1J0Bka9EsENkmFLOBYOWzzX4CaInbm1Ba53KJR0A7TKqSHxsgP4wNRM0ghZoTH4B4nNKZoujdafwwOZCDvTEpvFGARL6hbsXLqdoPdIvPt6hTE2ghESBHZU3vjHGNiMHENbWh3sdX8mSDQXG6Hi7haLdmm01jBb9AbcFCdll6Vm9DoObhOKVWOTzKatNJbcuqdupN1YyDhZTPV0SW562SM6QneHeHJoTI0R1JEwoN5q",
+            "received": false
+          }
+        ],
+        "total_price": 43718,
+        "delivery": null,
+        "changedOn": "2025-03-02T12:25:08.000Z",
+        "action": "Order created"
+      }
+    ],
+    "_id": "67c44e247b4bcc16671adaba"
+  },
+  "IsSuccess": true,
+  "ErrorMessage": null
+}

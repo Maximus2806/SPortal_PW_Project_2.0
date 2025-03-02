@@ -1,0 +1,11 @@
+{
+  "finalDate": "2025-03-07",
+  "address": {
+    "country": "Germany",
+    "city": "Berlin",
+    "street": "Main Street 123",
+    "house": 123,
+    "flat": 5678
+  },
+  "condition": "Delivery"
+}

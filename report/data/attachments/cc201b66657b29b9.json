@@ -1,0 +1,112 @@
+{
+  "Order": {
+    "_id": "67c44e2b7b4bcc16671adda7",
+    "status": "Draft",
+    "customer": {
+      "_id": "67c44e2a7b4bcc16671add08",
+      "email": "Michael_Ryan88@yahoo.com",
+      "name": "Name gWFdfIEGLGoOAmNfFflHPsCyzbzvfsHYQwC",
+      "country": "France",
+      "city": "City gzCenKVDDiguCYT",
+      "street": "Street pcXXtIQx7owDZbP4sA3CSZbUidw28TyFF",
+      "house": 722,
+      "flat": 71,
+      "phone": "+269018574231",
+      "createdOn": "2025-03-02T12:25:14.000Z",
+      "notes": "Notes EwvstoZXNCYWaeqXKSIHtnQUrnLoGVULCOMOBsZOhHLuJOKehygPLPFdNmXXyIjEoTdOIrdoSVUdQmTEjGoAzszyKTnJjXvTivIgOmmpjVOuZlQOuOwnNqntLCmmKPfwmojhwSrIMHayYnIKmJNTcIjGRZmRhrLSwPJtdqqkSebpiULTAGYaGYnLquMEtWxjEjOBrWeQCFWAeTGsBcLuFFpmZkptcHWYlNRCGsIXVajSqChzuViN"
+    },
+    "products": [
+      {
+        "_id": "67c44e2a7b4bcc16671add4f",
+        "name": "Computer31638",
+        "amount": 413,
+        "price": 27180,
+        "manufacturer": "Amazon",
+        "notes": "0fVtXTTZKSET6P8bOT4vy5sGu8r5wuwy9qs0uFXLOWIW7etsJayN48S8AU7XHsathjrEvpK40uNnQDZVyvXqgsrtyoealTSuV2a7yMFe3XoHtZRdg3lyeuvQ8JBFKZv99Vre2oatK86CNtRbsuwwD0U986vTaLyQyfwVcLVaPPXytuJn6gWwsXDATgFVQ1yhepRXTKx1EiAwkAVPud0vBESzORd6q1c1Oj7AsNFy5CfsPcNIVU0BOJicLu",
+        "received": false
+      },
+      {
+        "_id": "67c44e2c7b4bcc16671addec",
+        "name": "Table92253",
+        "amount": 280,
+        "price": 46177,
+        "manufacturer": "Sony",
+        "notes": "76ekF3o7NXzSevuQfpImXr7HHe6T6l25JM6eptMVDMDTDI3lQQm8lcrb0phcFcAT0MFaYSP7UK2FwNC2w5If5cQOaFNeCqztgHyDJj4idNewgMHoGTO3MExaGyvex9JcbxcjlACmtx5XKjrjpPamhDYjcgV72Tr0WfChP4UeRLfZcSFJAFt0dk2mQMEXn6QUllx5d67JyeK2NGvPv6t7E9oKmEF5JPNI25Tjb40ZZ5CLHPpQ3czOWcgeoa",
+        "received": false
+      },
+      {
+        "_id": "67c44e2d7b4bcc16671ade32",
+        "name": "Cheese99697",
+        "amount": 739,
+        "price": 60328,
+        "manufacturer": "Apple",
+        "notes": "pqg48mXUpq3bmjtTVeYdVXk5zvjn9JMMygLGpIrcT9JmWbk8PkXKP0cVxfMYnP6S3ug99hnyXvpucnU5KiIHsI4pnuTMD2hQsr243skBn8klWXwbTXkewIrkxQkKCwIEHmDzxDXXF0aQ36tuyCogPrJlC8JJqNTto77DjMkGbAIK8OiwPKxM8gFLu1oSToQTpDrtXXngkpLcvhC85HV1snaFJTkLe28kTiO7HJFm3HKluxXCcDHJAO7yn6",
+        "received": false
+      }
+    ],
+    "delivery": null,
+    "total_price": 133685,
+    "createdOn": "2025-03-02T12:25:15.000Z",
+    "comments": [],
+    "history": [
+      {
+        "status": "Draft",
+        "customer": "67c44e2a7b4bcc16671add08",
+        "products": [
+          {
+            "_id": "67c44e2a7b4bcc16671add4f",
+            "name": "Computer31638",
+            "amount": 413,
+            "price": 27180,
+            "manufacturer": "Amazon",
+            "notes": "0fVtXTTZKSET6P8bOT4vy5sGu8r5wuwy9qs0uFXLOWIW7etsJayN48S8AU7XHsathjrEvpK40uNnQDZVyvXqgsrtyoealTSuV2a7yMFe3XoHtZRdg3lyeuvQ8JBFKZv99Vre2oatK86CNtRbsuwwD0U986vTaLyQyfwVcLVaPPXytuJn6gWwsXDATgFVQ1yhepRXTKx1EiAwkAVPud0vBESzORd6q1c1Oj7AsNFy5CfsPcNIVU0BOJicLu",
+            "received": false
+          },
+          {
+            "_id": "67c44e2c7b4bcc16671addec",
+            "name": "Table92253",
+            "amount": 280,
+            "price": 46177,
+            "manufacturer": "Sony",
+            "notes": "76ekF3o7NXzSevuQfpImXr7HHe6T6l25JM6eptMVDMDTDI3lQQm8lcrb0phcFcAT0MFaYSP7UK2FwNC2w5If5cQOaFNeCqztgHyDJj4idNewgMHoGTO3MExaGyvex9JcbxcjlACmtx5XKjrjpPamhDYjcgV72Tr0WfChP4UeRLfZcSFJAFt0dk2mQMEXn6QUllx5d67JyeK2NGvPv6t7E9oKmEF5JPNI25Tjb40ZZ5CLHPpQ3czOWcgeoa",
+            "received": false
+          },
+          {
+            "_id": "67c44e2d7b4bcc16671ade32",
+            "name": "Cheese99697",
+            "amount": 739,
+            "price": 60328,
+            "manufacturer": "Apple",
+            "notes": "pqg48mXUpq3bmjtTVeYdVXk5zvjn9JMMygLGpIrcT9JmWbk8PkXKP0cVxfMYnP6S3ug99hnyXvpucnU5KiIHsI4pnuTMD2hQsr243skBn8klWXwbTXkewIrkxQkKCwIEHmDzxDXXF0aQ36tuyCogPrJlC8JJqNTto77DjMkGbAIK8OiwPKxM8gFLu1oSToQTpDrtXXngkpLcvhC85HV1snaFJTkLe28kTiO7HJFm3HKluxXCcDHJAO7yn6",
+            "received": false
+          }
+        ],
+        "total_price": 133685,
+        "delivery": null,
+        "changedOn": "2025-03-02T12:25:17.000Z",
+        "action": "Requested products changed"
+      },
+      {
+        "status": "Draft",
+        "customer": "67c44e2a7b4bcc16671add08",
+        "products": [
+          {
+            "_id": "67c44e2a7b4bcc16671add4f",
+            "name": "Computer31638",
+            "amount": 413,
+            "price": 27180,
+            "manufacturer": "Amazon",
+            "notes": "0fVtXTTZKSET6P8bOT4vy5sGu8r5wuwy9qs0uFXLOWIW7etsJayN48S8AU7XHsathjrEvpK40uNnQDZVyvXqgsrtyoealTSuV2a7yMFe3XoHtZRdg3lyeuvQ8JBFKZv99Vre2oatK86CNtRbsuwwD0U986vTaLyQyfwVcLVaPPXytuJn6gWwsXDATgFVQ1yhepRXTKx1EiAwkAVPud0vBESzORd6q1c1Oj7AsNFy5CfsPcNIVU0BOJicLu",
+            "received": false
+          }
+        ],
+        "total_price": 27180,
+        "delivery": null,
+        "changedOn": "2025-03-02T12:25:15.000Z",
+        "action": "Order created"
+      }
+    ]
+  },
+  "IsSuccess": true,
+  "ErrorMessage": null
+}

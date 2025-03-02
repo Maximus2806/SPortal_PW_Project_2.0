@@ -1,0 +1,57 @@
+{
+  "Order": {
+    "status": "Draft",
+    "customer": {
+      "_id": "67c44e347b4bcc16671ae105",
+      "email": "Lily.Romaguera@hotmail.com",
+      "name": "Name lnAVzsCXHxbNUpDRCckPnYFaPrmCONRplTh",
+      "country": "Great Britain",
+      "city": "City xkBuNeFJQFypBUA",
+      "street": "Street Tpn1d6R82b7JUvyCH6V9UPZzyu5uVSG0v",
+      "house": 993,
+      "flat": 1894,
+      "phone": "+535879903239",
+      "createdOn": "2025-03-02T12:25:24.000Z",
+      "notes": "Notes edYrwpktMiwssVAtCujbGxiqZfHOUavnDOHDphelgkfDCOHfAwYIJuZPwEjgSoDosCyjFIRNAdroGpCbgVcMPSCZeUMgmKeSlWMAbJCrWfnqOjFcZOodYlHkvAkDvXGIsEvWdhUBothqesOwFyKTiUCrFqJoWFkmDtQTkfrSISeHGWJlnAhwYzCkWoCRIZrSqhDwCwOCYPigGpMplPqGmtVZleBAcHQwWVptGkxLmYrpwtmQqWEU"
+    },
+    "products": [
+      {
+        "_id": "67c44e347b4bcc16671ae11e",
+        "name": "Salad57202",
+        "amount": 56,
+        "price": 8769,
+        "manufacturer": "Amazon",
+        "notes": "bJwPCSjeCVQBmuIilh9JxhvUiKVkcXFx5ov0YSZ8S1pMfThFRMfVTHykIZM92To0kjCyJJSSO8ccFD7glkGPaWdW1OWK5YjeuiWaqB6eJDf9cJk7uba3RQHsT6ioLeNGl4nG09ytAjmMu2CuZXENAEVT2DgGyvTTtyOaC6FCblV7jyW8pLVRJBly78htKB72OP06Lr3pgtKIYIWtaLR9PUjNKOMovHLN53H8PSGHcIpJ4KqgxdBkxH01O4",
+        "received": false
+      }
+    ],
+    "delivery": null,
+    "total_price": 8769,
+    "createdOn": "2025-03-02T12:25:25.000Z",
+    "comments": [],
+    "history": [
+      {
+        "status": "Draft",
+        "customer": "67c44e347b4bcc16671ae105",
+        "products": [
+          {
+            "_id": "67c44e347b4bcc16671ae11e",
+            "name": "Salad57202",
+            "amount": 56,
+            "price": 8769,
+            "manufacturer": "Amazon",
+            "notes": "bJwPCSjeCVQBmuIilh9JxhvUiKVkcXFx5ov0YSZ8S1pMfThFRMfVTHykIZM92To0kjCyJJSSO8ccFD7glkGPaWdW1OWK5YjeuiWaqB6eJDf9cJk7uba3RQHsT6ioLeNGl4nG09ytAjmMu2CuZXENAEVT2DgGyvTTtyOaC6FCblV7jyW8pLVRJBly78htKB72OP06Lr3pgtKIYIWtaLR9PUjNKOMovHLN53H8PSGHcIpJ4KqgxdBkxH01O4",
+            "received": false
+          }
+        ],
+        "total_price": 8769,
+        "delivery": null,
+        "changedOn": "2025-03-02T12:25:25.000Z",
+        "action": "Order created"
+      }
+    ],
+    "_id": "67c44e357b4bcc16671ae13f"
+  },
+  "IsSuccess": true,
+  "ErrorMessage": null
+}

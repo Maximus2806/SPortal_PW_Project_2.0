@@ -1,0 +1,91 @@
+{
+  "Products": [
+    {
+      "_id": "67c1ec747b4bcc16671a7a98",
+      "name": "Gloves67778",
+      "amount": 968,
+      "price": 99321,
+      "manufacturer": "Apple",
+      "createdOn": "2025-02-28T17:03:48.000Z",
+      "notes": "4NRy3Dgv8jFNxz0vmXKO2Vpun91dKMCGUkwA94zAjmxm79jbtOLZ7hmJb86hI6jk9NN4wOhKWGnOjjLo1TvrR3X6UhJ5Egd1Hk3eeH2thhhRHbDZUGdGKoMTAlQ34yWlWxUECXUf5qA3IE093SSC9uApjQqlfMpNRil7yMrA4OI9Piy0Nc8MTiJgygQu1NjqdtDNmlvfrodVoIRR1yujEm4CrB28BRyV0N2ockjsTnpvL3sjI8fEhFlcae"
+    },
+    {
+      "_id": "67c1eaa77b4bcc16671a796d",
+      "name": "Table91039",
+      "amount": 95,
+      "price": 33850,
+      "manufacturer": "Apple",
+      "createdOn": "2025-02-28T16:56:07.000Z",
+      "notes": "KJzYVLHHVC6XHYjZThuxqwtwZ543F4hUJ0lgLix9RFEZWNEJQfnjkjQKcy8LTbEu0vB39fYirKIfS3ZiYD0hrwajiStbfxaZDCKig4GkF7kduqLbaZOZO2V13V0mPdi1c7lCuutojitpWRAVMO7WQXxiaL5sAgMiTA826iRLUiLgBhYGqAd2Gs0Sd6X86ELaAwIRgfoH5gEeZfXjcDlXdfUKfageQHh6t7PsChJ3ZIoNzL9iTS2TQF00RF"
+    },
+    {
+      "_id": "67c1ea817b4bcc16671a7929",
+      "name": "Ball14777",
+      "amount": 511,
+      "price": 72474,
+      "manufacturer": "Apple",
+      "createdOn": "2025-02-28T16:55:29.000Z",
+      "notes": "GpJdoNOLRYXv3N3i7uPkd8Qp7jEwgiwJLz1ASNz0TrN5I5FUgGb96D1Zfx6CKouV5Z6MK4otSgbRqaAXvh7K5dHzQXOKbglZKd4OObZSqqpWbdKQUSNOn8RG80LxC2XDr8JSViWnNl9nk5y5S1BONdD0OxiNn1fmJplo1GoaMPYo3emmy9kRa3dJVkpxizYhZsWsCxI8OvPmPidJIrVI737rXxewnZzqJkeVSON5vqcRcy7Zscrd0nUO2Y"
+    },
+    {
+      "_id": "67c1e7f57b4bcc16671a7486",
+      "name": "Shoes88741",
+      "amount": 437,
+      "price": 28323,
+      "manufacturer": "Apple",
+      "createdOn": "2025-02-28T16:44:37.000Z",
+      "notes": "VCwRB0VIS9tpPmnaug2sw2r5Sj9ETUBMNoGwArUqvErjn0C5nhQ354toCqkKOJitHESbqokRYIfsIyc6P5CiwJQ66cYQl6bvW0rlYXBACIsawuSPinyi5sBhmrgbhbqbDgETCM7dvDlXlggaDZekPuzMJocSJGF37brcPqdB73MG5LNlL2jA8a0LWhVxKipJXEmQsPxDa7hsgPr5K8OU0Bil9gGKFVOXWqsGTnkul6Tq4nMtXSolteI4zF"
+    },
+    {
+      "_id": "67c1e7007b4bcc16671a73dc",
+      "name": "Fish53338",
+      "amount": 104,
+      "price": 81375,
+      "manufacturer": "Apple",
+      "createdOn": "2025-02-28T16:40:32.000Z",
+      "notes": "wlT0zgZ4l3Kg8hGSXMvEsyJsGjtemMOgHyI1tLxTgkY5g63JBbn0Cm7N1z5eVqM39MvZqkyLfA3dk9vQqBbQb8yVy4vaKjIOVQb2RCVzBol7JNdXrZJL4jwvqUcdxlc41jbKk979u6trHZhWumwegIOnBM354RpsYtWyYBD8bAxHci6ifeWDfxhTkmhfCHLrOGyqZHg211yNMBWismeiqPAQa8nPDdwVdlpQ6TEOoQIvrgsigRxyewsQU7"
+    },
+    {
+      "_id": "67c0f8017b4bcc16671a4e9b",
+      "name": "Computer79599",
+      "amount": 817,
+      "price": 82447,
+      "manufacturer": "Apple",
+      "createdOn": "2025-02-27T23:40:49.000Z",
+      "notes": "qwE5yQ6BkhAv7yQsoNom4jNB4Pzzg1jaBFezji4zIxPdKuGo3SFy9VmfudVPhh5ZI2bLQUmbwlukLT8YffyxQy7gpzaz7XgaCg3qzTwhwJkyWXgU6WGTB6VQI8Am1MBcmMBMYSzoNyetRCr0nP8GFyqY9XksVZ4zcezQ7WHkEwUTVNqqvl5fnuNfZls9dPfBVfYqqxdFdEflVn5aosSntKlxhUJmpwBVNzuFXFDlSM1ZXY8dyPpAoF5Xj0"
+    },
+    {
+      "_id": "67c0f7d27b4bcc16671a4809",
+      "name": "Tuna15624",
+      "amount": 329,
+      "price": 94133,
+      "manufacturer": "Apple",
+      "createdOn": "2025-02-27T23:40:02.000Z",
+      "notes": "zU8hmT7Up0ahreeSraX7LeWIyKSXTmrxJc9RwuHu36mxBvSuMJeVnNISGVjPVhASHUL4umFetcg8BcRUHpjf21Pc7nRIF6mpxr8eNj4wBHlZSU8EVTM5EQk6QrAwqGZ307C85phSIafg5OAUI7vQMKj3gFIl4DcSH5H2yzaxQyXpONUQNQNBgNloRnshD1lDeD3L2Jtk6HPS5BV6jHVH3OZGt5Z8hPbZVqtCcBc5HSkzrLmiXj9KBsdwgU"
+    },
+    {
+      "_id": "67c0f7d17b4bcc16671a47fd",
+      "name": "Bike32643",
+      "amount": 651,
+      "price": 25503,
+      "manufacturer": "Apple",
+      "createdOn": "2025-02-27T23:40:01.000Z",
+      "notes": "v0PFdAAPVFNbnBVPqk4BJHtxWHXDpKxXdfTy09dIp8P39DYlNFzpbIjVGPm6kqHjVD65U1blHeIsld60zcMAwCZUCjs2fKq4NxoshcEmzCTNwuHlezSlwb2tLrD7J7nU2OOkllERjD5mNh46dBEg5NFtBtiWfomITNsx8ecXd2G8qKZTl1QYfWiVDu7DLFT1nF04DLEYHFpYeJhJQhv6OELiOYyJtVrbJQePE0ZFKWes1RRQ4o3cejnBnm"
+    },
+    {
+      "_id": "67c0f7cf7b4bcc16671a47de",
+      "name": "Mouse99751",
+      "amount": 775,
+      "price": 25516,
+      "manufacturer": "Apple",
+      "createdOn": "2025-02-27T23:39:59.000Z",
+      "notes": "V32pDzecbf7xE0PvIuHxEm2OV3816SJh5NHBIrYN6yaUlFPeHDZbyPaCVpjDHT5wbgzobwmnS29NOAQy5Tje6M9GYborHWSFcTn3WZUZFAcowzNjvcCq7zdMZcG1B8hIHUlCxOuhoZCyjIKe1X2Hjp9Vvt2jblwvUdBTIJPTkBb3xmBhJen1jSIxrNlVcFRC2E1t1tJBixtkThATEwnSz7vWctUUKtecKb9tkxr9bO5TA9XXjFxDx7O2Bm"
+    }
+  ],
+  "sorting": {
+    "sortField": "createdOn",
+    "sortOrder": "desc"
+  },
+  "IsSuccess": true,
+  "ErrorMessage": null
+}

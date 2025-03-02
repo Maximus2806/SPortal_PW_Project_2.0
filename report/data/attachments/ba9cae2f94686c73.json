@@ -1,0 +1,96 @@
+{
+  "Order": {
+    "_id": "67c44e267b4bcc16671adb88",
+    "status": "Draft",
+    "customer": {
+      "_id": "67c44e257b4bcc16671adb18",
+      "email": "Favian_Bergnaum14@yahoo.com",
+      "name": "Name ejnHjesCBVzEBcpASWVcCyOpXjiPNHInuUo",
+      "country": "Canada",
+      "city": "City rudmnChqgLAMJOv",
+      "street": "Street sRKhfavFdLZRXGpjUNGcs84DQ1aYAMFfs",
+      "house": 886,
+      "flat": 3631,
+      "phone": "+309775096079",
+      "createdOn": "2025-03-02T12:25:09.000Z",
+      "notes": "Notes PYMlOpNYAEYxycSenspqqbpBMqCETFZnbJBPQSYIjkgFJVafsAThvuWXQiVsaIdomniGCOtpmpOrUrZcIPylmQFAfyNEmonWzNwDNDoKySkuqScBDktjNCiSBexsyVlnwcUQpktZPJiLlfNspxWFXzYqrTjWnrRJuRcbSHDKmtYbSIOEQzboxDZnzlADspBNAiYWROjwNdqIkKsdWNfvPKgpxUzIhQOMnjoAtnyGoZpCdiizCKUf"
+    },
+    "products": [
+      {
+        "_id": "67c44e257b4bcc16671adb4c",
+        "name": "Sausages89254",
+        "amount": 480,
+        "price": 87632,
+        "manufacturer": "Sony",
+        "notes": "e3Sm1lILMlL0GIUT5ope1B4PFhOv9bCVTsZYdfar5WBMvM8SoZDHIhYTpyI6ePm3sBFsG3YSzrHC2w9hQFbRH94hFxmo97gxyLhKTXkExFWqlp6bJYyv6zKILZwRrrYgeyvVoYaEwrmhIIRlNG7Ke5ktxJ5XsBOgftNUHlVN81W0Tr0uwB6ixBLWX1ZgyYgSRSjkXhCMGLB8VDZTx2YhKym4Pc0eHipv9VZff7ZOcK1NXPLYFx9Czgoshm",
+        "received": false
+      }
+    ],
+    "delivery": {
+      "address": {
+        "country": "Ukraine",
+        "city": "City DfDVNFNnuTMZNQM",
+        "street": "Street sovcONgxN1yooQnpuJXvbqjZiCtcscUNc",
+        "house": 880,
+        "flat": 4849
+      },
+      "finalDate": "2025-03-08T00:00:00.000Z",
+      "condition": "Pickup"
+    },
+    "total_price": 87632,
+    "createdOn": "2025-03-02T12:25:10.000Z",
+    "comments": [],
+    "history": [
+      {
+        "status": "Draft",
+        "customer": "67c44e257b4bcc16671adb18",
+        "products": [
+          {
+            "_id": "67c44e257b4bcc16671adb4c",
+            "name": "Sausages89254",
+            "amount": 480,
+            "price": 87632,
+            "manufacturer": "Sony",
+            "notes": "e3Sm1lILMlL0GIUT5ope1B4PFhOv9bCVTsZYdfar5WBMvM8SoZDHIhYTpyI6ePm3sBFsG3YSzrHC2w9hQFbRH94hFxmo97gxyLhKTXkExFWqlp6bJYyv6zKILZwRrrYgeyvVoYaEwrmhIIRlNG7Ke5ktxJ5XsBOgftNUHlVN81W0Tr0uwB6ixBLWX1ZgyYgSRSjkXhCMGLB8VDZTx2YhKym4Pc0eHipv9VZff7ZOcK1NXPLYFx9Czgoshm",
+            "received": false
+          }
+        ],
+        "total_price": 87632,
+        "delivery": {
+          "address": {
+            "country": "Ukraine",
+            "city": "City DfDVNFNnuTMZNQM",
+            "street": "Street sovcONgxN1yooQnpuJXvbqjZiCtcscUNc",
+            "house": 880,
+            "flat": 4849
+          },
+          "finalDate": "2025-03-08T00:00:00.000Z",
+          "condition": "Pickup"
+        },
+        "changedOn": "2025-03-02T12:25:11.000Z",
+        "action": "Delivery Scheduled"
+      },
+      {
+        "status": "Draft",
+        "customer": "67c44e257b4bcc16671adb18",
+        "products": [
+          {
+            "_id": "67c44e257b4bcc16671adb4c",
+            "name": "Sausages89254",
+            "amount": 480,
+            "price": 87632,
+            "manufacturer": "Sony",
+            "notes": "e3Sm1lILMlL0GIUT5ope1B4PFhOv9bCVTsZYdfar5WBMvM8SoZDHIhYTpyI6ePm3sBFsG3YSzrHC2w9hQFbRH94hFxmo97gxyLhKTXkExFWqlp6bJYyv6zKILZwRrrYgeyvVoYaEwrmhIIRlNG7Ke5ktxJ5XsBOgftNUHlVN81W0Tr0uwB6ixBLWX1ZgyYgSRSjkXhCMGLB8VDZTx2YhKym4Pc0eHipv9VZff7ZOcK1NXPLYFx9Czgoshm",
+            "received": false
+          }
+        ],
+        "total_price": 87632,
+        "delivery": null,
+        "changedOn": "2025-03-02T12:25:10.000Z",
+        "action": "Order created"
+      }
+    ]
+  },
+  "IsSuccess": true,
+  "ErrorMessage": null
+}

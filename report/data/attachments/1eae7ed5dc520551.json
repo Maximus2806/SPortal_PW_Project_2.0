@@ -1,0 +1,13 @@
+{
+  "Product": {
+    "name": "Tuna9101",
+    "amount": 320,
+    "price": 86282,
+    "manufacturer": "Tesla",
+    "createdOn": "2025-03-02T12:25:13.000Z",
+    "notes": "WcUxaAbk6MabtackuJMMtar5qcBFyMIVJ8RmjsmauvGLODxqBT56W67pftS5pXU2qeVRsFoIFp105HkT5SJ47DcH0CLEI7zEgs7Pr5Jv1MGXsj8pErn94nknJSe8gbpgppuMLLhvMmD3m8dHXeapz4zlchiF6e6lyJ5y204747B3t2ooQsqXobE9rfGfQ4fSVT2zfrJuC0fhAVs1wdnQAbGv74DP6PGEg4JVFXyHSn9vnNAG5uqc01hzcC",
+    "_id": "67c44e297b4bcc16671adcae"
+  },
+  "IsSuccess": true,
+  "ErrorMessage": null
+}

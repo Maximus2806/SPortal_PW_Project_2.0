@@ -1,0 +1,93 @@
+{
+  "Order": {
+    "status": "Draft",
+    "customer": {
+      "_id": "67c44e307b4bcc16671adf8b",
+      "email": "Jaycee.Hoeger@hotmail.com",
+      "name": "Name ogcJVrMxNRZkFPAHDBztEXHwIreGerpGhqH",
+      "country": "Ukraine",
+      "city": "City OcpFvxpSsfTwiaW",
+      "street": "Street sabcimEcapPcqvRKLIoiNrLVQZXJw4htB",
+      "house": 100,
+      "flat": 2007,
+      "phone": "+196514202544",
+      "createdOn": "2025-03-02T12:25:20.000Z",
+      "notes": "Notes sAuZcjBagkHQKnNXGoeqARqRLGgvxorsoGxefwaCyqnmExWqcSIbvVNtBaIEuzYIyidpYnNtKCJrqZyMDdHTaUuArlLWONaVDVvUiISQNAUVVdORbvofDZlwAsOLTOALFJpnuWtdbePfqMQXmtssMrphXbBzhBrikkDDhmFDeYTjgqGndiCYUCFqEqnEsPBEcZGAEqbXmhhfgBMiJIGKMDFZWLiQIxfPSSZWMxVSiyLDGsghrXmk"
+    },
+    "products": [
+      {
+        "_id": "67c44e307b4bcc16671adfb6",
+        "name": "Pizza80545",
+        "amount": 33,
+        "price": 73861,
+        "manufacturer": "Samsung",
+        "notes": "E5ccx1pk1Y7GOkisoRJk5itU1cRCoJECtyIeO9N9W8YqQWO2mqFCIR8PrMvBu6JGGG2QS5NYHOj2CicWdkfCrqThwDHOM7vjuLC5xPQ5QssO8kdM5k3ucejjlAheT7zXMULLX9pnrjK68uFgyMeNXTmgsIRoORmYtrweSqUsiefFsCbGtT2cObcJQQrArNrJQ18xt9Idxy1AESC3Km71q6hUaLLTGSdfQg9AjLglvr9roUZTSshkWTLHZr",
+        "received": false
+      },
+      {
+        "_id": "67c44e307b4bcc16671adfb6",
+        "name": "Pizza80545",
+        "amount": 33,
+        "price": 73861,
+        "manufacturer": "Samsung",
+        "notes": "E5ccx1pk1Y7GOkisoRJk5itU1cRCoJECtyIeO9N9W8YqQWO2mqFCIR8PrMvBu6JGGG2QS5NYHOj2CicWdkfCrqThwDHOM7vjuLC5xPQ5QssO8kdM5k3ucejjlAheT7zXMULLX9pnrjK68uFgyMeNXTmgsIRoORmYtrweSqUsiefFsCbGtT2cObcJQQrArNrJQ18xt9Idxy1AESC3Km71q6hUaLLTGSdfQg9AjLglvr9roUZTSshkWTLHZr",
+        "received": false
+      },
+      {
+        "_id": "67c44e307b4bcc16671adfb6",
+        "name": "Pizza80545",
+        "amount": 33,
+        "price": 73861,
+        "manufacturer": "Samsung",
+        "notes": "E5ccx1pk1Y7GOkisoRJk5itU1cRCoJECtyIeO9N9W8YqQWO2mqFCIR8PrMvBu6JGGG2QS5NYHOj2CicWdkfCrqThwDHOM7vjuLC5xPQ5QssO8kdM5k3ucejjlAheT7zXMULLX9pnrjK68uFgyMeNXTmgsIRoORmYtrweSqUsiefFsCbGtT2cObcJQQrArNrJQ18xt9Idxy1AESC3Km71q6hUaLLTGSdfQg9AjLglvr9roUZTSshkWTLHZr",
+        "received": false
+      }
+    ],
+    "delivery": null,
+    "total_price": 221583,
+    "createdOn": "2025-03-02T12:25:21.000Z",
+    "comments": [],
+    "history": [
+      {
+        "status": "Draft",
+        "customer": "67c44e307b4bcc16671adf8b",
+        "products": [
+          {
+            "_id": "67c44e307b4bcc16671adfb6",
+            "name": "Pizza80545",
+            "amount": 33,
+            "price": 73861,
+            "manufacturer": "Samsung",
+            "notes": "E5ccx1pk1Y7GOkisoRJk5itU1cRCoJECtyIeO9N9W8YqQWO2mqFCIR8PrMvBu6JGGG2QS5NYHOj2CicWdkfCrqThwDHOM7vjuLC5xPQ5QssO8kdM5k3ucejjlAheT7zXMULLX9pnrjK68uFgyMeNXTmgsIRoORmYtrweSqUsiefFsCbGtT2cObcJQQrArNrJQ18xt9Idxy1AESC3Km71q6hUaLLTGSdfQg9AjLglvr9roUZTSshkWTLHZr",
+            "received": false
+          },
+          {
+            "_id": "67c44e307b4bcc16671adfb6",
+            "name": "Pizza80545",
+            "amount": 33,
+            "price": 73861,
+            "manufacturer": "Samsung",
+            "notes": "E5ccx1pk1Y7GOkisoRJk5itU1cRCoJECtyIeO9N9W8YqQWO2mqFCIR8PrMvBu6JGGG2QS5NYHOj2CicWdkfCrqThwDHOM7vjuLC5xPQ5QssO8kdM5k3ucejjlAheT7zXMULLX9pnrjK68uFgyMeNXTmgsIRoORmYtrweSqUsiefFsCbGtT2cObcJQQrArNrJQ18xt9Idxy1AESC3Km71q6hUaLLTGSdfQg9AjLglvr9roUZTSshkWTLHZr",
+            "received": false
+          },
+          {
+            "_id": "67c44e307b4bcc16671adfb6",
+            "name": "Pizza80545",
+            "amount": 33,
+            "price": 73861,
+            "manufacturer": "Samsung",
+            "notes": "E5ccx1pk1Y7GOkisoRJk5itU1cRCoJECtyIeO9N9W8YqQWO2mqFCIR8PrMvBu6JGGG2QS5NYHOj2CicWdkfCrqThwDHOM7vjuLC5xPQ5QssO8kdM5k3ucejjlAheT7zXMULLX9pnrjK68uFgyMeNXTmgsIRoORmYtrweSqUsiefFsCbGtT2cObcJQQrArNrJQ18xt9Idxy1AESC3Km71q6hUaLLTGSdfQg9AjLglvr9roUZTSshkWTLHZr",
+            "received": false
+          }
+        ],
+        "total_price": 221583,
+        "delivery": null,
+        "changedOn": "2025-03-02T12:25:21.000Z",
+        "action": "Order created"
+      }
+    ],
+    "_id": "67c44e317b4bcc16671adfe9"
+  },
+  "IsSuccess": true,
+  "ErrorMessage": null
+}

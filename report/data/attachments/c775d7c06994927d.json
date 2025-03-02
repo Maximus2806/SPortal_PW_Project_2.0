@@ -1,0 +1,154 @@
+{
+  "Order": {
+    "_id": "67c44e317b4bcc16671adfbe",
+    "status": "Canceled",
+    "customer": {
+      "_id": "67c44e2f7b4bcc16671adf46",
+      "email": "Loy.Crona@hotmail.com",
+      "name": "Name EdYaeeEpdSdVPKRNUkYXyTVAUsCDaLmYExV",
+      "country": "Belarus",
+      "city": "City WRGuRQPUxXPBfeE",
+      "street": "Street 9Hp4E1iMn0ScLhIi2zvW48agCjIlGyQIj",
+      "house": 631,
+      "flat": 4114,
+      "phone": "+229322744441",
+      "createdOn": "2025-03-02T12:25:19.000Z",
+      "notes": "Notes fcIPWRfWvTWOyWwixrgbxqkBdLLAzepCCjOQKBtARsfEwextgRqLYPkvFApIoLSMkRPpHnPsEsjzUoCskzEraklbtjDOHqDqmXODjgALcckczBqVyNvYaINVmwivtoNaoGoqoMYTdCzIWFyyVIQjzHVHBYHjqvjvuAnkzMOgNxzOBAacfvNAEZWOQKwfAZTgDAmMNtnJpwZFBqtRFHwVZJVNPMKMShAETIZuIFsqqdoHEIiEglrs"
+    },
+    "products": [
+      {
+        "_id": "67c44e307b4bcc16671adf8d",
+        "name": "Keyboard13912",
+        "amount": 464,
+        "price": 7015,
+        "manufacturer": "Xiaomi",
+        "notes": "LntHhTWSWkh9pSEo1tNFeuc6144ABbQ0BbQumPqVDeKIFSTTyiT4UWM16xOEYUn820lwyQsNdOSiZTYkCjG9gxnuDFJEZlPHRbEQxZ4jXJ6x3RntyqnyDVhB7vWU9QrpjINSDhgheM47N6IrlJ2ipo5sXwKbkTLYxATXpFoZuTeb8fGri1GcXRIFdqYPaLTRvilhjy98ssleiPPtJquVatpgWPHfXp4lVIgmuGSUezMNNNVHnYxkgCGD3o",
+        "received": false
+      }
+    ],
+    "delivery": {
+      "address": {
+        "country": "Great Britain",
+        "city": "City zXlNpKOBpoAefIU",
+        "street": "Street 9INDd45gPowniEd3PWWgrG5wtMW6LPq0E",
+        "house": 395,
+        "flat": 4541
+      },
+      "finalDate": "2025-03-07T00:00:00.000Z",
+      "condition": "Pickup"
+    },
+    "total_price": 7015,
+    "createdOn": "2025-03-02T12:25:21.000Z",
+    "comments": [],
+    "history": [
+      {
+        "status": "Canceled",
+        "customer": "67c44e2f7b4bcc16671adf46",
+        "products": [
+          {
+            "_id": "67c44e307b4bcc16671adf8d",
+            "name": "Keyboard13912",
+            "amount": 464,
+            "price": 7015,
+            "manufacturer": "Xiaomi",
+            "notes": "LntHhTWSWkh9pSEo1tNFeuc6144ABbQ0BbQumPqVDeKIFSTTyiT4UWM16xOEYUn820lwyQsNdOSiZTYkCjG9gxnuDFJEZlPHRbEQxZ4jXJ6x3RntyqnyDVhB7vWU9QrpjINSDhgheM47N6IrlJ2ipo5sXwKbkTLYxATXpFoZuTeb8fGri1GcXRIFdqYPaLTRvilhjy98ssleiPPtJquVatpgWPHfXp4lVIgmuGSUezMNNNVHnYxkgCGD3o",
+            "received": false
+          }
+        ],
+        "total_price": 7015,
+        "delivery": {
+          "address": {
+            "country": "Great Britain",
+            "city": "City zXlNpKOBpoAefIU",
+            "street": "Street 9INDd45gPowniEd3PWWgrG5wtMW6LPq0E",
+            "house": 395,
+            "flat": 4541
+          },
+          "finalDate": "2025-03-07T00:00:00.000Z",
+          "condition": "Pickup"
+        },
+        "changedOn": "2025-03-02T12:25:22.000Z",
+        "action": "Order canceled"
+      },
+      {
+        "status": "In Process",
+        "customer": "67c44e2f7b4bcc16671adf46",
+        "products": [
+          {
+            "_id": "67c44e307b4bcc16671adf8d",
+            "name": "Keyboard13912",
+            "amount": 464,
+            "price": 7015,
+            "manufacturer": "Xiaomi",
+            "notes": "LntHhTWSWkh9pSEo1tNFeuc6144ABbQ0BbQumPqVDeKIFSTTyiT4UWM16xOEYUn820lwyQsNdOSiZTYkCjG9gxnuDFJEZlPHRbEQxZ4jXJ6x3RntyqnyDVhB7vWU9QrpjINSDhgheM47N6IrlJ2ipo5sXwKbkTLYxATXpFoZuTeb8fGri1GcXRIFdqYPaLTRvilhjy98ssleiPPtJquVatpgWPHfXp4lVIgmuGSUezMNNNVHnYxkgCGD3o",
+            "received": false
+          }
+        ],
+        "total_price": 7015,
+        "delivery": {
+          "address": {
+            "country": "Great Britain",
+            "city": "City zXlNpKOBpoAefIU",
+            "street": "Street 9INDd45gPowniEd3PWWgrG5wtMW6LPq0E",
+            "house": 395,
+            "flat": 4541
+          },
+          "finalDate": "2025-03-07T00:00:00.000Z",
+          "condition": "Pickup"
+        },
+        "changedOn": "2025-03-02T12:25:22.000Z",
+        "action": "Order processing started"
+      },
+      {
+        "status": "Draft",
+        "customer": "67c44e2f7b4bcc16671adf46",
+        "products": [
+          {
+            "_id": "67c44e307b4bcc16671adf8d",
+            "name": "Keyboard13912",
+            "amount": 464,
+            "price": 7015,
+            "manufacturer": "Xiaomi",
+            "notes": "LntHhTWSWkh9pSEo1tNFeuc6144ABbQ0BbQumPqVDeKIFSTTyiT4UWM16xOEYUn820lwyQsNdOSiZTYkCjG9gxnuDFJEZlPHRbEQxZ4jXJ6x3RntyqnyDVhB7vWU9QrpjINSDhgheM47N6IrlJ2ipo5sXwKbkTLYxATXpFoZuTeb8fGri1GcXRIFdqYPaLTRvilhjy98ssleiPPtJquVatpgWPHfXp4lVIgmuGSUezMNNNVHnYxkgCGD3o",
+            "received": false
+          }
+        ],
+        "total_price": 7015,
+        "delivery": {
+          "address": {
+            "country": "Great Britain",
+            "city": "City zXlNpKOBpoAefIU",
+            "street": "Street 9INDd45gPowniEd3PWWgrG5wtMW6LPq0E",
+            "house": 395,
+            "flat": 4541
+          },
+          "finalDate": "2025-03-07T00:00:00.000Z",
+          "condition": "Pickup"
+        },
+        "changedOn": "2025-03-02T12:25:21.000Z",
+        "action": "Delivery Scheduled"
+      },
+      {
+        "status": "Draft",
+        "customer": "67c44e2f7b4bcc16671adf46",
+        "products": [
+          {
+            "_id": "67c44e307b4bcc16671adf8d",
+            "name": "Keyboard13912",
+            "amount": 464,
+            "price": 7015,
+            "manufacturer": "Xiaomi",
+            "notes": "LntHhTWSWkh9pSEo1tNFeuc6144ABbQ0BbQumPqVDeKIFSTTyiT4UWM16xOEYUn820lwyQsNdOSiZTYkCjG9gxnuDFJEZlPHRbEQxZ4jXJ6x3RntyqnyDVhB7vWU9QrpjINSDhgheM47N6IrlJ2ipo5sXwKbkTLYxATXpFoZuTeb8fGri1GcXRIFdqYPaLTRvilhjy98ssleiPPtJquVatpgWPHfXp4lVIgmuGSUezMNNNVHnYxkgCGD3o",
+            "received": false
+          }
+        ],
+        "total_price": 7015,
+        "delivery": null,
+        "changedOn": "2025-03-02T12:25:21.000Z",
+        "action": "Order created"
+      }
+    ]
+  },
+  "IsSuccess": true,
+  "ErrorMessage": null
+}
