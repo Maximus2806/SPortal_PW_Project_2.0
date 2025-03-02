@@ -1,0 +1,13 @@
+{
+  "Product": {
+    "name": "Bacon43988",
+    "amount": 370,
+    "price": 6138,
+    "manufacturer": "Tesla",
+    "createdOn": "2025-03-02T12:25:11.000Z",
+    "notes": "jBSBlRKfUBIsYmuifTM0VFCqAIiYv1WWggIfOB9C1qdDnBNlXxz1iVt8WAPwGTmLA5ywD72QLxSFhkgeDWjrhG3UpARqQxzVgthD2JEfFGWX1VjX7qH2mNcKcZRRBsNT5NXaevmOp8w5cafEoCIPDoF865WLmKP953oj2EfDmT0dj1M6RFiYE0KXvWnqOrdepIG3WKnQ0GKtHdnulBcvm5UtAV373rxdpM2X7GGRkTG5aYBc8xFITWiBfN",
+    "_id": "67c44e277b4bcc16671adbd1"
+  },
+  "IsSuccess": true,
+  "ErrorMessage": null
+}

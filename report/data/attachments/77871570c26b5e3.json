@@ -1,0 +1,13 @@
+{
+  "Product": {
+    "name": "Car14672",
+    "amount": 243,
+    "price": 83229,
+    "manufacturer": "Microsoft",
+    "createdOn": "2025-03-02T12:25:18.000Z",
+    "notes": "3FkaxY0MakMLjm6ytqROEHo1x7JyFsDeKFhAL2apO5Ub9wPKJtkCAUNAIhk2vfMwpRyALJNes5SVCdTkjFtKpNhN4kiJFYAIpgGXsaDf8DdKaNeMH2WvdT4KVJW4XcIhIlBh2AwvIuIcJKAleemX9hP9kEKNnKsf3Ii6R9Wt99ufvAM3SMU2Iy1QLMG30kPoLM6I5Rutemd0QL5PsoKNYKIwZfkqXJ5n0vEcv6eeH7NBvMVQn9XxNLq79V",
+    "_id": "67c44e2e7b4bcc16671adef2"
+  },
+  "IsSuccess": true,
+  "ErrorMessage": null
+}

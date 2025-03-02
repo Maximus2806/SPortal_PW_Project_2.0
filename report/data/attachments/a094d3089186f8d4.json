@@ -1,0 +1,95 @@
+{
+  "Order": {
+    "_id": "67c44e217b4bcc16671ada7d",
+    "status": "Draft",
+    "customer": {
+      "_id": "67c44e247b4bcc16671adab2",
+      "email": "Addie.Conroy75@hotmail.com",
+      "name": "Name OljFcFIvgazkhPAaAqzNmsCMtFQGpPKQPek",
+      "country": "Ukraine",
+      "city": "City WLSjgNIUyQyZCDA",
+      "street": "Street Y5Zh5JltHeypUfPxUwUbGppGhsos1QM4c",
+      "house": 247,
+      "flat": 5863,
+      "phone": "+660140428757",
+      "createdOn": "2025-03-02T12:25:08.000Z",
+      "notes": "Notes mCHPgYxDGzIqtecMOdcSgQrroLzrLNqoDKOaemeDRKLOgLRVepWIQcXnLJsbwGxNNyYxLxYsfKgpGlXKODXLpyOFVUPUrkDwhEebkxnqMqqTsXSAWkZzPDPxlmEBPvDqgppFFFCdleBkzhHKaPaTJaDqWBXOflrTTllwWiBSzaVUtYTzgFjZaTgeOaTcJXIEwRXvgfufxGyISTsuFLnjpWFYHSNeOSussEsxdPStXzWQuQeJVmmu"
+    },
+    "products": [
+      {
+        "_id": "67c44e257b4bcc16671adaf0",
+        "name": "Car27667",
+        "amount": 706,
+        "price": 26234,
+        "manufacturer": "Tesla",
+        "notes": "HlaqDN1RpJIW7sA2rwIdK2GY4o8o7uhqUS6CJ8JbWCP5mhpAsuSan5oMC6aj8Vc1jCQHynXBTm8304DGrc4Pxo7tG7UeWPPBen3Hu9DJe6uhCITU2tosPowQR1lcyMERtNxNjSJeoKe1rqcFi9o9spk5cAQhm2WE3yj9AvSKoHG7Z5bLRp5v95V2lMRoWmvkvfM3vy3SsyTl19cSAvqGiqNdOzt62Zysv9ctBh2GTcAxnNh5AMStGrELix",
+        "received": false
+      }
+    ],
+    "delivery": null,
+    "total_price": 26234,
+    "createdOn": "2025-03-02T12:25:05.000Z",
+    "comments": [],
+    "history": [
+      {
+        "status": "Draft",
+        "customer": "67c44e247b4bcc16671adab2",
+        "products": [
+          {
+            "_id": "67c44e1b7b4bcc16671ada33",
+            "name": "Cheese75739",
+            "amount": 927,
+            "price": 33098,
+            "manufacturer": "Sony",
+            "notes": "R0oVt9NAlsjuBWgxgMzxdXXrpRLovh8qDuZA3wODLbq58P2EWbRPmzwhB9tgBIUJ7NsNA0uwIxtpSQ5681ZZzC7QjzWD2KqxxHyhrQ6guiFeMqYj7m52SptLc9NSk4SNZZH0MIVtmUUW6hzpou5yhElxu7KSslLJn8MRkOm3CpvmiLxv43MMylrzzafeZj5Xf0vMvO1WQKBeWPeQuL1ll8ssthlwn2vfX7hhKMToLXkdoJ9qrOmnOKDmeB",
+            "received": false
+          }
+        ],
+        "total_price": 26234,
+        "delivery": null,
+        "changedOn": "2025-03-02T12:25:09.000Z",
+        "action": "Customer changed"
+      },
+      {
+        "status": "Draft",
+        "customer": "67c44e177b4bcc16671ad9f6",
+        "products": [
+          {
+            "_id": "67c44e257b4bcc16671adaf0",
+            "name": "Car27667",
+            "amount": 706,
+            "price": 26234,
+            "manufacturer": "Tesla",
+            "notes": "HlaqDN1RpJIW7sA2rwIdK2GY4o8o7uhqUS6CJ8JbWCP5mhpAsuSan5oMC6aj8Vc1jCQHynXBTm8304DGrc4Pxo7tG7UeWPPBen3Hu9DJe6uhCITU2tosPowQR1lcyMERtNxNjSJeoKe1rqcFi9o9spk5cAQhm2WE3yj9AvSKoHG7Z5bLRp5v95V2lMRoWmvkvfM3vy3SsyTl19cSAvqGiqNdOzt62Zysv9ctBh2GTcAxnNh5AMStGrELix",
+            "received": false
+          }
+        ],
+        "total_price": 26234,
+        "delivery": null,
+        "changedOn": "2025-03-02T12:25:09.000Z",
+        "action": "Requested products changed"
+      },
+      {
+        "status": "Draft",
+        "customer": "67c44e177b4bcc16671ad9f6",
+        "products": [
+          {
+            "_id": "67c44e1b7b4bcc16671ada33",
+            "name": "Cheese75739",
+            "amount": 927,
+            "price": 33098,
+            "manufacturer": "Sony",
+            "notes": "R0oVt9NAlsjuBWgxgMzxdXXrpRLovh8qDuZA3wODLbq58P2EWbRPmzwhB9tgBIUJ7NsNA0uwIxtpSQ5681ZZzC7QjzWD2KqxxHyhrQ6guiFeMqYj7m52SptLc9NSk4SNZZH0MIVtmUUW6hzpou5yhElxu7KSslLJn8MRkOm3CpvmiLxv43MMylrzzafeZj5Xf0vMvO1WQKBeWPeQuL1ll8ssthlwn2vfX7hhKMToLXkdoJ9qrOmnOKDmeB",
+            "received": false
+          }
+        ],
+        "total_price": 33098,
+        "delivery": null,
+        "changedOn": "2025-03-02T12:25:05.000Z",
+        "action": "Order created"
+      }
+    ]
+  },
+  "IsSuccess": true,
+  "ErrorMessage": null
+}

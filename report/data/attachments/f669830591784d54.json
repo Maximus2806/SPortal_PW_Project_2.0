@@ -1,0 +1,93 @@
+{
+  "Order": {
+    "status": "Draft",
+    "customer": {
+      "_id": "67c44e2e7b4bcc16671adeb6",
+      "email": "Vanessa.Gerlach@hotmail.com",
+      "name": "Name apfQMBWdpJvTJltLQOGcquRvznkYRIqINHd",
+      "country": "Canada",
+      "city": "City pwoXoFBlWQpwxqS",
+      "street": "Street BMtw0ftedW9bVdgyuhKbH9jweJngqu6EO",
+      "house": 537,
+      "flat": 3476,
+      "phone": "+354519912945",
+      "createdOn": "2025-03-02T12:25:18.000Z",
+      "notes": "Notes mohfIQXRlEmOhkJWpHUUwfCAmHRWLkERCNsnghrQdKtvZhiymHSFeXxTafLBIcOkiHkOjUIMCfCJjgjLkCddQCOpMaVAJdhGazZzlEUmmdDkSzGICsbATYFmRCLsTTtLtFPEtOgvUAjRUulNiXsOEPTzADhxZmXtDkNnikUmNZnrVybryCqletpLCwJjyRzVNrtvNckfCwdNoqmoWhGarpkOZmykEYzdkdjEsnAPovMGxFnaPPoo"
+    },
+    "products": [
+      {
+        "_id": "67c44e2e7b4bcc16671adef2",
+        "name": "Car14672",
+        "amount": 243,
+        "price": 83229,
+        "manufacturer": "Microsoft",
+        "notes": "3FkaxY0MakMLjm6ytqROEHo1x7JyFsDeKFhAL2apO5Ub9wPKJtkCAUNAIhk2vfMwpRyALJNes5SVCdTkjFtKpNhN4kiJFYAIpgGXsaDf8DdKaNeMH2WvdT4KVJW4XcIhIlBh2AwvIuIcJKAleemX9hP9kEKNnKsf3Ii6R9Wt99ufvAM3SMU2Iy1QLMG30kPoLM6I5Rutemd0QL5PsoKNYKIwZfkqXJ5n0vEcv6eeH7NBvMVQn9XxNLq79V",
+        "received": false
+      },
+      {
+        "_id": "67c44e2e7b4bcc16671adef2",
+        "name": "Car14672",
+        "amount": 243,
+        "price": 83229,
+        "manufacturer": "Microsoft",
+        "notes": "3FkaxY0MakMLjm6ytqROEHo1x7JyFsDeKFhAL2apO5Ub9wPKJtkCAUNAIhk2vfMwpRyALJNes5SVCdTkjFtKpNhN4kiJFYAIpgGXsaDf8DdKaNeMH2WvdT4KVJW4XcIhIlBh2AwvIuIcJKAleemX9hP9kEKNnKsf3Ii6R9Wt99ufvAM3SMU2Iy1QLMG30kPoLM6I5Rutemd0QL5PsoKNYKIwZfkqXJ5n0vEcv6eeH7NBvMVQn9XxNLq79V",
+        "received": false
+      },
+      {
+        "_id": "67c44e2e7b4bcc16671adef2",
+        "name": "Car14672",
+        "amount": 243,
+        "price": 83229,
+        "manufacturer": "Microsoft",
+        "notes": "3FkaxY0MakMLjm6ytqROEHo1x7JyFsDeKFhAL2apO5Ub9wPKJtkCAUNAIhk2vfMwpRyALJNes5SVCdTkjFtKpNhN4kiJFYAIpgGXsaDf8DdKaNeMH2WvdT4KVJW4XcIhIlBh2AwvIuIcJKAleemX9hP9kEKNnKsf3Ii6R9Wt99ufvAM3SMU2Iy1QLMG30kPoLM6I5Rutemd0QL5PsoKNYKIwZfkqXJ5n0vEcv6eeH7NBvMVQn9XxNLq79V",
+        "received": false
+      }
+    ],
+    "delivery": null,
+    "total_price": 249687,
+    "createdOn": "2025-03-02T12:25:19.000Z",
+    "comments": [],
+    "history": [
+      {
+        "status": "Draft",
+        "customer": "67c44e2e7b4bcc16671adeb6",
+        "products": [
+          {
+            "_id": "67c44e2e7b4bcc16671adef2",
+            "name": "Car14672",
+            "amount": 243,
+            "price": 83229,
+            "manufacturer": "Microsoft",
+            "notes": "3FkaxY0MakMLjm6ytqROEHo1x7JyFsDeKFhAL2apO5Ub9wPKJtkCAUNAIhk2vfMwpRyALJNes5SVCdTkjFtKpNhN4kiJFYAIpgGXsaDf8DdKaNeMH2WvdT4KVJW4XcIhIlBh2AwvIuIcJKAleemX9hP9kEKNnKsf3Ii6R9Wt99ufvAM3SMU2Iy1QLMG30kPoLM6I5Rutemd0QL5PsoKNYKIwZfkqXJ5n0vEcv6eeH7NBvMVQn9XxNLq79V",
+            "received": false
+          },
+          {
+            "_id": "67c44e2e7b4bcc16671adef2",
+            "name": "Car14672",
+            "amount": 243,
+            "price": 83229,
+            "manufacturer": "Microsoft",
+            "notes": "3FkaxY0MakMLjm6ytqROEHo1x7JyFsDeKFhAL2apO5Ub9wPKJtkCAUNAIhk2vfMwpRyALJNes5SVCdTkjFtKpNhN4kiJFYAIpgGXsaDf8DdKaNeMH2WvdT4KVJW4XcIhIlBh2AwvIuIcJKAleemX9hP9kEKNnKsf3Ii6R9Wt99ufvAM3SMU2Iy1QLMG30kPoLM6I5Rutemd0QL5PsoKNYKIwZfkqXJ5n0vEcv6eeH7NBvMVQn9XxNLq79V",
+            "received": false
+          },
+          {
+            "_id": "67c44e2e7b4bcc16671adef2",
+            "name": "Car14672",
+            "amount": 243,
+            "price": 83229,
+            "manufacturer": "Microsoft",
+            "notes": "3FkaxY0MakMLjm6ytqROEHo1x7JyFsDeKFhAL2apO5Ub9wPKJtkCAUNAIhk2vfMwpRyALJNes5SVCdTkjFtKpNhN4kiJFYAIpgGXsaDf8DdKaNeMH2WvdT4KVJW4XcIhIlBh2AwvIuIcJKAleemX9hP9kEKNnKsf3Ii6R9Wt99ufvAM3SMU2Iy1QLMG30kPoLM6I5Rutemd0QL5PsoKNYKIwZfkqXJ5n0vEcv6eeH7NBvMVQn9XxNLq79V",
+            "received": false
+          }
+        ],
+        "total_price": 249687,
+        "delivery": null,
+        "changedOn": "2025-03-02T12:25:19.000Z",
+        "action": "Order created"
+      }
+    ],
+    "_id": "67c44e2f7b4bcc16671adf34"
+  },
+  "IsSuccess": true,
+  "ErrorMessage": null
+}

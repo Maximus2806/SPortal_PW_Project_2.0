@@ -1,0 +1,13 @@
+{
+  "Product": {
+    "name": "Hat14918",
+    "amount": 342,
+    "price": 42088,
+    "manufacturer": "Google",
+    "createdOn": "2025-03-02T12:25:11.000Z",
+    "notes": "cey5YmeTLsyzzRTA9GPluXKj7mxkB6Uyh4ViIAyrNJRpAhz4pUGcmVXAUHtd57aJry8VVUU21nQOXqpUhJ5erpNPBe1oiOpz0wpzZdlkjBUkjRzeFAY0cikzv8oU8XWXQF9zRqeKQYJEZhAj3D8oQMzsGnIJKIDiiwrXrFWiwHGwEo66h6tGxQUtUVyiS0IkWxR7SGkORhC72qMm8kGeRYSokgm7bYyfMaYdM8qfecmpreRGsALscf9OMl",
+    "_id": "67c44e277b4bcc16671adc05"
+  },
+  "IsSuccess": true,
+  "ErrorMessage": null
+}

@@ -1,0 +1,13 @@
+{
+  "Product": {
+    "name": "Hat4028",
+    "amount": 443,
+    "price": 9909,
+    "manufacturer": "Tesla",
+    "createdOn": "2025-03-02T12:25:11.000Z",
+    "notes": "Q9XCCLMyGc8vWNJ8oHgSbtRttmrDZTeVSx1g6oWalXV5WXLBWGOQocL8YZNh50qLeFSpCWLduuubE3HVkLFyNdq2pQUeuKYgjzVU9ykKzzCFbVUOcZG5Cz6srPqzCU1Wy9ha2UZ7dQaXZDKlK3AdSVcjEj6CE10cWcoGeKCcuTUCH5oigZVJ6CtOwkWW1kF5VJ5WoRzkKKhyikmw3Dec7ZocLKuGFz6T581o8jy3URZe7Ls41RTiDTN7kB",
+    "_id": "67c44e277b4bcc16671adbe8"
+  },
+  "IsSuccess": true,
+  "ErrorMessage": null
+}

@@ -1,0 +1,112 @@
+{
+  "Order": {
+    "_id": "67c44e2a7b4bcc16671add42",
+    "status": "Draft",
+    "customer": {
+      "_id": "67c44e297b4bcc16671adca7",
+      "email": "Darron46@gmail.com",
+      "name": "Name FvpuopzZhzgwCFvduzOFyrakxzzQiaditXz",
+      "country": "Russia",
+      "city": "City tEgGcJkxVWSTegP",
+      "street": "Street ZqJcDAEtHWfoHlVCpl5zelWBWft9w6ce2",
+      "house": 929,
+      "flat": 1049,
+      "phone": "+485343644687",
+      "createdOn": "2025-03-02T12:25:13.000Z",
+      "notes": "Notes qALkBUauXqjFKAtaLLzXIFQPZqNVjCkiEvIArYAavkJXbZuxojryOOefXOTKpZgotbeqAJDGbYYXZcsoDqsBMCgPGvGmBaeSuwfzodVRQMuGNccQgfIzncgoolVGcEOxfvXjXSGgSEssGjmIIsgbDlRylWZHCrAmxmompMVqPvLBhvqVvumwMseaCqjiXeKMdKKZKVhzkftBLgshrQmtmmRtnfxfDoTHNjxcJYzXESJPIhHYIJYD"
+    },
+    "products": [
+      {
+        "_id": "67c44e297b4bcc16671adcec",
+        "name": "Ball64365",
+        "amount": 644,
+        "price": 90313,
+        "manufacturer": "Google",
+        "notes": "9uhqXlStTOmIoNPo0JfNGNrqVUjJjvZi8hbBtL0AiN4y8pudxpXtB3SzWOAFAHSEjVn1qUszL2A1N3Vm0YWoxDNptzVUXDUr7NTbfVlxBGB7xmVuHMzgHAm6ykALy4VCDE4vIuDGbScOvIr1h84wLn2H6PQyzbjXeLyaO5SZBaNMMl82XF2n40sXksafVkkDv411uUNmMMG1533uZAFIJhqq9pXzBGwUhfOnVDycm3WcSv3HuGCDt3tnx4",
+        "received": false
+      },
+      {
+        "_id": "67c44e2b7b4bcc16671add95",
+        "name": "Mouse98839",
+        "amount": 882,
+        "price": 82111,
+        "manufacturer": "Microsoft",
+        "notes": "toJCFVfI4RlJge7Wp9hN5OkaJF4asxJcrsHazZHYb76a6eb4OSxE6fNvDNLofHKiajaTHJx0dx25umOnFb8bE5biruIKj3B02R1PFLkEO0eItxsnFaCv761J8hybfXL783IVQIHifNPXSAfq1s7AauycRenUJIgq4YzQsmTwQYJq2BOTsvntzd362i6XzIzbRtCFMHZRlBmxtqZDKFFvyqP7pX22tpj1K2DIR1p8ugR2NN2AieFvI6FpiL",
+        "received": false
+      },
+      {
+        "_id": "67c44e2c7b4bcc16671adde4",
+        "name": "Towels84901",
+        "amount": 169,
+        "price": 45093,
+        "manufacturer": "Sony",
+        "notes": "quLwJRdRX6A2R9r1bJthxaQG3X2IsGXHEvN944ghNjfB7KLnUrAqbIWCY46KT3omqB2T0UFKN9IbPMT1xPqoS13ItcUzbgy5KpEbUg1cOwmXonWZzoLGCwLO0V4TlYzsEKBlRbk1b7dc4cuubwMjTktVgjZ98EgNjTBZa0NcXyFuJqGjMiLDGST04guquRTSEm6aHmd84rWQ41VF7FN0uI4VlEKQ5mbIZQCiiaNheJVaNIbPGVCx2Vk32u",
+        "received": false
+      }
+    ],
+    "delivery": null,
+    "total_price": 217517,
+    "createdOn": "2025-03-02T12:25:14.000Z",
+    "comments": [],
+    "history": [
+      {
+        "status": "Draft",
+        "customer": "67c44e297b4bcc16671adca7",
+        "products": [
+          {
+            "_id": "67c44e297b4bcc16671adcec",
+            "name": "Ball64365",
+            "amount": 644,
+            "price": 90313,
+            "manufacturer": "Google",
+            "notes": "9uhqXlStTOmIoNPo0JfNGNrqVUjJjvZi8hbBtL0AiN4y8pudxpXtB3SzWOAFAHSEjVn1qUszL2A1N3Vm0YWoxDNptzVUXDUr7NTbfVlxBGB7xmVuHMzgHAm6ykALy4VCDE4vIuDGbScOvIr1h84wLn2H6PQyzbjXeLyaO5SZBaNMMl82XF2n40sXksafVkkDv411uUNmMMG1533uZAFIJhqq9pXzBGwUhfOnVDycm3WcSv3HuGCDt3tnx4",
+            "received": false
+          },
+          {
+            "_id": "67c44e2b7b4bcc16671add95",
+            "name": "Mouse98839",
+            "amount": 882,
+            "price": 82111,
+            "manufacturer": "Microsoft",
+            "notes": "toJCFVfI4RlJge7Wp9hN5OkaJF4asxJcrsHazZHYb76a6eb4OSxE6fNvDNLofHKiajaTHJx0dx25umOnFb8bE5biruIKj3B02R1PFLkEO0eItxsnFaCv761J8hybfXL783IVQIHifNPXSAfq1s7AauycRenUJIgq4YzQsmTwQYJq2BOTsvntzd362i6XzIzbRtCFMHZRlBmxtqZDKFFvyqP7pX22tpj1K2DIR1p8ugR2NN2AieFvI6FpiL",
+            "received": false
+          },
+          {
+            "_id": "67c44e2c7b4bcc16671adde4",
+            "name": "Towels84901",
+            "amount": 169,
+            "price": 45093,
+            "manufacturer": "Sony",
+            "notes": "quLwJRdRX6A2R9r1bJthxaQG3X2IsGXHEvN944ghNjfB7KLnUrAqbIWCY46KT3omqB2T0UFKN9IbPMT1xPqoS13ItcUzbgy5KpEbUg1cOwmXonWZzoLGCwLO0V4TlYzsEKBlRbk1b7dc4cuubwMjTktVgjZ98EgNjTBZa0NcXyFuJqGjMiLDGST04guquRTSEm6aHmd84rWQ41VF7FN0uI4VlEKQ5mbIZQCiiaNheJVaNIbPGVCx2Vk32u",
+            "received": false
+          }
+        ],
+        "total_price": 217517,
+        "delivery": null,
+        "changedOn": "2025-03-02T12:25:16.000Z",
+        "action": "Requested products changed"
+      },
+      {
+        "status": "Draft",
+        "customer": "67c44e297b4bcc16671adca7",
+        "products": [
+          {
+            "_id": "67c44e297b4bcc16671adcec",
+            "name": "Ball64365",
+            "amount": 644,
+            "price": 90313,
+            "manufacturer": "Google",
+            "notes": "9uhqXlStTOmIoNPo0JfNGNrqVUjJjvZi8hbBtL0AiN4y8pudxpXtB3SzWOAFAHSEjVn1qUszL2A1N3Vm0YWoxDNptzVUXDUr7NTbfVlxBGB7xmVuHMzgHAm6ykALy4VCDE4vIuDGbScOvIr1h84wLn2H6PQyzbjXeLyaO5SZBaNMMl82XF2n40sXksafVkkDv411uUNmMMG1533uZAFIJhqq9pXzBGwUhfOnVDycm3WcSv3HuGCDt3tnx4",
+            "received": false
+          }
+        ],
+        "total_price": 90313,
+        "delivery": null,
+        "changedOn": "2025-03-02T12:25:14.000Z",
+        "action": "Order created"
+      }
+    ]
+  },
+  "IsSuccess": true,
+  "ErrorMessage": null
+}

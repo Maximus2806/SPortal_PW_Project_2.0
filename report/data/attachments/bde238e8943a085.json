@@ -1,0 +1,76 @@
+{
+  "Order": {
+    "_id": "67c44e2d7b4bcc16671ade56",
+    "status": "Canceled",
+    "customer": {
+      "_id": "67c44e2b7b4bcc16671addbf",
+      "email": "Lloyd_Mraz79@yahoo.com",
+      "name": "Name PBdpwyHNbbKwJjsjWJGnwWytZMAEHlnIpGh",
+      "country": "Germany",
+      "city": "City XPJVvEDhcvvypXb",
+      "street": "Street QLnRc9VqU1cekUU18bNWqbBHObT9fLHmQ",
+      "house": 596,
+      "flat": 5920,
+      "phone": "+954481530055",
+      "createdOn": "2025-03-02T12:25:15.000Z",
+      "notes": "Notes yTVYVcWVmKcmXhiJegvkjlSwWgDQzJuJKUwWBTuDkzVMgUpolQryMgkRzSYpsufCGZvlGiTtNErRPMZldeGoamGgydfYgUPodXtxZxmbcbXGydqxrSSgTUFCajwmLyTsiOVUieSikvIxHWnaayGpFzIhIppMAUHzhvCSTSvxZheLyyDMNkxWlDCcRvSnhMnqOzqVaKVKRENHKURwNmpcFrvqhVAaCVeuTglgJiKovjzZvHUoHdUW"
+    },
+    "products": [
+      {
+        "_id": "67c44e2c7b4bcc16671addfc",
+        "name": "Soap26382",
+        "amount": 608,
+        "price": 13335,
+        "manufacturer": "Tesla",
+        "notes": "OQv1zYUTchtymVDXRnK9eXZdU17x2FZfKiP9MuP4tNNhTwtuKVebJmR3xWOt6Ha3Xas4SmEbVGvv4fqtUfvCcs06bRfPVVKnIFDzWsWh0z2uaI2W8C1lqO0sAovwzuwKHm8LM8eGDXkaRoAuBoMySxSqlog8lNwpJEWmj77eT2BmVoSK0ydfh0ijk9RIAzQWLZhkXJV0EeibdKdykisnAwFnHItIPDHxDcvtgZUmCtrMQg14g15m5M8eoQ",
+        "received": false
+      }
+    ],
+    "delivery": null,
+    "total_price": 13335,
+    "createdOn": "2025-03-02T12:25:17.000Z",
+    "comments": [],
+    "history": [
+      {
+        "status": "Canceled",
+        "customer": "67c44e2b7b4bcc16671addbf",
+        "products": [
+          {
+            "_id": "67c44e2c7b4bcc16671addfc",
+            "name": "Soap26382",
+            "amount": 608,
+            "price": 13335,
+            "manufacturer": "Tesla",
+            "notes": "OQv1zYUTchtymVDXRnK9eXZdU17x2FZfKiP9MuP4tNNhTwtuKVebJmR3xWOt6Ha3Xas4SmEbVGvv4fqtUfvCcs06bRfPVVKnIFDzWsWh0z2uaI2W8C1lqO0sAovwzuwKHm8LM8eGDXkaRoAuBoMySxSqlog8lNwpJEWmj77eT2BmVoSK0ydfh0ijk9RIAzQWLZhkXJV0EeibdKdykisnAwFnHItIPDHxDcvtgZUmCtrMQg14g15m5M8eoQ",
+            "received": false
+          }
+        ],
+        "total_price": 13335,
+        "delivery": null,
+        "changedOn": "2025-03-02T12:25:17.000Z",
+        "action": "Order canceled"
+      },
+      {
+        "status": "Draft",
+        "customer": "67c44e2b7b4bcc16671addbf",
+        "products": [
+          {
+            "_id": "67c44e2c7b4bcc16671addfc",
+            "name": "Soap26382",
+            "amount": 608,
+            "price": 13335,
+            "manufacturer": "Tesla",
+            "notes": "OQv1zYUTchtymVDXRnK9eXZdU17x2FZfKiP9MuP4tNNhTwtuKVebJmR3xWOt6Ha3Xas4SmEbVGvv4fqtUfvCcs06bRfPVVKnIFDzWsWh0z2uaI2W8C1lqO0sAovwzuwKHm8LM8eGDXkaRoAuBoMySxSqlog8lNwpJEWmj77eT2BmVoSK0ydfh0ijk9RIAzQWLZhkXJV0EeibdKdykisnAwFnHItIPDHxDcvtgZUmCtrMQg14g15m5M8eoQ",
+            "received": false
+          }
+        ],
+        "total_price": 13335,
+        "delivery": null,
+        "changedOn": "2025-03-02T12:25:17.000Z",
+        "action": "Order created"
+      }
+    ]
+  },
+  "IsSuccess": true,
+  "ErrorMessage": null
+}

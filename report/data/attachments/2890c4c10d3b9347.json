@@ -1,0 +1,13 @@
+{
+  "Product": {
+    "name": "Car67084",
+    "amount": 158,
+    "price": 26633,
+    "manufacturer": "Google",
+    "createdOn": "2025-03-02T12:25:12.000Z",
+    "notes": "XIbqnkhtK8McjWw10RvMi1MWOJ4WpPUKIGBfD5VLlchr7I0JpHWJQo8JRHpxjDL890y0LkO8PuQTcUwuJvHfvUisLk14NsQUIvt0IeuliEmdUBODS0yoaTgyAxyxdeMkPhSN3B72ZVXup6jLr7aqAVx7QBr9VW2BniQhLxtmevQKT1v3LGmfxz7hIJyZeORXmCe6x9lzU9fh37IBcyIEQQyKltuYQBE33KYL3JsjEQ6NfpfH2zIFgwI1Ql",
+    "_id": "67c44e287b4bcc16671adc30"
+  },
+  "IsSuccess": true,
+  "ErrorMessage": null
+}

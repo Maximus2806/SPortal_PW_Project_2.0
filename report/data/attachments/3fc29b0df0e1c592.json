@@ -1,0 +1,19 @@
+{
+  "Products": [
+    {
+      "_id": "67c0f7d27b4bcc16671a4809",
+      "name": "Tuna15624",
+      "amount": 329,
+      "price": 94133,
+      "manufacturer": "Apple",
+      "createdOn": "2025-02-27T23:40:02.000Z",
+      "notes": "zU8hmT7Up0ahreeSraX7LeWIyKSXTmrxJc9RwuHu36mxBvSuMJeVnNISGVjPVhASHUL4umFetcg8BcRUHpjf21Pc7nRIF6mpxr8eNj4wBHlZSU8EVTM5EQk6QrAwqGZ307C85phSIafg5OAUI7vQMKj3gFIl4DcSH5H2yzaxQyXpONUQNQNBgNloRnshD1lDeD3L2Jtk6HPS5BV6jHVH3OZGt5Z8hPbZVqtCcBc5HSkzrLmiXj9KBsdwgU"
+    }
+  ],
+  "sorting": {
+    "sortField": "createdOn",
+    "sortOrder": "desc"
+  },
+  "IsSuccess": true,
+  "ErrorMessage": null
+}

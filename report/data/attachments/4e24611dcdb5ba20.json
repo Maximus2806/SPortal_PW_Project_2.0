@@ -1,0 +1,13 @@
+{
+  "Product": {
+    "name": "Chicken91489",
+    "amount": 189,
+    "price": 32977,
+    "manufacturer": "Samsung",
+    "createdOn": "2025-03-02T12:25:12.000Z",
+    "notes": "6H5CUvaF4K1laVqJ1swOTM7wXdCap4fVgdrkpQvmBGdmG4iSLcCryZ0UxTFgmBVWKd3PV5yfHkZa7PMRapKvSoqABSsA20aQGx5SrIZ0Mn5kd5S8AePFbzoi9mFlsEg3QWtD3ceir38VmHq0WjEd6el7YDa3E64CdShTvDa0RVsPtQO78aKzEJkVpORxd7YShUR1ew9PFyuDqyXxLj9XEVYvB7nsd7SM6DV7j5cGHTrETiYLDNE9yzi3Bd",
+    "_id": "67c44e287b4bcc16671adc74"
+  },
+  "IsSuccess": true,
+  "ErrorMessage": null
+}

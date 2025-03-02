@@ -1,0 +1,17 @@
+{
+  "Customer": {
+    "_id": "67c44e0b7b4bcc16671ad941",
+    "email": "Novella_Vandervort@gmail.com",
+    "name": "Name TKnomJxmjipgZgzGKzFoNshABYWoiavYmtx",
+    "country": "Russia",
+    "city": "City lyoNAyZKQHgkaSX",
+    "street": "Street Oefb9aKHJOmbzrIx2qBNx9HsidteBxgYL",
+    "house": 939,
+    "flat": 7526,
+    "phone": "+975438931591",
+    "createdOn": "2025-03-02T12:24:43.000Z",
+    "notes": "Notes XfFEwcSOjLImvAhJacViArSHDnxXAmNQjEIFXpTzRTlzzBSDFWQElXHDmciTGHwNZmTQpOCfAyhIJGwfDcKoPtxTGkUVBlxZRLDnluTePFCIkpRvhQeZPnZqWPoRufGvqlSLaUQftosqudXQtwGJSQWTQyjMrVkvaNOzJKGSvNmOcUXLITrOOnoGcpHLfUKNaChYXtiqbzICUBTsIGEdfZBSHGlUuPHcuePhmcKWHtpihDdvLeVa"
+  },
+  "IsSuccess": true,
+  "ErrorMessage": null
+}

@@ -1,0 +1,13 @@
+{
+  "Product": {
+    "name": "Bacon80376",
+    "amount": 943,
+    "price": 43444,
+    "manufacturer": "Apple",
+    "createdOn": "2025-03-02T12:25:19.000Z",
+    "notes": "czLi7J9XEwBoBldDcpotyAUQ4oc5AcTQAnmlAXon3g7GcBZJX4wuDfPjCwY3wbms5xxGjsa0DwIuYYSsMz81Soh9YplqqRODPH4UUsAnpq0vpMqY6OLR4w4gdynmCzemtwlWVX47rZ9FtNVYZAbr6zWcN17aiOwmVTH0zdVQmgkIvobBAXzkuRVeE2uzeZuk8nPMO2GmEZfchTA7nad5mdqzMI53J0H1ZRNLrMl2Mrp7LT95MtvIgigNKw",
+    "_id": "67c44e2f7b4bcc16671adf78"
+  },
+  "IsSuccess": true,
+  "ErrorMessage": null
+}
