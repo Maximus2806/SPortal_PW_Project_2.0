@@ -1,0 +1,13 @@
+{
+  "Product": {
+    "name": "Bike93749",
+    "amount": 545,
+    "price": 37216,
+    "manufacturer": "Google",
+    "createdOn": "2025-03-02T16:30:13.000Z",
+    "notes": "5QGtSIv0jxlbJ63m0vvHQhzrKTKFVY5TZsCPqBMVTuUtZ9gXovIJIOz8dk9a4qyiGqYpjmS4CjPbiQz9NmomU2Wb7wUudBCz7VdQFKRTvdEFxnpuUxKEzLZRFGdwNbig4MbGd5KZlyEs5npSm3K3FLmi3uZGu5wPJ9g1KrVNFnhx6vbbIGS6Qju6y5iHQSpVgOSGnSBw7FRLewiQelh5wNK7rkIuLkagcMcm9zC9OZdU57rffGtX709rxS",
+    "_id": "67c487957b4bcc16671b0a43"
+  },
+  "IsSuccess": true,
+  "ErrorMessage": null
+}

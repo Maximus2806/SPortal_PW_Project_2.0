@@ -1,0 +1,13 @@
+{
+  "Product": {
+    "name": "Pizza2344",
+    "amount": 867,
+    "price": 46665,
+    "manufacturer": "Xiaomi",
+    "createdOn": "2025-03-02T16:30:24.000Z",
+    "notes": "NLhmj0YQzqPhTqdtZsphBP0niswqc0MI1Hx1Pt7WoJa9knYDU3ompN9NeARRlXJV2CtUmMamaD1JZgsNRH6k6JTcgLVWYHCeY2aODtNy58vZ29FK8kybZE72S2zi0DG1zpVQA2RWL6SsshKDAXJrwwkALkB3LVYkognn8WLlh2oeS9MlCs5CpMfZxtZdCqZuQuSptX7hqNhZr8f2JsG3NFglcgx3kCxl3ezeMislwsKCXkOpOptJhRJeu3",
+    "_id": "67c487a07b4bcc16671b0ea8"
+  },
+  "IsSuccess": true,
+  "ErrorMessage": null
+}

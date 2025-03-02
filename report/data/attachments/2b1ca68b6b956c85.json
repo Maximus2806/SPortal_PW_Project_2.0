@@ -1,0 +1,96 @@
+{
+  "Order": {
+    "_id": "67c487967b4bcc16671b0a68",
+    "status": "Draft",
+    "customer": {
+      "_id": "67c487957b4bcc16671b09fb",
+      "email": "Dale.Predovic77@gmail.com",
+      "name": "Name hNekLToQaFoihamkEYTffgwnOqBqOMyNNSP",
+      "country": "Belarus",
+      "city": "City BQXCeLNyJRlLhSi",
+      "street": "Street njAjXpVi6xn6r2f3tQGswA26zMuVAn1xc",
+      "house": 599,
+      "flat": 6216,
+      "phone": "+750456209989",
+      "createdOn": "2025-03-02T16:30:13.000Z",
+      "notes": "Notes ImBsQpktjwHZSRdqBrCstToCXWaVZnetzTXSECCSErOZHrxKotBlnNxrrONCZfxBJjWBcMDusJfvVJMqhgOdINdBYYeBcRtrSJTJvryEZGBcJKdtKfaBoqlGWsPynUyqchfUnpKcdjbslCYgKXHRihexhQHytypLzdfWFzhpieHkXEPqRqxEKFyPBcKEgevmJPdGscemKECKOQEFwaPTRHBzaeXPldtGzFFttCUcHtVdvYkXhIAY"
+    },
+    "products": [
+      {
+        "_id": "67c487957b4bcc16671b0a29",
+        "name": "Cheese53633",
+        "amount": 247,
+        "price": 54813,
+        "manufacturer": "Apple",
+        "notes": "koTDUxlaNceMtZNsd452OFOjv3EW98u7rn19xg7J8RyD0QVSl6q8RxgrOT9aFVyJT5YerHOEJv4nvriMM1URxrcjBgaWxHT4gQpRHHa2Fhylz3FxTpqddgZ8l3sYvo8lO1kVUu5h1mkpyq7EyBpy9aVAkdnEp242k84pKwqCeWE7iXEoW3ydvmzdGDqZZhVwr29a1DmCNZoU41227PtKtppTn8KdLdTx5YDZtsUqm9qPlzqXoNHqbsFddb",
+        "received": false
+      }
+    ],
+    "delivery": {
+      "address": {
+        "country": "Russia",
+        "city": "City ByPAaqWdpGPBsqk",
+        "street": "Street yDkxvSndXxNP9hE8eEEDzKXgOeW4Ys6A3",
+        "house": 404,
+        "flat": 3059
+      },
+      "finalDate": "2025-03-05T00:00:00.000Z",
+      "condition": "Pickup"
+    },
+    "total_price": 54813,
+    "createdOn": "2025-03-02T16:30:14.000Z",
+    "comments": [],
+    "history": [
+      {
+        "status": "Draft",
+        "customer": "67c487957b4bcc16671b09fb",
+        "products": [
+          {
+            "_id": "67c487957b4bcc16671b0a29",
+            "name": "Cheese53633",
+            "amount": 247,
+            "price": 54813,
+            "manufacturer": "Apple",
+            "notes": "koTDUxlaNceMtZNsd452OFOjv3EW98u7rn19xg7J8RyD0QVSl6q8RxgrOT9aFVyJT5YerHOEJv4nvriMM1URxrcjBgaWxHT4gQpRHHa2Fhylz3FxTpqddgZ8l3sYvo8lO1kVUu5h1mkpyq7EyBpy9aVAkdnEp242k84pKwqCeWE7iXEoW3ydvmzdGDqZZhVwr29a1DmCNZoU41227PtKtppTn8KdLdTx5YDZtsUqm9qPlzqXoNHqbsFddb",
+            "received": false
+          }
+        ],
+        "total_price": 54813,
+        "delivery": {
+          "address": {
+            "country": "Russia",
+            "city": "City ByPAaqWdpGPBsqk",
+            "street": "Street yDkxvSndXxNP9hE8eEEDzKXgOeW4Ys6A3",
+            "house": 404,
+            "flat": 3059
+          },
+          "finalDate": "2025-03-05T00:00:00.000Z",
+          "condition": "Pickup"
+        },
+        "changedOn": "2025-03-02T16:30:14.000Z",
+        "action": "Delivery Scheduled"
+      },
+      {
+        "status": "Draft",
+        "customer": "67c487957b4bcc16671b09fb",
+        "products": [
+          {
+            "_id": "67c487957b4bcc16671b0a29",
+            "name": "Cheese53633",
+            "amount": 247,
+            "price": 54813,
+            "manufacturer": "Apple",
+            "notes": "koTDUxlaNceMtZNsd452OFOjv3EW98u7rn19xg7J8RyD0QVSl6q8RxgrOT9aFVyJT5YerHOEJv4nvriMM1URxrcjBgaWxHT4gQpRHHa2Fhylz3FxTpqddgZ8l3sYvo8lO1kVUu5h1mkpyq7EyBpy9aVAkdnEp242k84pKwqCeWE7iXEoW3ydvmzdGDqZZhVwr29a1DmCNZoU41227PtKtppTn8KdLdTx5YDZtsUqm9qPlzqXoNHqbsFddb",
+            "received": false
+          }
+        ],
+        "total_price": 54813,
+        "delivery": null,
+        "changedOn": "2025-03-02T16:30:14.000Z",
+        "action": "Order created"
+      }
+    ]
+  },
+  "IsSuccess": true,
+  "ErrorMessage": null
+}

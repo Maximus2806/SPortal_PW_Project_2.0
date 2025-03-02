@@ -1,0 +1,57 @@
+{
+  "Order": {
+    "status": "Draft",
+    "customer": {
+      "_id": "67c487967b4bcc16671b0a81",
+      "email": "Ellie_Kovacek82@hotmail.com",
+      "name": "Name ZMEherUoyvJPqbTRkGjpaHJTCAXHPFcOkoQ",
+      "country": "Germany",
+      "city": "City RqQGlSZYnLqVRIg",
+      "street": "Street Tb9qUNGCJPTru2Qy3XMFp7Rsp7z6Uwc4X",
+      "house": 987,
+      "flat": 2863,
+      "phone": "+235451599394",
+      "createdOn": "2025-03-02T16:30:14.000Z",
+      "notes": "Notes tadYrHtedhnawpGteoJWXaCKNVESpdVFMvUlvgWMqUDoDOnnqhfoUPYOgvlusHOGtnKWLAlEZZiizoYICItebUURtSfKCDzmxrAVFxDJyMtLcbDSrXwPYcaeYyraZcLuSaWEEcbcDDkKGdWGyqdZuQJlNbpypcFiVTyIhsyxegdsigxjGgJFYFWKgtlvQDQraEvEpqrXuuXwQSvDOGkeYxrrIAevpyOhcazQPJguogCgTOMCmyvN"
+    },
+    "products": [
+      {
+        "_id": "67c487967b4bcc16671b0a9c",
+        "name": "Chicken28004",
+        "amount": 335,
+        "price": 61922,
+        "manufacturer": "Microsoft",
+        "notes": "690eengbcYNwhrf79TAYRgyyCC45vYt24pYVBkLGDjANHN5hizmETboi9gckZGnAof25E9nbPlYZxJZM9tLuy9ZvLBiE7yQamOK5pLUAu69IiZUrF4mxkfqWkj9XA7bGx13RG40h1LUVIqt20YXUCIWsKvkTnFDvMflYhb5MXEaODxThkHhQ73SjTuMYEd41DSKO9EQwJGkGEV5NJ8br9bpoIntyPMAeikkYDtfJbzUxjJuYVXViKik0CP",
+        "received": false
+      }
+    ],
+    "delivery": null,
+    "total_price": 61922,
+    "createdOn": "2025-03-02T16:30:15.000Z",
+    "comments": [],
+    "history": [
+      {
+        "status": "Draft",
+        "customer": "67c487967b4bcc16671b0a81",
+        "products": [
+          {
+            "_id": "67c487967b4bcc16671b0a9c",
+            "name": "Chicken28004",
+            "amount": 335,
+            "price": 61922,
+            "manufacturer": "Microsoft",
+            "notes": "690eengbcYNwhrf79TAYRgyyCC45vYt24pYVBkLGDjANHN5hizmETboi9gckZGnAof25E9nbPlYZxJZM9tLuy9ZvLBiE7yQamOK5pLUAu69IiZUrF4mxkfqWkj9XA7bGx13RG40h1LUVIqt20YXUCIWsKvkTnFDvMflYhb5MXEaODxThkHhQ73SjTuMYEd41DSKO9EQwJGkGEV5NJ8br9bpoIntyPMAeikkYDtfJbzUxjJuYVXViKik0CP",
+            "received": false
+          }
+        ],
+        "total_price": 61922,
+        "delivery": null,
+        "changedOn": "2025-03-02T16:30:15.000Z",
+        "action": "Order created"
+      }
+    ],
+    "_id": "67c487977b4bcc16671b0ac7"
+  },
+  "IsSuccess": true,
+  "ErrorMessage": null
+}

@@ -1,0 +1,13 @@
+{
+  "Product": {
+    "name": "Chicken28004",
+    "amount": 335,
+    "price": 61922,
+    "manufacturer": "Microsoft",
+    "createdOn": "2025-03-02T16:30:14.000Z",
+    "notes": "690eengbcYNwhrf79TAYRgyyCC45vYt24pYVBkLGDjANHN5hizmETboi9gckZGnAof25E9nbPlYZxJZM9tLuy9ZvLBiE7yQamOK5pLUAu69IiZUrF4mxkfqWkj9XA7bGx13RG40h1LUVIqt20YXUCIWsKvkTnFDvMflYhb5MXEaODxThkHhQ73SjTuMYEd41DSKO9EQwJGkGEV5NJ8br9bpoIntyPMAeikkYDtfJbzUxjJuYVXViKik0CP",
+    "_id": "67c487967b4bcc16671b0a9c"
+  },
+  "IsSuccess": true,
+  "ErrorMessage": null
+}

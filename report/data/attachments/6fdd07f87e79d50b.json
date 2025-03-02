@@ -1,0 +1,17 @@
+{
+  "Customer": {
+    "email": "Halie.Swift@hotmail.com",
+    "name": "Name zDJJRlmFEHCIMOijlxRxvlqmwZxXWCkDqnR",
+    "country": "Russia",
+    "city": "City HwRDyHoQoFLZHzG",
+    "street": "Street kmgVxOCnsSgepKobYcqVd3Jbf8eceAmYi",
+    "house": 6,
+    "flat": 2922,
+    "phone": "+803733255712",
+    "createdOn": "2025-03-02T16:30:12.000Z",
+    "notes": "Notes gVvjzUntPwWwRigwPThPbMpHvpAwMBEeVvzthngarwHjaNxlTGSQSVMtoljqbBLZiicWfTWuGkIgDzICqbgZCDPYzGRaHMbiqtiLLOqznXLzHndeyOKAlUdOEUTXPuPMjfcWkCfJFvrDMGDbBTwQsNBeVLDqKyDlmZkMMeUrcZezqMqOOTloHIUozVtDDfvYtfrCKxosYnMTbSFqXwXKaEZJtqwikvLpGzfFOlUwCoouTuZtqJzv",
+    "_id": "67c487947b4bcc16671b098d"
+  },
+  "IsSuccess": true,
+  "ErrorMessage": null
+}

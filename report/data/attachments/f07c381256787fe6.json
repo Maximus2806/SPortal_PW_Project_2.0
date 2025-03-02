@@ -1,0 +1,13 @@
+{
+  "Product": {
+    "name": "Soap62222",
+    "amount": 678,
+    "price": 17886,
+    "manufacturer": "Apple",
+    "createdOn": "2025-03-02T16:30:15.000Z",
+    "notes": "dSGPyr5QZXNzze8ywj3V8VYS9IqOlQ4SJBHjmIe32yfBK4Qj4tvcTxmDCglXfgS3ZU7BH7dFQlsDPBEsLJjipyDM0f43IObuURrrXdkJuNbRC8Zc9QtTntywVtIkLRibd4eXukP2Xjtjknggs4edUKsiFsnzcNcirPkzI2jI0QsxUdCEvS8bmbSmoPCT4v0m9MXd3OcKZAm5ZPH6fymWVq8ZGwulxxwBtdxU1jOVpunjNZwxrgkz9Xd8DU",
+    "_id": "67c487977b4bcc16671b0af8"
+  },
+  "IsSuccess": true,
+  "ErrorMessage": null
+}

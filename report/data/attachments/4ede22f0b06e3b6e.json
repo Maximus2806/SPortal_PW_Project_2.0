@@ -1,0 +1,17 @@
+{
+  "Customer": {
+    "_id": "67c4878c7b4bcc16671b0847",
+    "email": "Coty_Von66@gmail.com",
+    "name": "Name gZICCDFKpRNCeCAOikQcqCvMCpUntEkyuXC",
+    "country": "Belarus",
+    "city": "City mWYADqkduYhwSog",
+    "street": "Street 9vnKQ9RcWWl6gMqhWuR1mIi1xp5nXDQis",
+    "house": 207,
+    "flat": 4065,
+    "phone": "+384987068039",
+    "createdOn": "2025-03-02T16:30:04.000Z",
+    "notes": "Notes RYJUxvHqOUhrouQGBkRpHHFnKsZuvAiHcTYBLegedkCHHQOpGDIoolLuQVDwRWWpzqWeEPLcDcvnCKjQcoqAETvSFdbGpdgsEqxGqJwrCiWlBbMCDzmQaDEzdSAZUkfAZdNpvjCcSnSAeEdYMlkgMBxBtneVwJrNSPnVclfpnAnAJPqDuvngflUEFVpIVelQOKphUEYMCqklkNPawXKfiDdmaDbmomfygHQGVvmszOYYdEFZxSxi"
+  },
+  "IsSuccess": true,
+  "ErrorMessage": null
+}

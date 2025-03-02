@@ -1,0 +1,13 @@
+{
+  "date": "Sun, 02 Mar 2025 16:30:13 GMT",
+  "server": "Apache",
+  "x-powered-by": "Express",
+  "access-control-allow-origin": "*",
+  "access-control-expose-headers": "Authorization",
+  "authorization": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjYzZTA0OTkzYWFlNDQwMTg0YWY2NDc3YiIsInJvbGVzIjpbIkFETUlOIl0sImlhdCI6MTc0MDkxMjc1MCwiZXhwIjoxNzQwOTk5MTUwfQ.M-_4JmNmWTt7OmGWGK79wgLS1X4LcBCw4NT-ipLNqww",
+  "content-type": "application/json; charset=utf-8",
+  "content-length": "244",
+  "etag": "W/\"f4-LrjWROuwzQfGg2RQ1kAt94Vspa4\"",
+  "keep-alive": "timeout=5, max=78",
+  "connection": "Keep-Alive"
+}

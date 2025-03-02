@@ -1,0 +1,95 @@
+{
+  "Order": {
+    "_id": "67c487937b4bcc16671b094d",
+    "status": "Draft",
+    "customer": {
+      "_id": "67c487947b4bcc16671b097a",
+      "email": "Oswald.Cormier35@hotmail.com",
+      "name": "Name lHisHwPGdcGTVoWBwDqmZyzZBiQTkCAfTSC",
+      "country": "France",
+      "city": "City wbKKaoBfmGwiEIm",
+      "street": "Street MyozqDftJwEsrp22JIGuXypZ5i5l4s178",
+      "house": 845,
+      "flat": 5806,
+      "phone": "+316366195997",
+      "createdOn": "2025-03-02T16:30:12.000Z",
+      "notes": "Notes kLklnLgwlLTFtHxTqiOTxTJenxekFeZYNDbgHrvAtzCPgsgLHffJrsPsEsuDqLHepoKuQnUiUVXshNPHYvAkHByDOUqDJBjILZsdfzAUmmxYhwtcDlxvOHuftzdBZnYlKUxjZtECpnqvlcydUNGmCXVmmNsNTYbgQUyaCWyPHekThYMxWqwQmHhtXGKonQTozUXKQKkrbCsdskaWEGFagbOsDvAxtKHRaSCpswkGtLauDAvISAOv"
+    },
+    "products": [
+      {
+        "_id": "67c487947b4bcc16671b09a9",
+        "name": "Table14662",
+        "amount": 773,
+        "price": 94182,
+        "manufacturer": "Google",
+        "notes": "lZ3oECZ5q1AttzQMH1JXm7dTHFSx9k3OPDHcY8WFS3fn4d0vGUOvQjgDjFA0IZFAuwsclJiPTP44lUAhujJb6gX1OCRwdCoEVR2N94xArqWT58YbVQotHdnkuqN1mDliCJN8yk1p9Q9NGDBmP6yDhiaBDrsMvLdCgd96rVEJlh7sDgWBdQRhLIt5WJewBBCU4fRGq8FkNlCv650GcRqztjUDmu4RFYkm3Til1jEE9SAw4v3BhrjIr5XgIA",
+        "received": false
+      }
+    ],
+    "delivery": null,
+    "total_price": 94182,
+    "createdOn": "2025-03-02T16:30:11.000Z",
+    "comments": [],
+    "history": [
+      {
+        "status": "Draft",
+        "customer": "67c487947b4bcc16671b097a",
+        "products": [
+          {
+            "_id": "67c487927b4bcc16671b0918",
+            "name": "Car18954",
+            "amount": 59,
+            "price": 51957,
+            "manufacturer": "Google",
+            "notes": "eFE2xWK1k6SWmJ68uAuEdfOxR7U8cgu8OR9AgQW36nGvY8LcKKVUJzaGtgUBmdvF9G1Vcj2q9tvB8879RVhbZxcCnoTtmLAv2x4DPb6JrcGAl7yPasmKwTNK8TUsrfJxxqSGMF5I8k1914FQDO8le1TpKohhBicVub0QhgmuUOBADm8ltnfsBEQ2M4qlqSUASWd3H3pHGMVNae3QUYoSQAq8n5Mddj3bX5pdoHKwVrXyW1iPVzblqmKfaO",
+            "received": false
+          }
+        ],
+        "total_price": 94182,
+        "delivery": null,
+        "changedOn": "2025-03-02T16:30:13.000Z",
+        "action": "Customer changed"
+      },
+      {
+        "status": "Draft",
+        "customer": "67c487927b4bcc16671b08eb",
+        "products": [
+          {
+            "_id": "67c487947b4bcc16671b09a9",
+            "name": "Table14662",
+            "amount": 773,
+            "price": 94182,
+            "manufacturer": "Google",
+            "notes": "lZ3oECZ5q1AttzQMH1JXm7dTHFSx9k3OPDHcY8WFS3fn4d0vGUOvQjgDjFA0IZFAuwsclJiPTP44lUAhujJb6gX1OCRwdCoEVR2N94xArqWT58YbVQotHdnkuqN1mDliCJN8yk1p9Q9NGDBmP6yDhiaBDrsMvLdCgd96rVEJlh7sDgWBdQRhLIt5WJewBBCU4fRGq8FkNlCv650GcRqztjUDmu4RFYkm3Til1jEE9SAw4v3BhrjIr5XgIA",
+            "received": false
+          }
+        ],
+        "total_price": 94182,
+        "delivery": null,
+        "changedOn": "2025-03-02T16:30:13.000Z",
+        "action": "Requested products changed"
+      },
+      {
+        "status": "Draft",
+        "customer": "67c487927b4bcc16671b08eb",
+        "products": [
+          {
+            "_id": "67c487927b4bcc16671b0918",
+            "name": "Car18954",
+            "amount": 59,
+            "price": 51957,
+            "manufacturer": "Google",
+            "notes": "eFE2xWK1k6SWmJ68uAuEdfOxR7U8cgu8OR9AgQW36nGvY8LcKKVUJzaGtgUBmdvF9G1Vcj2q9tvB8879RVhbZxcCnoTtmLAv2x4DPb6JrcGAl7yPasmKwTNK8TUsrfJxxqSGMF5I8k1914FQDO8le1TpKohhBicVub0QhgmuUOBADm8ltnfsBEQ2M4qlqSUASWd3H3pHGMVNae3QUYoSQAq8n5Mddj3bX5pdoHKwVrXyW1iPVzblqmKfaO",
+            "received": false
+          }
+        ],
+        "total_price": 51957,
+        "delivery": null,
+        "changedOn": "2025-03-02T16:30:11.000Z",
+        "action": "Order created"
+      }
+    ]
+  },
+  "IsSuccess": true,
+  "ErrorMessage": null
+}

@@ -1,0 +1,17 @@
+{
+  "Customer": {
+    "_id": "67c4878c7b4bcc16671b0841",
+    "email": "Santos37@hotmail.com",
+    "name": "Name pZiOrsDnKYHCNyKsmgNQTuAqCkjsOoJPGmf",
+    "country": "France",
+    "city": "City FyGyFCKKvsjOqdw",
+    "street": "Street ToX1rdOw2rT5tERBCs6KDtTrQLNVhxSEd",
+    "house": 596,
+    "flat": 8518,
+    "phone": "+90628098566",
+    "createdOn": "2025-03-02T16:30:04.000Z",
+    "notes": "Notes uHxEqZeOQGxsAYRuNcLJBeAktyxTWQCZnigiiXDJKzchwhBdfiIRfJyiBAltHUcXzjoGwPBMBuIVxmcNRrAgFAglyPxTXKCTWIspHaqXJNxERGdPBGAyeyrZtBAyTSyiCaWEwdNwjkKdcYRUeJLlJQbJjWYabolwyqXinPAWdSphnkhPBmlCppgkBFRWFcJvWWLagLufzCWYMiqtioFiagPFbQesQdwatIMSkCmINKSrfrgvtOQJ"
+  },
+  "IsSuccess": true,
+  "ErrorMessage": null
+}

@@ -1,0 +1,28 @@
+{
+  "Products": [
+    {
+      "_id": "67c461b27b4bcc16671af7b5",
+      "name": "Towels94992",
+      "amount": 188,
+      "price": 11140,
+      "manufacturer": "Apple",
+      "createdOn": "2025-03-02T13:48:34.000Z",
+      "notes": "36929epy1zUGf4qkaP62ssG0husHvviW7RQwcK9lHTW5LVnkVFiTKC0QmUSTDEKe1iD8jF7lUpqo23wkVOR6wWGf6CoWgkvyHn4ckuh83mw3kwe3t2ehygKgnNwIbuU2c0L8ZzskLJFPifMiJzrbJH2m2Paz13OXY1j4PLOt5ZwknmC5tfdSVWn0i2luTxlBJP2p6FU6RmvlkHR9yppCYwNbNF4gnLJ2HlHt64HMWFULUP2anM5jmfFuJz"
+    },
+    {
+      "_id": "67c461ae7b4bcc16671af75d",
+      "name": "Car24705",
+      "amount": 673,
+      "price": 67051,
+      "manufacturer": "Apple",
+      "createdOn": "2025-03-02T13:48:30.000Z",
+      "notes": "I4BSzBZGztQFzMQFwOMxr6dMTGvbyWm6RUuwWWEYpJGwFbaqi7LQ0GP8xRWlg4zgtu32fNHwHzGFNsUIooPjbC8njwiJlrl90J4YaezvELQSQcev2EHA7JrFl5PlFCVfVdHv4IOlnzgK2o1Oi1O2lWZdRbzHsFZZTa8c1rrIdvC9elnEqRenLqlLmwAXUW4PDv00CmBPvZwihHioEwSGQTS5GcTiqLrm34aJIAWgiA7Faifeg21DSqKHkC"
+    }
+  ],
+  "sorting": {
+    "sortField": "createdOn",
+    "sortOrder": "desc"
+  },
+  "IsSuccess": true,
+  "ErrorMessage": null
+}

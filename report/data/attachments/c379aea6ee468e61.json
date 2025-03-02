@@ -1,0 +1,129 @@
+{
+  "Order": {
+    "status": "Draft",
+    "customer": {
+      "_id": "67c487957b4bcc16671b09d7",
+      "email": "Helene92@hotmail.com",
+      "name": "Name ppXZYYjGUeHZzVrqwhbXAfgXYBKEzSPWBjx",
+      "country": "Canada",
+      "city": "City BpegZkGCYdMBlSj",
+      "street": "Street NVoTR2RL0BxVTEdwdNpG3lXL5J3ir7OZw",
+      "house": 535,
+      "flat": 5694,
+      "phone": "+461290704576",
+      "createdOn": "2025-03-02T16:30:13.000Z",
+      "notes": "Notes mWbbgQLwIXyZCIEPNtyJJFKRKLoOLafVdVpdCpUprAzXEOSTFRbUNfHvPBlCQGxeLPOIoaQiRsFbmZKmqJSNpnBxiREjAdPIpDVWRjuKSCGumomcynkpfhUsPKxNYcTIWlBnKkhcMAjxCBCVKFGRmAREqKFEbTbzkCJJqPHtwVGpvvSwwqpSyzNXBKFXgFFQzTifzmkbKpHYoRKFGfnuuPCVqJpuSVsLFIhKndKhlvPOYSMnQWgB"
+    },
+    "products": [
+      {
+        "_id": "67c487957b4bcc16671b0a0d",
+        "name": "Chips17576",
+        "amount": 247,
+        "price": 45659,
+        "manufacturer": "Tesla",
+        "notes": "yZbbZEl1i1ssvl2XbU82WuApulSnIPxzIlkPwDb72JRuHZkSFMNht2gSVpc2CMD6LkzmLDQ99ACbXQqQFkiulojLV6r8r0liEj4y78PRKwHVbQwEB9OqkPoeUNq3P5DT3E7zzDb0aBUdH6JTwEiOXxK0PVHLyIZkuNlZf5qfK5ofdX9bt22dhRF3sD8xZoTCNBCu2HSmj7kB0xwqieUf8tpiKbyb1wRajCtrawGk5medsviQiMhyRNT9ZK",
+        "received": false
+      },
+      {
+        "_id": "67c487957b4bcc16671b0a43",
+        "name": "Bike93749",
+        "amount": 545,
+        "price": 37216,
+        "manufacturer": "Google",
+        "notes": "5QGtSIv0jxlbJ63m0vvHQhzrKTKFVY5TZsCPqBMVTuUtZ9gXovIJIOz8dk9a4qyiGqYpjmS4CjPbiQz9NmomU2Wb7wUudBCz7VdQFKRTvdEFxnpuUxKEzLZRFGdwNbig4MbGd5KZlyEs5npSm3K3FLmi3uZGu5wPJ9g1KrVNFnhx6vbbIGS6Qju6y5iHQSpVgOSGnSBw7FRLewiQelh5wNK7rkIuLkagcMcm9zC9OZdU57rffGtX709rxS",
+        "received": false
+      },
+      {
+        "_id": "67c487967b4bcc16671b0a72",
+        "name": "Tuna62543",
+        "amount": 541,
+        "price": 9933,
+        "manufacturer": "Sony",
+        "notes": "5kgKaYyVkOYAdBoQXmDyHBtYwFSshQ5PVkwyyF2PPPL0m6P4XnnYn4xLjOqql8PyKC3nDlMaehPWT6nP579CA5cNmhT6ISzdD67LWlfmurIDptxA44XAp19n1btXxX2gn76GkoOWUxVdPNorCK0POUnaAjlgnqJpYnJWC1jdQ2ypvh67O5ZzUl0KxtqPjnrxnKR94oqlhWhXgQw2Rdv6FYJpVzhHbsSoRHPKJeNZEZQsQeSkyH6YvYI3qO",
+        "received": false
+      },
+      {
+        "_id": "67c487977b4bcc16671b0ab3",
+        "name": "Chair71249",
+        "amount": 664,
+        "price": 88180,
+        "manufacturer": "Xiaomi",
+        "notes": "nJ0NkaK5POFiB18F5dYaQ1Vc8bkSHnIisKFiSEg0GT1A1GdJnf6TblBNzZQEdtIiUo2jNeZJoxFHrwe2XqnNJajJycqoNCiQTD7j00c5XRZr3poEzyC6Uomzmu7X9Ql0YI7SZXYt8LKrBDb1j2r4ygaEud1Sqdn3q3lsIExz6C8z2Wbegf7OEut1w9eRSYwCIHTpJ93bybqMwLYsddcpIabN4RRMTO8J9kBncsw5VziTvTJkn863Pnv7Tk",
+        "received": false
+      },
+      {
+        "_id": "67c487977b4bcc16671b0af8",
+        "name": "Soap62222",
+        "amount": 678,
+        "price": 17886,
+        "manufacturer": "Apple",
+        "notes": "dSGPyr5QZXNzze8ywj3V8VYS9IqOlQ4SJBHjmIe32yfBK4Qj4tvcTxmDCglXfgS3ZU7BH7dFQlsDPBEsLJjipyDM0f43IObuURrrXdkJuNbRC8Zc9QtTntywVtIkLRibd4eXukP2Xjtjknggs4edUKsiFsnzcNcirPkzI2jI0QsxUdCEvS8bmbSmoPCT4v0m9MXd3OcKZAm5ZPH6fymWVq8ZGwulxxwBtdxU1jOVpunjNZwxrgkz9Xd8DU",
+        "received": false
+      }
+    ],
+    "delivery": null,
+    "total_price": 198874,
+    "createdOn": "2025-03-02T16:30:16.000Z",
+    "comments": [],
+    "history": [
+      {
+        "status": "Draft",
+        "customer": "67c487957b4bcc16671b09d7",
+        "products": [
+          {
+            "_id": "67c487957b4bcc16671b0a0d",
+            "name": "Chips17576",
+            "amount": 247,
+            "price": 45659,
+            "manufacturer": "Tesla",
+            "notes": "yZbbZEl1i1ssvl2XbU82WuApulSnIPxzIlkPwDb72JRuHZkSFMNht2gSVpc2CMD6LkzmLDQ99ACbXQqQFkiulojLV6r8r0liEj4y78PRKwHVbQwEB9OqkPoeUNq3P5DT3E7zzDb0aBUdH6JTwEiOXxK0PVHLyIZkuNlZf5qfK5ofdX9bt22dhRF3sD8xZoTCNBCu2HSmj7kB0xwqieUf8tpiKbyb1wRajCtrawGk5medsviQiMhyRNT9ZK",
+            "received": false
+          },
+          {
+            "_id": "67c487957b4bcc16671b0a43",
+            "name": "Bike93749",
+            "amount": 545,
+            "price": 37216,
+            "manufacturer": "Google",
+            "notes": "5QGtSIv0jxlbJ63m0vvHQhzrKTKFVY5TZsCPqBMVTuUtZ9gXovIJIOz8dk9a4qyiGqYpjmS4CjPbiQz9NmomU2Wb7wUudBCz7VdQFKRTvdEFxnpuUxKEzLZRFGdwNbig4MbGd5KZlyEs5npSm3K3FLmi3uZGu5wPJ9g1KrVNFnhx6vbbIGS6Qju6y5iHQSpVgOSGnSBw7FRLewiQelh5wNK7rkIuLkagcMcm9zC9OZdU57rffGtX709rxS",
+            "received": false
+          },
+          {
+            "_id": "67c487967b4bcc16671b0a72",
+            "name": "Tuna62543",
+            "amount": 541,
+            "price": 9933,
+            "manufacturer": "Sony",
+            "notes": "5kgKaYyVkOYAdBoQXmDyHBtYwFSshQ5PVkwyyF2PPPL0m6P4XnnYn4xLjOqql8PyKC3nDlMaehPWT6nP579CA5cNmhT6ISzdD67LWlfmurIDptxA44XAp19n1btXxX2gn76GkoOWUxVdPNorCK0POUnaAjlgnqJpYnJWC1jdQ2ypvh67O5ZzUl0KxtqPjnrxnKR94oqlhWhXgQw2Rdv6FYJpVzhHbsSoRHPKJeNZEZQsQeSkyH6YvYI3qO",
+            "received": false
+          },
+          {
+            "_id": "67c487977b4bcc16671b0ab3",
+            "name": "Chair71249",
+            "amount": 664,
+            "price": 88180,
+            "manufacturer": "Xiaomi",
+            "notes": "nJ0NkaK5POFiB18F5dYaQ1Vc8bkSHnIisKFiSEg0GT1A1GdJnf6TblBNzZQEdtIiUo2jNeZJoxFHrwe2XqnNJajJycqoNCiQTD7j00c5XRZr3poEzyC6Uomzmu7X9Ql0YI7SZXYt8LKrBDb1j2r4ygaEud1Sqdn3q3lsIExz6C8z2Wbegf7OEut1w9eRSYwCIHTpJ93bybqMwLYsddcpIabN4RRMTO8J9kBncsw5VziTvTJkn863Pnv7Tk",
+            "received": false
+          },
+          {
+            "_id": "67c487977b4bcc16671b0af8",
+            "name": "Soap62222",
+            "amount": 678,
+            "price": 17886,
+            "manufacturer": "Apple",
+            "notes": "dSGPyr5QZXNzze8ywj3V8VYS9IqOlQ4SJBHjmIe32yfBK4Qj4tvcTxmDCglXfgS3ZU7BH7dFQlsDPBEsLJjipyDM0f43IObuURrrXdkJuNbRC8Zc9QtTntywVtIkLRibd4eXukP2Xjtjknggs4edUKsiFsnzcNcirPkzI2jI0QsxUdCEvS8bmbSmoPCT4v0m9MXd3OcKZAm5ZPH6fymWVq8ZGwulxxwBtdxU1jOVpunjNZwxrgkz9Xd8DU",
+            "received": false
+          }
+        ],
+        "total_price": 198874,
+        "delivery": null,
+        "changedOn": "2025-03-02T16:30:16.000Z",
+        "action": "Order created"
+      }
+    ],
+    "_id": "67c487987b4bcc16671b0b4f"
+  },
+  "IsSuccess": true,
+  "ErrorMessage": null
+}

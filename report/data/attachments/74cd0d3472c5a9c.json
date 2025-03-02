@@ -1,0 +1,93 @@
+{
+  "Order": {
+    "status": "Draft",
+    "customer": {
+      "_id": "67c4879c7b4bcc16671b0cdb",
+      "email": "Davion_Steuber15@yahoo.com",
+      "name": "Name TulmXuEMYttWRHEKTCvmYMWTcjFvWzBTDzt",
+      "country": "Great Britain",
+      "city": "City GXDzqGvDvkaPBJM",
+      "street": "Street HST2cOJsHYpCyHDpmDTTKUW7HvZNoXzAe",
+      "house": 537,
+      "flat": 9245,
+      "phone": "+824164747721",
+      "createdOn": "2025-03-02T16:30:20.000Z",
+      "notes": "Notes JtPpnONxdZkCoHuEjbUwgSpSowLUuzwKsDzROvPWbZTgKcbjRjtUugjmmgprcWGfMiPhIkHcwTlcRTETguSrwoCuVwzZAGlxGOxeWuAAQglZpgwSwlHyujilhBoZlYoueisTpbHwHENHZKtxZjuAzQHuLKKAkMXZcrkwtdZbwNhpCNzdvTLpecZJlHZoTcaVfdlDkqSwXMRQZEPTTYRQYGuYwSoNuxdcOhFAANkoPbQcBHzOATAV"
+    },
+    "products": [
+      {
+        "_id": "67c4879c7b4bcc16671b0d06",
+        "name": "Sausages2855",
+        "amount": 357,
+        "price": 59197,
+        "manufacturer": "Sony",
+        "notes": "EF1LcFf7rSwP7Dlc7AKURlPPbX4SJudllEEOaBtmRRcImClPItKQ2KRfvEzxWvqmHUn363cxJSGbNnU4cvpEfyeQYn9gdKEHECaKraEoM5mcq2SCMrHI1XNuWRYkt6lYgbKtkwA1qaRNMvCI8O3e1BCFDa6PIKOC4Dpc5616pW9ujIRoCJwTJG0KQ5IEoq2mCH5MBw0L3TOxgthyeL1Zxw58w6iep0mpIc0tnpSrR7CilGyHhv312INIDn",
+        "received": false
+      },
+      {
+        "_id": "67c4879c7b4bcc16671b0d06",
+        "name": "Sausages2855",
+        "amount": 357,
+        "price": 59197,
+        "manufacturer": "Sony",
+        "notes": "EF1LcFf7rSwP7Dlc7AKURlPPbX4SJudllEEOaBtmRRcImClPItKQ2KRfvEzxWvqmHUn363cxJSGbNnU4cvpEfyeQYn9gdKEHECaKraEoM5mcq2SCMrHI1XNuWRYkt6lYgbKtkwA1qaRNMvCI8O3e1BCFDa6PIKOC4Dpc5616pW9ujIRoCJwTJG0KQ5IEoq2mCH5MBw0L3TOxgthyeL1Zxw58w6iep0mpIc0tnpSrR7CilGyHhv312INIDn",
+        "received": false
+      },
+      {
+        "_id": "67c4879c7b4bcc16671b0d06",
+        "name": "Sausages2855",
+        "amount": 357,
+        "price": 59197,
+        "manufacturer": "Sony",
+        "notes": "EF1LcFf7rSwP7Dlc7AKURlPPbX4SJudllEEOaBtmRRcImClPItKQ2KRfvEzxWvqmHUn363cxJSGbNnU4cvpEfyeQYn9gdKEHECaKraEoM5mcq2SCMrHI1XNuWRYkt6lYgbKtkwA1qaRNMvCI8O3e1BCFDa6PIKOC4Dpc5616pW9ujIRoCJwTJG0KQ5IEoq2mCH5MBw0L3TOxgthyeL1Zxw58w6iep0mpIc0tnpSrR7CilGyHhv312INIDn",
+        "received": false
+      }
+    ],
+    "delivery": null,
+    "total_price": 177591,
+    "createdOn": "2025-03-02T16:30:20.000Z",
+    "comments": [],
+    "history": [
+      {
+        "status": "Draft",
+        "customer": "67c4879c7b4bcc16671b0cdb",
+        "products": [
+          {
+            "_id": "67c4879c7b4bcc16671b0d06",
+            "name": "Sausages2855",
+            "amount": 357,
+            "price": 59197,
+            "manufacturer": "Sony",
+            "notes": "EF1LcFf7rSwP7Dlc7AKURlPPbX4SJudllEEOaBtmRRcImClPItKQ2KRfvEzxWvqmHUn363cxJSGbNnU4cvpEfyeQYn9gdKEHECaKraEoM5mcq2SCMrHI1XNuWRYkt6lYgbKtkwA1qaRNMvCI8O3e1BCFDa6PIKOC4Dpc5616pW9ujIRoCJwTJG0KQ5IEoq2mCH5MBw0L3TOxgthyeL1Zxw58w6iep0mpIc0tnpSrR7CilGyHhv312INIDn",
+            "received": false
+          },
+          {
+            "_id": "67c4879c7b4bcc16671b0d06",
+            "name": "Sausages2855",
+            "amount": 357,
+            "price": 59197,
+            "manufacturer": "Sony",
+            "notes": "EF1LcFf7rSwP7Dlc7AKURlPPbX4SJudllEEOaBtmRRcImClPItKQ2KRfvEzxWvqmHUn363cxJSGbNnU4cvpEfyeQYn9gdKEHECaKraEoM5mcq2SCMrHI1XNuWRYkt6lYgbKtkwA1qaRNMvCI8O3e1BCFDa6PIKOC4Dpc5616pW9ujIRoCJwTJG0KQ5IEoq2mCH5MBw0L3TOxgthyeL1Zxw58w6iep0mpIc0tnpSrR7CilGyHhv312INIDn",
+            "received": false
+          },
+          {
+            "_id": "67c4879c7b4bcc16671b0d06",
+            "name": "Sausages2855",
+            "amount": 357,
+            "price": 59197,
+            "manufacturer": "Sony",
+            "notes": "EF1LcFf7rSwP7Dlc7AKURlPPbX4SJudllEEOaBtmRRcImClPItKQ2KRfvEzxWvqmHUn363cxJSGbNnU4cvpEfyeQYn9gdKEHECaKraEoM5mcq2SCMrHI1XNuWRYkt6lYgbKtkwA1qaRNMvCI8O3e1BCFDa6PIKOC4Dpc5616pW9ujIRoCJwTJG0KQ5IEoq2mCH5MBw0L3TOxgthyeL1Zxw58w6iep0mpIc0tnpSrR7CilGyHhv312INIDn",
+            "received": false
+          }
+        ],
+        "total_price": 177591,
+        "delivery": null,
+        "changedOn": "2025-03-02T16:30:20.000Z",
+        "action": "Order created"
+      }
+    ],
+    "_id": "67c4879c7b4bcc16671b0d44"
+  },
+  "IsSuccess": true,
+  "ErrorMessage": null
+}

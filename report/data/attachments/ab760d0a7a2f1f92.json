@@ -1,0 +1,96 @@
+{
+  "Order": {
+    "_id": "67c487947b4bcc16671b09cf",
+    "status": "Draft",
+    "customer": {
+      "_id": "67c487947b4bcc16671b098d",
+      "email": "Halie.Swift@hotmail.com",
+      "name": "Name zDJJRlmFEHCIMOijlxRxvlqmwZxXWCkDqnR",
+      "country": "Russia",
+      "city": "City HwRDyHoQoFLZHzG",
+      "street": "Street kmgVxOCnsSgepKobYcqVd3Jbf8eceAmYi",
+      "house": 6,
+      "flat": 2922,
+      "phone": "+803733255712",
+      "createdOn": "2025-03-02T16:30:12.000Z",
+      "notes": "Notes gVvjzUntPwWwRigwPThPbMpHvpAwMBEeVvzthngarwHjaNxlTGSQSVMtoljqbBLZiicWfTWuGkIgDzICqbgZCDPYzGRaHMbiqtiLLOqznXLzHndeyOKAlUdOEUTXPuPMjfcWkCfJFvrDMGDbBTwQsNBeVLDqKyDlmZkMMeUrcZezqMqOOTloHIUozVtDDfvYtfrCKxosYnMTbSFqXwXKaEZJtqwikvLpGzfFOlUwCoouTuZtqJzv"
+    },
+    "products": [
+      {
+        "_id": "67c487947b4bcc16671b09a2",
+        "name": "Salad57046",
+        "amount": 535,
+        "price": 56021,
+        "manufacturer": "Google",
+        "notes": "XJjxH5DoF4kG0EWDdiB9h68hTp10X9hL6pGutFpWaZrIuO7ADN2EGaEdqXwkoLx2jCKgvAPHvZVwEqe0X9hzSeV9xgBz0cAUF1wZqgZbmJ4By3lGsKwaoovEbZN6cpQo27al5hmJ8Q8jv2qf9p1yoNPJOO24zRemfl5bxzAdNkTfbdPItiRdLSwfdL06tFLy4Wuw8aiElAbdEIFdwsdYmIFrz3ZQzgknAWo5pOV2pQnlI4w3XycNS0CXns",
+        "received": false
+      }
+    ],
+    "delivery": {
+      "address": {
+        "country": "France",
+        "city": "City EptzZoyNsgWrYij",
+        "street": "Street OBmBbvXkoRGtvAfniFSP7W0N1yqdZJLnC",
+        "house": 169,
+        "flat": 2493
+      },
+      "finalDate": "2025-03-11T00:00:00.000Z",
+      "condition": "Delivery"
+    },
+    "total_price": 56021,
+    "createdOn": "2025-03-02T16:30:12.000Z",
+    "comments": [],
+    "history": [
+      {
+        "status": "Draft",
+        "customer": "67c487947b4bcc16671b098d",
+        "products": [
+          {
+            "_id": "67c487947b4bcc16671b09a2",
+            "name": "Salad57046",
+            "amount": 535,
+            "price": 56021,
+            "manufacturer": "Google",
+            "notes": "XJjxH5DoF4kG0EWDdiB9h68hTp10X9hL6pGutFpWaZrIuO7ADN2EGaEdqXwkoLx2jCKgvAPHvZVwEqe0X9hzSeV9xgBz0cAUF1wZqgZbmJ4By3lGsKwaoovEbZN6cpQo27al5hmJ8Q8jv2qf9p1yoNPJOO24zRemfl5bxzAdNkTfbdPItiRdLSwfdL06tFLy4Wuw8aiElAbdEIFdwsdYmIFrz3ZQzgknAWo5pOV2pQnlI4w3XycNS0CXns",
+            "received": false
+          }
+        ],
+        "total_price": 56021,
+        "delivery": {
+          "address": {
+            "country": "France",
+            "city": "City EptzZoyNsgWrYij",
+            "street": "Street OBmBbvXkoRGtvAfniFSP7W0N1yqdZJLnC",
+            "house": 169,
+            "flat": 2493
+          },
+          "finalDate": "2025-03-11T00:00:00.000Z",
+          "condition": "Delivery"
+        },
+        "changedOn": "2025-03-02T16:30:13.000Z",
+        "action": "Delivery Scheduled"
+      },
+      {
+        "status": "Draft",
+        "customer": "67c487947b4bcc16671b098d",
+        "products": [
+          {
+            "_id": "67c487947b4bcc16671b09a2",
+            "name": "Salad57046",
+            "amount": 535,
+            "price": 56021,
+            "manufacturer": "Google",
+            "notes": "XJjxH5DoF4kG0EWDdiB9h68hTp10X9hL6pGutFpWaZrIuO7ADN2EGaEdqXwkoLx2jCKgvAPHvZVwEqe0X9hzSeV9xgBz0cAUF1wZqgZbmJ4By3lGsKwaoovEbZN6cpQo27al5hmJ8Q8jv2qf9p1yoNPJOO24zRemfl5bxzAdNkTfbdPItiRdLSwfdL06tFLy4Wuw8aiElAbdEIFdwsdYmIFrz3ZQzgknAWo5pOV2pQnlI4w3XycNS0CXns",
+            "received": false
+          }
+        ],
+        "total_price": 56021,
+        "delivery": null,
+        "changedOn": "2025-03-02T16:30:12.000Z",
+        "action": "Order created"
+      }
+    ]
+  },
+  "IsSuccess": true,
+  "ErrorMessage": null
+}

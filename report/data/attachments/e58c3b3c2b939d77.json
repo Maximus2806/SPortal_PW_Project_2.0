@@ -1,0 +1,13 @@
+{
+  "Product": {
+    "name": "Tuna80808",
+    "amount": 8,
+    "price": 67954,
+    "manufacturer": "Microsoft",
+    "createdOn": "2025-03-02T16:30:09.000Z",
+    "notes": "U4SJIWjACmJpHSDe2CTvnIoEaWfTkDpaIuZDqMyCpflXwCg7Q9D7Df3gu3FSrUDtXY3bAMqIs6kmPLKs4lt7p18csUZRGSFQssJj82f3Bxe2UmZxikFpL4o51u0jENlOcORCFCvA6Upda3AdbxNBvnARkDXzVpOoRtzISNR6SR2Gvi3gByFYEwmBHQb2qcKJpYSlLlYHSekrg7CqMRkgKUI3VxEYYG9mQ1bDgFblaG6uxbhYnROluwY5u9",
+    "_id": "67c487917b4bcc16671b08bf"
+  },
+  "IsSuccess": true,
+  "ErrorMessage": null
+}
