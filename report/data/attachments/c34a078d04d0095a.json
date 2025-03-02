@@ -1,0 +1,112 @@
+{
+  "Order": {
+    "_id": "67c4879c7b4bcc16671b0ce7",
+    "status": "Draft",
+    "customer": {
+      "_id": "67c4879a7b4bcc16671b0c65",
+      "email": "Ubaldo.Bahringer@gmail.com",
+      "name": "Name iioVDIbUvilPqpWqGttWcivMUHyqNSckYQh",
+      "country": "Germany",
+      "city": "City AcIIGtlfzGoqthB",
+      "street": "Street aa0aXIKkIpLyuZ2XUbB8OOfaHDs86uIUo",
+      "house": 940,
+      "flat": 7550,
+      "phone": "+90713062965",
+      "createdOn": "2025-03-02T16:30:18.000Z",
+      "notes": "Notes kZBtkaJqCfcGeTwENiwgWwzRKOiIBsYiVelRXqzBemVSskZttreCptZWpUyuZasJgjTiqRSRemZUlKJpwgGHPqARmugBrUVGbMEmoJjyETsENRYBQQJDsGxCnmSTIuDmQINlKqCgCBisEMCnYXqrVkSauaKHSdzshRHDOlguxfaDoKVpWbIAHdttzqZHHQIAmVQXQTyGstLvDUJXLkHtkWGzHjAiLhfpOyKsecuSbTbvzfNQVPcZ"
+    },
+    "products": [
+      {
+        "_id": "67c4879b7b4bcc16671b0ca9",
+        "name": "Fish39662",
+        "amount": 999,
+        "price": 19550,
+        "manufacturer": "Tesla",
+        "notes": "Ptw0lSbYSpJDki8LlRPjICYoE3eMCvHmGgjk1QsbNEhXn6mo32Wa4wOnGDr2ajlltrilL5q8OYz8wbe4tsOWUc9oXbG62MgCBn0tqFRQf8JLKnozRtRq0FqIRXRmx9X3nCr8ETHC2b9bLzdimVTHp3pnBgJMGAhUKOMwgA0yv4n1PLHp4emDXZAAScuoisJydpRcsLSG6jOHFa3ZyaRMoeML2vfanggiN5dUTkTzphExrMdhqz44myURTC",
+        "received": false
+      },
+      {
+        "_id": "67c4879c7b4bcc16671b0d29",
+        "name": "Table2955",
+        "amount": 646,
+        "price": 30140,
+        "manufacturer": "Amazon",
+        "notes": "cj9nf22MYxz7g66OM6Ccgksi6NOuIQNgsmhDHPlgJYiwKviXpeVgAa2tnMkJUxWMxYJLbjTIGhq4Jo0d8BlSy0f26NGYfmBWcpMbqJFc4cLdhjVTtr8RStO69XEQGP5SgxQEPDtCFmALhaK8YYWbd31rUD5hoKNztxaUCgPi4F1kSiO9aZyeVU91DQr0QoVV3tyeGcuXStjZON9fRoF2i9Z6tSwaP8G3Rmib39OOOdvlTEu1yKXhG0L0F6",
+        "received": false
+      },
+      {
+        "_id": "67c4879d7b4bcc16671b0d67",
+        "name": "Tuna47752",
+        "amount": 87,
+        "price": 62639,
+        "manufacturer": "Xiaomi",
+        "notes": "xiQ3ecxEzffprw6r1oNQZnBC6UI5sTnV4gqTBPU7bI6zGwDsTPKPejbGR1Fk2kuzNo3LOddZKEk7qX5NyBOfzuywsNzhHnpxYMP82K0dPY1yXbARfGZToRUa0qXZdTVQxoK0feyNSrJh6t2yv0J7boDiVlwGNVRsjzTgv37iu1AISB4cY5GLf5fkDpl4b7Pj1cbSPoKSWM4jmuYzOxC0qUU6UgRGZcYnjFn2pY28WDKx5ZvyDL1SsoiGgh",
+        "received": false
+      }
+    ],
+    "delivery": null,
+    "total_price": 112329,
+    "createdOn": "2025-03-02T16:30:20.000Z",
+    "comments": [],
+    "history": [
+      {
+        "status": "Draft",
+        "customer": "67c4879a7b4bcc16671b0c65",
+        "products": [
+          {
+            "_id": "67c4879b7b4bcc16671b0ca9",
+            "name": "Fish39662",
+            "amount": 999,
+            "price": 19550,
+            "manufacturer": "Tesla",
+            "notes": "Ptw0lSbYSpJDki8LlRPjICYoE3eMCvHmGgjk1QsbNEhXn6mo32Wa4wOnGDr2ajlltrilL5q8OYz8wbe4tsOWUc9oXbG62MgCBn0tqFRQf8JLKnozRtRq0FqIRXRmx9X3nCr8ETHC2b9bLzdimVTHp3pnBgJMGAhUKOMwgA0yv4n1PLHp4emDXZAAScuoisJydpRcsLSG6jOHFa3ZyaRMoeML2vfanggiN5dUTkTzphExrMdhqz44myURTC",
+            "received": false
+          },
+          {
+            "_id": "67c4879c7b4bcc16671b0d29",
+            "name": "Table2955",
+            "amount": 646,
+            "price": 30140,
+            "manufacturer": "Amazon",
+            "notes": "cj9nf22MYxz7g66OM6Ccgksi6NOuIQNgsmhDHPlgJYiwKviXpeVgAa2tnMkJUxWMxYJLbjTIGhq4Jo0d8BlSy0f26NGYfmBWcpMbqJFc4cLdhjVTtr8RStO69XEQGP5SgxQEPDtCFmALhaK8YYWbd31rUD5hoKNztxaUCgPi4F1kSiO9aZyeVU91DQr0QoVV3tyeGcuXStjZON9fRoF2i9Z6tSwaP8G3Rmib39OOOdvlTEu1yKXhG0L0F6",
+            "received": false
+          },
+          {
+            "_id": "67c4879d7b4bcc16671b0d67",
+            "name": "Tuna47752",
+            "amount": 87,
+            "price": 62639,
+            "manufacturer": "Xiaomi",
+            "notes": "xiQ3ecxEzffprw6r1oNQZnBC6UI5sTnV4gqTBPU7bI6zGwDsTPKPejbGR1Fk2kuzNo3LOddZKEk7qX5NyBOfzuywsNzhHnpxYMP82K0dPY1yXbARfGZToRUa0qXZdTVQxoK0feyNSrJh6t2yv0J7boDiVlwGNVRsjzTgv37iu1AISB4cY5GLf5fkDpl4b7Pj1cbSPoKSWM4jmuYzOxC0qUU6UgRGZcYnjFn2pY28WDKx5ZvyDL1SsoiGgh",
+            "received": false
+          }
+        ],
+        "total_price": 112329,
+        "delivery": null,
+        "changedOn": "2025-03-02T16:30:21.000Z",
+        "action": "Requested products changed"
+      },
+      {
+        "status": "Draft",
+        "customer": "67c4879a7b4bcc16671b0c65",
+        "products": [
+          {
+            "_id": "67c4879b7b4bcc16671b0ca9",
+            "name": "Fish39662",
+            "amount": 999,
+            "price": 19550,
+            "manufacturer": "Tesla",
+            "notes": "Ptw0lSbYSpJDki8LlRPjICYoE3eMCvHmGgjk1QsbNEhXn6mo32Wa4wOnGDr2ajlltrilL5q8OYz8wbe4tsOWUc9oXbG62MgCBn0tqFRQf8JLKnozRtRq0FqIRXRmx9X3nCr8ETHC2b9bLzdimVTHp3pnBgJMGAhUKOMwgA0yv4n1PLHp4emDXZAAScuoisJydpRcsLSG6jOHFa3ZyaRMoeML2vfanggiN5dUTkTzphExrMdhqz44myURTC",
+            "received": false
+          }
+        ],
+        "total_price": 19550,
+        "delivery": null,
+        "changedOn": "2025-03-02T16:30:20.000Z",
+        "action": "Order created"
+      }
+    ]
+  },
+  "IsSuccess": true,
+  "ErrorMessage": null
+}

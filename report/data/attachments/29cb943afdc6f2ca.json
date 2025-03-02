@@ -1,0 +1,46 @@
+{
+  "Products": [
+    {
+      "_id": "67c487987b4bcc16671b0b67",
+      "name": "Chips2749",
+      "amount": 772,
+      "price": 19043,
+      "manufacturer": "Xiaomi",
+      "createdOn": "2025-03-02T16:30:16.000Z",
+      "notes": "IVX7xJyK1ZkMsCs2PItWRfx3kFtSTE4h25WGG91wa1Gv2OmLqA1XcGDGUzNOBL4zOKGq8Hi3JshqTRYF1ojbOoqqBWbXn2W6GbTPacDBSJPvGhQJ7DPCP2ANCCgtI6hMfCA5y6hlgYGfFshavt2dZBNAnO21FXrq9PbI1pzH6SoYUxNVWU1Qw6bNQ4PJ2hS7LRxarZTald04L7PaqVbVseys7i4C7zPQHsbvpQZ9Me45KLlJhCEjv52S4a"
+    },
+    {
+      "_id": "67c487977b4bcc16671b0ab3",
+      "name": "Chair71249",
+      "amount": 664,
+      "price": 88180,
+      "manufacturer": "Xiaomi",
+      "createdOn": "2025-03-02T16:30:15.000Z",
+      "notes": "nJ0NkaK5POFiB18F5dYaQ1Vc8bkSHnIisKFiSEg0GT1A1GdJnf6TblBNzZQEdtIiUo2jNeZJoxFHrwe2XqnNJajJycqoNCiQTD7j00c5XRZr3poEzyC6Uomzmu7X9Ql0YI7SZXYt8LKrBDb1j2r4ygaEud1Sqdn3q3lsIExz6C8z2Wbegf7OEut1w9eRSYwCIHTpJ93bybqMwLYsddcpIabN4RRMTO8J9kBncsw5VziTvTJkn863Pnv7Tk"
+    },
+    {
+      "_id": "67c461d67b4bcc16671afaa7",
+      "name": "Shirt87773",
+      "amount": 83,
+      "price": 88600,
+      "manufacturer": "Xiaomi",
+      "createdOn": "2025-03-02T13:49:10.000Z",
+      "notes": "PHrPKE2vBnIQW22NpcfEyAOpBqkbLQ0pEax1V4u7lIGRWo42GF7nhX0dbruaIdZruhkEKT8h8sNaKBSiMycla4CIpVjPrmc6iCjfVi99IJ9J6kcKti3KTH2omZN3IULzSCMKTFW7MaQk3uJ9w7zIlBpgL9R1Yq6qz4vYGa4gUDv6PxBwEA4AJ2F6wO1ofBxJ92n2eVVOiJTJlrDgndwjAxMwWgpWywOprJSjkVZl1cezKp9616uRSNZ3EW"
+    },
+    {
+      "_id": "67c461d37b4bcc16671afa68",
+      "name": "Fish62976",
+      "amount": 702,
+      "price": 2,
+      "manufacturer": "Xiaomi",
+      "createdOn": "2025-03-02T13:49:07.000Z",
+      "notes": "K0o1G6SEfpSVB5BOmB1fx0pzcJ72bb06kjdrsKCypvZ30aJ6lBjeUPbtXRW8gktPhMtmJAmJSgois12X2uuaDIUUdedXK7sKhky0OKtgWMJScI23XF8nPu9eWjVZUfvYPrXLJxCSrR7PTNw9mGmO8igXdmazsuYH1Tp9f9yry17sSS9H6Xho1HRKrEGsWdf7V8DwyG8zA8o4VhJAU3izzQj6UwO7GqaE5PCAsGrRA9yVCpXuEd7J9hf1co"
+    }
+  ],
+  "sorting": {
+    "sortField": "createdOn",
+    "sortOrder": "desc"
+  },
+  "IsSuccess": true,
+  "ErrorMessage": null
+}

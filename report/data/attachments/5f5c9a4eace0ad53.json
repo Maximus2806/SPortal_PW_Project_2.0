@@ -1,0 +1,13 @@
+{
+  "Product": {
+    "name": "Chair83976",
+    "amount": 610,
+    "price": 59799,
+    "manufacturer": "Tesla",
+    "createdOn": "2025-03-02T16:30:12.000Z",
+    "notes": "IX1TlICSgL15uknHUzsJGX45mTGpF5IPRiGVJ2W9dHhxrbbGggULuyfXVecZbPk15QsInPgZeIDLE7xGqnQB73rQ1pp51czVZaciuh4zSwWgDUVJRZrXs9zDPdt4PQaixECtkp59jEF26oU5NzPE01qZsJgBOF374p0onjUCkVxDnScNY0tRtnFCbriXzPIP6kNnh9Z6N8Vqv42mB538kdboo9ecAae59pxKNYqLV3XHPpuCzopRX59lEp",
+    "_id": "67c487947b4bcc16671b0995"
+  },
+  "IsSuccess": true,
+  "ErrorMessage": null
+}

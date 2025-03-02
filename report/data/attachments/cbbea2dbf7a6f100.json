@@ -1,0 +1,55 @@
+{
+  "Products": [
+    {
+      "_id": "67c487987b4bcc16671b0b3c",
+      "name": "Chips98822",
+      "amount": 940,
+      "price": 28257,
+      "manufacturer": "Apple",
+      "createdOn": "2025-03-02T16:30:16.000Z",
+      "notes": "IycpncRzFbh1iuivVWSMBwjFU8cT1mFeQYFVMvBeCNtM45SwT5VixdtAQx0m32tHouwrJyPAFZXq04Q4CIIEi1w7xekmP7nJvrAkP1mQ4n3HwdGCMgdTqgMiB3QDIBTVE3RQOBUESy3DQw0EotVpowEP7iVEaiCRfkfiMU53ZH32OQAu6BVXiQTbRcNQKypmB7OUA9rs0KgEIWXNdpWsFwhKc8Qn6bvpw2ZYrLA7agUHuqbiOFqt0berXB"
+    },
+    {
+      "_id": "67c487977b4bcc16671b0af8",
+      "name": "Soap62222",
+      "amount": 678,
+      "price": 17886,
+      "manufacturer": "Apple",
+      "createdOn": "2025-03-02T16:30:15.000Z",
+      "notes": "dSGPyr5QZXNzze8ywj3V8VYS9IqOlQ4SJBHjmIe32yfBK4Qj4tvcTxmDCglXfgS3ZU7BH7dFQlsDPBEsLJjipyDM0f43IObuURrrXdkJuNbRC8Zc9QtTntywVtIkLRibd4eXukP2Xjtjknggs4edUKsiFsnzcNcirPkzI2jI0QsxUdCEvS8bmbSmoPCT4v0m9MXd3OcKZAm5ZPH6fymWVq8ZGwulxxwBtdxU1jOVpunjNZwxrgkz9Xd8DU"
+    },
+    {
+      "_id": "67c487957b4bcc16671b0a29",
+      "name": "Cheese53633",
+      "amount": 247,
+      "price": 54813,
+      "manufacturer": "Apple",
+      "createdOn": "2025-03-02T16:30:13.000Z",
+      "notes": "koTDUxlaNceMtZNsd452OFOjv3EW98u7rn19xg7J8RyD0QVSl6q8RxgrOT9aFVyJT5YerHOEJv4nvriMM1URxrcjBgaWxHT4gQpRHHa2Fhylz3FxTpqddgZ8l3sYvo8lO1kVUu5h1mkpyq7EyBpy9aVAkdnEp242k84pKwqCeWE7iXEoW3ydvmzdGDqZZhVwr29a1DmCNZoU41227PtKtppTn8KdLdTx5YDZtsUqm9qPlzqXoNHqbsFddb"
+    },
+    {
+      "_id": "67c461b27b4bcc16671af7b5",
+      "name": "Towels94992",
+      "amount": 188,
+      "price": 11140,
+      "manufacturer": "Apple",
+      "createdOn": "2025-03-02T13:48:34.000Z",
+      "notes": "36929epy1zUGf4qkaP62ssG0husHvviW7RQwcK9lHTW5LVnkVFiTKC0QmUSTDEKe1iD8jF7lUpqo23wkVOR6wWGf6CoWgkvyHn4ckuh83mw3kwe3t2ehygKgnNwIbuU2c0L8ZzskLJFPifMiJzrbJH2m2Paz13OXY1j4PLOt5ZwknmC5tfdSVWn0i2luTxlBJP2p6FU6RmvlkHR9yppCYwNbNF4gnLJ2HlHt64HMWFULUP2anM5jmfFuJz"
+    },
+    {
+      "_id": "67c461ae7b4bcc16671af75d",
+      "name": "Car24705",
+      "amount": 673,
+      "price": 67051,
+      "manufacturer": "Apple",
+      "createdOn": "2025-03-02T13:48:30.000Z",
+      "notes": "I4BSzBZGztQFzMQFwOMxr6dMTGvbyWm6RUuwWWEYpJGwFbaqi7LQ0GP8xRWlg4zgtu32fNHwHzGFNsUIooPjbC8njwiJlrl90J4YaezvELQSQcev2EHA7JrFl5PlFCVfVdHv4IOlnzgK2o1Oi1O2lWZdRbzHsFZZTa8c1rrIdvC9elnEqRenLqlLmwAXUW4PDv00CmBPvZwihHioEwSGQTS5GcTiqLrm34aJIAWgiA7Faifeg21DSqKHkC"
+    }
+  ],
+  "sorting": {
+    "sortField": "createdOn",
+    "sortOrder": "desc"
+  },
+  "IsSuccess": true,
+  "ErrorMessage": null
+}

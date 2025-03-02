@@ -1,0 +1,13 @@
+{
+  "Product": {
+    "name": "Cheese65055",
+    "amount": 782,
+    "price": 23894,
+    "manufacturer": "Apple",
+    "createdOn": "2025-03-02T16:30:20.000Z",
+    "notes": "ibfrRRojzSplcW9pMlZFEONPfNNnq4YevPVWBLWAYuaPJpEUEuV3qEOAstzv2YFW4cj1UeQH3aKzeeJxLo8DDqEG9LT3h7604jS4OMAgqhX2NuibryeCiGNTgf4p8qF7pkLY6XIP99oWhavUOVEECM7Bz6hLe1ltHvFdZq4Ff5h8mwyX0ys9FvZDTAWN5umqx70jkUClEJ1T4NA54rVixiHRoGJw1gW07vUFYjMEdX3ihU0RLIEUbtGfns",
+    "_id": "67c4879c7b4bcc16671b0cf0"
+  },
+  "IsSuccess": true,
+  "ErrorMessage": null
+}

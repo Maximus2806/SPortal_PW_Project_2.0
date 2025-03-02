@@ -1,0 +1,93 @@
+{
+  "Order": {
+    "status": "Draft",
+    "customer": {
+      "_id": "67c487a07b4bcc16671b0e84",
+      "email": "Krystel_Maggio@gmail.com",
+      "name": "Name WApsnEKywUVnwVMIJdwFKXvoBJreiTyWuRG",
+      "country": "Germany",
+      "city": "City PWZijZgRosWlUnG",
+      "street": "Street 1NND6n3Z3Vr80D5YoNZvrt9IXJyQuM537",
+      "house": 472,
+      "flat": 2348,
+      "phone": "+219808614323",
+      "createdOn": "2025-03-02T16:30:24.000Z",
+      "notes": "Notes TwBQRZHScDDzNwxrdNiQthOrgoEWrNDGNMgFLczLzbGGVAjbplxRTckJMLPXIWTORDhScoxqYqwmShauOLjcILkGpxXGSfiwgcvqiaQmhBcurCsfTxwakFmiTPSoTvZvSeCRfwyGyErldKexPrEuCaNWzjETYBxbJPscQSGScPhuafDYjwAbjEARXUeKIhoEMhsjDSaVMtUttmCnUyVaIauqmNEOBbctllDHfoXIcKQvHVTKDJke"
+    },
+    "products": [
+      {
+        "_id": "67c487a07b4bcc16671b0eb0",
+        "name": "Tuna10731",
+        "amount": 183,
+        "price": 73811,
+        "manufacturer": "Tesla",
+        "notes": "LJIPSAb74LvXRiCFttTUo7wBkJ6VGS2srEQL9vRQ2zDGs6lnkNiBEYUSSLDa90U6VBSVLMWZQT2VaDfj3kjpQxrRMLgFM0VyGvCQjaFiqsbcpUZPUpsiccMRGHESQAqaNjEVzxLvV0oIVR7wPY8ySX5rxhsV5m0e712pjc4jhYnzvVx9ZjHGz76nJhfyWhxvSCvZO99rZApCCXuEGJe0bc89d7PvfUy5bYiCwlZvwosvbbqpM4alwvT8os",
+        "received": false
+      },
+      {
+        "_id": "67c487a07b4bcc16671b0eb0",
+        "name": "Tuna10731",
+        "amount": 183,
+        "price": 73811,
+        "manufacturer": "Tesla",
+        "notes": "LJIPSAb74LvXRiCFttTUo7wBkJ6VGS2srEQL9vRQ2zDGs6lnkNiBEYUSSLDa90U6VBSVLMWZQT2VaDfj3kjpQxrRMLgFM0VyGvCQjaFiqsbcpUZPUpsiccMRGHESQAqaNjEVzxLvV0oIVR7wPY8ySX5rxhsV5m0e712pjc4jhYnzvVx9ZjHGz76nJhfyWhxvSCvZO99rZApCCXuEGJe0bc89d7PvfUy5bYiCwlZvwosvbbqpM4alwvT8os",
+        "received": false
+      },
+      {
+        "_id": "67c487a07b4bcc16671b0eb0",
+        "name": "Tuna10731",
+        "amount": 183,
+        "price": 73811,
+        "manufacturer": "Tesla",
+        "notes": "LJIPSAb74LvXRiCFttTUo7wBkJ6VGS2srEQL9vRQ2zDGs6lnkNiBEYUSSLDa90U6VBSVLMWZQT2VaDfj3kjpQxrRMLgFM0VyGvCQjaFiqsbcpUZPUpsiccMRGHESQAqaNjEVzxLvV0oIVR7wPY8ySX5rxhsV5m0e712pjc4jhYnzvVx9ZjHGz76nJhfyWhxvSCvZO99rZApCCXuEGJe0bc89d7PvfUy5bYiCwlZvwosvbbqpM4alwvT8os",
+        "received": false
+      }
+    ],
+    "delivery": null,
+    "total_price": 221433,
+    "createdOn": "2025-03-02T16:30:25.000Z",
+    "comments": [],
+    "history": [
+      {
+        "status": "Draft",
+        "customer": "67c487a07b4bcc16671b0e84",
+        "products": [
+          {
+            "_id": "67c487a07b4bcc16671b0eb0",
+            "name": "Tuna10731",
+            "amount": 183,
+            "price": 73811,
+            "manufacturer": "Tesla",
+            "notes": "LJIPSAb74LvXRiCFttTUo7wBkJ6VGS2srEQL9vRQ2zDGs6lnkNiBEYUSSLDa90U6VBSVLMWZQT2VaDfj3kjpQxrRMLgFM0VyGvCQjaFiqsbcpUZPUpsiccMRGHESQAqaNjEVzxLvV0oIVR7wPY8ySX5rxhsV5m0e712pjc4jhYnzvVx9ZjHGz76nJhfyWhxvSCvZO99rZApCCXuEGJe0bc89d7PvfUy5bYiCwlZvwosvbbqpM4alwvT8os",
+            "received": false
+          },
+          {
+            "_id": "67c487a07b4bcc16671b0eb0",
+            "name": "Tuna10731",
+            "amount": 183,
+            "price": 73811,
+            "manufacturer": "Tesla",
+            "notes": "LJIPSAb74LvXRiCFttTUo7wBkJ6VGS2srEQL9vRQ2zDGs6lnkNiBEYUSSLDa90U6VBSVLMWZQT2VaDfj3kjpQxrRMLgFM0VyGvCQjaFiqsbcpUZPUpsiccMRGHESQAqaNjEVzxLvV0oIVR7wPY8ySX5rxhsV5m0e712pjc4jhYnzvVx9ZjHGz76nJhfyWhxvSCvZO99rZApCCXuEGJe0bc89d7PvfUy5bYiCwlZvwosvbbqpM4alwvT8os",
+            "received": false
+          },
+          {
+            "_id": "67c487a07b4bcc16671b0eb0",
+            "name": "Tuna10731",
+            "amount": 183,
+            "price": 73811,
+            "manufacturer": "Tesla",
+            "notes": "LJIPSAb74LvXRiCFttTUo7wBkJ6VGS2srEQL9vRQ2zDGs6lnkNiBEYUSSLDa90U6VBSVLMWZQT2VaDfj3kjpQxrRMLgFM0VyGvCQjaFiqsbcpUZPUpsiccMRGHESQAqaNjEVzxLvV0oIVR7wPY8ySX5rxhsV5m0e712pjc4jhYnzvVx9ZjHGz76nJhfyWhxvSCvZO99rZApCCXuEGJe0bc89d7PvfUy5bYiCwlZvwosvbbqpM4alwvT8os",
+            "received": false
+          }
+        ],
+        "total_price": 221433,
+        "delivery": null,
+        "changedOn": "2025-03-02T16:30:25.000Z",
+        "action": "Order created"
+      }
+    ],
+    "_id": "67c487a17b4bcc16671b0ee2"
+  },
+  "IsSuccess": true,
+  "ErrorMessage": null
+}

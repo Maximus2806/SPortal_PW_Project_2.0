@@ -1,0 +1,21 @@
+{
+  "date": "Sun, 02 Mar 2025 16:30:31 GMT",
+  "server": "Apache",
+  "strict-transport-security": "max-age=31536000; includeSubDomains; preload",
+  "referrer-policy": "no-referrer",
+  "x-slack-unique-id": "Z8SHp02DlLdI27AsbW-MnAAAEBk",
+  "x-slack-backend": "r",
+  "access-control-allow-origin": "*",
+  "x-frame-options": "SAMEORIGIN",
+  "content-type": "text/html",
+  "via": "1.1 slack-prod.tinyspeck.com, envoy-www-iad-mdgcooto,envoy-edge-pdx-mdjcadkt",
+  "vary": "Accept-Encoding",
+  "content-length": "6",
+  "x-envoy-attempt-count": "1",
+  "x-envoy-upstream-service-time": "107",
+  "x-backend": "main_normal main_canary_with_overflow main_control_with_overflow",
+  "x-server": "slack-www-hhvm-main-iad-ibzr",
+  "x-slack-shared-secret-outcome": "no-match",
+  "x-edge-backend": "envoy-www",
+  "x-slack-edge-shared-secret-outcome": "no-match"
+}

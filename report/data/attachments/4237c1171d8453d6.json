@@ -1,0 +1,57 @@
+{
+  "Order": {
+    "status": "Draft",
+    "customer": {
+      "_id": "67c4879c7b4bcc16671b0d4a",
+      "email": "Dan.Heidenreich76@hotmail.com",
+      "name": "Name sRZSznjvvMbjZCulQxNHXWhISKnZoogPeYS",
+      "country": "Germany",
+      "city": "City BZcpAriZzSoiAUz",
+      "street": "Street ylsXEv2jlqxsPL7xMqjptA11Bem12H9q6",
+      "house": 699,
+      "flat": 3042,
+      "phone": "+914921423436",
+      "createdOn": "2025-03-02T16:30:20.000Z",
+      "notes": "Notes CuMslUjvRApHroIwOFemolMYTlkZIEweGcMVTGNCdyGNiNQIOMQCPcYyJATwZeDcbEuWbRuqAEaGJxOrSqQTCgRLQOhjceqVsvJpGhZtMUYsaWfuVokvrpTDaQkEAFyQJAXZAWIjCrIhkQihmwOQLAIkmpPcLaOpZlUjGstBGczzsiNHnAxFHRpDOpBViYYdCkHiiDojsvRewDDIHgbBkevpUdCgfKHsGGHounzCQTGFdPUDvoqL"
+    },
+    "products": [
+      {
+        "_id": "67c4879d7b4bcc16671b0d7a",
+        "name": "Towels24633",
+        "amount": 402,
+        "price": 11095,
+        "manufacturer": "Xiaomi",
+        "notes": "TBsyEmlqhC31sj77UuIPvkkCt9XkaqpC7JhpL6SvwjU89MEIO4Osdi811P3EUrMPycbuSpTpdbe7OXNeoTb3sfzcD9UpmhGy7Fv31OltrUSpFazzeF7EXzEqSrE6Lehj1qHrLxKka8b0PWoeyzG63ZKAx8INA8ge1TCIPjsXkm5tjC8VP5C4S2fHYIWIqZjh9ZTKeCI067HuhVTrJgfifmBY2b41n9XVwVPRSGqqKkGbHZ4iv8KmtiTrHX",
+        "received": false
+      }
+    ],
+    "delivery": null,
+    "total_price": 11095,
+    "createdOn": "2025-03-02T16:30:22.000Z",
+    "comments": [],
+    "history": [
+      {
+        "status": "Draft",
+        "customer": "67c4879c7b4bcc16671b0d4a",
+        "products": [
+          {
+            "_id": "67c4879d7b4bcc16671b0d7a",
+            "name": "Towels24633",
+            "amount": 402,
+            "price": 11095,
+            "manufacturer": "Xiaomi",
+            "notes": "TBsyEmlqhC31sj77UuIPvkkCt9XkaqpC7JhpL6SvwjU89MEIO4Osdi811P3EUrMPycbuSpTpdbe7OXNeoTb3sfzcD9UpmhGy7Fv31OltrUSpFazzeF7EXzEqSrE6Lehj1qHrLxKka8b0PWoeyzG63ZKAx8INA8ge1TCIPjsXkm5tjC8VP5C4S2fHYIWIqZjh9ZTKeCI067HuhVTrJgfifmBY2b41n9XVwVPRSGqqKkGbHZ4iv8KmtiTrHX",
+            "received": false
+          }
+        ],
+        "total_price": 11095,
+        "delivery": null,
+        "changedOn": "2025-03-02T16:30:22.000Z",
+        "action": "Order created"
+      }
+    ],
+    "_id": "67c4879e7b4bcc16671b0dbd"
+  },
+  "IsSuccess": true,
+  "ErrorMessage": null
+}

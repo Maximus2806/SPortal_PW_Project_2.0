@@ -1,0 +1,17 @@
+{
+  "Customer": {
+    "_id": "67c487907b4bcc16671b087d",
+    "email": "Louie31@hotmail.com",
+    "name": "Name SNqZwnqVijEuowGXqvFKzyowjqFxvDjYiUJ",
+    "country": "USA",
+    "city": "City aZNSGdavXhObADN",
+    "street": "Street BbHmhJXmJvk6gLzbJGjwG9jmByXOp8BoK",
+    "house": 519,
+    "flat": 7637,
+    "phone": "+692139274563",
+    "createdOn": "2025-03-02T16:30:08.000Z",
+    "notes": "Notes AmOlPXjYTjjNuPScnCAdmWoVYREgEHPaMAcxiiFRvspKYAXNHAPkjBjHKyOIAaOkIUYdpAYRJVYnZzwuwYisQmYEaRbCcVQEQomwKyiarNfYCzFrbOjUhdtyTXcXIkgzMFhFXgoDwBfYMiRJoomoCTVCqSkbFWUeeUZCkbKMUYZtHOxJcDKPzVTKAiNzAyGTspRMKwVliHQtLHNiqeFQhYOasGvfLzDVxtDISoWKViwUFbWpafHh"
+  },
+  "IsSuccess": true,
+  "ErrorMessage": null
+}

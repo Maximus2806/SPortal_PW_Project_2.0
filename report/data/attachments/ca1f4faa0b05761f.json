@@ -1,0 +1,95 @@
+{
+  "Order": {
+    "_id": "67c487957b4bcc16671b09e8",
+    "status": "Draft",
+    "customer": {
+      "_id": "67c487957b4bcc16671b0a35",
+      "email": "Lonnie.Pfeffer@yahoo.com",
+      "name": "Name IlIykquYyKSycWUhoDctYPeWuEBPeoFZJNK",
+      "country": "Ukraine",
+      "city": "City jspfvGDFGcGOblY",
+      "street": "Street dLEimwvcTCtbvGdVA6zvPXKtnVNj4oLZR",
+      "house": 410,
+      "flat": 7816,
+      "phone": "+804485412098",
+      "createdOn": "2025-03-02T16:30:13.000Z",
+      "notes": "Notes okBICpkQJSYINfrCVwmKACKxtprVwnzUfOzKHkbafoCizgwgbiZkhxDeWNKqlOTHqniKimxSLnYTzHqUccLJabpqzRRXOeuDpplhRYMoZiZfKFNKDBsByVCuTRROtuSbxdNemPeUWDwpVnZeFbqvhZKCKDsCwlsgrKcEsxMGwnShhgzBqFfKJSbGzDpFtwlDaaVFXkHOcRsxwnRbMCZvfAadCltZaZuBMabrCiigTKWPPqSqyhlA"
+    },
+    "products": [
+      {
+        "_id": "67c487967b4bcc16671b0a85",
+        "name": "Soap20140",
+        "amount": 838,
+        "price": 54267,
+        "manufacturer": "Samsung",
+        "notes": "TIQEgQAm7LG5bw2pq9bV2huP4q6xMJg2fxbY7pOKhLVQ4A0SoECrs7N7cu3LQ2vyaxRCV4Xsah8FTn8yxgRiSte3k6C7SNH9FxfbPjrGWCCJoiDBVMpEkZmjTJFkjrNRkQMW9o47NmeY8Ph45iU6VJW85VxNgiyUPDC7XfAtp8ekntwVEB37H20UKQjqkEHpDBrilh4qWmna3k8NrPk4Pciu64lRwn6QGbUqtxIaup1cRSrB2Wms72PuxQ",
+        "received": false
+      }
+    ],
+    "delivery": null,
+    "total_price": 54267,
+    "createdOn": "2025-03-02T16:30:13.000Z",
+    "comments": [],
+    "history": [
+      {
+        "status": "Draft",
+        "customer": "67c487957b4bcc16671b0a35",
+        "products": [
+          {
+            "_id": "67c487947b4bcc16671b0995",
+            "name": "Chair83976",
+            "amount": 610,
+            "price": 59799,
+            "manufacturer": "Tesla",
+            "notes": "IX1TlICSgL15uknHUzsJGX45mTGpF5IPRiGVJ2W9dHhxrbbGggULuyfXVecZbPk15QsInPgZeIDLE7xGqnQB73rQ1pp51czVZaciuh4zSwWgDUVJRZrXs9zDPdt4PQaixECtkp59jEF26oU5NzPE01qZsJgBOF374p0onjUCkVxDnScNY0tRtnFCbriXzPIP6kNnh9Z6N8Vqv42mB538kdboo9ecAae59pxKNYqLV3XHPpuCzopRX59lEp",
+            "received": false
+          }
+        ],
+        "total_price": 54267,
+        "delivery": null,
+        "changedOn": "2025-03-02T16:30:15.000Z",
+        "action": "Customer changed"
+      },
+      {
+        "status": "Draft",
+        "customer": "67c487937b4bcc16671b095e",
+        "products": [
+          {
+            "_id": "67c487967b4bcc16671b0a85",
+            "name": "Soap20140",
+            "amount": 838,
+            "price": 54267,
+            "manufacturer": "Samsung",
+            "notes": "TIQEgQAm7LG5bw2pq9bV2huP4q6xMJg2fxbY7pOKhLVQ4A0SoECrs7N7cu3LQ2vyaxRCV4Xsah8FTn8yxgRiSte3k6C7SNH9FxfbPjrGWCCJoiDBVMpEkZmjTJFkjrNRkQMW9o47NmeY8Ph45iU6VJW85VxNgiyUPDC7XfAtp8ekntwVEB37H20UKQjqkEHpDBrilh4qWmna3k8NrPk4Pciu64lRwn6QGbUqtxIaup1cRSrB2Wms72PuxQ",
+            "received": false
+          }
+        ],
+        "total_price": 54267,
+        "delivery": null,
+        "changedOn": "2025-03-02T16:30:15.000Z",
+        "action": "Requested products changed"
+      },
+      {
+        "status": "Draft",
+        "customer": "67c487937b4bcc16671b095e",
+        "products": [
+          {
+            "_id": "67c487947b4bcc16671b0995",
+            "name": "Chair83976",
+            "amount": 610,
+            "price": 59799,
+            "manufacturer": "Tesla",
+            "notes": "IX1TlICSgL15uknHUzsJGX45mTGpF5IPRiGVJ2W9dHhxrbbGggULuyfXVecZbPk15QsInPgZeIDLE7xGqnQB73rQ1pp51czVZaciuh4zSwWgDUVJRZrXs9zDPdt4PQaixECtkp59jEF26oU5NzPE01qZsJgBOF374p0onjUCkVxDnScNY0tRtnFCbriXzPIP6kNnh9Z6N8Vqv42mB538kdboo9ecAae59pxKNYqLV3XHPpuCzopRX59lEp",
+            "received": false
+          }
+        ],
+        "total_price": 59799,
+        "delivery": null,
+        "changedOn": "2025-03-02T16:30:13.000Z",
+        "action": "Order created"
+      }
+    ]
+  },
+  "IsSuccess": true,
+  "ErrorMessage": null
+}

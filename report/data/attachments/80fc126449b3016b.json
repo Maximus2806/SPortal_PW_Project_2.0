@@ -1,0 +1,13 @@
+{
+  "Product": {
+    "_id": "67c4879c7b4bcc16671b0cf0",
+    "name": "Shirt31785",
+    "amount": 406,
+    "price": 78963,
+    "manufacturer": "Samsung",
+    "createdOn": "2025-03-02T16:30:20.000Z",
+    "notes": "pdWI3wWn8TjxfT6mATMviEAWZ5FgqOWwUmlbRuHXxXg8NlewjY2p4lowyNG5ZKxSogSb3BkUizeh7SJ9TKESuzuVLib9IH8f4WhnhaJhgGiv4hfatRndBAaIASPfmKGCmEgFgW6knPfbZlVmnYxoP3yI9D6CsUc805Etgv4ugzHR9h9QhelRSmAKtVpyPukqUJ4gvjZt4T9PxrOQ05zHUW5NdyGyTb1k6BAudUs0m8TkBfm5jqsXd8R7IA"
+  },
+  "IsSuccess": true,
+  "ErrorMessage": null
+}

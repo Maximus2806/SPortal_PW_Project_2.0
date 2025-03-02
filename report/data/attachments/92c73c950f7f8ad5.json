@@ -1,0 +1,129 @@
+{
+  "Order": {
+    "status": "Draft",
+    "customer": {
+      "_id": "67c487997b4bcc16671b0b89",
+      "email": "Elsie97@gmail.com",
+      "name": "Name tJTwHaJYADKrtBjvCkpeITrnKpPEHVjGDiT",
+      "country": "Russia",
+      "city": "City QWHWNxGXcGwvBJK",
+      "street": "Street VwgDuNBqZ94tBsIgzQ2CJf9Nn1s7moChZ",
+      "house": 149,
+      "flat": 5705,
+      "phone": "+945684406929",
+      "createdOn": "2025-03-02T16:30:17.000Z",
+      "notes": "Notes RlYbMcXDnQcpOvMwiKXVviJpZKLatmhNWOpXgGXJBZZXLXGfAgBnvTdIsFzJzvVpnWcuwHgBTPMJFXmrdLIMNmGVYIxtLlmVDrxhZMkODrDuhCgnrIYqpSdZIhMcoLFCFVwMyhEdBHkkdFJlKZMdoiWBZxFCezDzHFEubpDvkzFPbFBZjNPMSrIscThcEAZcvSMpbvQlDnyLFMOlOuZhFizuauejKgtHMMFWrRCCwEIBcxeIbPTN"
+    },
+    "products": [
+      {
+        "_id": "67c487997b4bcc16671b0bd0",
+        "name": "Towels60201",
+        "amount": 362,
+        "price": 58119,
+        "manufacturer": "Xiaomi",
+        "notes": "hTgidgBQ5uV2iNEPWEHpAKsRJnIowrlAc89h23UQRRtNGAgEdxRKcKVB9hrFP06TH14n8rQ72oo9EPbmoKyXjaIiAQDJ4uAPM7uRBWp27MsfAyIVG2AuofZu6ngangwrtKia9YU0NajabZ1xK7liSIxNBUwCe1oRwNmIWgQKbhhjq6nqT1LyRY3Q1MyoSBRrjs6k2fJaqx19OZUZCHpIwxwOCFcVsH4jlQAeQVUjh0Ehlhi5Z7bTkZXEwe",
+        "received": false
+      },
+      {
+        "_id": "67c4879a7b4bcc16671b0c14",
+        "name": "Mouse54247",
+        "amount": 710,
+        "price": 13182,
+        "manufacturer": "Google",
+        "notes": "JSYNQtV6FDa4GEBmopl1g0GeBHy2NlzwG6dQnYjUg0QYKkkNZAkdZiNFvEcnlXE4uYfEilXNsUs4DhCuG9a3OeRNqGA7BADnQPsnaZ3hXOf3ZrtTUkyl0FaxKnPO3VG5BXtOzALZXOoK7CrgCT0p3DIepMQLz1B7u5i0s1kq1jUzgZhh3thuPevM7YbBcRhDH8SH6XxKdoYWtbRAdiZdeGpqo8cYcmHV5Ymt6FjvdnGMID90BlGI6IfLHi",
+        "received": false
+      },
+      {
+        "_id": "67c4879a7b4bcc16671b0c5e",
+        "name": "Fish74831",
+        "amount": 733,
+        "price": 91954,
+        "manufacturer": "Microsoft",
+        "notes": "qLsmQUsrc8xzLUsKXuNjUre1yZLPOlrgoyzsKBFMQM5zHtqNOmtM9e8L96RJySlizTpEFly01ocDukdTbyN4ceajvWuJPqm7k5hMoav3yXtrDoQYoFFHdKYpUnUQvciXFprG3KzhwBjZXE8MQwEzHCganDA1ViXEnFMpCyeqnEHYw6bR0B5vVOndcNd3wckaf00BfNN5h9muGG9QfarRksRaBtjFKiqeVCc7A32aeSXr3Lo6fgFrTbIo5q",
+        "received": false
+      },
+      {
+        "_id": "67c4879b7b4bcc16671b0c99",
+        "name": "Towels68710",
+        "amount": 57,
+        "price": 33675,
+        "manufacturer": "Google",
+        "notes": "RJBJjB4qbejlIEG6swMXDhzWirDM1g5AqczIb7VLLyiD1uJPY6ZQwb7u6FWvVzmV9cRPiCKGmW5KEY5N90wJQlEhqCAEqoJ3nlljJIlRPDzXxQD8K3HxtZma3V52ovzlqFaHTPb8mo6GFnyQGWLck4TQ0P5r7wBDI2an4zBICNFTZk8bfUzD6U0P0A0bPEjKT0ve7rqJXbb48ZINWD4nge21Yz3vZXVbUuJ5YrFO23B3zVEhXXloXqWUdm",
+        "received": false
+      },
+      {
+        "_id": "67c4879c7b4bcc16671b0cd7",
+        "name": "Salad93322",
+        "amount": 56,
+        "price": 12681,
+        "manufacturer": "Xiaomi",
+        "notes": "I86PhyHx8lgHAG8b6Hu23ManDUHtSp6PDx5d5tQW1at4Is9LxPdOxJHWN6L42qCZQIwlVYxLW3cYkOQUKBQ3EfJnlV8LAd14IpUW0BaDZRMEvjB3Ia7lcbGlBhRgiFsUsQDHEiRSIe5bkPgxchrCxYkPR4UvupU1d9esb7HtznVWpeu7vp7XHvlXmhqMXyiy8GQ6EL4qDUMRotAnOZKcZ6cBEs85QzFUt9pMiDrbe3rOhHkGWLudsxL1Ay",
+        "received": false
+      }
+    ],
+    "delivery": null,
+    "total_price": 209611,
+    "createdOn": "2025-03-02T16:30:20.000Z",
+    "comments": [],
+    "history": [
+      {
+        "status": "Draft",
+        "customer": "67c487997b4bcc16671b0b89",
+        "products": [
+          {
+            "_id": "67c487997b4bcc16671b0bd0",
+            "name": "Towels60201",
+            "amount": 362,
+            "price": 58119,
+            "manufacturer": "Xiaomi",
+            "notes": "hTgidgBQ5uV2iNEPWEHpAKsRJnIowrlAc89h23UQRRtNGAgEdxRKcKVB9hrFP06TH14n8rQ72oo9EPbmoKyXjaIiAQDJ4uAPM7uRBWp27MsfAyIVG2AuofZu6ngangwrtKia9YU0NajabZ1xK7liSIxNBUwCe1oRwNmIWgQKbhhjq6nqT1LyRY3Q1MyoSBRrjs6k2fJaqx19OZUZCHpIwxwOCFcVsH4jlQAeQVUjh0Ehlhi5Z7bTkZXEwe",
+            "received": false
+          },
+          {
+            "_id": "67c4879a7b4bcc16671b0c14",
+            "name": "Mouse54247",
+            "amount": 710,
+            "price": 13182,
+            "manufacturer": "Google",
+            "notes": "JSYNQtV6FDa4GEBmopl1g0GeBHy2NlzwG6dQnYjUg0QYKkkNZAkdZiNFvEcnlXE4uYfEilXNsUs4DhCuG9a3OeRNqGA7BADnQPsnaZ3hXOf3ZrtTUkyl0FaxKnPO3VG5BXtOzALZXOoK7CrgCT0p3DIepMQLz1B7u5i0s1kq1jUzgZhh3thuPevM7YbBcRhDH8SH6XxKdoYWtbRAdiZdeGpqo8cYcmHV5Ymt6FjvdnGMID90BlGI6IfLHi",
+            "received": false
+          },
+          {
+            "_id": "67c4879a7b4bcc16671b0c5e",
+            "name": "Fish74831",
+            "amount": 733,
+            "price": 91954,
+            "manufacturer": "Microsoft",
+            "notes": "qLsmQUsrc8xzLUsKXuNjUre1yZLPOlrgoyzsKBFMQM5zHtqNOmtM9e8L96RJySlizTpEFly01ocDukdTbyN4ceajvWuJPqm7k5hMoav3yXtrDoQYoFFHdKYpUnUQvciXFprG3KzhwBjZXE8MQwEzHCganDA1ViXEnFMpCyeqnEHYw6bR0B5vVOndcNd3wckaf00BfNN5h9muGG9QfarRksRaBtjFKiqeVCc7A32aeSXr3Lo6fgFrTbIo5q",
+            "received": false
+          },
+          {
+            "_id": "67c4879b7b4bcc16671b0c99",
+            "name": "Towels68710",
+            "amount": 57,
+            "price": 33675,
+            "manufacturer": "Google",
+            "notes": "RJBJjB4qbejlIEG6swMXDhzWirDM1g5AqczIb7VLLyiD1uJPY6ZQwb7u6FWvVzmV9cRPiCKGmW5KEY5N90wJQlEhqCAEqoJ3nlljJIlRPDzXxQD8K3HxtZma3V52ovzlqFaHTPb8mo6GFnyQGWLck4TQ0P5r7wBDI2an4zBICNFTZk8bfUzD6U0P0A0bPEjKT0ve7rqJXbb48ZINWD4nge21Yz3vZXVbUuJ5YrFO23B3zVEhXXloXqWUdm",
+            "received": false
+          },
+          {
+            "_id": "67c4879c7b4bcc16671b0cd7",
+            "name": "Salad93322",
+            "amount": 56,
+            "price": 12681,
+            "manufacturer": "Xiaomi",
+            "notes": "I86PhyHx8lgHAG8b6Hu23ManDUHtSp6PDx5d5tQW1at4Is9LxPdOxJHWN6L42qCZQIwlVYxLW3cYkOQUKBQ3EfJnlV8LAd14IpUW0BaDZRMEvjB3Ia7lcbGlBhRgiFsUsQDHEiRSIe5bkPgxchrCxYkPR4UvupU1d9esb7HtznVWpeu7vp7XHvlXmhqMXyiy8GQ6EL4qDUMRotAnOZKcZ6cBEs85QzFUt9pMiDrbe3rOhHkGWLudsxL1Ay",
+            "received": false
+          }
+        ],
+        "total_price": 209611,
+        "delivery": null,
+        "changedOn": "2025-03-02T16:30:20.000Z",
+        "action": "Order created"
+      }
+    ],
+    "_id": "67c4879c7b4bcc16671b0d16"
+  },
+  "IsSuccess": true,
+  "ErrorMessage": null
+}

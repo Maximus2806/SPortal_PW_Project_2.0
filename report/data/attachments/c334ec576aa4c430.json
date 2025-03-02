@@ -1,0 +1,96 @@
+{
+  "Order": {
+    "_id": "67c487977b4bcc16671b0abd",
+    "status": "Draft",
+    "customer": {
+      "_id": "67c487967b4bcc16671b0a58",
+      "email": "Rosina_Kreiger@hotmail.com",
+      "name": "Name xHicdpqMxdyGZxxfmjLXtPQFWVhViiQhEeR",
+      "country": "Germany",
+      "city": "City UFRCGPCOyPWOokA",
+      "street": "Street 05KfytFc5wJorSUzv8IbqalcUjJY6d7Lu",
+      "house": 409,
+      "flat": 2011,
+      "phone": "+54634857338",
+      "createdOn": "2025-03-02T16:30:14.000Z",
+      "notes": "Notes hmKcFZZApMuUHtGjMAvfXpSQXjiDjcJkeqkrsMETIfyXSISwXpxcgmPiqlDxPQQWYdMHpqIpjNyYyZSgAwbHFcmMlPotDnZiPYZuLydmlJtUlcloxqZADvMHryzBlEOXsYiCheZtpqSnUwcvdAjKPQBOhSDNkHDANbBcojdGhwaqZAuRwYhPuSJwRxrdJAkfWAcauxVcZCKShDSoLGyPMUtEoFuoFfjGdidPXmBQAWOYmcGvZcFe"
+    },
+    "products": [
+      {
+        "_id": "67c487967b4bcc16671b0a83",
+        "name": "Keyboard1668",
+        "amount": 510,
+        "price": 4700,
+        "manufacturer": "Google",
+        "notes": "z12Wdsfd6axAMWAKF1l7xBAQWDIUmLSddTa34BFPMCDMazWY1TekwHsARe1diNBukTXh5vIOFx5NWQWRW27KQ5r9wqnZBKbJVhf20epHma79BGc1Zp8PaUoR30LuXkbLfux7rSjPhVWRdw0ykdc4tyIAageNrDZqXtVSSzUWtWsof6PNpjuM89DycvMyJU9ucjKzy3GuzYOePmvC38JfgKlxQ0xiJ9Qf0hSWniCch6hLlb5vpQG9XgICVS",
+        "received": false
+      }
+    ],
+    "delivery": {
+      "address": {
+        "country": "Russia",
+        "city": "City hXBVYkeiNyqIIwC",
+        "street": "Street HtqOhsfB2e4vCk4nRiJRrZ2IAfLOnGdQp",
+        "house": 721,
+        "flat": 2435
+      },
+      "finalDate": "2025-03-08T00:00:00.000Z",
+      "condition": "Pickup"
+    },
+    "total_price": 4700,
+    "createdOn": "2025-03-02T16:30:15.000Z",
+    "comments": [],
+    "history": [
+      {
+        "status": "Draft",
+        "customer": "67c487967b4bcc16671b0a58",
+        "products": [
+          {
+            "_id": "67c487967b4bcc16671b0a83",
+            "name": "Keyboard1668",
+            "amount": 510,
+            "price": 4700,
+            "manufacturer": "Google",
+            "notes": "z12Wdsfd6axAMWAKF1l7xBAQWDIUmLSddTa34BFPMCDMazWY1TekwHsARe1diNBukTXh5vIOFx5NWQWRW27KQ5r9wqnZBKbJVhf20epHma79BGc1Zp8PaUoR30LuXkbLfux7rSjPhVWRdw0ykdc4tyIAageNrDZqXtVSSzUWtWsof6PNpjuM89DycvMyJU9ucjKzy3GuzYOePmvC38JfgKlxQ0xiJ9Qf0hSWniCch6hLlb5vpQG9XgICVS",
+            "received": false
+          }
+        ],
+        "total_price": 4700,
+        "delivery": {
+          "address": {
+            "country": "Russia",
+            "city": "City hXBVYkeiNyqIIwC",
+            "street": "Street HtqOhsfB2e4vCk4nRiJRrZ2IAfLOnGdQp",
+            "house": 721,
+            "flat": 2435
+          },
+          "finalDate": "2025-03-08T00:00:00.000Z",
+          "condition": "Pickup"
+        },
+        "changedOn": "2025-03-02T16:30:15.000Z",
+        "action": "Delivery Scheduled"
+      },
+      {
+        "status": "Draft",
+        "customer": "67c487967b4bcc16671b0a58",
+        "products": [
+          {
+            "_id": "67c487967b4bcc16671b0a83",
+            "name": "Keyboard1668",
+            "amount": 510,
+            "price": 4700,
+            "manufacturer": "Google",
+            "notes": "z12Wdsfd6axAMWAKF1l7xBAQWDIUmLSddTa34BFPMCDMazWY1TekwHsARe1diNBukTXh5vIOFx5NWQWRW27KQ5r9wqnZBKbJVhf20epHma79BGc1Zp8PaUoR30LuXkbLfux7rSjPhVWRdw0ykdc4tyIAageNrDZqXtVSSzUWtWsof6PNpjuM89DycvMyJU9ucjKzy3GuzYOePmvC38JfgKlxQ0xiJ9Qf0hSWniCch6hLlb5vpQG9XgICVS",
+            "received": false
+          }
+        ],
+        "total_price": 4700,
+        "delivery": null,
+        "changedOn": "2025-03-02T16:30:15.000Z",
+        "action": "Order created"
+      }
+    ]
+  },
+  "IsSuccess": true,
+  "ErrorMessage": null
+}

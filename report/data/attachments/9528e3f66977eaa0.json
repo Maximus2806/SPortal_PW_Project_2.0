@@ -1,0 +1,96 @@
+{
+  "Order": {
+    "_id": "67c487997b4bcc16671b0bb8",
+    "status": "Draft",
+    "customer": {
+      "_id": "67c487987b4bcc16671b0b3e",
+      "email": "Max.Hoeger18@gmail.com",
+      "name": "Name EQujSgVNANpygcAmpYcEFDNQVFSmbnkKUxo",
+      "country": "Russia",
+      "city": "City OXWmkrQomxGOJdS",
+      "street": "Street INeEL6QycjZblhecfFDb7lw7b5R3au7g1",
+      "house": 336,
+      "flat": 5735,
+      "phone": "+829665273802",
+      "createdOn": "2025-03-02T16:30:16.000Z",
+      "notes": "Notes kbQpSjtFmGQhBheukHeHUHPRSPucModWHkExBATYuFPHjQhvNaibggGtkXETHpSDIkVjYpGHgxvPtcfLWOofPuDCEzppZmoJDnuquqRnlIPIejEVkBHtocLNqaZibCTjmlwqUxMkKwZsReFhbmaiUhHwuugtBbbMikujGntQcQeQXPsoGFLHetelzMDrojvHpxHWQerqmlerPSpACLrdZsBLHOrnKAghlqQJeKimYRShFmUlJayq"
+    },
+    "products": [
+      {
+        "_id": "67c487987b4bcc16671b0b7e",
+        "name": "Towels48090",
+        "amount": 347,
+        "price": 23269,
+        "manufacturer": "Apple",
+        "notes": "zcjGXqo7VLRhPsqwBKS1hXevsVhqolXUfzmx7b54amcaXrHp9lFWKMnKL5rOP2YHXTtJBIBSEK6kV9wvQIjZ0972o1AoG938GgnCmHeUAC3MmQ3B8888TAfa5VI4KQMdbMlGHiFO2qPDSW571tzGYbetEbyyXYmGTuzY705RfVqZWLL8UEED7ulzjiYZEKDFSSMp1MbuRzIbJa53H3o8fhnF8fYRkbIconyj3oYGzaTtxPvyIEag0Kow45",
+        "received": false
+      }
+    ],
+    "delivery": {
+      "address": {
+        "country": "France",
+        "city": "City PvaLMiRUjrsndGB",
+        "street": "Street z1gT1FP9LG81lOKPOThuPZayShOSdipob",
+        "house": 431,
+        "flat": 5414
+      },
+      "finalDate": "2025-03-10T00:00:00.000Z",
+      "condition": "Delivery"
+    },
+    "total_price": 23269,
+    "createdOn": "2025-03-02T16:30:17.000Z",
+    "comments": [],
+    "history": [
+      {
+        "status": "Draft",
+        "customer": "67c487987b4bcc16671b0b3e",
+        "products": [
+          {
+            "_id": "67c487987b4bcc16671b0b7e",
+            "name": "Towels48090",
+            "amount": 347,
+            "price": 23269,
+            "manufacturer": "Apple",
+            "notes": "zcjGXqo7VLRhPsqwBKS1hXevsVhqolXUfzmx7b54amcaXrHp9lFWKMnKL5rOP2YHXTtJBIBSEK6kV9wvQIjZ0972o1AoG938GgnCmHeUAC3MmQ3B8888TAfa5VI4KQMdbMlGHiFO2qPDSW571tzGYbetEbyyXYmGTuzY705RfVqZWLL8UEED7ulzjiYZEKDFSSMp1MbuRzIbJa53H3o8fhnF8fYRkbIconyj3oYGzaTtxPvyIEag0Kow45",
+            "received": false
+          }
+        ],
+        "total_price": 23269,
+        "delivery": {
+          "address": {
+            "country": "France",
+            "city": "City PvaLMiRUjrsndGB",
+            "street": "Street z1gT1FP9LG81lOKPOThuPZayShOSdipob",
+            "house": 431,
+            "flat": 5414
+          },
+          "finalDate": "2025-03-10T00:00:00.000Z",
+          "condition": "Delivery"
+        },
+        "changedOn": "2025-03-02T16:30:18.000Z",
+        "action": "Delivery Scheduled"
+      },
+      {
+        "status": "Draft",
+        "customer": "67c487987b4bcc16671b0b3e",
+        "products": [
+          {
+            "_id": "67c487987b4bcc16671b0b7e",
+            "name": "Towels48090",
+            "amount": 347,
+            "price": 23269,
+            "manufacturer": "Apple",
+            "notes": "zcjGXqo7VLRhPsqwBKS1hXevsVhqolXUfzmx7b54amcaXrHp9lFWKMnKL5rOP2YHXTtJBIBSEK6kV9wvQIjZ0972o1AoG938GgnCmHeUAC3MmQ3B8888TAfa5VI4KQMdbMlGHiFO2qPDSW571tzGYbetEbyyXYmGTuzY705RfVqZWLL8UEED7ulzjiYZEKDFSSMp1MbuRzIbJa53H3o8fhnF8fYRkbIconyj3oYGzaTtxPvyIEag0Kow45",
+            "received": false
+          }
+        ],
+        "total_price": 23269,
+        "delivery": null,
+        "changedOn": "2025-03-02T16:30:17.000Z",
+        "action": "Order created"
+      }
+    ]
+  },
+  "IsSuccess": true,
+  "ErrorMessage": null
+}

@@ -1,0 +1,125 @@
+{
+  "Order": {
+    "_id": "67c487a17b4bcc16671b0ece",
+    "status": "In Process",
+    "customer": {
+      "_id": "67c487a07b4bcc16671b0e77",
+      "email": "Elton_Sauer93@yahoo.com",
+      "name": "Name scUxGKaKUBFiuQMOVVGtWORsmKFTbnCLepb",
+      "country": "France",
+      "city": "City OPNJgrMrpidVvkt",
+      "street": "Street uWZVZcdVDBiZJq6rNjjlALJ5cuASUJ9XH",
+      "house": 91,
+      "flat": 6011,
+      "phone": "+891761530192",
+      "createdOn": "2025-03-02T16:30:24.000Z",
+      "notes": "Notes ecUHCHhAiPRZedkiBsDnMyspdcfPlvkdoUxzrapuzcvzkzkApIkCLSpJMBizHGgyVrhnWAqODHOabNThvKMhoUNmjiJTYIRQDqTSzdBIeahIteeTXoDSvDcuOTvTcYTWVkTpCMcYofkErOzzurlLDReXfqTFOniLMrRYPajHEHHQJIiWmInQjTVURPqftMKlmMSEzjMcxtwamLNCPPiHpNTHcrVlUtwyqpMuzBmySzcYwRGRomdd"
+    },
+    "products": [
+      {
+        "_id": "67c487a07b4bcc16671b0ea2",
+        "name": "Computer79914",
+        "amount": 151,
+        "price": 49958,
+        "manufacturer": "Amazon",
+        "notes": "a2cVCMm57j7gAoEcCQf3wDkRQebCazTVnxZwUJO72SiRK9SEtkfbipZvPmrtSun7TdnJRiqTSRXNbzbuG3NNaoKup9SeRparVsejaJpiNCVC4wvlAFOtnosX0WStvjikB7SH3ID2zuwdD6O4UWkSHoElWh6Qh1vvA80g29ZsqxeXXBmU7YWCWk4gYmBav2GS5jd4MzwPPEPvM5wDVPASHCeFjKCsr9H6jyIIBsH9sXFZ4QnQL05c7xCjsV",
+        "received": false
+      }
+    ],
+    "delivery": {
+      "address": {
+        "country": "Ukraine",
+        "city": "City anIZaQXDWuMjFqH",
+        "street": "Street R99ShL3NyNV6bS38EaF6V9YJN2lkmYW7a",
+        "house": 457,
+        "flat": 5679
+      },
+      "finalDate": "2025-03-09T00:00:00.000Z",
+      "condition": "Delivery"
+    },
+    "total_price": 49958,
+    "createdOn": "2025-03-02T16:30:25.000Z",
+    "comments": [],
+    "history": [
+      {
+        "status": "In Process",
+        "customer": "67c487a07b4bcc16671b0e77",
+        "products": [
+          {
+            "_id": "67c487a07b4bcc16671b0ea2",
+            "name": "Computer79914",
+            "amount": 151,
+            "price": 49958,
+            "manufacturer": "Amazon",
+            "notes": "a2cVCMm57j7gAoEcCQf3wDkRQebCazTVnxZwUJO72SiRK9SEtkfbipZvPmrtSun7TdnJRiqTSRXNbzbuG3NNaoKup9SeRparVsejaJpiNCVC4wvlAFOtnosX0WStvjikB7SH3ID2zuwdD6O4UWkSHoElWh6Qh1vvA80g29ZsqxeXXBmU7YWCWk4gYmBav2GS5jd4MzwPPEPvM5wDVPASHCeFjKCsr9H6jyIIBsH9sXFZ4QnQL05c7xCjsV",
+            "received": false
+          }
+        ],
+        "total_price": 49958,
+        "delivery": {
+          "address": {
+            "country": "Ukraine",
+            "city": "City anIZaQXDWuMjFqH",
+            "street": "Street R99ShL3NyNV6bS38EaF6V9YJN2lkmYW7a",
+            "house": 457,
+            "flat": 5679
+          },
+          "finalDate": "2025-03-09T00:00:00.000Z",
+          "condition": "Delivery"
+        },
+        "changedOn": "2025-03-02T16:30:25.000Z",
+        "action": "Order processing started"
+      },
+      {
+        "status": "Draft",
+        "customer": "67c487a07b4bcc16671b0e77",
+        "products": [
+          {
+            "_id": "67c487a07b4bcc16671b0ea2",
+            "name": "Computer79914",
+            "amount": 151,
+            "price": 49958,
+            "manufacturer": "Amazon",
+            "notes": "a2cVCMm57j7gAoEcCQf3wDkRQebCazTVnxZwUJO72SiRK9SEtkfbipZvPmrtSun7TdnJRiqTSRXNbzbuG3NNaoKup9SeRparVsejaJpiNCVC4wvlAFOtnosX0WStvjikB7SH3ID2zuwdD6O4UWkSHoElWh6Qh1vvA80g29ZsqxeXXBmU7YWCWk4gYmBav2GS5jd4MzwPPEPvM5wDVPASHCeFjKCsr9H6jyIIBsH9sXFZ4QnQL05c7xCjsV",
+            "received": false
+          }
+        ],
+        "total_price": 49958,
+        "delivery": {
+          "address": {
+            "country": "Ukraine",
+            "city": "City anIZaQXDWuMjFqH",
+            "street": "Street R99ShL3NyNV6bS38EaF6V9YJN2lkmYW7a",
+            "house": 457,
+            "flat": 5679
+          },
+          "finalDate": "2025-03-09T00:00:00.000Z",
+          "condition": "Delivery"
+        },
+        "changedOn": "2025-03-02T16:30:25.000Z",
+        "action": "Delivery Scheduled"
+      },
+      {
+        "status": "Draft",
+        "customer": "67c487a07b4bcc16671b0e77",
+        "products": [
+          {
+            "_id": "67c487a07b4bcc16671b0ea2",
+            "name": "Computer79914",
+            "amount": 151,
+            "price": 49958,
+            "manufacturer": "Amazon",
+            "notes": "a2cVCMm57j7gAoEcCQf3wDkRQebCazTVnxZwUJO72SiRK9SEtkfbipZvPmrtSun7TdnJRiqTSRXNbzbuG3NNaoKup9SeRparVsejaJpiNCVC4wvlAFOtnosX0WStvjikB7SH3ID2zuwdD6O4UWkSHoElWh6Qh1vvA80g29ZsqxeXXBmU7YWCWk4gYmBav2GS5jd4MzwPPEPvM5wDVPASHCeFjKCsr9H6jyIIBsH9sXFZ4QnQL05c7xCjsV",
+            "received": false
+          }
+        ],
+        "total_price": 49958,
+        "delivery": null,
+        "changedOn": "2025-03-02T16:30:25.000Z",
+        "action": "Order created"
+      }
+    ]
+  },
+  "IsSuccess": true,
+  "ErrorMessage": null
+}

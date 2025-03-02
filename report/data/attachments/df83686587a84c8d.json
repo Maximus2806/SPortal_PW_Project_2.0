@@ -1,0 +1,96 @@
+{
+  "Order": {
+    "_id": "67c487997b4bcc16671b0bfa",
+    "status": "Draft",
+    "customer": {
+      "_id": "67c487997b4bcc16671b0bb0",
+      "email": "Meaghan98@hotmail.com",
+      "name": "Name BpcwcMLjqZdfqiklbyYoycvPPNLASlwrDWh",
+      "country": "Canada",
+      "city": "City tzzXozUSXnXsTWH",
+      "street": "Street LiGAe3bUFIxCu9mTp1EqCRFHKoBsN63Zc",
+      "house": 817,
+      "flat": 5794,
+      "phone": "+490255904309",
+      "createdOn": "2025-03-02T16:30:17.000Z",
+      "notes": "Notes hkEFkdEXNcvhdRnsPkagzjvLUziPvPFGTTkGZafpnAuZPprOtWukCwgCJmsMapdGCqsCaYjwuvDeICsKvtqOuqeKRELYwaVuVIoUjnLLIzGRFpkDWvHRFkQJuhmuBfxSWWyCdSJAZInHpiMrbrMeIplRBHFStdeKqbNIBvZByPHAlyczDhPdoVatAWEvuIvvamOFHvhQUPqxULpQdVkfkXQSqNAQwmMuIhnnkmLVwfwIhLPYJimy"
+    },
+    "products": [
+      {
+        "_id": "67c487997b4bcc16671b0bd7",
+        "name": "Fish68330",
+        "amount": 887,
+        "price": 51184,
+        "manufacturer": "Google",
+        "notes": "wC5JLwhW2vE2yVH8mqeJrlTFJhRmgCNuIBtLBNG8osL5c30zhF3D9FxqlStQxdIfU5LiIyVnbhOoS7dnlrD0DUNmwcU1krC0xMEbbG4UbTY5QM9ILENDdRyRMglHdn1P7bemHdUbkeCOyYIydD3YfDiLlfFWW7zRAr1rAZAVXe3mS4DYIYo3nW9dCkHOQbarI0MbR2tSbg7bKKSUFyEpwoF1TkY9qQNY4fcU4L7IbcDRnpsJeFeuIrkYH7",
+        "received": false
+      }
+    ],
+    "delivery": {
+      "address": {
+        "country": "Germany",
+        "city": "Berlin",
+        "street": "Main Street 123",
+        "house": 123,
+        "flat": 5678
+      },
+      "finalDate": "2025-03-07T00:00:00.000Z",
+      "condition": "Delivery"
+    },
+    "total_price": 51184,
+    "createdOn": "2025-03-02T16:30:17.000Z",
+    "comments": [],
+    "history": [
+      {
+        "status": "Draft",
+        "customer": "67c487997b4bcc16671b0bb0",
+        "products": [
+          {
+            "_id": "67c487997b4bcc16671b0bd7",
+            "name": "Fish68330",
+            "amount": 887,
+            "price": 51184,
+            "manufacturer": "Google",
+            "notes": "wC5JLwhW2vE2yVH8mqeJrlTFJhRmgCNuIBtLBNG8osL5c30zhF3D9FxqlStQxdIfU5LiIyVnbhOoS7dnlrD0DUNmwcU1krC0xMEbbG4UbTY5QM9ILENDdRyRMglHdn1P7bemHdUbkeCOyYIydD3YfDiLlfFWW7zRAr1rAZAVXe3mS4DYIYo3nW9dCkHOQbarI0MbR2tSbg7bKKSUFyEpwoF1TkY9qQNY4fcU4L7IbcDRnpsJeFeuIrkYH7",
+            "received": false
+          }
+        ],
+        "total_price": 51184,
+        "delivery": {
+          "address": {
+            "country": "Germany",
+            "city": "Berlin",
+            "street": "Main Street 123",
+            "house": 123,
+            "flat": 5678
+          },
+          "finalDate": "2025-03-07T00:00:00.000Z",
+          "condition": "Delivery"
+        },
+        "changedOn": "2025-03-02T16:30:18.000Z",
+        "action": "Delivery Scheduled"
+      },
+      {
+        "status": "Draft",
+        "customer": "67c487997b4bcc16671b0bb0",
+        "products": [
+          {
+            "_id": "67c487997b4bcc16671b0bd7",
+            "name": "Fish68330",
+            "amount": 887,
+            "price": 51184,
+            "manufacturer": "Google",
+            "notes": "wC5JLwhW2vE2yVH8mqeJrlTFJhRmgCNuIBtLBNG8osL5c30zhF3D9FxqlStQxdIfU5LiIyVnbhOoS7dnlrD0DUNmwcU1krC0xMEbbG4UbTY5QM9ILENDdRyRMglHdn1P7bemHdUbkeCOyYIydD3YfDiLlfFWW7zRAr1rAZAVXe3mS4DYIYo3nW9dCkHOQbarI0MbR2tSbg7bKKSUFyEpwoF1TkY9qQNY4fcU4L7IbcDRnpsJeFeuIrkYH7",
+            "received": false
+          }
+        ],
+        "total_price": 51184,
+        "delivery": null,
+        "changedOn": "2025-03-02T16:30:17.000Z",
+        "action": "Order created"
+      }
+    ]
+  },
+  "IsSuccess": true,
+  "ErrorMessage": null
+}

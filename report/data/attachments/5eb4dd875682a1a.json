@@ -1,0 +1,17 @@
+{
+  "Customer": {
+    "email": "Randy_Hirthe@gmail.com",
+    "name": "Name VwJSrTNsKdEhfWIiudOGsvzjBJaLMuXWaFr",
+    "country": "France",
+    "city": "City tDQAZJLDRohqtWu",
+    "street": "Street 3t8faSx7WiSLJEWvqanCLb3YGUHibovL6",
+    "house": 480,
+    "flat": 7115,
+    "phone": "+419592049561",
+    "createdOn": "2025-03-02T16:30:09.000Z",
+    "notes": "Notes PwHINQNtgmQTZTRHcdkXVQtrbVXAYSfqWuNxJXxlYnLJBBZfViAdntzAIaCeVIxojmWzAfKuWIEFOcfmLCgmUqgOifZxZASHcphTHplcqYsVcNkWhEeopKayaLAdoYynqCvJcFEzeswVNTttxFiAyItuToCtBxilFYMZwuqGhwcrVHfcYAbAuFnmShNbMypsaZwyKvlAomTUoZtxmFfkxdUQquxBsLOeKEVexxzplalRHHaMeiLi",
+    "_id": "67c487917b4bcc16671b0886"
+  },
+  "IsSuccess": true,
+  "ErrorMessage": null
+}
