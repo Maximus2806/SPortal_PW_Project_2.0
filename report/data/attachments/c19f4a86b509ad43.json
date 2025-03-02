@@ -1,0 +1,129 @@
+{
+  "Order": {
+    "status": "Draft",
+    "customer": {
+      "_id": "67c460e57b4bcc16671aea2e",
+      "email": "Nannie_Heller-Sawayn@yahoo.com",
+      "name": "Name CmRCocpfWMtfhXxWlkStBTksaPRhxTAXPqN",
+      "country": "Ukraine",
+      "city": "City KJBPEZwpObsngQS",
+      "street": "Street 3DbUybyQazLYcMOenDNRxTbOKoQp8LTfF",
+      "house": 903,
+      "flat": 2052,
+      "phone": "+328339844251",
+      "createdOn": "2025-03-02T13:45:09.000Z",
+      "notes": "Notes ohwOXvaMQPNzOcgiJXlweESHmZPnMCSaPzMUuSxQaGQEINiFpOHUQgOBPAqWPICLFnoLZaynwWTzvwietyJDeoWTJeSEUjoYFiGejYFzISZwdtIGrdJoCxGaXjPUDRIRMoOYPwBwLMtufBggGWGOlvSVctKXOKUoaeECmuBAZEGLDaSlBIinHrHzMQHCgAWmosaJSFhkTdoUuzkKBeoLTaqCWdqPvpOCfDJiMxEOoCBGtBNoJHEt"
+    },
+    "products": [
+      {
+        "_id": "67c460e57b4bcc16671aea7b",
+        "name": "Car50571",
+        "amount": 216,
+        "price": 97307,
+        "manufacturer": "Apple",
+        "notes": "rTn6sHTKZatNvkM2kLJ1xIYXCjkFwlk2zEi1wC165jAH5VB11t5QOKX7kfIrJpawnkDHpqNg9wTJfTPxs1o8t856vvHvUNKotKOHndTVcfcRPTaLR4kIUkToLKvVXBfsANKZC8fxbNdhKLV7a5NwRvfLtC8PCM64c6dwwTpAiYoGAT8gvpDXQNNFzoBgoAjMDiR0cW1amAtTgcypnUJfPwJw2yTBuuCqXRWzAkckdtOEoByLbKhCo1MotP",
+        "received": false
+      },
+      {
+        "_id": "67c460e67b4bcc16671aeab2",
+        "name": "Gloves11850",
+        "amount": 975,
+        "price": 830,
+        "manufacturer": "Google",
+        "notes": "R3fgtvbNANXGeMOm0CdJx1HI5raqn0Cy70QLDRCUvoGrP4R03aJKfhJqcIKyqZCQxushmdSEEo4sJgApVkT8aGdWv61JXvUXZ1ljm0dr00M5z4U9b1q7ktrh1mvWTjCJDId5COCQmMBkUhijIlgQlmf4cjXxFV6I6Uz65PjOVQdqQZ16NgpOKb0ryDhJBsruWdqcMeznBEs5ZgSlCdeETlDgE980urXrBRKkL6y6bzIDZB1mkPGV1GtZuR",
+        "received": false
+      },
+      {
+        "_id": "67c460e67b4bcc16671aeb09",
+        "name": "Chair48550",
+        "amount": 357,
+        "price": 77142,
+        "manufacturer": "Tesla",
+        "notes": "i6VNoBNUMgsWhb5bAZUwEu9bdtVmhsSNQtbqS7K5jfK6SR1sKriuS2nr75HVv8PH861OTWUusGnFlT0TrYUHKU25191nj7dEqQGsb7LF9ciHIp7BFnbdGngq2i92d4zEnhtxUFckDsyxT0UfyI4smaqWJsA8Uh6rH1B5fjKecx4sQ3wMTex35zVlhqMmlhZKNl7mgJFn2szeCnXpT1dkj936007pBJCVrengJj0eAZDwObYRSXvs1M2gOl",
+        "received": false
+      },
+      {
+        "_id": "67c460e77b4bcc16671aeb58",
+        "name": "Computer13878",
+        "amount": 32,
+        "price": 20042,
+        "manufacturer": "Tesla",
+        "notes": "h3xKAQgQWqtIZEjJyKqsyiGfteH5CXQqHYWV9DRpedymjxkPPRrHOp1pySXBeuDICfBwMOF59VTVEEUlKu4DSDhosmAIbb3LGnUCwVzx4JXqLmvuWS2RULlqyEwcKXhRPsCZ865Y7TehiZHpSkvEp4bvWE36tcprURb1ZYVfdQA44FZN79dsPQNbu98r0zIJz1h1AchgXL7xF2kXVrrglqZ7Ur2BePrpamTgu8NRqp9VIAoCvbYp2t4jqJ",
+        "received": false
+      },
+      {
+        "_id": "67c460e87b4bcc16671aeb9e",
+        "name": "Car58719",
+        "amount": 585,
+        "price": 45675,
+        "manufacturer": "Sony",
+        "notes": "g9w9hW5JvkogRRlev8PKSumQUBFdxISJZDOcOgZBco5LXAdGFVylXx4MfXY2oi7OQEOUmgjtlwp2fJnOmjQjeM4DitN9ZvYIO8bWd1xLFlfwZjV4ZYZrEuPSg6FNY1SJaWJMUoctOw7EZ3jJo50PUzO6ZOGtWVi6gO3z0qSGQMsFO0NKLAuPo1DTTYDUtAeiuXU2tB4ocfNnl77dhqH5lGUDWOpPR9C2Yz8DbVEOxUigdySAhDFXB4eUx1",
+        "received": false
+      }
+    ],
+    "delivery": null,
+    "total_price": 240996,
+    "createdOn": "2025-03-02T13:45:13.000Z",
+    "comments": [],
+    "history": [
+      {
+        "status": "Draft",
+        "customer": "67c460e57b4bcc16671aea2e",
+        "products": [
+          {
+            "_id": "67c460e57b4bcc16671aea7b",
+            "name": "Car50571",
+            "amount": 216,
+            "price": 97307,
+            "manufacturer": "Apple",
+            "notes": "rTn6sHTKZatNvkM2kLJ1xIYXCjkFwlk2zEi1wC165jAH5VB11t5QOKX7kfIrJpawnkDHpqNg9wTJfTPxs1o8t856vvHvUNKotKOHndTVcfcRPTaLR4kIUkToLKvVXBfsANKZC8fxbNdhKLV7a5NwRvfLtC8PCM64c6dwwTpAiYoGAT8gvpDXQNNFzoBgoAjMDiR0cW1amAtTgcypnUJfPwJw2yTBuuCqXRWzAkckdtOEoByLbKhCo1MotP",
+            "received": false
+          },
+          {
+            "_id": "67c460e67b4bcc16671aeab2",
+            "name": "Gloves11850",
+            "amount": 975,
+            "price": 830,
+            "manufacturer": "Google",
+            "notes": "R3fgtvbNANXGeMOm0CdJx1HI5raqn0Cy70QLDRCUvoGrP4R03aJKfhJqcIKyqZCQxushmdSEEo4sJgApVkT8aGdWv61JXvUXZ1ljm0dr00M5z4U9b1q7ktrh1mvWTjCJDId5COCQmMBkUhijIlgQlmf4cjXxFV6I6Uz65PjOVQdqQZ16NgpOKb0ryDhJBsruWdqcMeznBEs5ZgSlCdeETlDgE980urXrBRKkL6y6bzIDZB1mkPGV1GtZuR",
+            "received": false
+          },
+          {
+            "_id": "67c460e67b4bcc16671aeb09",
+            "name": "Chair48550",
+            "amount": 357,
+            "price": 77142,
+            "manufacturer": "Tesla",
+            "notes": "i6VNoBNUMgsWhb5bAZUwEu9bdtVmhsSNQtbqS7K5jfK6SR1sKriuS2nr75HVv8PH861OTWUusGnFlT0TrYUHKU25191nj7dEqQGsb7LF9ciHIp7BFnbdGngq2i92d4zEnhtxUFckDsyxT0UfyI4smaqWJsA8Uh6rH1B5fjKecx4sQ3wMTex35zVlhqMmlhZKNl7mgJFn2szeCnXpT1dkj936007pBJCVrengJj0eAZDwObYRSXvs1M2gOl",
+            "received": false
+          },
+          {
+            "_id": "67c460e77b4bcc16671aeb58",
+            "name": "Computer13878",
+            "amount": 32,
+            "price": 20042,
+            "manufacturer": "Tesla",
+            "notes": "h3xKAQgQWqtIZEjJyKqsyiGfteH5CXQqHYWV9DRpedymjxkPPRrHOp1pySXBeuDICfBwMOF59VTVEEUlKu4DSDhosmAIbb3LGnUCwVzx4JXqLmvuWS2RULlqyEwcKXhRPsCZ865Y7TehiZHpSkvEp4bvWE36tcprURb1ZYVfdQA44FZN79dsPQNbu98r0zIJz1h1AchgXL7xF2kXVrrglqZ7Ur2BePrpamTgu8NRqp9VIAoCvbYp2t4jqJ",
+            "received": false
+          },
+          {
+            "_id": "67c460e87b4bcc16671aeb9e",
+            "name": "Car58719",
+            "amount": 585,
+            "price": 45675,
+            "manufacturer": "Sony",
+            "notes": "g9w9hW5JvkogRRlev8PKSumQUBFdxISJZDOcOgZBco5LXAdGFVylXx4MfXY2oi7OQEOUmgjtlwp2fJnOmjQjeM4DitN9ZvYIO8bWd1xLFlfwZjV4ZYZrEuPSg6FNY1SJaWJMUoctOw7EZ3jJo50PUzO6ZOGtWVi6gO3z0qSGQMsFO0NKLAuPo1DTTYDUtAeiuXU2tB4ocfNnl77dhqH5lGUDWOpPR9C2Yz8DbVEOxUigdySAhDFXB4eUx1",
+            "received": false
+          }
+        ],
+        "total_price": 240996,
+        "delivery": null,
+        "changedOn": "2025-03-02T13:45:13.000Z",
+        "action": "Order created"
+      }
+    ],
+    "_id": "67c460e97b4bcc16671aec12"
+  },
+  "IsSuccess": true,
+  "ErrorMessage": null
+}

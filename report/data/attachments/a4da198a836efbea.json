@@ -1,0 +1,13 @@
+{
+  "Product": {
+    "name": "Ball42524",
+    "amount": 648,
+    "price": 64687,
+    "manufacturer": "Microsoft",
+    "createdOn": "2025-03-02T13:44:56.000Z",
+    "notes": "3WTFKCBrA3J4EzAGu35phOIDk1e73BFga1hBd0emzVU6XPWRUsMheRO1p7D60NjGqNEn1OqzgYems2O8ZCVYz2KGnT4L7AGTKaNlHyyuZbpmnWeD9kbdIxBMQJGcWahb9NXeQv0h3TIRr11nfSMmeetaHmXBnAmBybjbCXSgzsi3YLWMECKErCmTCa195AMbPnDyHrOAo16fU9EumxZ7ozNPbziqkWwzDticHUPCLZj7H7UIvDZb0FXbUK",
+    "_id": "67c460d87b4bcc16671ae919"
+  },
+  "IsSuccess": true,
+  "ErrorMessage": null
+}

@@ -1,0 +1,96 @@
+{
+  "Order": {
+    "_id": "67c460e47b4bcc16671aea02",
+    "status": "Draft",
+    "customer": {
+      "_id": "67c460e27b4bcc16671ae9b4",
+      "email": "Lourdes_Mann29@yahoo.com",
+      "name": "Name otYSGRisNXgtwFTvRSSXKIaAoPhMEAEeVjx",
+      "country": "Ukraine",
+      "city": "City EtjxuQPLLFvMYVW",
+      "street": "Street lve9dIfPgsnzqFOOk3Eema40nqHAIFIds",
+      "house": 341,
+      "flat": 8802,
+      "phone": "+668492376442",
+      "createdOn": "2025-03-02T13:45:06.000Z",
+      "notes": "Notes HanLyqHBxwyfmyOlTZLbMtbECvyRDVomZPcOwlCVuChYsoyjGOkLRecNuUTTtOJlUXxRmjAqDUwdiFMZSCIsBFEaIjEgaPppjPSFUJVahQlvhhgEJynwmJJtSCkYxqKvDirgMtaFTXcqfaDQdJUeVuaEJHOiLcZOFzDRiwfejvIQfJXCYdrDSuVfBXLLGnhXsBZsWEJjfZTweiJTycHIHQwZAICnhUadAOtfISWwEVBOHiRTVeje"
+    },
+    "products": [
+      {
+        "_id": "67c460e37b4bcc16671ae9d1",
+        "name": "Chips3180",
+        "amount": 614,
+        "price": 74262,
+        "manufacturer": "Amazon",
+        "notes": "XfvCrvGSVC4ajLtK6oijequC7juRgGCffJ0FW1RYKNUFkfvdvkSPdOrSzbVJ6vdN9zwHcDJcvi4RzRv30bdR2nES0r7UdegqwcTjARbe3fVawadc95eOI8eo5qH4PfdruxQs4MP8fVHPSymxYNvTKMthsUy2U4xa1ztt6Sb8w1PyigHDUCzUMebuBYyvKXCvFJUEakett7EnMrZqxvp13AovicyIARYFBGLN3kNp6cAPKxuuK1bPMrUUMA",
+        "received": false
+      }
+    ],
+    "delivery": {
+      "address": {
+        "country": "USA",
+        "city": "City VImJEBbRAxedROG",
+        "street": "Street Shsti9o85ShY011G1bKDIEKEt4gUpk3lm",
+        "house": 549,
+        "flat": 1118
+      },
+      "finalDate": "2025-03-12T00:00:00.000Z",
+      "condition": "Delivery"
+    },
+    "total_price": 74262,
+    "createdOn": "2025-03-02T13:45:08.000Z",
+    "comments": [],
+    "history": [
+      {
+        "status": "Draft",
+        "customer": "67c460e27b4bcc16671ae9b4",
+        "products": [
+          {
+            "_id": "67c460e37b4bcc16671ae9d1",
+            "name": "Chips3180",
+            "amount": 614,
+            "price": 74262,
+            "manufacturer": "Amazon",
+            "notes": "XfvCrvGSVC4ajLtK6oijequC7juRgGCffJ0FW1RYKNUFkfvdvkSPdOrSzbVJ6vdN9zwHcDJcvi4RzRv30bdR2nES0r7UdegqwcTjARbe3fVawadc95eOI8eo5qH4PfdruxQs4MP8fVHPSymxYNvTKMthsUy2U4xa1ztt6Sb8w1PyigHDUCzUMebuBYyvKXCvFJUEakett7EnMrZqxvp13AovicyIARYFBGLN3kNp6cAPKxuuK1bPMrUUMA",
+            "received": false
+          }
+        ],
+        "total_price": 74262,
+        "delivery": {
+          "address": {
+            "country": "USA",
+            "city": "City VImJEBbRAxedROG",
+            "street": "Street Shsti9o85ShY011G1bKDIEKEt4gUpk3lm",
+            "house": 549,
+            "flat": 1118
+          },
+          "finalDate": "2025-03-12T00:00:00.000Z",
+          "condition": "Delivery"
+        },
+        "changedOn": "2025-03-02T13:45:09.000Z",
+        "action": "Delivery Scheduled"
+      },
+      {
+        "status": "Draft",
+        "customer": "67c460e27b4bcc16671ae9b4",
+        "products": [
+          {
+            "_id": "67c460e37b4bcc16671ae9d1",
+            "name": "Chips3180",
+            "amount": 614,
+            "price": 74262,
+            "manufacturer": "Amazon",
+            "notes": "XfvCrvGSVC4ajLtK6oijequC7juRgGCffJ0FW1RYKNUFkfvdvkSPdOrSzbVJ6vdN9zwHcDJcvi4RzRv30bdR2nES0r7UdegqwcTjARbe3fVawadc95eOI8eo5qH4PfdruxQs4MP8fVHPSymxYNvTKMthsUy2U4xa1ztt6Sb8w1PyigHDUCzUMebuBYyvKXCvFJUEakett7EnMrZqxvp13AovicyIARYFBGLN3kNp6cAPKxuuK1bPMrUUMA",
+            "received": false
+          }
+        ],
+        "total_price": 74262,
+        "delivery": null,
+        "changedOn": "2025-03-02T13:45:08.000Z",
+        "action": "Order created"
+      }
+    ]
+  },
+  "IsSuccess": true,
+  "ErrorMessage": null
+}

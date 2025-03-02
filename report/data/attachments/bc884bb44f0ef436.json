@@ -1,0 +1,17 @@
+{
+  "Customer": {
+    "_id": "67c460cc7b4bcc16671ae850",
+    "email": "Amie96@gmail.com",
+    "name": "Name nXasSKTIeplzPbEpCvlAMxKAhAsjisVEFbp",
+    "country": "France",
+    "city": "City YlHbPcekFSskowI",
+    "street": "Street 4RNlY1ZaAGHtCrj4FHqbcrXuawPgbblB5",
+    "house": 979,
+    "flat": 3176,
+    "phone": "+789254071023",
+    "createdOn": "2025-03-02T13:44:44.000Z",
+    "notes": "Notes sIOjTtJQzIpFWtovajfSRBGkRZFuXXxhxWNJyHNUPIMhANlGBKmZxBYLOBrlpbMczKERbnmwvqChsGKIERqSLEimmFSlpQMsSvkVUoUZnrpEvtFTiEuZWyMcIXkFPVUKuEEryhiDumKWUYoHSjdFGCUiCWCmjcQMiYVGFfLBpFuoUePfzywYpwYpKFxVbkrjIFXOvjFTZtWRrYvGvDxaJCXSXgjYssUwLbCOAcgzViHGCReVITzK"
+  },
+  "IsSuccess": true,
+  "ErrorMessage": null
+}

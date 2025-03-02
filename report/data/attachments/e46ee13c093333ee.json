@@ -1,0 +1,57 @@
+{
+  "Order": {
+    "_id": "67c460f07b4bcc16671aeeb2",
+    "status": "Draft",
+    "customer": {
+      "_id": "67c460ef7b4bcc16671aee5b",
+      "email": "Amira_Streich57@yahoo.com",
+      "name": "Name MWZtkKTsnKjYWbZCsbDkMscKznOikMvrBTZ",
+      "country": "France",
+      "city": "City slmeAsRsZcBohcj",
+      "street": "Street PBOfAO7uJ8fGpzQ5jOtilq12zdOC2FAHE",
+      "house": 396,
+      "flat": 2366,
+      "phone": "+696086434848",
+      "createdOn": "2025-03-02T13:45:19.000Z",
+      "notes": "Notes qeFTQERNUPwqAMAGKDnmXpDiJQNXTShPtYvaqlyBcaibSekmPZXfNXKtEapXkjBUPGQQVuHQYvPiIpYkUUsqzDnvyQvzOrRYIpshSzMFtCqrLxFalycUxjiaeOOcSafsvWrNeDTJISPOGlcJsGAWpEHtaMgvQqjbKbyiAHldBKZvhRedNErJnJJbfKBiuigFbcOCOststRURHlPBGtpnhmgGBWEBnVfCIipmARUwfdqQyGWbkphD"
+    },
+    "products": [
+      {
+        "_id": "67c460ef7b4bcc16671aee86",
+        "name": "Chair20052",
+        "amount": 697,
+        "price": 2288,
+        "manufacturer": "Apple",
+        "notes": "3CnSDgEI94RpYm3aCo7mgLw4WVyju3ssR5VLFjxIbLV2Egy6OseLPNNOZ9T4hiCcQ3Q7iAfscqogjVGi1dlsmmq6fZSViyInDPEgsvaxJvGPT35Vmiml6cuBOXJjql3zKpn8Tn4c32OAzv5JqQGXLWyNmx6SeygWZGRP88HpOJUahPawnYHMGHaIJc0v30xi3q4SjKKjq6kU47SvWZfrSUF95GqENZQp4wLiXuvgyMuFoHPl3jntQcc3Rq",
+        "received": false
+      }
+    ],
+    "delivery": null,
+    "total_price": 2288,
+    "createdOn": "2025-03-02T13:45:20.000Z",
+    "comments": [],
+    "history": [
+      {
+        "status": "Draft",
+        "customer": "67c460ef7b4bcc16671aee5b",
+        "products": [
+          {
+            "_id": "67c460ef7b4bcc16671aee86",
+            "name": "Chair20052",
+            "amount": 697,
+            "price": 2288,
+            "manufacturer": "Apple",
+            "notes": "3CnSDgEI94RpYm3aCo7mgLw4WVyju3ssR5VLFjxIbLV2Egy6OseLPNNOZ9T4hiCcQ3Q7iAfscqogjVGi1dlsmmq6fZSViyInDPEgsvaxJvGPT35Vmiml6cuBOXJjql3zKpn8Tn4c32OAzv5JqQGXLWyNmx6SeygWZGRP88HpOJUahPawnYHMGHaIJc0v30xi3q4SjKKjq6kU47SvWZfrSUF95GqENZQp4wLiXuvgyMuFoHPl3jntQcc3Rq",
+            "received": false
+          }
+        ],
+        "total_price": 2288,
+        "delivery": null,
+        "changedOn": "2025-03-02T13:45:20.000Z",
+        "action": "Order created"
+      }
+    ]
+  },
+  "IsSuccess": true,
+  "ErrorMessage": null
+}

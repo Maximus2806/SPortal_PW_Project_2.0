@@ -1,0 +1,112 @@
+{
+  "Order": {
+    "_id": "67c460e97b4bcc16671aec3b",
+    "status": "Draft",
+    "customer": {
+      "_id": "67c460e87b4bcc16671aeb7e",
+      "email": "Cleveland86@yahoo.com",
+      "name": "Name lBgAaEeXOvUmwbkfgfJKgpBhCSuKZXcNywK",
+      "country": "Russia",
+      "city": "City MOceTAwNyIjoCpo",
+      "street": "Street NY2azWoWarffRP6LNjdQ5wlTdcAhiNblm",
+      "house": 658,
+      "flat": 8996,
+      "phone": "+481655108541",
+      "createdOn": "2025-03-02T13:45:12.000Z",
+      "notes": "Notes xVQzpcgXlXuXBQRDCwWeutradLYwUADNslkRJYmodjByFLURdVEOEyHSDdpqdZtBrihHFjlacjXYYZJdkmNCIKmhTEJHSBtZbzRMkSqFwCvozHOabAcCZqBfSrqRwEaLUvHgjvzqUARuTLPIPKVRySCEyGuAhwUqpieczqFOsJlivhxODbbfXGqAlDxUHedcwDZAFeCDQEhyhIepvPTyExyHUqOCdBwqAAJpYPxlaLebuJVzbRmL"
+    },
+    "products": [
+      {
+        "_id": "67c460e87b4bcc16671aebbf",
+        "name": "Towels80991",
+        "amount": 82,
+        "price": 20451,
+        "manufacturer": "Xiaomi",
+        "notes": "RZhMaSPFBTLTA75fK0z7trkMFOqBhXm8FhIyzivnkWYLEe16zBSEZFzgwlEO90AjeMN3353H2aIWQ6zNFRCbrzPpqyiuGiHf3ypTfsryC8ydzhNjNDxCuhvsiPaeZBHQycZO0oOFUEZzIuQJvNVGw33ANE975YJuPe7M589TDaV73OqOHjrGbIOQ7sZLM4UYOP85fL7SBN8gs4s7ivlwplDyo9iwwstnTmrJ0LjYhbed2MjkTDAq0bP4s4",
+        "received": false
+      },
+      {
+        "_id": "67c460ea7b4bcc16671aec75",
+        "name": "Pants94070",
+        "amount": 711,
+        "price": 43976,
+        "manufacturer": "Sony",
+        "notes": "lScyt27gnAPgsXhpY9iwaoOrCgCiVJ0xx08TYDWJgn0wdvl4X0ZS6f7P4pnxoRmHsGBNTqQsfPHFlRVBo70gUuXMSdl3ZreEGsxnHng3zz4gxLaBGFNxhrArEKIJrdcoH8eaA347BAJypea15cqOSrb6KKux7x84heMhv1BDi7RAZWcyR9o2eMzQY5eR0lTe7rDD1SsmecSNrEKY5LnycUawXkvKxdYzu1RtQIBYdBAuxjbjnHNeLbdvNO",
+        "received": false
+      },
+      {
+        "_id": "67c460eb7b4bcc16671aecb9",
+        "name": "Bacon78728",
+        "amount": 412,
+        "price": 44029,
+        "manufacturer": "Samsung",
+        "notes": "iHCcYII5ABSJcVvAXsI1BM74L8YrfeJBrLVF8Buva9VFPj28s2XXh1uWKVnrHXau9H6jeB3dPSRlg9uxgwPjcaH9gEGMtoNIjPHP106eGiMbI1d6a3rOsxXSTgXcX9FUModIZ3MJLHcD6VeHdzAAUWhu74ZZlE9HUzISty6wrXE0pD8UtFyXU2yLPF5zbv2VfPM5I7UEhRVcYX1VBiBuHffEDXHHChWkqCxpK6NyJqnr64hMhqw3MpYeqb",
+        "received": false
+      }
+    ],
+    "delivery": null,
+    "total_price": 108456,
+    "createdOn": "2025-03-02T13:45:13.000Z",
+    "comments": [],
+    "history": [
+      {
+        "status": "Draft",
+        "customer": "67c460e87b4bcc16671aeb7e",
+        "products": [
+          {
+            "_id": "67c460e87b4bcc16671aebbf",
+            "name": "Towels80991",
+            "amount": 82,
+            "price": 20451,
+            "manufacturer": "Xiaomi",
+            "notes": "RZhMaSPFBTLTA75fK0z7trkMFOqBhXm8FhIyzivnkWYLEe16zBSEZFzgwlEO90AjeMN3353H2aIWQ6zNFRCbrzPpqyiuGiHf3ypTfsryC8ydzhNjNDxCuhvsiPaeZBHQycZO0oOFUEZzIuQJvNVGw33ANE975YJuPe7M589TDaV73OqOHjrGbIOQ7sZLM4UYOP85fL7SBN8gs4s7ivlwplDyo9iwwstnTmrJ0LjYhbed2MjkTDAq0bP4s4",
+            "received": false
+          },
+          {
+            "_id": "67c460ea7b4bcc16671aec75",
+            "name": "Pants94070",
+            "amount": 711,
+            "price": 43976,
+            "manufacturer": "Sony",
+            "notes": "lScyt27gnAPgsXhpY9iwaoOrCgCiVJ0xx08TYDWJgn0wdvl4X0ZS6f7P4pnxoRmHsGBNTqQsfPHFlRVBo70gUuXMSdl3ZreEGsxnHng3zz4gxLaBGFNxhrArEKIJrdcoH8eaA347BAJypea15cqOSrb6KKux7x84heMhv1BDi7RAZWcyR9o2eMzQY5eR0lTe7rDD1SsmecSNrEKY5LnycUawXkvKxdYzu1RtQIBYdBAuxjbjnHNeLbdvNO",
+            "received": false
+          },
+          {
+            "_id": "67c460eb7b4bcc16671aecb9",
+            "name": "Bacon78728",
+            "amount": 412,
+            "price": 44029,
+            "manufacturer": "Samsung",
+            "notes": "iHCcYII5ABSJcVvAXsI1BM74L8YrfeJBrLVF8Buva9VFPj28s2XXh1uWKVnrHXau9H6jeB3dPSRlg9uxgwPjcaH9gEGMtoNIjPHP106eGiMbI1d6a3rOsxXSTgXcX9FUModIZ3MJLHcD6VeHdzAAUWhu74ZZlE9HUzISty6wrXE0pD8UtFyXU2yLPF5zbv2VfPM5I7UEhRVcYX1VBiBuHffEDXHHChWkqCxpK6NyJqnr64hMhqw3MpYeqb",
+            "received": false
+          }
+        ],
+        "total_price": 108456,
+        "delivery": null,
+        "changedOn": "2025-03-02T13:45:15.000Z",
+        "action": "Requested products changed"
+      },
+      {
+        "status": "Draft",
+        "customer": "67c460e87b4bcc16671aeb7e",
+        "products": [
+          {
+            "_id": "67c460e87b4bcc16671aebbf",
+            "name": "Towels80991",
+            "amount": 82,
+            "price": 20451,
+            "manufacturer": "Xiaomi",
+            "notes": "RZhMaSPFBTLTA75fK0z7trkMFOqBhXm8FhIyzivnkWYLEe16zBSEZFzgwlEO90AjeMN3353H2aIWQ6zNFRCbrzPpqyiuGiHf3ypTfsryC8ydzhNjNDxCuhvsiPaeZBHQycZO0oOFUEZzIuQJvNVGw33ANE975YJuPe7M589TDaV73OqOHjrGbIOQ7sZLM4UYOP85fL7SBN8gs4s7ivlwplDyo9iwwstnTmrJ0LjYhbed2MjkTDAq0bP4s4",
+            "received": false
+          }
+        ],
+        "total_price": 20451,
+        "delivery": null,
+        "changedOn": "2025-03-02T13:45:13.000Z",
+        "action": "Order created"
+      }
+    ]
+  },
+  "IsSuccess": true,
+  "ErrorMessage": null
+}

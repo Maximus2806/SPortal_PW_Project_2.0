@@ -1,0 +1,10 @@
+{
+  "date": "Sun, 02 Mar 2025 13:45:16 GMT",
+  "server": "Apache",
+  "x-powered-by": "Express",
+  "access-control-allow-origin": "*",
+  "access-control-expose-headers": "Authorization",
+  "etag": "W/\"ef7-A6jZ942m8IrhgukokcEnM+dYqXA\"",
+  "keep-alive": "timeout=5, max=63",
+  "connection": "Keep-Alive"
+}

@@ -1,0 +1,13 @@
+{
+  "Product": {
+    "name": "Hat93587",
+    "amount": 369,
+    "price": 89499,
+    "manufacturer": "Apple",
+    "createdOn": "2025-03-02T13:45:10.000Z",
+    "notes": "gSEiJZAvM2l66Xgl1cj8xde8xLAv8uMGrkQgfhpiMZG9fSYVdzDUN9LCVQYkykEwub0QBEOhu2F5yX8eFPmkJYOHYwUSmgO5nojEoxwtA44lMaAwcmjdxg8JWLuBf4qVY4q3s4pGdyxtzvTYCkyu9342u0GrRxHOyJzhUYBy7uMmxaK6SCKgvQad3Pot9Lg541Bh1GxaAIAWaOK5bREhjcUpdOv16DuwURt0jAnKbZ9CLrnxgOrYGSuBoB",
+    "_id": "67c460e67b4bcc16671aeabc"
+  },
+  "IsSuccess": true,
+  "ErrorMessage": null
+}

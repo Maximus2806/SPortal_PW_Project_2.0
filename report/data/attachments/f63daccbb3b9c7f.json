@@ -1,0 +1,13 @@
+{
+  "Product": {
+    "name": "Computer13878",
+    "amount": 32,
+    "price": 20042,
+    "manufacturer": "Tesla",
+    "createdOn": "2025-03-02T13:45:11.000Z",
+    "notes": "h3xKAQgQWqtIZEjJyKqsyiGfteH5CXQqHYWV9DRpedymjxkPPRrHOp1pySXBeuDICfBwMOF59VTVEEUlKu4DSDhosmAIbb3LGnUCwVzx4JXqLmvuWS2RULlqyEwcKXhRPsCZ865Y7TehiZHpSkvEp4bvWE36tcprURb1ZYVfdQA44FZN79dsPQNbu98r0zIJz1h1AchgXL7xF2kXVrrglqZ7Ur2BePrpamTgu8NRqp9VIAoCvbYp2t4jqJ",
+    "_id": "67c460e77b4bcc16671aeb58"
+  },
+  "IsSuccess": true,
+  "ErrorMessage": null
+}

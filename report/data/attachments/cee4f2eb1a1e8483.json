@@ -1,0 +1,95 @@
+{
+  "Order": {
+    "_id": "67c460db7b4bcc16671ae960",
+    "status": "Draft",
+    "customer": {
+      "_id": "67c460df7b4bcc16671ae999",
+      "email": "Sister.Krajcik33@yahoo.com",
+      "name": "Name uDVSBQVqbuMfYubmfAgritFYkKmknwBmIEK",
+      "country": "USA",
+      "city": "City iNvmvslQXzBCGAx",
+      "street": "Street yCYBwqToQJytUdiqb0QnS2kLaF7kgBeaT",
+      "house": 360,
+      "flat": 2108,
+      "phone": "+961742213782",
+      "createdOn": "2025-03-02T13:45:03.000Z",
+      "notes": "Notes BsBTmRaJECXbOCkPnMFkIbCOmEoPTsGNBVZaxuAsEGkbZjrWIsfMKyvbkmBBwEwfzqTjjduyVsxqcfNVZVnpInSjOPbLCLzcYknpiKGQAQSWYxgpLBEryqRpRZjddvljUUrpCogvYlZZEuWrhmcGzleCvECffwirwuquVusAcbtdKEwubuqIgzVyLGJqmQoWxlNZpeNxRDTaMEdjXVhKicRFPoaVyxMBdKkLRhGqJYlNCHEONEBM"
+    },
+    "products": [
+      {
+        "_id": "67c460e27b4bcc16671ae9cc",
+        "name": "Bacon89360",
+        "amount": 297,
+        "price": 35720,
+        "manufacturer": "Apple",
+        "notes": "DUsVlgcB5JEc9p8D75UA3SnsUfGMpHuZI5smNpT7lx7nP3qtyUgJxpvY7cGZqpBrOSg431107czaP8GJ2Z6aBdlX8Y1MdfjLeyZzAxfegfVxn36EG8rdcFFcUsFTCTkuiMmJMGGQodECe29h4KKv9osyZoR9Oi1zIGztVJi87P5eEDXQ70HM9Bsp3OlIyQKCMnDhmVn3NnmuniNdHisU4WQYQ6ufT4CnaCzndR0oKv0c4X05fDTAC3Df31",
+        "received": false
+      }
+    ],
+    "delivery": null,
+    "total_price": 35720,
+    "createdOn": "2025-03-02T13:44:59.000Z",
+    "comments": [],
+    "history": [
+      {
+        "status": "Draft",
+        "customer": "67c460df7b4bcc16671ae999",
+        "products": [
+          {
+            "_id": "67c460d87b4bcc16671ae919",
+            "name": "Ball42524",
+            "amount": 648,
+            "price": 64687,
+            "manufacturer": "Microsoft",
+            "notes": "3WTFKCBrA3J4EzAGu35phOIDk1e73BFga1hBd0emzVU6XPWRUsMheRO1p7D60NjGqNEn1OqzgYems2O8ZCVYz2KGnT4L7AGTKaNlHyyuZbpmnWeD9kbdIxBMQJGcWahb9NXeQv0h3TIRr11nfSMmeetaHmXBnAmBybjbCXSgzsi3YLWMECKErCmTCa195AMbPnDyHrOAo16fU9EumxZ7ozNPbziqkWwzDticHUPCLZj7H7UIvDZb0FXbUK",
+            "received": false
+          }
+        ],
+        "total_price": 35720,
+        "delivery": null,
+        "changedOn": "2025-03-02T13:45:08.000Z",
+        "action": "Customer changed"
+      },
+      {
+        "status": "Draft",
+        "customer": "67c460d47b4bcc16671ae8d5",
+        "products": [
+          {
+            "_id": "67c460e27b4bcc16671ae9cc",
+            "name": "Bacon89360",
+            "amount": 297,
+            "price": 35720,
+            "manufacturer": "Apple",
+            "notes": "DUsVlgcB5JEc9p8D75UA3SnsUfGMpHuZI5smNpT7lx7nP3qtyUgJxpvY7cGZqpBrOSg431107czaP8GJ2Z6aBdlX8Y1MdfjLeyZzAxfegfVxn36EG8rdcFFcUsFTCTkuiMmJMGGQodECe29h4KKv9osyZoR9Oi1zIGztVJi87P5eEDXQ70HM9Bsp3OlIyQKCMnDhmVn3NnmuniNdHisU4WQYQ6ufT4CnaCzndR0oKv0c4X05fDTAC3Df31",
+            "received": false
+          }
+        ],
+        "total_price": 35720,
+        "delivery": null,
+        "changedOn": "2025-03-02T13:45:08.000Z",
+        "action": "Requested products changed"
+      },
+      {
+        "status": "Draft",
+        "customer": "67c460d47b4bcc16671ae8d5",
+        "products": [
+          {
+            "_id": "67c460d87b4bcc16671ae919",
+            "name": "Ball42524",
+            "amount": 648,
+            "price": 64687,
+            "manufacturer": "Microsoft",
+            "notes": "3WTFKCBrA3J4EzAGu35phOIDk1e73BFga1hBd0emzVU6XPWRUsMheRO1p7D60NjGqNEn1OqzgYems2O8ZCVYz2KGnT4L7AGTKaNlHyyuZbpmnWeD9kbdIxBMQJGcWahb9NXeQv0h3TIRr11nfSMmeetaHmXBnAmBybjbCXSgzsi3YLWMECKErCmTCa195AMbPnDyHrOAo16fU9EumxZ7ozNPbziqkWwzDticHUPCLZj7H7UIvDZb0FXbUK",
+            "received": false
+          }
+        ],
+        "total_price": 64687,
+        "delivery": null,
+        "changedOn": "2025-03-02T13:44:59.000Z",
+        "action": "Order created"
+      }
+    ]
+  },
+  "IsSuccess": true,
+  "ErrorMessage": null
+}

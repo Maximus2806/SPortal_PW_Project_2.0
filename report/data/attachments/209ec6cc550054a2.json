@@ -1,0 +1,17 @@
+{
+  "Customer": {
+    "_id": "67c460c97b4bcc16671ae826",
+    "email": "Pearl_Wiegand76@yahoo.com",
+    "name": "Name szUcknPRBdScdLxaQrgwFHSVdHonDuHwrrY",
+    "country": "Russia",
+    "city": "City TjtCXQcIGuVKsgf",
+    "street": "Street i4rGjjVZ66pC8ZH15XtQnwfPBxNArfRf2",
+    "house": 903,
+    "flat": 2804,
+    "phone": "+748187892940",
+    "createdOn": "2025-03-02T13:44:41.000Z",
+    "notes": "Notes qIeHduedkyYgQlsFTXSQpMDgByGDDCEzGAGLtMHJikOBPfczHpcxEdlPwXLuidfAKTghoeSQoJsaMkoyTrORiZcyTZqsKHwLShfwdNbkdEMARMWGfJPHRpWPqJuYFwgzPLiuwGnOnTarxhWRhLtwjJWgBEoThZuRfhxeLCCmNSloJSlOrjAVMceLswphbtJqYDwnUBPJvDKEHPBQgLjRmhuuWdkoHOMcfIOnMocsJlDWfBMbADvS"
+  },
+  "IsSuccess": true,
+  "ErrorMessage": null
+}

@@ -1,0 +1,13 @@
+{
+  "Product": {
+    "_id": "67c460e97b4bcc16671aec03",
+    "name": "Pizza12320",
+    "amount": 337,
+    "price": 71280,
+    "manufacturer": "Samsung",
+    "createdOn": "2025-03-02T13:45:13.000Z",
+    "notes": "a06gBpUVeiJO1UykGWBvkiapxLH0avfR1n5fyjm4AJxf02xYTqCtfzhVPlIjO065XvNoWRXP283dWc0syNn5WGrsFN7SJ4JxCzEw7joJxUQp4rMohvo9J0sBIvZ0QlZF5ZzNWC51hhQj7v6jjCFofctB1KEu0GPn4iE1GAusdFWPmaHenVAxlc0qcB0SuRKLyJsHEd75mPDbYIgnliOIdOmJan5y5cAM7P9Fh7jfrbcBZeX2w6bvlPzYLe"
+  },
+  "IsSuccess": true,
+  "ErrorMessage": null
+}
