@@ -9,7 +9,7 @@ teardown('SLACK NOTIFICATION', async () => {
     await Promise.all([
       notificationService.postNotification(message),
       notificationService.sendTelegramNotification(message)
-    ]);    
+    ]);
   }
   console.log('TEARDOWN NOTIFICATION - FINISHED');
 });
